@@ -1,0 +1,430 @@
+{
+  "id": "module-01",
+  "titleDe": "Dual Process Theory",
+  "titleEn": "Dual Process Theory",
+  "descriptionDe": "Wie dein Gehirn Entscheidungen trifft — und warum es dabei oft irrt.",
+  "descriptionEn": "How your brain makes decisions — and why it often gets them wrong.",
+  "icon": "⚡",
+  "lessons": [
+    {
+      "id": "m01-l01",
+      "titleDe": "Zwei Systeme in deinem Kopf",
+      "titleEn": "Two Systems in Your Head",
+      "durationMin": 8,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Dein Gehirn arbeitet nicht als einheitliche Maschine. Es hat zwei fundamental verschiedene Arten zu denken — und beide beeinflussen jede Entscheidung, die du triffst.",
+        "body": [
+          "Der Psychologe Daniel Kahneman beschreibt in seinem Bestseller \"Thinking, Fast and Slow\" (2011) ein Modell, das die kognitive Wissenschaft revolutioniert hat: Unser Denken geschieht auf zwei grundlegend verschiedenen Ebenen.",
+          "System 1 ist schnell, automatisch und unbewusst. Es läuft permanent im Hintergrund, verarbeitet Informationen blitzschnell und liefert sofortige Urteile. Wenn du ein Gesicht als freundlich erkennst, einen Ball fängst oder beim Autofahren bremst — System 1 ist am Werk.",
+          "System 2 ist langsam, bewusst und anstrengend. Es kommt zum Einsatz, wenn du eine Rechenaufgabe löst, einen Vertrag liest oder eine schwierige Entscheidung durchdenkst. System 2 ist das, was wir umgangssprachlich als \"Nachdenken\" bezeichnen.",
+          "Das Entscheidende: Die meisten unserer Urteile und Entscheidungen entstehen in System 1 — ohne bewusstes Nachdenken. System 2 nickt sie meist nur ab, anstatt sie wirklich zu prüfen. Das macht uns effizient — und anfällig für systematische Fehler."
+        ],
+        "example": {
+          "title": "Das Linda-Problem",
+          "text": "Linda ist 31, ledig, offen und sehr intelligent. Sie hat Philosophie studiert und war als Studentin tief in soziale Gerechtigkeitsbewegungen involviert. Was ist wahrscheinlicher: (A) Linda ist Bankangestellte. (B) Linda ist Bankangestellte und aktives Mitglied einer feministischen Gruppe. Die meisten Menschen wählen (B) — obwohl das statistisch unmöglich ist. Eine UND-Verknüpfung kann nie wahrscheinlicher sein als eine ihrer Teile. System 1 ließ sich von der Geschichte täuschen."
+        },
+        "reference": {
+          "author": "Kahneman, D.",
+          "year": 2011,
+          "title": "Thinking, Fast and Slow",
+          "note": "Grundlagenwerk der Dual Process Theory — Kahneman popularisierte die Begriffe System 1 und System 2"
+        },
+        "fieldMission": {
+          "title": "Beobachte dein System 1",
+          "description": "Achte heute auf einen Moment, in dem du eine schnelle, automatische Reaktion hattest — eine sofortige Meinung, eine Entscheidung ohne Nachdenken. Frag dich danach: Hätte System 2 anders entschieden? Was hätte sich geändert?"
+        }
+      },
+      "contentEn": {
+        "summary": "Your brain doesn't work as a unified machine. It has two fundamentally different ways of thinking — and both influence every decision you make.",
+        "body": [
+          "Psychologist Daniel Kahneman describes in his bestseller \"Thinking, Fast and Slow\" (2011) a model that revolutionized cognitive science: our thinking happens on two fundamentally different levels.",
+          "System 1 is fast, automatic, and unconscious. It runs permanently in the background, processes information in a flash, and delivers instant judgments. When you recognize a face as friendly, catch a ball, or brake while driving — System 1 is at work.",
+          "System 2 is slow, deliberate, and effortful. It activates when you solve a math problem, read a contract, or think through a difficult decision. System 2 is what we colloquially call \"thinking.\"",
+          "The crucial point: most of our judgments and decisions originate in System 1 — without conscious deliberation. System 2 mostly just rubber-stamps them instead of genuinely examining them. This makes us efficient — and vulnerable to systematic errors."
+        ],
+        "example": {
+          "title": "The Linda Problem",
+          "text": "Linda is 31, single, outspoken, and very intelligent. She majored in philosophy and was deeply involved in social justice movements as a student. Which is more likely: (A) Linda is a bank teller. (B) Linda is a bank teller and active in the feminist movement. Most people choose (B) — even though it's statistically impossible. A conjunction can never be more probable than either of its parts. System 1 was fooled by the story."
+        },
+        "reference": {
+          "author": "Kahneman, D.",
+          "year": 2011,
+          "title": "Thinking, Fast and Slow",
+          "note": "Foundational text — Kahneman popularized the System 1 and System 2 framework"
+        },
+        "fieldMission": {
+          "title": "Observe your System 1",
+          "description": "Today, notice a moment when you had a fast, automatic reaction — an instant opinion, a decision made without thinking. Ask yourself afterwards: would System 2 have decided differently? What would have changed?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Welche Aussage beschreibt System 1 korrekt?",
+            "questionEn": "Which statement correctly describes System 1?",
+            "optionsDe": ["Langsam, bewusst und anstrengend", "Schnell, automatisch und unbewusst", "Analytisch, logisch und präzise", "Nur aktiv bei komplexen Entscheidungen"],
+            "optionsEn": ["Slow, deliberate, and effortful", "Fast, automatic, and unconscious", "Analytical, logical, and precise", "Only active for complex decisions"],
+            "correctIndex": 1,
+            "explanationDe": "System 1 arbeitet schnell, automatisch und unbewusst. Es läuft ständig im Hintergrund und liefert sofortige Urteile, ohne bewusstes Nachdenken.",
+            "explanationEn": "System 1 works fast, automatically, and unconsciously. It runs constantly in the background, delivering instant judgments without deliberate thought."
+          },
+          {
+            "questionDe": "Was beweist das Linda-Problem hauptsächlich?",
+            "questionEn": "What does the Linda Problem primarily demonstrate?",
+            "optionsDe": ["Frauen urteilen intuitiver als Männer", "Intelligenz schützt nicht vor Denkfehlern", "System 1 lässt sich durch plausible Geschichten täuschen", "Statistische Bildung ist unwichtig"],
+            "optionsEn": ["Women judge more intuitively than men", "Intelligence doesn't protect against thinking errors", "System 1 can be misled by plausible stories", "Statistical education is unimportant"],
+            "correctIndex": 2,
+            "explanationDe": "Das Linda-Problem zeigt, dass System 1 von einer kohärenten Geschichte so stark beeinflusst wird, dass wir statistische Grundregeln missachten — die konjunktive Wahrscheinlichkeit kann nie höher sein als eine ihrer Teile.",
+            "explanationEn": "The Linda Problem shows that System 1 is so strongly influenced by a coherent story that we violate basic statistical rules — conjunctive probability can never exceed either of its parts."
+          },
+          {
+            "questionDe": "Wann kommt System 2 typischerweise zum Einsatz?",
+            "questionEn": "When does System 2 typically get activated?",
+            "optionsDe": ["Beim Autofahren auf bekannten Strecken", "Beim Erkennen vertrauter Gesichter", "Beim Lösen einer unbekannten Matheaufgabe", "Beim Greifen nach einem fallenden Gegenstand"],
+            "optionsEn": ["Driving on familiar routes", "Recognizing familiar faces", "Solving an unfamiliar math problem", "Catching a falling object"],
+            "correctIndex": 2,
+            "explanationDe": "System 2 wird bei anspruchsvollen, unbekannten Aufgaben aktiviert, die bewusstes, analytisches Denken erfordern. Die anderen Beispiele laufen alle automatisch über System 1.",
+            "explanationEn": "System 2 activates for demanding, unfamiliar tasks that require conscious, analytical thinking. The other examples all run automatically via System 1."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m01-l02",
+      "titleDe": "System 1 — Der Autopilot",
+      "titleEn": "System 1 — The Autopilot",
+      "durationMin": 7,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "System 1 ist kein Defekt — es ist eine brillante Energiespar-Strategie. Aber es hat blinde Flecken, die in komplexen Situationen zum Problem werden.",
+        "body": [
+          "System 1 ist das Ergebnis von Millionen Jahren Evolution. Unser Gehirn muss täglich tausende Entscheidungen treffen, und bewusstes Nachdenken kostet enorm viel Energie. System 1 löst dieses Problem: Es speichert Muster und Heuristiken — mentale Faustregeln — und aktiviert diese blitzschnell, ohne Ressourcen zu verschwenden.",
+          "System 1 lernt durch Erfahrung. Ein Schachgroßmeister, der eine Stellung sofort als gefährlich einschätzt — das ist System 1. Ein Feuerwehrmann, der instinktiv weiß, dass ein Gebäude einsturzgefährdet ist — ebenfalls System 1. In vertrauten Domänen ist System 1 oft präziser als langes bewusstes Nachdenken.",
+          "Das Problem: System 1 unterscheidet nicht zwischen vertrauten Situationen, wo es gut funktioniert, und neuen, komplexen Situationen, wo es versagt. Es aktiviert dieselben Muster — auch wenn sie nicht passen. Es ist wie ein Experte, der nur in seinem Spezialgebiet recht hat, aber auch außerhalb davon mit derselben Selbstsicherheit urteilt.",
+          "Charakteristika von System 1: Es verarbeitet parallel und kontinuierlich. Es arbeitet mit Assoziationen, nicht mit Logik. Es ist konfabulierend — es erfindet plausible Erklärungen, selbst wenn es keine hat. Es liebt Geschichten und Kausalität. Und es hasst Unsicherheit: Wenn Informationen fehlen, füllt es die Lücken mit plausiblen Annahmen."
+        ],
+        "example": {
+          "title": "Autopilot im Supermarkt",
+          "text": "Supermarktdesign ist darauf ausgelegt, System 1 zu kapern. Obst und Gemüse am Eingang: System 1 assoziiert den Laden mit 'gesund' und fühlt sich freier, später ungesunde Dinge zu kaufen — der sogenannte Moral Licensing Effect. Schokoriegel an der Kasse: System 1 greift zu, bevor System 2 überhaupt den Preis verglichen oder die eigene Kaufabsicht hinterfragt hat."
+        },
+        "reference": {
+          "author": "Stanovich, K. E. & West, R. F.",
+          "year": 2000,
+          "title": "Individual differences in reasoning: Implications for the rationality debate",
+          "note": "Behavioral and Brain Sciences — Ursprungsarbeit der modernen System-1/System-2-Terminologie"
+        },
+        "fieldMission": {
+          "title": "Autopilot-Protokoll",
+          "description": "Schreib heute Abend 3 Dinge auf, die du auf 'Autopilot' getan hast — Entscheidungen, Gewohnheiten oder Reaktionen, die einfach passiert sind, ohne dass du sie bewusst getroffen hast. Keine Wertung, nur Beobachtung. Was fällt dir auf?"
+        }
+      },
+      "contentEn": {
+        "summary": "System 1 isn't a flaw — it's a brilliant energy-saving strategy. But it has blind spots that become problematic in complex situations.",
+        "body": [
+          "System 1 is the result of millions of years of evolution. Our brain must make thousands of decisions daily, and conscious deliberation costs enormous energy. System 1 solves this: it stores patterns and heuristics — mental shortcuts — and activates them instantly without wasting resources.",
+          "System 1 learns through experience. A chess grandmaster who immediately senses a position as dangerous — that's System 1. A firefighter who instinctively knows a building is about to collapse — also System 1. In familiar domains, System 1 is often more accurate than lengthy deliberate thinking.",
+          "The problem: System 1 doesn't distinguish between familiar situations where it works well, and new, complex ones where it fails. It activates the same patterns — even when they don't fit. It's like an expert who's only right in their specialty but judges outside it with the same confidence.",
+          "Characteristics of System 1: It processes in parallel and continuously. It works with associations, not logic. It confabulates — inventing plausible explanations even when it has none. It loves stories and causality. And it hates uncertainty: when information is missing, it fills the gaps with plausible assumptions."
+        ],
+        "example": {
+          "title": "Autopilot in the Supermarket",
+          "text": "Supermarket design is built to hijack System 1. Fruits and vegetables at the entrance: System 1 associates the store with 'healthy' and feels freer to buy unhealthy things later — the so-called Moral Licensing Effect. Chocolate bars at checkout: System 1 reaches for them before System 2 has even compared prices or questioned your purchase intent."
+        },
+        "reference": {
+          "author": "Stanovich, K. E. & West, R. F.",
+          "year": 2000,
+          "title": "Individual differences in reasoning: Implications for the rationality debate",
+          "note": "Behavioral and Brain Sciences — foundational paper for modern System 1/System 2 terminology"
+        },
+        "fieldMission": {
+          "title": "Autopilot Journal",
+          "description": "Tonight, write down 3 things you did on 'autopilot' today — decisions, habits, or reactions that just happened without conscious choice. No judgment, just observation. What do you notice?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Warum ist System 1 aus evolutionärer Sicht sinnvoll?",
+            "questionEn": "Why does System 1 make sense from an evolutionary perspective?",
+            "optionsDe": ["Es ist immer genauer als System 2", "Es spart kognitive Energie bei häufig wiederkehrenden Situationen", "Es verhindert alle kognitiven Fehler", "Es funktioniert besonders gut bei neuen Problemen"],
+            "optionsEn": ["It's always more accurate than System 2", "It saves cognitive energy in frequently recurring situations", "It prevents all cognitive errors", "It works especially well with novel problems"],
+            "correctIndex": 1,
+            "explanationDe": "System 1 ist eine Energiespar-Strategie: Durch das Speichern von Mustern und Heuristiken muss das Gehirn vertraute Situationen nicht jedes Mal neu durchdenken. Das ist effizient — versagt aber bei neuen, komplexen Kontexten.",
+            "explanationEn": "System 1 is an energy-saving strategy: by storing patterns and heuristics, the brain doesn't have to re-analyze familiar situations each time. This is efficient — but fails in new, complex contexts."
+          },
+          {
+            "questionDe": "Was ist 'Konfabulation' im Kontext von System 1?",
+            "questionEn": "What is 'confabulation' in the context of System 1?",
+            "optionsDe": ["Eine Form von bewusstem Lügen", "Das Erfinden plausibler Erklärungen ohne tatsächliches Wissen", "Ein Lernmechanismus für neue Informationen", "Die Fähigkeit, Muster zu erkennen"],
+            "optionsEn": ["A form of conscious lying", "Inventing plausible explanations without actual knowledge", "A learning mechanism for new information", "The ability to recognize patterns"],
+            "correctIndex": 1,
+            "explanationDe": "System 1 konstruiert ständig ein kohärentes Bild der Welt — auch wenn Informationen fehlen. Es erfindet plausible Erklärungen, die sich für uns wahr anfühlen, tatsächlich aber nur gut klingende Annahmen sind.",
+            "explanationEn": "System 1 constantly constructs a coherent picture of the world — even when information is missing. It invents plausible explanations that feel true to us, but are actually just well-sounding assumptions."
+          },
+          {
+            "questionDe": "Welches Szenario zeigt System 1 von seiner besten Seite?",
+            "questionEn": "Which scenario shows System 1 at its best?",
+            "optionsDe": ["Ein Steuerberater prüft erstmals eine komplexe Unternehmensstruktur", "Eine Chirurgin erkennt intuitiv eine seltene Komplikation im OP", "Ein Politiker bewertet eine neue Gesetzgebung", "Ein Student löst eine neue Art von Aufgabe"],
+            "optionsEn": ["A tax advisor reviews a complex corporate structure for the first time", "A surgeon intuitively recognizes a rare complication during surgery", "A politician evaluates new legislation", "A student solves a new type of problem"],
+            "correctIndex": 1,
+            "explanationDe": "In vertrauten Domänen mit viel Erfahrung — wie bei einer Chirurgin im OP — kann System 1 Muster blitzschnell erkennen und präziser urteilen als langes Nachdenken. Die anderen Szenarien erfordern bewusstes System-2-Denken.",
+            "explanationEn": "In familiar domains with extensive experience — like a surgeon in the OR — System 1 can recognize patterns instantly and judge more accurately than lengthy deliberation. The other scenarios require deliberate System 2 thinking."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m01-l03",
+      "titleDe": "System 2 — Der Detektiv",
+      "titleEn": "System 2 — The Detective",
+      "durationMin": 7,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "System 2 ist mächtig — aber faul. Und Erschöpfung hat reale Konsequenzen, von schlechteren Urteilen bis zu verpassten Chancen.",
+        "body": [
+          "System 2 ist unser bewusstes, analytisches Denken. Es kann komplexe Berechnungen durchführen, mehrere Variablen gleichzeitig im Blick halten, Hypothesen testen und logisch schlussfolgern. Das klingt beeindruckend — und ist es auch.",
+          "Das Problem: System 2 ist metabolisch teuer. Konzentriertes Denken verbraucht Glukose, erzeugt Ermüdung und ist subjektiv unangenehm. Das Gehirn vermeidet es, System 2 zu aktivieren, wo immer es möglich ist. Das nennt sich kognitive Trägheit oder Cognitive Ease.",
+          "Cognitive Ease ist kein Fehler, sondern ein Mechanismus: Wenn etwas leicht zu verarbeiten ist — klare Schrift, bekannte Ideen, flüssige Sprache — akzeptiert System 1 es tendenziell ohne System 2 zu bemühen. Wenn etwas schwer zu verarbeiten ist — unleserliche Schrift, abstrakte Konzepte — wird System 2 öfter aktiviert. Paradox: Schwierigkeit kann zu besserem Denken führen.",
+          "System 2 hat außerdem eine begrenzte Kapazität: Es kann sich immer nur auf eine Sache konzentrieren. Wer telefoniert und gleichzeitig einparkt, erledigt mindestens eine dieser Aufgaben auf Autopilot. Entscheidend ist auch der Zeitpunkt: System 2 erschöpft sich im Laufe des Tages, was als Ego Depletion bekannt ist."
+        ],
+        "example": {
+          "title": "Der Erschöpfungseffekt bei Richtern",
+          "text": "Israelische Richter wurden über einen Arbeitstag beobachtet. Die Wahrscheinlichkeit einer günstigen Entscheidung für Häftlinge lag direkt nach dem Frühstück und nach Pausen bei ca. 65% — und sank kurz vor den Pausen auf nahezu 0%. System 2 war erschöpft. Statt mühsamer Analyse entschied System 1 nach dem sichersten Standardmuster: Status quo beibehalten, Antrag ablehnen."
+        },
+        "reference": {
+          "author": "Danziger, S., Levav, J. & Avnaim-Pesso, L.",
+          "year": 2011,
+          "title": "Extraneous factors in judicial decisions",
+          "note": "PNAS — Klassischer Nachweis des Ego-Depletion-Effekts unter realen Bedingungen"
+        },
+        "fieldMission": {
+          "title": "Dein System-2-Fenster",
+          "description": "Beobachte heute, zu welcher Tageszeit du klarer und analytischer denkst — und wann du eher auf Autopilot läufst. Plane eine wichtige Entscheidung oder schwierige Aufgabe gezielt in dein 'System-2-Fenster'. Was bemerkst du?"
+        }
+      },
+      "contentEn": {
+        "summary": "System 2 is powerful — but lazy. And exhaustion has real consequences, from poorer judgments to missed opportunities.",
+        "body": [
+          "System 2 is our conscious, analytical thinking. It can perform complex calculations, track multiple variables simultaneously, test hypotheses, and reason logically. That sounds impressive — and it is.",
+          "The problem: System 2 is metabolically expensive. Concentrated thinking consumes glucose, creates fatigue, and is subjectively unpleasant. The brain avoids activating System 2 wherever possible. This is called cognitive laziness or Cognitive Ease.",
+          "Cognitive Ease is not a flaw but a mechanism: when something is easy to process — clear writing, familiar ideas, fluent language — System 1 tends to accept it without consulting System 2. When something is hard to process — illegible text, abstract concepts — System 2 gets activated more often. Paradoxically, difficulty can lead to better thinking.",
+          "System 2 also has limited capacity: it can only focus on one thing at a time. When you're on the phone while parallel parking, at least one of those tasks is on autopilot. Timing also matters: System 2 depletes over the course of a day, known as Ego Depletion."
+        ],
+        "example": {
+          "title": "The Depletion Effect in Judges",
+          "text": "Israeli judges were observed over a workday. The probability of a favorable decision for prisoners was about 65% right after breakfast and after breaks — and dropped to nearly 0% just before breaks. System 2 was depleted. Instead of effortful analysis, System 1 decided based on the safest default: maintain status quo, deny the request."
+        },
+        "reference": {
+          "author": "Danziger, S., Levav, J. & Avnaim-Pesso, L.",
+          "year": 2011,
+          "title": "Extraneous factors in judicial decisions",
+          "note": "PNAS — Classic demonstration of Ego Depletion under real-world conditions"
+        },
+        "fieldMission": {
+          "title": "Your System 2 Window",
+          "description": "Observe today at what time you think most clearly and analytically — and when you run on autopilot. Deliberately schedule an important decision or difficult task during your 'System 2 window'. What do you notice?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was bedeutet 'Cognitive Ease' im Kontext der Dual Process Theory?",
+            "questionEn": "What does 'Cognitive Ease' mean in the context of Dual Process Theory?",
+            "optionsDe": ["Die Fähigkeit, schnell zwischen System 1 und 2 zu wechseln", "Die Tendenz des Gehirns, System 2 zu vermeiden wenn etwas leicht verarbeitbar ist", "Ein Zustand mentaler Entspannung", "Die Kapazität von System 2 für paralleles Denken"],
+            "optionsEn": ["The ability to switch quickly between System 1 and 2", "The brain's tendency to avoid System 2 when something is easy to process", "A state of mental relaxation", "System 2's capacity for parallel thinking"],
+            "correctIndex": 1,
+            "explanationDe": "Cognitive Ease beschreibt den Mechanismus, durch den das Gehirn System 2 vermeidet, wenn Informationen leicht zu verarbeiten sind. Das spart Energie, kann aber dazu führen, dass wir falsche Informationen akzeptieren, wenn sie nur gut präsentiert werden.",
+            "explanationEn": "Cognitive Ease describes the mechanism by which the brain avoids System 2 when information is easy to process. This saves energy, but can lead us to accept false information if it's just well-presented."
+          },
+          {
+            "questionDe": "Was zeigte die Studie mit israelischen Richtern?",
+            "questionEn": "What did the study with Israeli judges show?",
+            "optionsDe": ["Richter sind grundsätzlich voreingenommen", "Günstige Entscheidungen waren direkt nach Pausen häufiger", "Das israelische Rechtssystem ist ungerecht", "System 2 wird durch Hunger verstärkt"],
+            "optionsEn": ["Judges are fundamentally biased", "Favorable decisions were more frequent right after breaks", "The Israeli justice system is unfair", "System 2 is strengthened by hunger"],
+            "correctIndex": 1,
+            "explanationDe": "Die Studie zeigte, dass erschöpftes System 2 zum sicheren Standardurteil greift — Antrag ablehnen. Direkt nach Nahrungsaufnahme und Pausen war System 2 erholt und traf günstigere, individuellere Entscheidungen.",
+            "explanationEn": "The study showed that depleted System 2 defaults to the safe standard judgment — deny the request. Directly after food and breaks, System 2 was restored and made more favorable, individualized decisions."
+          },
+          {
+            "questionDe": "Welche Konsequenz hat es, dass System 2 nur eine Sache gleichzeitig verarbeiten kann?",
+            "questionEn": "What is the consequence of System 2 being able to process only one thing at a time?",
+            "optionsDe": ["Multitasking ist mit Training immer möglich", "Bei mehreren gleichzeitigen Aufgaben übernimmt System 1 zumindest eine", "System 2 wird durch Multitasking stärker", "Es hat keine nennenswerten Folgen im Alltag"],
+            "optionsEn": ["Multitasking is always possible with training", "When juggling multiple tasks, System 1 takes over at least one", "System 2 is strengthened by multitasking", "It has no significant consequences in everyday life"],
+            "correctIndex": 1,
+            "explanationDe": "Da System 2 nur eine Sache fokussieren kann, übernimmt System 1 automatisch alle anderen parallelen Aufgaben — auch solche, die eigentlich bewusste Aufmerksamkeit erforderten, wie Autofahren während eines tiefen Gesprächs.",
+            "explanationEn": "Since System 2 can only focus on one thing, System 1 automatically takes over all other parallel tasks — including ones that actually require conscious attention, like driving during a deep conversation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m01-l04",
+      "titleDe": "Wenn Systeme kollidieren",
+      "titleEn": "When Systems Collide",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Die interessantesten Momente entstehen nicht wenn System 1 oder 2 allein arbeitet — sondern wenn sie in Konflikt geraten. Was dann passiert, ist aufschlussreicher als alles andere.",
+        "body": [
+          "In den meisten Alltagssituationen kooperieren System 1 und 2 reibungslos: System 1 generiert einen Vorschlag, System 2 bestätigt ihn ohne große Prüfung. Problematisch wird es, wenn System 1 einen falschen Vorschlag macht — und System 2 ihn trotzdem durchwinkt.",
+          "Der Stroop-Effekt ist der bekannteste Nachweis dieser Kollision. Siehst du das Wort ROT, geschrieben in blauer Farbe, und sollst die Farbe nennen — nicht das Wort — dauert es messbar länger. System 1 liest das Wort automatisch. System 2 muss diese Antwort aktiv unterdrücken, um die richtige zu geben. Diese Unterdrückung kostet Zeit und Aufwand.",
+          "Kognitive Dissonanz entsteht, wenn System 1 und 2 zu verschiedenen Schlüssen kommen. Wir empfinden einen unangenehmen Widerspruch — und lösen ihn oft dadurch, dass System 2 nachgibt und eine Rationalisierung findet, die System 1s Antwort nachträglich begründet.",
+          "Diesen Mechanismus nennt man Post-hoc-Rationalisierung: Wir glauben, eine Entscheidung durch logisches Nachdenken getroffen zu haben — aber in Wirklichkeit hat System 1 entschieden und System 2 hat eine plausible Geschichte dazu erfunden. Der Philosoph Jonathan Haidt nennt System 2 daher treffend den 'Pressesprecher' des Gehirns, nicht seinen Chefstrategen."
+        ],
+        "example": {
+          "title": "Moralische Intuition vs. Logik: Das Trolley-Problem",
+          "text": "Du kannst eine Weiche umstellen und einen außer Kontrolle geratenen Zug auf ein anderes Gleis lenken — eine Person stirbt statt fünf. Würdest du? Die meisten sagen Ja. Aber: Würdest du einen Fremden von einer Brücke stoßen, um denselben Zug zu stoppen und dieselben fünf zu retten? Hier sagen die meisten Nein. Logisch identisch, emotional völlig verschieden. System 1 reagiert auf direkten Körperkontakt mit absolutem moralischen Abscheu — System 2 schweigt, obwohl es das Ergebnis kennt."
+        },
+        "reference": {
+          "author": "Greene, J. D. et al.",
+          "year": 2001,
+          "title": "An fMRI investigation of emotional engagement in moral judgment",
+          "note": "Science — Neuroimaging-Studie zur Dual Process Theory in moralischen Urteilen"
+        },
+        "fieldMission": {
+          "title": "Rationalisierungs-Detektor",
+          "description": "Ertappe dich heute beim Rationalisieren: Triffst du eine Entscheidung und merkst, dass du im Nachhinein Gründe dafür konstruierst — anstatt diese Gründe vorher zu haben? Notiere eine solche Situation. Was war der 'echte' Auslöser deiner Entscheidung?"
+        }
+      },
+      "contentEn": {
+        "summary": "The most revealing moments arise not when System 1 or 2 works alone — but when they come into conflict. What happens then is more illuminating than anything else.",
+        "body": [
+          "In most everyday situations, System 1 and 2 cooperate smoothly: System 1 generates a suggestion, System 2 confirms it without much checking. It becomes problematic when System 1 makes a wrong suggestion — and System 2 waves it through anyway.",
+          "The Stroop Effect is the most well-known demonstration of this collision. If you see the word RED written in blue ink and must name the color — not the word — it takes measurably longer. System 1 reads the word automatically. System 2 must actively suppress this response to give the correct one. This suppression costs time and effort.",
+          "Cognitive dissonance arises when System 1 and 2 reach different conclusions. We feel an uncomfortable contradiction — and often resolve it by having System 2 give in and find a rationalization that justifies System 1's answer after the fact.",
+          "This mechanism is called post-hoc rationalization: we believe we made a decision through logical reasoning — but in reality System 1 decided and System 2 invented a plausible story. Philosopher Jonathan Haidt aptly calls System 2 the brain's 'press secretary,' not its chief strategist."
+        ],
+        "example": {
+          "title": "Moral Intuition vs. Logic: The Trolley Problem",
+          "text": "You can pull a lever to divert a runaway trolley — one person dies instead of five. Would you? Most say yes. But: would you push a stranger off a bridge to stop the same trolley and save the same five? Most say no. Logically identical, emotionally completely different. System 1 responds to direct physical contact with absolute moral revulsion — System 2 stays silent, even though it knows the outcome."
+        },
+        "reference": {
+          "author": "Greene, J. D. et al.",
+          "year": 2001,
+          "title": "An fMRI investigation of emotional engagement in moral judgment",
+          "note": "Science — Neuroimaging study on Dual Process Theory in moral judgment"
+        },
+        "fieldMission": {
+          "title": "Rationalization Detector",
+          "description": "Catch yourself rationalizing today: make a decision and notice that you're constructing reasons for it after the fact — rather than having those reasons beforehand. Note the situation. What was the real trigger for your decision?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist Post-hoc-Rationalisierung?",
+            "questionEn": "What is post-hoc rationalization?",
+            "optionsDe": ["System 2 trifft eine Entscheidung vor System 1", "System 2 erfindet nachträglich Begründungen für System-1-Entscheidungen", "Ein bewusster Versuch, Entscheidungen zu rechtfertigen", "Die Fähigkeit, aus vergangenen Fehlern zu lernen"],
+            "optionsEn": ["System 2 makes a decision before System 1", "System 2 invents justifications after the fact for System 1 decisions", "A conscious attempt to justify decisions", "The ability to learn from past mistakes"],
+            "correctIndex": 1,
+            "explanationDe": "Bei Post-hoc-Rationalisierung trifft System 1 die eigentliche Entscheidung — System 2 sucht danach nach Gründen, die diese Entscheidung logisch erscheinen lassen. Wir erleben dies als rationales Nachdenken, obwohl die Entscheidung bereits getroffen war.",
+            "explanationEn": "In post-hoc rationalization, System 1 makes the actual decision — System 2 then searches for reasons that make this decision appear logical. We experience this as rational deliberation, even though the decision was already made."
+          },
+          {
+            "questionDe": "Was zeigt der Stroop-Effekt?",
+            "questionEn": "What does the Stroop Effect demonstrate?",
+            "optionsDe": ["System 1 und System 2 arbeiten immer gleichzeitig", "System 1 kann System-2-Aufgaben aktiv behindern", "Farberkennung ist schwieriger als Worterkennung", "System 2 ist immer langsamer als System 1"],
+            "optionsEn": ["System 1 and System 2 always work simultaneously", "System 1 can actively interfere with System 2 tasks", "Color recognition is harder than word recognition", "System 2 is always slower than System 1"],
+            "correctIndex": 1,
+            "explanationDe": "Der Stroop-Effekt zeigt, dass System 1 (automatisches Lesen) mit System-2-Aufgaben (bewusste Farbbenennung) interferieren kann. System 2 muss aktiv Energie aufwenden, um die System-1-Antwort zu unterdrücken.",
+            "explanationEn": "The Stroop Effect shows that System 1 (automatic reading) can interfere with System 2 tasks (deliberate color naming). System 2 must actively expend energy to suppress the System 1 response."
+          },
+          {
+            "questionDe": "Warum nennt Jonathan Haidt System 2 den 'Pressesprecher' des Gehirns?",
+            "questionEn": "Why does Jonathan Haidt call System 2 the brain's 'press secretary'?",
+            "optionsDe": ["Weil System 2 immer zuerst entscheidet", "Weil System 2 Entscheidungen von System 1 nach außen kommuniziert und rechtfertigt", "Weil System 2 für soziale Interaktionen zuständig ist", "Weil System 2 schneller ist als System 1"],
+            "optionsEn": ["Because System 2 always decides first", "Because System 2 communicates and justifies System 1 decisions externally", "Because System 2 is responsible for social interactions", "Because System 2 is faster than System 1"],
+            "correctIndex": 1,
+            "explanationDe": "Haidt meint damit, dass System 2 nicht die eigentliche Entscheidung trifft, sondern sie nur nach außen — und gegenüber uns selbst — mit einer rationalen Erklärung versieht. Wie ein Pressesprecher, der die Position seines Chefs verteidigt, egal ob sie sinnvoll ist.",
+            "explanationEn": "Haidt means that System 2 doesn't actually make the decision but merely provides a rational explanation for it — to the outside world and to ourselves. Like a press secretary who defends their boss's position, regardless of whether it makes sense."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m01-l05",
+      "titleDe": "Was das für dich bedeutet",
+      "titleEn": "What This Means for You",
+      "durationMin": 8,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Dual Process Theory ist kein akademisches Konzept — sie ist der Schlüssel zu besseren Entscheidungen, zum Erkennen von Manipulation und zum Verständnis eigener Muster.",
+        "body": [
+          "Zu wissen, dass du zwei Denksysteme hast, verändert den Umgang mit Entscheidungen fundamental. Du kannst lernen zu erkennen, welches System gerade am Werk ist — und ob das für die Situation angemessen ist.",
+          "Wann System 1 gut genug ist: Bei vertrauten, niedrigschwelligen Entscheidungen ist System 1 effizient und meist präzise. Was du heute zu Mittag isst, welchen Weg du zur Arbeit nimmst — hier kostet System 2 mehr, als es nützt. Versuche, System 2 nicht unnötig zu aktivieren.",
+          "Wann du System 2 brauchst: Bei wichtigen, unbekannten oder folgenreichen Entscheidungen — Vertrag unterzeichnen, Konflikt lösen, große Ausgaben, emotionsgeladene Situationen — ist es wertvoll, System 2 bewusst zu aktivieren. Einfache Methode: Pause. Aufschreiben. Drei Gegenargumente formulieren.",
+          "Behavioral Science nutzt dieses Wissen, um Systeme zu gestalten, die gutes Verhalten erleichtern — das nennt sich Nudging. Gleichzeitig hilft dir das Wissen zu erkennen, wenn Werbung, Politik und Produkte dein System 1 gezielt ansprechen und zu kapern versuchen. Das ist der Beginn eines kritischen Werkzeugkastens."
+        ],
+        "example": {
+          "title": "Nudging: System 1 für bessere Entscheidungen",
+          "text": "In Studien wurden Cafeteria-Gerichte umgeordnet: Gesunde Optionen wurden in Augenhöhe platziert, ungesunde weiter unten. System 1 greift, was zuerst da ist. Ergebnis: Der Anteil gesunder Entscheidungen stieg um bis zu 25% — ohne Verbote, ohne höhere Preise, ohne Bewusstseinsarbeit. Thaler und Sunstein nannten dies Choice Architecture: Die Gestaltung der Entscheidungsumgebung steuert das Verhalten stärker als Willenskraft."
+        },
+        "reference": {
+          "author": "Thaler, R. H. & Sunstein, C. R.",
+          "year": 2008,
+          "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+          "note": "Yale University Press — Anwendung der Dual Process Theory auf Verhaltensarchitektur; Grundlagentext des Nudgings"
+        },
+        "fieldMission": {
+          "title": "Dein persönlicher System-2-Trigger",
+          "description": "Entscheide dich für einen persönlichen Trigger, den du ab heute nutzt um System 2 bewusst zu aktivieren: Ein physischer Akt (tief einatmen, aufschreiben), eine Zeitregel ('Ich entscheide nicht innerhalb von 5 Minuten') oder ein inneres Mantra ('Was weiß ich gerade nicht?'). Schreib ihn auf — und benutze ihn heute noch einmal."
+        }
+      },
+      "contentEn": {
+        "summary": "Dual Process Theory isn't an academic concept — it's the key to better decisions, recognizing manipulation, and understanding your own patterns.",
+        "body": [
+          "Knowing that you have two thinking systems fundamentally changes how you approach decisions. You can learn to recognize which system is currently at work — and whether that's appropriate for the situation.",
+          "When System 1 is good enough: For familiar, low-stakes decisions, System 1 is efficient and usually accurate. What you eat for lunch, which route you take to work — here System 2 costs more than it contributes. Avoid activating System 2 unnecessarily.",
+          "When you need System 2: For important, unfamiliar, or consequential decisions — signing a contract, resolving a conflict, major expenses, emotionally charged situations — it's worth consciously activating System 2. Simple method: pause, write it down, formulate three counterarguments.",
+          "Behavioral science uses this knowledge to design systems that make good behavior easier — this is called nudging. At the same time, the knowledge helps you recognize when advertising, politics, and products deliberately target your System 1 and try to hijack it. This is the beginning of a critical toolkit."
+        ],
+        "example": {
+          "title": "Nudging: System 1 for Better Decisions",
+          "text": "Studies rearranged cafeteria items: healthy options were placed at eye level, unhealthy ones lower down. System 1 reaches for what's there first. Result: the proportion of healthy choices rose by up to 25% — without bans, without higher prices, without awareness campaigns. Thaler and Sunstein called this Choice Architecture: the design of the decision environment steers behavior more powerfully than willpower."
+        },
+        "reference": {
+          "author": "Thaler, R. H. & Sunstein, C. R.",
+          "year": 2008,
+          "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+          "note": "Yale University Press — Application of Dual Process Theory to choice architecture; foundational text of nudging"
+        },
+        "fieldMission": {
+          "title": "Your Personal System 2 Trigger",
+          "description": "Choose a personal trigger you'll use from now on to consciously activate System 2: a physical act (deep breath, writing it down), a time rule ('I don't decide within 5 minutes'), or an inner mantra ('What don't I know right now?'). Write it down — and use it at least once today."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist der Hauptunterschied zwischen Nudging und klassischer Verhaltenssteuerung?",
+            "questionEn": "What is the main difference between nudging and classical behavior control?",
+            "optionsDe": ["Nudging verwendet Verbote und Strafen", "Nudging gestaltet die Entscheidungsumgebung ohne Zwang", "Nudging erhöht die Kosten unerwünschten Verhaltens", "Nudging setzt auf Überzeugung durch Argumente"],
+            "optionsEn": ["Nudging uses bans and penalties", "Nudging shapes the decision environment without coercion", "Nudging increases the cost of undesired behavior", "Nudging relies on persuasion through arguments"],
+            "correctIndex": 1,
+            "explanationDe": "Nudging nutzt die Architektur der Entscheidungsumgebung — Anordnung, Sichtbarkeit, Defaults — um System 1 zu besseren Entscheidungen zu leiten, ohne Verbote, Strafen oder Überzeugungsarbeit.",
+            "explanationEn": "Nudging uses the architecture of the decision environment — arrangement, visibility, defaults — to guide System 1 toward better decisions, without bans, penalties, or persuasion."
+          },
+          {
+            "questionDe": "Welche einfache Technik hilft, System 2 in einer emotionalen Situation zu aktivieren?",
+            "questionEn": "Which simple technique helps activate System 2 in an emotional situation?",
+            "optionsDe": ["Sofort entscheiden, bevor Emotionen die Logik überlagern", "Pause einlegen und Gegenargumente aufschreiben", "Die Entscheidung vollständig ignorieren", "System 1 vollständig ausschalten"],
+            "optionsEn": ["Decide immediately before emotions override logic", "Take a pause and write down counterarguments", "Ignore the decision entirely", "Switch System 1 off completely"],
+            "correctIndex": 1,
+            "explanationDe": "Eine Pause unterbricht den automatischen System-1-Impuls. Aufschreiben und Gegenargumente formulieren zwingt System 2, tatsächlich zu arbeiten — anstatt nur System 1s Antwort abzunicken.",
+            "explanationEn": "A pause interrupts the automatic System 1 impulse. Writing things down and formulating counterarguments forces System 2 to actually work — rather than just rubber-stamping System 1's answer."
+          },
+          {
+            "questionDe": "Was bedeutet Choice Architecture nach Thaler & Sunstein?",
+            "questionEn": "What does Choice Architecture mean according to Thaler & Sunstein?",
+            "optionsDe": ["Die Gestaltung rationaler Entscheidungsprozesse", "Die bewusste Gestaltung von Entscheidungsumgebungen, die bestimmtes Verhalten wahrscheinlicher machen", "Ein rechtlicher Rahmen für Konsumentenschutz", "Die Architektur von Entscheidungsbäumen in der Informatik"],
+            "optionsEn": ["The design of rational decision-making processes", "The deliberate shaping of decision environments that make certain behaviors more likely", "A legal framework for consumer protection", "The architecture of decision trees in computer science"],
+            "correctIndex": 1,
+            "explanationDe": "Choice Architecture beschreibt, wie die physische und soziale Gestaltung von Entscheidungssituationen — Anordnung, Defaults, Salienz — Verhalten beeinflusst, ohne die Wahlfreiheit einzuschränken.",
+            "explanationEn": "Choice Architecture describes how the physical and social design of decision situations — arrangement, defaults, salience — influences behavior without restricting freedom of choice."
+          }
+        ]
+      }
+    }
+  ]
+}
