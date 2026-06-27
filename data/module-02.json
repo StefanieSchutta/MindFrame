@@ -1,0 +1,430 @@
+{
+  "id": "module-02",
+  "titleDe": "Kognitive Verzerrungen",
+  "titleEn": "Cognitive Biases",
+  "descriptionDe": "Die systematischen Fehler, die dein Gehirn immer wieder macht — vorhersehbar, universell, und meist unsichtbar.",
+  "descriptionEn": "The systematic errors your brain makes, over and over — predictable, universal, and mostly invisible.",
+  "icon": "🔀",
+  "lessons": [
+    {
+      "id": "m02-l01",
+      "titleDe": "Was sind kognitive Verzerrungen?",
+      "titleEn": "What Are Cognitive Biases?",
+      "durationMin": 7,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Kognitive Verzerrungen sind keine Zufallsfehler — sie sind systematische, vorhersehbare Muster, in denen unser Denken von Rationalität abweicht. Das macht sie gefährlich und gleichzeitig studierbar.",
+        "body": [
+          "Seit den 1970ern katalogisieren Psychologen kognitive Verzerrungen — heute sind über 200 dokumentiert. Sie entstehen nicht durch Dummheit oder mangelnde Information, sondern sind inhärente Eigenschaften des menschlichen Denkens. Bildung und Intelligenz schützen nur bedingt vor ihnen.",
+          "Der entscheidende Unterschied zu zufälligen Fehlern: Kognitive Verzerrungen sind systematisch und vorhersehbar. Sie treten bei fast allen Menschen in ähnlichen Situationen auf, und sie gehen fast immer in dieselbe Richtung. Wenn du weißt, welche Verzerrung in einer Situation aktiv ist, kannst du ihr Ergebnis vorhersagen — bevor die Person entschieden hat.",
+          "Die meisten Verzerrungen entstehen aus derselben Quelle: System 1 nutzt Heuristiken — mentale Abkürzungen — die in der Evolution nützlich waren, in der komplexen modernen Welt aber zu systematischen Fehlern führen. Unser Gehirn ist nicht für statistische Korrektheit optimiert, sondern für schnelle, energiesparende Urteile.",
+          "Das Tückischste: Wir sind uns unserer Verzerrungen kaum bewusst. Wir erleben sie nicht als Fehler, sondern als klares, logisches Denken. Ein korrektes Urteil und ein verzerrtes fühlen sich identisch an. Das macht das Wissen über Biases so wertvoll — und ihre Überwindung so schwierig."
+        ],
+        "example": {
+          "title": "Der Blind Spot Bias",
+          "text": "Die meisten Menschen erkennen kognitive Verzerrungen leichter bei anderen als bei sich selbst — eine Verzerrung über Verzerrungen. In Studien schätzen Probanden im Schnitt, dass sie deutlich weniger voreingenommen sind als andere Menschen. Dieser 'Blind Spot Bias' bedeutet: Selbst wer über Biases Bescheid weiß, ist nicht immun. Das Bewusstsein allein reicht nicht — es braucht aktive Gegenmaßnahmen."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157) — Grundlagenarbeit zur systematischen Erforschung kognitiver Verzerrungen"
+        },
+        "fieldMission": {
+          "title": "Verzerrung in freier Wildbahn",
+          "description": "Beobachte heute eine Überzeugung, die du stark vertrittst. Frage dich: Welche Informationen würden diese Überzeugung widerlegen — und wann hast du zuletzt aktiv nach solchen gesucht? Notiere deine Antwort ehrlich."
+        }
+      },
+      "contentEn": {
+        "summary": "Cognitive biases aren't random errors — they're systematic, predictable patterns where our thinking deviates from rationality. That makes them dangerous and, at the same time, studyable.",
+        "body": [
+          "Since the 1970s, psychologists have been cataloguing cognitive biases — today over 200 are documented. They don't arise from stupidity or lack of information, but are inherent properties of human thinking. Education and intelligence only partially protect against them.",
+          "The key difference from random errors: cognitive biases are systematic and predictable. They occur in almost all people in similar situations, and they almost always go in the same direction. If you know which bias is active in a situation, you can predict its outcome — before the person has decided.",
+          "Most biases arise from the same source: System 1 uses heuristics — mental shortcuts — that were useful in evolution but lead to systematic errors in the complex modern world. Our brain isn't optimized for statistical accuracy, but for fast, energy-saving judgments.",
+          "The trickiest part: we're barely aware of our biases. We don't experience them as errors, but as clear, logical thinking. A correct judgment and a biased one feel identical. That makes knowledge about biases so valuable — and overcoming them so difficult."
+        ],
+        "example": {
+          "title": "The Blind Spot Bias",
+          "text": "Most people recognize cognitive biases more easily in others than in themselves — a bias about biases. In studies, participants estimate on average that they are significantly less biased than other people. This 'Blind Spot Bias' means: even those who know about biases are not immune. Awareness alone isn't enough — it takes active countermeasures."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157) — Foundational paper on the systematic study of cognitive biases"
+        },
+        "fieldMission": {
+          "title": "Bias in the Wild",
+          "description": "Today, observe a belief you hold strongly. Ask yourself: what information would disprove this belief — and when did you last actively seek such information? Write down your honest answer."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was unterscheidet kognitive Verzerrungen von zufälligen Denkfehlern?",
+            "questionEn": "What distinguishes cognitive biases from random thinking errors?",
+            "optionsDe": ["Sie treten nur bei unintelligenten Menschen auf", "Sie sind systematisch, vorhersehbar und gehen meist in dieselbe Richtung", "Sie entstehen durch zu wenig Information", "Sie sind leicht zu erkennen und zu korrigieren"],
+            "optionsEn": ["They only occur in unintelligent people", "They are systematic, predictable, and usually go in the same direction", "They arise from too little information", "They are easy to recognize and correct"],
+            "correctIndex": 1,
+            "explanationDe": "Kognitive Verzerrungen sind systematisch und vorhersehbar — nicht zufällig. Sie treten bei fast allen Menschen auf und gehen konsistent in dieselbe Richtung, was sie studierbar und theoretisch vorhersagbar macht.",
+            "explanationEn": "Cognitive biases are systematic and predictable — not random. They occur in almost all people and consistently go in the same direction, making them studyable and theoretically predictable."
+          },
+          {
+            "questionDe": "Warum sind kognitive Verzerrungen so schwer zu korrigieren?",
+            "questionEn": "Why are cognitive biases so hard to correct?",
+            "optionsDe": ["Weil sie nur unbewusst auftreten und nie bewusst werden können", "Weil verzerrte und korrekte Urteile sich identisch anfühlen", "Weil das Gehirn keine Fehler erkennen kann", "Weil Bildung keinen Einfluss auf das Denken hat"],
+            "optionsEn": ["Because they only occur unconsciously and can never become conscious", "Because biased and correct judgments feel identical", "Because the brain can't recognize errors", "Because education has no influence on thinking"],
+            "correctIndex": 1,
+            "explanationDe": "Verzerrte Urteile fühlen sich genauso richtig an wie korrekte — das macht Biases so persistent. Wir haben kein eingebautes 'Fehler-Signal', das anspringt, wenn eine Verzerrung aktiv ist.",
+            "explanationEn": "Biased judgments feel just as correct as accurate ones — that's what makes biases so persistent. We have no built-in 'error signal' that fires when a bias is active."
+          },
+          {
+            "questionDe": "Was bedeutet der 'Blind Spot Bias'?",
+            "questionEn": "What does the 'Blind Spot Bias' mean?",
+            "optionsDe": ["Die Unfähigkeit, Fehler bei anderen zu erkennen", "Die Tendenz, bei sich selbst weniger Verzerrungen wahrzunehmen als bei anderen", "Ein Fehler beim räumlichen Sehen", "Die Überschätzung der eigenen Lernfähigkeit"],
+            "optionsEn": ["The inability to recognize errors in others", "The tendency to perceive fewer biases in oneself than in others", "An error in spatial vision", "The overestimation of one's own learning ability"],
+            "correctIndex": 1,
+            "explanationDe": "Der Blind Spot Bias beschreibt, dass wir Verzerrungen bei anderen leichter erkennen als bei uns selbst — und uns im Schnitt für weniger voreingenommen halten als andere. Wissen über Biases schützt nicht automatisch vor ihnen.",
+            "explanationEn": "The Blind Spot Bias describes that we recognize biases in others more easily than in ourselves — and consider ourselves on average less biased than others. Knowledge about biases doesn't automatically protect against them."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m02-l02",
+      "titleDe": "Bestätigungsfehler",
+      "titleEn": "Confirmation Bias",
+      "durationMin": 8,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Wir suchen, interpretieren und erinnern Informationen bevorzugt so, dass sie unsere bestehenden Überzeugungen bestätigen. Das macht uns mit der Zeit überzeugter — und oft falscher.",
+        "body": [
+          "Der Bestätigungsfehler ist wahrscheinlich die am stärksten untersuchte kognitive Verzerrung. Er beschreibt die Tendenz, bevorzugt Informationen zu suchen, wahrzunehmen und zu erinnern, die die eigene Überzeugung stützen — und gegenteilige Belege zu ignorieren oder kleinzureden.",
+          "Das zeigt sich auf drei Ebenen: Beim Suchverhalten — wir lesen Medien, die unsere Meinung teilen. Bei der Interpretation — zwei Menschen mit entgegengesetzten Ansichten lesen denselben Artikel und fühlen sich beide bestätigt. Und beim Gedächtnis — wir erinnern Argumente für unsere Seite besser als dagegen.",
+          "Psychologe Peter Wason zeigte das 1960 mit einem eleganten Experiment: Probanden bekamen die Zahlenreihe 2-4-6 und sollten die zugrundeliegende Regel herausfinden. Fast alle probierten ausschließlich Reihen, die ihre erste Hypothese bestätigten — obwohl Gegenbeispiele die Regel schneller eingegrenzt hätten. Die Regel war übrigens simpel: aufsteigende Zahlen.",
+          "In der digitalen Welt wird Confirmation Bias algorithmisch verstärkt: Soziale Medien zeigen dir Inhalte, mit denen du interagierst — und du interagierst am stärksten mit Inhalten, die deine Meinung bestätigen. Das Ergebnis sind Filterblasen, die die wahrgenommene Realität zunehmend von der tatsächlichen entkoppeln."
+        ],
+        "example": {
+          "title": "Politische Polarisierung",
+          "text": "In einem klassischen Experiment lasen konservative und liberale Probanden dieselben Studien über die Abschreckungswirkung der Todesstrafe. Beide Gruppen fanden ihre eigene Überzeugung bestätigt — und waren danach stärker polarisiert als zuvor. Nicht weil die Studie mehrdeutig war, sondern weil beide Seiten die Methoden der Studie dann als mangelhaft beurteilten, wenn die Ergebnisse ihrer Sichtweise widersprachen."
+        },
+        "reference": {
+          "author": "Wason, P. C.",
+          "year": 1960,
+          "title": "On the failure to eliminate hypotheses in a conceptual task",
+          "note": "Quarterly Journal of Experimental Psychology — Ursprünglicher Nachweis des Confirmation Bias durch das 2-4-6-Experiment"
+        },
+        "fieldMission": {
+          "title": "Das stärkste Gegenargument",
+          "description": "Lies heute einen Artikel oder ein Argument für eine Position, die du nicht teilst — ohne das Ziel, deine Meinung zu ändern. Finde das stärkste Argument der anderen Seite. Schreib es in einem Satz auf."
+        }
+      },
+      "contentEn": {
+        "summary": "We preferentially seek, interpret, and remember information that confirms our existing beliefs. Over time this makes us more confident — and often more wrong.",
+        "body": [
+          "Confirmation bias is probably the most extensively studied cognitive bias. It describes the tendency to preferentially seek, perceive, and remember information that supports one's own belief — and to ignore or downplay contradicting evidence.",
+          "This manifests at three levels: in search behavior — we read media that share our views. In interpretation — two people with opposing views read the same article and both feel confirmed. And in memory — we recall arguments for our side better than against it.",
+          "Psychologist Peter Wason demonstrated this in 1960 with an elegant experiment: participants were given the number sequence 2-4-6 and asked to discover the underlying rule. Almost all tried only sequences that confirmed their first hypothesis — even though counterexamples would have narrowed the rule faster. The rule, by the way, was simple: ascending numbers.",
+          "In the digital world, confirmation bias is algorithmically amplified: social media shows you content you interact with — and you interact most strongly with content that confirms your view. The result is filter bubbles that increasingly decouple perceived reality from actual reality."
+        ],
+        "example": {
+          "title": "Political Polarization",
+          "text": "In a classic experiment, conservative and liberal participants read the same studies on the deterrent effect of the death penalty. Both groups found their own view confirmed — and were more polarized afterwards than before. Not because the study was ambiguous, but because both sides judged the study's methods as flawed when its results contradicted their worldview."
+        },
+        "reference": {
+          "author": "Wason, P. C.",
+          "year": 1960,
+          "title": "On the failure to eliminate hypotheses in a conceptual task",
+          "note": "Quarterly Journal of Experimental Psychology — Original demonstration of confirmation bias via the 2-4-6 experiment"
+        },
+        "fieldMission": {
+          "title": "The Strongest Counterargument",
+          "description": "Today, read an article or argument for a position you don't hold — without the goal of changing your mind. Find the strongest argument on the other side. Write it down in one sentence."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Auf welchen drei Ebenen zeigt sich der Bestätigungsfehler?",
+            "questionEn": "On which three levels does confirmation bias manifest?",
+            "optionsDe": ["Lernen, Erinnern, Vergessen", "Informationssuche, Interpretation und Gedächtnis", "Wahrnehmung, Emotion und Verhalten", "Lesen, Schreiben und Sprechen"],
+            "optionsEn": ["Learning, remembering, forgetting", "Information search, interpretation, and memory", "Perception, emotion, and behavior", "Reading, writing, and speaking"],
+            "correctIndex": 1,
+            "explanationDe": "Confirmation Bias wirkt auf drei Ebenen: Wir suchen Informationen, die unsere Meinung stützen (Suchverhalten), interpretieren mehrdeutige Informationen zu unseren Gunsten (Interpretation) und erinnern bestätigende Argumente besser (Gedächtnis).",
+            "explanationEn": "Confirmation Bias works on three levels: we seek information that supports our view (search behavior), interpret ambiguous information in our favor (interpretation), and remember confirming arguments better (memory)."
+          },
+          {
+            "questionDe": "Was zeigte Wasons 2-4-6-Experiment?",
+            "questionEn": "What did Wason's 2-4-6 experiment show?",
+            "optionsDe": ["Menschen sind gut darin, Hypothesen zu widerlegen", "Probanden suchten fast ausschließlich bestätigende, keine widerlegenden Beispiele", "Zahlenreihen werden systematisch falsch erkannt", "Kognitive Verzerrungen treten nur in Zahlenaufgaben auf"],
+            "optionsEn": ["People are good at falsifying hypotheses", "Participants sought almost exclusively confirming, not disconfirming examples", "Number sequences are systematically misrecognized", "Cognitive biases only occur in number tasks"],
+            "correctIndex": 1,
+            "explanationDe": "Im 2-4-6-Experiment probierten fast alle Probanden nur Reihen aus, die ihre erste Hypothese bestätigten — obwohl Gegenbeispiele effizienter gewesen wären. Das zeigt, dass wir aktiv Bestätigung suchen statt Widerlegung.",
+            "explanationEn": "In the 2-4-6 experiment, almost all participants tried only sequences that confirmed their first hypothesis — even though counterexamples would have been more efficient. This shows we actively seek confirmation rather than falsification."
+          },
+          {
+            "questionDe": "Wie verstärken Algorithmen sozialer Medien den Bestätigungsfehler?",
+            "questionEn": "How do social media algorithms amplify confirmation bias?",
+            "optionsDe": ["Indem sie zu viele gegensätzliche Meinungen zeigen", "Indem sie Inhalte priorisieren, mit denen du interagierst — also mehrheitlich meinungsbestätigende", "Durch zu schnelle Informationsverbreitung", "Indem sie keine Quellen angeben"],
+            "optionsEn": ["By showing too many opposing opinions", "By prioritizing content you interact with — mostly opinion-confirming content", "Through too-fast information spread", "By not citing sources"],
+            "correctIndex": 1,
+            "explanationDe": "Algorithmen maximieren Engagement — und wir interagieren am stärksten mit Inhalten, die unsere Überzeugungen bestätigen. Das führt zu Filterblasen, die Confirmation Bias algorithmisch und automatisch verstärken.",
+            "explanationEn": "Algorithms maximize engagement — and we engage most strongly with content that confirms our beliefs. This creates filter bubbles that amplify confirmation bias algorithmically and automatically."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m02-l03",
+      "titleDe": "Ankereffekt",
+      "titleEn": "Anchoring Bias",
+      "durationMin": 7,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Die erste Zahl, die wir hören, verankert unser Urteil — auch wenn sie völlig willkürlich ist. Das hat drastische Konsequenzen in Verhandlungen, beim Einkaufen und bei Einschätzungen aller Art.",
+        "body": [
+          "Der Ankereffekt beschreibt die Tendenz, sich bei Schätzungen oder Entscheidungen stark an einem ersten Referenzwert zu orientieren — dem Anker — und von dort aus nur unzureichend zu korrigieren. Kahneman und Tversky beschrieben diesen Effekt 1974 als eine der fundamentalen Heuristiken des Urteilsvermögens.",
+          "In einem klassischen Experiment ließen sie ein Glücksrad vor den Augen der Probanden drehen, das bei 10 oder 65 stoppte. Danach sollten sie schätzen, wie viel Prozent der afrikanischen Länder in der UN sind. Die Gruppe mit dem Anker 65 schätzte im Schnitt 45% — die Gruppe mit dem Anker 10 nur 25%. Das Glücksrad war erkennbar zufällig. Die Wirkung war dennoch messbar.",
+          "Anchoring funktioniert, weil System 2 von einem Startpunkt aus justiert — aber diese Justierung ist fast immer unzureichend. Wir hören auf zu korrigieren, sobald ein plausibler Wert erreicht ist, nicht erst wenn wir beim richtigen Wert angekommen sind. Das Ergebnis ist ein Urteil, das systematisch in Richtung des Ankers verschoben ist.",
+          "Praktische Konsequenzen: In Gehaltsverhandlungen zahlt derjenige, der zuerst eine Zahl nennt, oft weniger oder bekommt mehr. Durchgestrichene Originalpreise im Handel suggerieren ein Schnäppchen — unabhängig vom tatsächlichen Wert. Und in Gerichtsverfahren beeinflusst die zuerst genannte Strafforderung das Urteil messbar."
+        ],
+        "example": {
+          "title": "Immobilienmakler und Listenpreise",
+          "text": "Erfahrene Immobilienmakler wurden gebeten, den Wert desselben Hauses zu schätzen. Vorher sahen sie unterschiedliche Listenpreise. Obwohl alle Makler behaupteten, Listenpreise zu ignorieren, wichen ihre Schätzungen systematisch in Richtung des ihnen genannten Listenpreises ab. Je höher der Listenpreis, desto höher die Schätzung — selbst bei Experten mit jahrelanger Erfahrung."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157) — Klassischer Nachweis des Ankereffekts mit dem Glücksrad-Experiment"
+        },
+        "fieldMission": {
+          "title": "Anker im Alltag",
+          "description": "Achte heute auf Anker in Preisen: durchgestrichene Originalpreise, 'Normalpreis vs. Aktionspreis', Listenpreise. Oder beobachte die erste genannte Zahl in einem Gespräch. Notiere einen Anker — und schätz, was der Wert ohne diesen Anker wäre."
+        }
+      },
+      "contentEn": {
+        "summary": "The first number we hear anchors our judgment — even if it's completely arbitrary. This has drastic consequences in negotiations, shopping, and all kinds of estimates.",
+        "body": [
+          "The anchoring effect describes the tendency to rely heavily on a first reference value — the anchor — when making estimates or decisions, and to adjust from there only insufficiently. Kahneman and Tversky described this effect in 1974 as one of the fundamental heuristics of judgment.",
+          "In a classic experiment, they spun a wheel of fortune in front of participants that stopped at either 10 or 65. Then they asked participants to estimate what percentage of African countries are in the UN. The group with anchor 65 estimated an average of 45% — the group with anchor 10 only 25%. The wheel of fortune was clearly random. The effect was measurable nonetheless.",
+          "Anchoring works because System 2 adjusts from a starting point — but this adjustment is almost always insufficient. We stop correcting once a plausible value is reached, not when we've arrived at the correct value. The result is a judgment systematically shifted toward the anchor.",
+          "Practical consequences: in salary negotiations, the person who names a number first often pays less or receives more. Crossed-out original prices in stores suggest a bargain — regardless of actual value. And in court proceedings, the first sentence demanded measurably influences the judge's decision."
+        ],
+        "example": {
+          "title": "Real Estate Agents and List Prices",
+          "text": "Experienced real estate agents were asked to estimate the value of the same house. Beforehand, they saw different list prices. Although all agents claimed to ignore list prices, their estimates systematically deviated toward the list price they were shown. The higher the list price, the higher the estimate — even in experts with years of experience."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157) — Classic demonstration of the anchoring effect with the wheel of fortune experiment"
+        },
+        "fieldMission": {
+          "title": "Anchors in Everyday Life",
+          "description": "Today, notice anchors in prices: crossed-out original prices, 'regular price vs. sale price', list prices. Or observe the first number mentioned in a conversation. Note one anchor — and estimate what the value would be without it."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist ein 'Anker' im Kontext des Anchoring Bias?",
+            "questionEn": "What is an 'anchor' in the context of Anchoring Bias?",
+            "optionsDe": ["Ein emotionaler Referenzpunkt aus der Kindheit", "Ein erster Referenzwert, der nachfolgende Urteile unverhältnismäßig stark beeinflusst", "Ein rationaler Ausgangspunkt für Entscheidungen", "Eine Methode zur Entscheidungsoptimierung"],
+            "optionsEn": ["An emotional reference point from childhood", "A first reference value that disproportionately influences subsequent judgments", "A rational starting point for decisions", "A method for decision optimization"],
+            "correctIndex": 1,
+            "explanationDe": "Ein Anker ist ein erster Wert, der unser nachfolgendes Urteil verankert — auch wenn er willkürlich oder irrelevant ist. Wir justieren von ihm aus, aber selten weit genug, um ihn vollständig zu überwinden.",
+            "explanationEn": "An anchor is a first value that anchors our subsequent judgment — even if it's arbitrary or irrelevant. We adjust from it, but rarely far enough to fully overcome it."
+          },
+          {
+            "questionDe": "Warum wirkt Anchoring auch bei erkennbar willkürlichen Ankern?",
+            "questionEn": "Why does anchoring work even with obviously arbitrary anchors?",
+            "optionsDe": ["Weil Menschen Zahlen nicht rational verarbeiten können", "Weil System 2 von einem Startpunkt aus justiert, aber die Korrektur unzureichend ist", "Weil willkürliche Zahlen immer korrekte Anker sind", "Weil das Gehirn Zufallszahlen bevorzugt"],
+            "optionsEn": ["Because people can't process numbers rationally", "Because System 2 adjusts from a starting point, but the correction is insufficient", "Because arbitrary numbers are always correct anchors", "Because the brain prefers random numbers"],
+            "correctIndex": 1,
+            "explanationDe": "System 2 beginnt beim Anker und korrigiert — hört aber zu früh auf. Wir stoppen beim ersten plausiblen Wert, nicht beim richtigen. Das erzeugt eine systematische Verzerrung in Richtung des Ankers, unabhängig von dessen Herkunft.",
+            "explanationEn": "System 2 starts at the anchor and adjusts — but stops too early. We stop at the first plausible value, not the correct one. This creates a systematic bias toward the anchor, regardless of its origin."
+          },
+          {
+            "questionDe": "Welche Verhandlungsstrategie nutzt den Ankereffekt?",
+            "questionEn": "Which negotiation strategy uses the anchoring effect?",
+            "optionsDe": ["Immer auf das erste Angebot der anderen Seite warten", "Als erste Partei eine Zahl nennen, um den Verhandlungsrahmen zu setzen", "Möglichst wenig Zahlen nennen", "Den Anker der anderen Seite explizit ablehnen"],
+            "optionsEn": ["Always wait for the other side's first offer", "Name a number first to set the negotiation frame", "Mention as few numbers as possible", "Explicitly reject the other side's anchor"],
+            "correctIndex": 1,
+            "explanationDe": "Wer zuerst eine Zahl nennt, setzt den Anker — und zwingt die andere Seite, von diesem Ausgangspunkt zu justieren. In Gehalts- und Preisverhandlungen ist das ein messbarer strategischer Vorteil.",
+            "explanationEn": "Whoever names a number first sets the anchor — and forces the other side to adjust from that starting point. In salary and price negotiations, this is a measurable strategic advantage."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m02-l04",
+      "titleDe": "Verfügbarkeitsheuristik",
+      "titleEn": "Availability Heuristic",
+      "durationMin": 7,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Wir schätzen die Wahrscheinlichkeit von Ereignissen danach, wie leicht uns Beispiele dafür einfallen — nicht danach, wie häufig sie wirklich auftreten. Das verzerrt unser Risikourteil erheblich.",
+        "body": [
+          "Die Verfügbarkeitsheuristik beschreibt, wie wir die Häufigkeit oder Wahrscheinlichkeit eines Ereignisses beurteilen: Wir schätzen es als wahrscheinlicher ein, wenn uns Beispiele schnell und leicht einfallen. Je 'verfügbarer' das mentale Bild, desto häufiger glauben wir, dass das Ereignis auftritt.",
+          "Das führt zu systematischen Verzerrungen: Dramatische, emotionale oder medial präsente Ereignisse werden überschätzt, alltägliche oder unsichtbare Risiken unterschätzt. Flugzeugabstürze kommen uns sofort in den Sinn. Autofahrten nicht. Dabei sterben in Deutschland jährlich über 2.500 Menschen im Straßenverkehr — aber weniger als 50 bei Flugunfällen.",
+          "Die Heuristik ist nicht per se dumm — sie nutzt eine echte Korrelation: Was häufig passiert, wird oft auch häufig berichtet und erinnert. Das Problem entsteht, wenn Medienberichterstattung, persönliche Erlebnisse oder emotionale Intensität die Verfügbarkeit verzerren, ohne die tatsächliche Häufigkeit widerzuspiegeln.",
+          "Besondere Kraft entfaltet die Heuristik durch persönliche Erlebnisse: Wer selbst einen Wohnungseinbruch erlebt hat, schätzt die Einbruchswahrscheinlichkeit für die Zukunft deutlich höher ein — unabhängig von Statistiken. Nach einem Terroranschlag steigen Angst und wahrgenommenes Risiko massiv, obwohl die statistische Wahrscheinlichkeit minimal bleibt."
+        ],
+        "example": {
+          "title": "Haie vs. Kokosnüsse",
+          "text": "Statistisch töten Kokosnüsse weltweit jährlich etwa 150 Menschen — Haiangriffe weniger als 10. Trotzdem löst 'Hai' bei den meisten Menschen sofort Angst aus, während Kokosnüsse harmlos erscheinen. Der Unterschied ist rein kognitiv: Haiangriffe sind visuell dramatisch, medial präsent und emotional verankert. Kokosnüsse nicht. Die Verfügbarkeit, nicht die Häufigkeit, bestimmt die Einschätzung."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1973,
+          "title": "Availability: A heuristic for judging frequency and probability",
+          "note": "Cognitive Psychology, 5(2) — Grundlegende Arbeit zur Verfügbarkeitsheuristik"
+        },
+        "fieldMission": {
+          "title": "Statistik vs. Bauchgefühl",
+          "description": "Nenne eine Angst oder Risikoeinschätzung, die du im Alltag hast. Such heute die tatsächliche Statistik dazu. Wie nah war deine Einschätzung an der Realität — und was hat dein Bauchgefühl geformt?"
+        }
+      },
+      "contentEn": {
+        "summary": "We judge the probability of events by how easily examples come to mind — not by how frequently they actually occur. This significantly distorts our risk perception.",
+        "body": [
+          "The availability heuristic describes how we judge the frequency or probability of an event: we estimate it as more likely when examples come to mind quickly and easily. The more 'available' the mental image, the more frequently we believe the event occurs.",
+          "This leads to systematic distortions: dramatic, emotional, or media-prominent events are overestimated; everyday or invisible risks underestimated. Plane crashes come to mind immediately. Car trips don't. Yet in Germany, over 2,500 people die in traffic accidents annually — but fewer than 50 in aviation accidents.",
+          "The heuristic isn't inherently foolish — it uses a real correlation: what happens frequently is often reported and remembered frequently. The problem arises when media coverage, personal experiences, or emotional intensity distort availability without reflecting actual frequency.",
+          "The heuristic is especially powerful through personal experiences: someone who has experienced a home burglary estimates future burglary probability significantly higher — regardless of statistics. After a terrorist attack, fear and perceived risk rise massively, even though the statistical probability remains minimal."
+        ],
+        "example": {
+          "title": "Sharks vs. Coconuts",
+          "text": "Statistically, coconuts kill about 150 people worldwide annually — shark attacks fewer than 10. Yet 'shark' triggers immediate fear in most people, while coconuts seem harmless. The difference is purely cognitive: shark attacks are visually dramatic, media-prominent, and emotionally anchored. Coconuts are not. Availability, not frequency, determines the assessment."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1973,
+          "title": "Availability: A heuristic for judging frequency and probability",
+          "note": "Cognitive Psychology, 5(2) — Foundational paper on the availability heuristic"
+        },
+        "fieldMission": {
+          "title": "Statistics vs. Gut Feeling",
+          "description": "Name a fear or risk assessment you have in everyday life. Today, look up the actual statistics. How close was your estimate to reality — and what shaped your gut feeling?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was bestimmt laut der Verfügbarkeitsheuristik unsere Risikoeinschätzung?",
+            "questionEn": "According to the availability heuristic, what determines our risk assessment?",
+            "optionsDe": ["Statistische Daten über das Ereignis", "Wie leicht uns Beispiele dafür in den Sinn kommen", "Expertenaussagen über Wahrscheinlichkeiten", "Wie rational wir gerade denken"],
+            "optionsEn": ["Statistical data about the event", "How easily examples come to mind", "Expert statements about probabilities", "How rationally we're currently thinking"],
+            "correctIndex": 1,
+            "explanationDe": "Die Verfügbarkeitsheuristik besagt: Je leichter uns ein Beispiel einfällt, desto wahrscheinlicher schätzen wir das Ereignis ein — unabhängig von tatsächlichen Statistiken.",
+            "explanationEn": "The availability heuristic states: the easier an example comes to mind, the more probable we judge the event to be — regardless of actual statistics."
+          },
+          {
+            "questionDe": "Warum werden Flugzeugabstürze als gefährlicher eingeschätzt als Autofahrten?",
+            "questionEn": "Why are plane crashes judged as more dangerous than car trips?",
+            "optionsDe": ["Weil Flugzeugabstürze tatsächlich häufiger sind", "Weil Piloten weniger ausgebildet sind als Autofahrer", "Weil Flugzeugabstürze emotionaler und medial präsenter sind", "Weil Statistiken über Autofahrten selten veröffentlicht werden"],
+            "optionsEn": ["Because plane crashes are actually more frequent", "Because pilots are less trained than drivers", "Because plane crashes are more emotional and media-prominent", "Because statistics about car trips are rarely published"],
+            "correctIndex": 2,
+            "explanationDe": "Flugzeugabstürze sind dramatisch, visuell und werden intensiv berichtet — was sie kognitiv verfügbarer macht. Obwohl Autofahrten statistisch gefährlicher sind, kommen uns kaum Beispiele dafür in den Sinn.",
+            "explanationEn": "Plane crashes are dramatic, visual, and intensively reported — making them cognitively more available. Although car trips are statistically more dangerous, examples rarely come to mind."
+          },
+          {
+            "questionDe": "Wann ist die Verfügbarkeitsheuristik besonders stark verzerrt?",
+            "questionEn": "When is the availability heuristic most strongly distorted?",
+            "optionsDe": ["Bei häufigen, alltäglichen Ereignissen", "Bei sachlichen, datenbasierten Einschätzungen", "Nach persönlichen Erlebnissen oder intensiver Medienberichterstattung", "Bei abstrakten Konzepten ohne emotionale Bedeutung"],
+            "optionsEn": ["With frequent, everyday events", "With factual, data-based assessments", "After personal experiences or intensive media coverage", "With abstract concepts without emotional meaning"],
+            "correctIndex": 2,
+            "explanationDe": "Persönliche Erlebnisse und intensive Medienberichterstattung erhöhen die kognitive Verfügbarkeit dramatisch — und damit die wahrgenommene Wahrscheinlichkeit, unabhängig von tatsächlichen Häufigkeiten.",
+            "explanationEn": "Personal experiences and intensive media coverage dramatically increase cognitive availability — and thus perceived probability, regardless of actual frequencies."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m02-l05",
+      "titleDe": "Überkonfidenz",
+      "titleEn": "Overconfidence Bias",
+      "durationMin": 8,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Wir überschätzen systematisch unsere Kenntnisse, Fähigkeiten und die Genauigkeit unserer Vorhersagen. Das ist einer der am robustesten belegten Befunde der Verhaltenspsychologie — und einer der teuersten.",
+        "body": [
+          "Der Überkonfidenz-Bias beschreibt die Tendenz, das eigene Wissen, die eigene Kompetenz und die Genauigkeit der eigenen Vorhersagen systematisch zu überschätzen. Er gilt als einer der stärksten und robustesten Befunde der kognitiven Psychologie — und als einer der teuersten in der Praxis.",
+          "Drei Formen sind zu unterscheiden: Overplacement — wir glauben, besser als der Durchschnitt zu sein (über 80% der Autofahrer halten sich für überdurchschnittlich sicher). Overprecision — wir sind uns zu sicher, dass unsere Schätzungen korrekt sind. Und Overestimation — wir überschätzen unsere tatsächliche Leistungsfähigkeit bei konkreten Aufgaben.",
+          "Die Planning Fallacy ist eine direkte Konsequenz: Wir unterschätzen systematisch, wie lange Projekte dauern und wie teuer sie werden. Der Berliner Flughafen BER wurde 2006 für 2011 geplant, eröffnete 2020 — mit mehr als dreifachen Kosten. Das ist kein Einzelfall: Studien zeigen, dass Bauprojekte im Schnitt 45% länger dauern als geplant.",
+          "Gegenmaßnahmen gibt es: Die Pre-Mortem-Methode von Gary Klein hilft. Vor einem Projekt stellt man sich vor, es ist gescheitert — und fragt warum. Das zwingt System 2 zur Arbeit und aktiviert die Outside View: Statt zu fragen 'Was kann bei meinem Projekt schiefgehen?' fragt man 'Was passiert typischerweise bei solchen Projekten?' Das ist ein statistisch besserer Ausgangspunkt."
+        ],
+        "example": {
+          "title": "Philip Tetlocks Expertenstudie",
+          "text": "Philip Tetlock untersuchte über 20 Jahre die Vorhersagen von politischen und wirtschaftlichen Experten. Sein Ergebnis: Die meisten Experten waren schlechter als zufällige Schätzungen — und dabei äußerst zuversichtlich in ihre Prognosen. Besonders schlecht schnitten Experten ab, die eine einzige, kohärente Weltsicht hatten ('Igel'). Besser: jene, die mehrere konkurrierende Hypothesen offen hielten ('Füchse')."
+        },
+        "reference": {
+          "author": "Tetlock, P. E.",
+          "year": 2005,
+          "title": "Expert Political Judgment: How Good Is It? How Can We Know?",
+          "note": "Princeton University Press — Grundlegende Studie zur Qualität von Expertenprognosen über 20 Jahre"
+        },
+        "fieldMission": {
+          "title": "Kalibrierungstest",
+          "description": "Schätze heute etwas Konkretes, dessen Ergebnis du noch heute prüfen kannst: die Dauer einer Aufgabe, die Kosten eines Einkaufs, die Anzahl eingehender E-Mails. Gib ein Intervall an (min–max), in dem du das Ergebnis mit 90% Sicherheit erwartest. Dann überprüfe: Lagst du richtig?"
+        }
+      },
+      "contentEn": {
+        "summary": "We systematically overestimate our knowledge, abilities, and the accuracy of our predictions. This is one of the most robustly documented findings in behavioral psychology — and one of the most costly.",
+        "body": [
+          "The overconfidence bias describes the tendency to systematically overestimate one's own knowledge, competence, and the accuracy of one's predictions. It is considered one of the strongest and most robust findings in cognitive psychology — and one of the most costly in practice.",
+          "Three forms are distinguished: Overplacement — we believe we're better than average (over 80% of drivers consider themselves above-average safe). Overprecision — we're too confident that our estimates are correct. And Overestimation — we overestimate our actual performance on concrete tasks.",
+          "The Planning Fallacy is a direct consequence: we systematically underestimate how long projects take and how expensive they become. Berlin Airport BER was planned in 2006 for 2011, opened in 2020 — with more than triple the costs. This is no exception: studies show construction projects take on average 45% longer than planned.",
+          "Countermeasures exist: Gary Klein's Pre-Mortem method helps. Before a project, you imagine it has failed — and ask why. This forces System 2 to work and activates the Outside View: instead of asking 'What can go wrong with my project?' you ask 'What typically happens with projects like this?' That's a statistically better starting point."
+        ],
+        "example": {
+          "title": "Philip Tetlock's Expert Study",
+          "text": "Philip Tetlock studied the predictions of political and economic experts over 20 years. His finding: most experts performed worse than random guessing — and were extremely confident in their forecasts. Particularly poor were experts who had a single, coherent worldview ('Hedgehogs'). Better: those who kept multiple competing hypotheses open ('Foxes')."
+        },
+        "reference": {
+          "author": "Tetlock, P. E.",
+          "year": 2005,
+          "title": "Expert Political Judgment: How Good Is It? How Can We Know?",
+          "note": "Princeton University Press — Foundational 20-year study on the quality of expert forecasts"
+        },
+        "fieldMission": {
+          "title": "Calibration Test",
+          "description": "Today, estimate something concrete whose outcome you can check the same day: the duration of a task, the cost of a purchase, the number of incoming emails. Give an interval (min–max) in which you expect the result with 90% confidence. Then check: were you right?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was beschreibt 'Overplacement' als Form der Überkonfidenz?",
+            "questionEn": "What does 'Overplacement' describe as a form of overconfidence?",
+            "optionsDe": ["Die Überschätzung der eigenen absoluten Leistungsfähigkeit", "Die Überzeugung, besser als der Durchschnitt zu sein", "Die zu hohe Sicherheit in eigene Schätzintervalle", "Die Unterschätzung von Projektdauern"],
+            "optionsEn": ["The overestimation of one's absolute performance", "The belief of being better than average", "Excessive confidence in one's own estimate intervals", "The underestimation of project durations"],
+            "correctIndex": 1,
+            "explanationDe": "Overplacement bedeutet: Wir schätzen uns relativ besser ein als wir tatsächlich im Vergleich zu anderen sind. Da dies nicht alle gleichzeitig können, ist es eine systematische Verzerrung — über 80% der Autofahrer können nicht alle überdurchschnittlich sicher sein.",
+            "explanationEn": "Overplacement means: we rate ourselves as relatively better than we actually are compared to others. Since not everyone can simultaneously be above average, this is a systematic bias — over 80% of drivers can't all be above-average safe."
+          },
+          {
+            "questionDe": "Was ist die 'Planning Fallacy'?",
+            "questionEn": "What is the 'Planning Fallacy'?",
+            "optionsDe": ["Die Tendenz, zu oft Pläne zu ändern", "Die systematische Unterschätzung von Zeit- und Kostenbedarf bei Projekten", "Die Überschätzung anderer bei der Planung", "Ein Fehler beim Erstellen von Computerplänen"],
+            "optionsEn": ["The tendency to change plans too often", "The systematic underestimation of time and cost requirements for projects", "The overestimation of others in planning", "An error in creating computer-generated plans"],
+            "correctIndex": 1,
+            "explanationDe": "Die Planning Fallacy beschreibt, dass wir Projekte systematisch zu optimistisch planen: zu kurze Zeitrahmen, zu niedrige Kosten. Sie ist eine direkte Folge von Überkonfidenz und Inside View — wir fokussieren auf unser spezifisches Projekt statt auf Basisraten vergleichbarer Projekte.",
+            "explanationEn": "The Planning Fallacy describes that we plan projects too optimistically: too short timeframes, too low costs. It's a direct consequence of overconfidence and inside view — we focus on our specific project rather than base rates of comparable projects."
+          },
+          {
+            "questionDe": "Was zeigte Tetlocks Studie über Expertenvorhersagen?",
+            "questionEn": "What did Tetlock's study show about expert predictions?",
+            "optionsDe": ["Experten mit klarer Weltanschauung sind die besten Prognostiker", "Expertenwissen ist der wichtigste Faktor für Vorhersagequalität", "Die meisten Experten lagen trotz hoher Zuversicht schlechter als Zufallsschätzungen", "Politische Experten sind zuverlässiger als wirtschaftliche"],
+            "optionsEn": ["Experts with a clear worldview are the best forecasters", "Expert knowledge is the most important factor for prediction quality", "Most experts performed worse than random guessing despite high confidence", "Political experts are more reliable than economic ones"],
+            "correctIndex": 2,
+            "explanationDe": "Tetlock fand, dass die meisten Experten über 20 Jahre schlechter abschnitten als einfache statistische Modelle — und dennoch äußerst zuversichtlich in ihre Prognosen waren. Das ist Überkonfidenz in Reinform: hohe Sicherheit, niedrige Genauigkeit.",
+            "explanationEn": "Tetlock found that most experts performed worse over 20 years than simple statistical models — and yet were extremely confident in their predictions. That's overconfidence in its purest form: high certainty, low accuracy."
+          }
+        ]
+      }
+    }
+  ]
+}
