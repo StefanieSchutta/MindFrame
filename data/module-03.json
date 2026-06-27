@@ -1,0 +1,580 @@
+{
+  "id": "module-03",
+  "titleDe": "Heuristiken & Urteil",
+  "titleEn": "Heuristics & Judgment",
+  "descriptionDe": "Wie das Gehirn mit mentalen Abkürzungen Entscheidungen vereinfacht – und warum das in bestimmten Kontexten systematisch schiefläuft.",
+  "descriptionEn": "How the brain uses mental shortcuts to simplify decisions – and why that systematically misfires in certain contexts.",
+  "icon": "⚖️",
+  "lessons": [
+    {
+      "id": "m03-l01",
+      "titleDe": "Was sind Heuristiken?",
+      "titleEn": "What Are Heuristics?",
+      "durationMin": 8,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Heuristiken sind mentale Abkürzungen, die unser Gehirn nutzt, um schnell und effizient zu urteilen – ohne jede Situation von Grund auf neu zu analysieren.",
+        "body": [
+          "Stell dir vor, du müsstest bei jeder Entscheidung alle verfügbaren Informationen vollständig abwägen – jedes Mal, wenn du eine E-Mail als wichtig einstufst, einen Kandidaten interviewst oder einschätzt, ob ein Stadtteil sicher ist. Das wäre kognitiv unmöglich. Heuristiken sind die Lösung, die das Gehirn entwickelt hat: vereinfachte Urteilsstrategien, die aus komplexen Problemen handhabbare Einschätzungen machen.",
+          "Der Begriff wurde in der modernen Kognitionspsychologie von Amos Tversky und Daniel Kahneman geprägt, die in den 1970er-Jahren systematisch zeigten, dass Menschen bei Urteilen unter Unsicherheit auf eine begrenzte Zahl solcher Faustregeln zurückgreifen. Ihre zentrale Erkenntnis: Heuristiken sind nicht irrational – sie sind effizient. Aber sie haben blinde Flecken, sogenannte Biases, die in bestimmten Kontexten systematisch zu Fehlern führen.",
+          "Man unterscheidet Heuristiken nach ihrer Funktion: Manche helfen beim Schätzen von Wahrscheinlichkeiten (wie häufig ist etwas?), andere beim Beurteilen von Ähnlichkeit (gehört das zu Kategorie X?) und wieder andere beim Setzen von Ausgangspunkten für Schätzungen. Alle drei werden in diesem Modul einzeln beleuchtet.",
+          "Entscheidend ist: Heuristiken sind keine Fehler im System – sie sind das System. Unser Gehirn ist nicht defekt, wenn es Abkürzungen nimmt; es optimiert auf Geschwindigkeit und Ressourceneffizienz. Behavioral Science hilft uns, die Kontexte zu erkennen, in denen diese Optimierungen uns in die Irre führen."
+        ],
+        "example": {
+          "title": "Soziale Bestätigung als Wahrheitsproxy",
+          "text": "Wenn du einen Artikel siehst, der mit vielen Likes geteilt wird, schließt du automatisch auf seine Glaubwürdigkeit – obwohl Popularität und Korrektheit völlig unabhängig voneinander sind. Das Gehirn nutzt soziale Bestätigung als Heuristik für Wahrheit."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157), 1124–1131. Der Grundlagenartikel, der die drei Kern-Heuristiken (Verfügbarkeit, Repräsentativität, Ankern) erstmals systematisch beschrieb und die moderne Urteilsforschung begründete."
+        },
+        "fieldMission": {
+          "title": "Heuristik-Jagd",
+          "description": "Beobachte heute drei eigene Entscheidungen und frage dich jeweils: Habe ich alle relevanten Informationen abgewogen oder eine Abkürzung genommen? Notiere, welche Abkürzung es war."
+        }
+      },
+      "contentEn": {
+        "summary": "Heuristics are mental shortcuts the brain uses to make quick, efficient judgments – without re-analyzing every situation from scratch.",
+        "body": [
+          "Imagine if every decision required you to fully process all available information – every time you flag an email as important, evaluate a candidate, or assess whether a neighborhood is safe. That would be cognitively impossible. Heuristics are the brain's solution: simplified judgment strategies that turn complex problems into manageable estimates.",
+          "The concept was established in modern cognitive psychology by Amos Tversky and Daniel Kahneman, who demonstrated in the 1970s that people rely on a small set of such rules of thumb when making judgments under uncertainty. Their central insight: heuristics are not irrational – they are efficient. But they have blind spots, so-called biases, that lead to systematic errors in certain contexts.",
+          "Heuristics can be categorized by function: some help estimate probabilities (how frequent is something?), others help assess similarity (does this belong to category X?), and others help set starting points for estimates. All three will be examined individually in this module.",
+          "Crucially, heuristics are not bugs in the system – they are the system. Our brains are not defective for taking shortcuts; they are optimizing for speed and resource efficiency. Behavioral Science helps us identify the contexts where these optimizations lead us astray."
+        ],
+        "example": {
+          "title": "Social Validation as a Truth Proxy",
+          "text": "When you see an article shared with many likes, you automatically infer it must be credible – even though popularity and accuracy are completely independent. The brain uses social validation as a heuristic for truth."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157), 1124–1131. The foundational paper that first systematically described the three core heuristics (availability, representativeness, anchoring) and established modern judgment research."
+        },
+        "fieldMission": {
+          "title": "Heuristic Hunt",
+          "description": "Observe three of your own decisions today and ask: did I weigh all relevant information, or take a shortcut? Note which shortcut it was."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist der Hauptzweck von Heuristiken?",
+            "questionEn": "What is the main purpose of heuristics?",
+            "optionsDe": [
+              "Alle verfügbaren Daten vollständig zu analysieren",
+              "Kognitive Ressourcen zu schonen und schnelle Urteile zu ermöglichen",
+              "Emotionale Entscheidungen zu vermeiden",
+              "Rationale Logik zu ersetzen"
+            ],
+            "optionsEn": [
+              "To fully analyze all available data",
+              "To conserve cognitive resources and enable fast judgments",
+              "To avoid emotional decisions",
+              "To replace rational logic"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Heuristiken optimieren auf Effizienz. Sie sparen kognitive Ressourcen, indem sie komplexe Urteile vereinfachen – auf Kosten gelegentlicher systematischer Fehler in bestimmten Kontexten.",
+            "explanationEn": "Heuristics optimize for efficiency. They conserve cognitive resources by simplifying complex judgments – at the cost of occasional systematic errors in specific contexts."
+          },
+          {
+            "questionDe": "Wer prägte das Heuristics-and-Biases-Programm in der Kognitionspsychologie?",
+            "questionEn": "Who established the Heuristics and Biases program in cognitive psychology?",
+            "optionsDe": [
+              "Sigmund Freud und Carl Jung",
+              "Richard Thaler und Cass Sunstein",
+              "Amos Tversky und Daniel Kahneman",
+              "B.F. Skinner und Albert Bandura"
+            ],
+            "optionsEn": [
+              "Sigmund Freud and Carl Jung",
+              "Richard Thaler and Cass Sunstein",
+              "Amos Tversky and Daniel Kahneman",
+              "B.F. Skinner and Albert Bandura"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Tversky und Kahneman etablierten das Heuristics-and-Biases-Programm mit ihrem Science-Artikel von 1974. Kahneman erhielt 2002 den Wirtschaftsnobelpreis für diese Arbeit (Tversky war 1996 bereits verstorben).",
+            "explanationEn": "Tversky and Kahneman established the heuristics-and-biases program with their 1974 Science paper. Kahneman received the 2002 Nobel Prize in Economics for this work (Tversky had passed away in 1996)."
+          },
+          {
+            "questionDe": "Sind Heuristiken grundsätzlich als Denkfehler zu betrachten?",
+            "questionEn": "Should heuristics generally be considered thinking errors?",
+            "optionsDe": [
+              "Ja, sie sind immer irrational",
+              "Nein, sie sind effiziente Strategien mit kontextspezifischen Schwächen",
+              "Nein, sie führen niemals zu Fehlern",
+              "Ja, sie resultieren aus mangelnder Intelligenz"
+            ],
+            "optionsEn": [
+              "Yes, they are always irrational",
+              "No, they are efficient strategies with context-specific weaknesses",
+              "No, they never lead to errors",
+              "Yes, they result from low intelligence"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Heuristiken sind adaptiv und in den meisten Alltagssituationen funktional. Sie führen in spezifischen Kontexten zu Biases – das macht sie nicht irrational, sondern kontextabhängig.",
+            "explanationEn": "Heuristics are adaptive and functional in most everyday situations. They lead to biases in specific contexts – that doesn't make them irrational, just context-dependent."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m03-l02",
+      "titleDe": "Verfügbarkeitsheuristik",
+      "titleEn": "Availability Heuristic",
+      "durationMin": 9,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Wir schätzen die Häufigkeit oder Wahrscheinlichkeit eines Ereignisses danach, wie leicht uns Beispiele dafür einfallen – nicht danach, wie oft es tatsächlich vorkommt.",
+        "body": [
+          "Sterben mehr Menschen durch Haiangriffe oder durch herabfallende Kokosnüsse? Die meisten schätzen Haiangriffe als gefährlicher ein. Tatsächlich töten Kokosnüsse statistisch deutlich mehr Menschen pro Jahr. Der Grund für diese Fehlschätzung ist die Verfügbarkeitsheuristik: Je lebhafter und leichter wir uns an ein Ereignis erinnern können, desto wahrscheinlicher erscheint es uns – unabhängig von der tatsächlichen Basisrate.",
+          "Kahneman und Tversky beschrieben 1973, wie Menschen zur Beurteilung von Häufigkeiten und Wahrscheinlichkeiten nicht auf gespeicherte Statistiken zurückgreifen, sondern darauf, wie gut sie sich Beispiele vorstellen können. Ereignisse, die emotional aufgeladen, bildreich, medial präsent oder persönlich erlebt wurden, sind kognitiv leichter abrufbar – und werden daher systematisch überschätzt.",
+          "Die praktischen Konsequenzen sind weitreichend: Flugreisen werden nach Flugzeugabstürzen in den Medien als deutlich gefährlicher eingeschätzt als Autofahrten – obwohl die Statistik das Gegenteil belegt. Risikowahrnehmung in der Bevölkerung und politische Reaktionen auf seltene, aber spektakuläre Ereignisse folgen oft der Verfügbarkeits-Logik statt Basisraten.",
+          "Besonders relevant wird dieser Effekt durch Medien und Social Media, die evolutionär neue, ungewöhnliche oder angstauslösende Inhalte bevorzugen. Das verzerrt kollektiv unsere Risikowahrnehmung: Seltenes wird als häufig erlebt, Häufiges – wie stille Risiken durch Bewegungsmangel – als weniger bedrohlich."
+        ],
+        "example": {
+          "title": "Kriminalitätsfurcht vs. Kriminalitätsstatistik",
+          "text": "In Ländern, in denen Kriminalität sinkt, steigt die subjektive Kriminalitätsfurcht oft gleichzeitig – weil intensive Medienberichterstattung über Einzelfälle die Verfügbarkeit von Verbrechenserrinnerungen erhöht, unabhängig von der tatsächlichen Häufigkeit."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1973,
+          "title": "Availability: A heuristic for judging frequency and probability",
+          "note": "Cognitive Psychology, 5(2), 207–232. Erstes systematisches Experiment zur Verfügbarkeitsheuristik – u. a. das berühmte Buchstabenexperiment: Sind Wörter mit K am Anfang oder an dritter Stelle häufiger?"
+        },
+        "fieldMission": {
+          "title": "Verfügbarkeits-Check",
+          "description": "Finde heute eine eigene Risikoeinschätzung (z. B. Skepsis gegenüber einem Stadtteil, Angst vor Flugreisen) und recherchiere kurz die tatsächliche Statistik dazu. Stimmt deine Einschätzung mit den Daten überein?"
+        }
+      },
+      "contentEn": {
+        "summary": "We estimate the frequency or probability of an event based on how easily examples come to mind – not on how often it actually occurs.",
+        "body": [
+          "Do more people die from shark attacks or falling coconuts? Most people guess shark attacks. In reality, coconuts kill statistically far more people per year. The reason for this misjudgment is the availability heuristic: the more vividly and easily we recall an event, the more likely it seems – regardless of actual base rates.",
+          "Kahneman and Tversky described in 1973 how people judge frequency and probability not by retrieving stored statistics, but by how easily they can imagine examples. Events that are emotionally charged, vivid, media-saturated, or personally experienced are more cognitively accessible – and are therefore systematically overestimated.",
+          "The practical consequences are far-reaching: air travel is perceived as far more dangerous than car travel after plane crashes appear in the media – even though statistics show the opposite. Public risk perception and political responses to rare but spectacular events often follow availability logic rather than base rates.",
+          "This effect is amplified by media and social media, which evolutionarily favor novel, unusual, or fear-inducing content. This collectively distorts our risk perception: rare things feel frequent, while common risks – such as physical inactivity – feel less threatening."
+        ],
+        "example": {
+          "title": "Fear of Crime vs. Crime Statistics",
+          "text": "In countries where crime is falling, subjective fear of crime often rises simultaneously – because intense media coverage of individual cases increases the availability of crime memories, independent of actual frequency."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1973,
+          "title": "Availability: A heuristic for judging frequency and probability",
+          "note": "Cognitive Psychology, 5(2), 207–232. The first systematic experiment on the availability heuristic – including the famous letter experiment: are words starting with K or having K in third position more common?"
+        },
+        "fieldMission": {
+          "title": "Availability Check",
+          "description": "Identify one of your own risk perceptions today (e.g., fear of flying, wariness of a neighborhood) and briefly look up the actual statistics. Does your estimate match the data?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Auf welcher Grundlage schätzen wir laut Verfügbarkeitsheuristik Häufigkeiten ein?",
+            "questionEn": "According to the availability heuristic, on what basis do we estimate frequencies?",
+            "optionsDe": [
+              "Auf Basis gespeicherter Statistiken",
+              "Auf Basis der emotionalen Valenz eines Ereignisses",
+              "Auf Basis der kognitiven Abrufbarkeit von Beispielen",
+              "Auf Basis logischer Wahrscheinlichkeitsberechnungen"
+            ],
+            "optionsEn": [
+              "Based on stored statistics",
+              "Based on the emotional valence of an event",
+              "Based on how easily examples come to mind",
+              "Based on logical probability calculations"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Die Verfügbarkeitsheuristik nutzt die kognitive Leichtigkeit des Abrufs als Proxy für Häufigkeit. Je schneller Beispiele einfallen, desto häufiger schätzen wir das Ereignis ein.",
+            "explanationEn": "The availability heuristic uses cognitive ease of retrieval as a proxy for frequency. The faster examples come to mind, the more frequent we judge an event to be."
+          },
+          {
+            "questionDe": "Warum überschätzen wir nach Medienberichten über Flugzeugabstürze das Risiko des Fliegens?",
+            "questionEn": "Why do we overestimate the risk of flying after media coverage of plane crashes?",
+            "optionsDe": [
+              "Weil Flugzeuge technisch unsicherer geworden sind",
+              "Weil wir mehr Zeit im Flugzeug verbringen",
+              "Weil Medienberichte die kognitive Verfügbarkeit von Absturzszenarien erhöhen",
+              "Weil Piloten schlechtere Ausbildung haben"
+            ],
+            "optionsEn": [
+              "Because airplanes have become technically unsafe",
+              "Because we spend more time on planes",
+              "Because media coverage increases the cognitive availability of crash scenarios",
+              "Because pilots receive poorer training"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Medienberichte erhöhen die Verfügbarkeit – also die mentale Abrufbarkeit – von Absturzszenarien, was zu einer Überschätzung des tatsächlichen Risikos führt.",
+            "explanationEn": "Media coverage increases the availability – i.e., mental accessibility – of crash scenarios, leading to overestimation of the actual risk."
+          },
+          {
+            "questionDe": "Welcher Faktor macht ein Ereignis kognitiv verfügbarer?",
+            "questionEn": "Which factor makes an event cognitively more available?",
+            "optionsDe": [
+              "Dass es statistisch häufig vorkommt",
+              "Dass es emotional aufgeladen, bildreich oder persönlich erlebt wurde",
+              "Dass es mathematisch komplex ist",
+              "Dass es von Experten bestätigt wurde"
+            ],
+            "optionsEn": [
+              "That it is statistically frequent",
+              "That it is emotionally charged, vivid, or personally experienced",
+              "That it is mathematically complex",
+              "That it was confirmed by experts"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Emotionale Aufladung, Bildhaftigkeit und persönliche Erfahrung sind die wichtigsten Treiber kognitiver Verfügbarkeit – unabhängig von der tatsächlichen statistischen Häufigkeit.",
+            "explanationEn": "Emotional charge, vividness, and personal experience are the main drivers of cognitive availability – independent of actual statistical frequency."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m03-l03",
+      "titleDe": "Repräsentativitätsheuristik",
+      "titleEn": "Representativeness Heuristic",
+      "durationMin": 10,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Wir urteilen darüber, ob etwas zu einer Kategorie gehört, danach wie typisch es für diese Kategorie wirkt – und ignorieren dabei systematisch die Basisrate.",
+        "body": [
+          "Stell dir vor, du liest folgende Beschreibung: Tom ist still, ordentlich, hat Sinn für Details und liebt Ordnung. Wenn du gefragt wirst, ob Tom eher Bibliothekar oder Bauer ist, tippen die meisten auf Bibliothekar. Das klingt plausibel – bis du weißt, dass es etwa 60-mal mehr Bauern als Bibliothekare gibt. Die Basisrate wird ignoriert, weil das Profil den Prototyp eines Bibliothekars repräsentiert.",
+          "Die Repräsentativitätsheuristik beschreibt dieses Muster: Wir beurteilen, wie wahrscheinlich es ist, dass etwas zu einer Kategorie gehört, indem wir es mit unserem mentalen Prototyp dieser Kategorie vergleichen. Je ähnlicher, desto wahrscheinlicher – unabhängig von der tatsächlichen Basisrate. Die Basisrate-Vernachlässigung (Base Rate Neglect) ist eine direkte Folge.",
+          "Kahneman und Tversky demonstrierten dies mit dem berühmten Linda-Problem: Linda ist 31, offen, sehr klug, hat Philosophie studiert und war als Studentin aktiv in der Antikernkraft-Bewegung engagiert. Was ist wahrscheinlicher: (A) Linda ist Bankangestellte, oder (B) Linda ist Bankangestellte und aktive Feministin? Die Mehrheit wählt (B) – obwohl das logisch unmöglich ist, da P(A∩B) immer ≤ P(A) gilt. Das nennt man den Konjunktionsfehler.",
+          "Praktische Konsequenzen zeigen sich in der Medizin (Ärzte übersehen seltene Diagnosen, weil das Symptombild nicht dem Prototyp entspricht), im Recruiting (Kandidaten werden danach bewertet, wie sehr sie dem mentalen Bild des idealen Mitarbeitenden ähneln) und in der Strafverfolgung (Zeugenbeschreibungen orientieren sich an Stereotypen statt an Erinnerungen)."
+        ],
+        "example": {
+          "title": "Das Linda-Problem",
+          "text": "85 % der Studierenden in Kahnemans Originalexperiment hielten 'Bankangestellte und Feministin' für wahrscheinlicher als 'Bankangestellte'. Logisch ist das unmöglich: Eine Konjunktion zweier Eigenschaften kann nie wahrscheinlicher sein als eine davon allein. Die Repräsentativität des Profils überschreibt die Logik."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1983,
+          "title": "Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment",
+          "note": "Psychological Review, 90(4), 293–315. Das Paper, das den Konjunktionsfehler und das Linda-Problem formalisierte und damit die Grenzen intuitiver Wahrscheinlichkeitsurteile etablierte."
+        },
+        "fieldMission": {
+          "title": "Stereotyp-Audit",
+          "description": "Denk an eine Person in deinem Umfeld, über die du eine schnelle Einschätzung hattest. Welche Prototyp-Merkmale haben dein Urteil gesteuert – und was weißt du tatsächlich über die relevante Basisrate?"
+        }
+      },
+      "contentEn": {
+        "summary": "We judge the probability that something belongs to a category based on how typical it seems for that category – systematically ignoring base rates in the process.",
+        "body": [
+          "Imagine you read the following description: Tom is quiet, tidy, detail-oriented, and loves order. If asked whether Tom is more likely a librarian or a farmer, most people guess librarian. That sounds plausible – until you learn there are roughly 60 times more farmers than librarians. The base rate is ignored because the profile represents the prototype of a librarian.",
+          "The representativeness heuristic describes this pattern: we judge how likely it is that something belongs to a category by comparing it to our mental prototype of that category. The more similar, the more probable – regardless of the actual base rate. Base rate neglect is a direct consequence.",
+          "Kahneman and Tversky demonstrated this with the famous Linda Problem: Linda is 31, outspoken, very bright, majored in philosophy, and as a student was deeply concerned with social justice issues. Which is more probable: (A) Linda is a bank teller, or (B) Linda is a bank teller and active feminist? The majority choose (B) – even though this is logically impossible, since P(A∩B) is always ≤ P(A). This is called the conjunction fallacy.",
+          "Practical consequences appear in medicine (doctors miss rare diagnoses because the symptom pattern doesn't match the prototype), in recruiting (candidates are evaluated by how closely they resemble the mental image of an ideal employee), and in law enforcement (witness descriptions follow stereotypes rather than memories)."
+        ],
+        "example": {
+          "title": "The Linda Problem",
+          "text": "85% of students in Kahneman's original experiment considered 'bank teller and feminist' more probable than 'bank teller.' Logically, this is impossible: a conjunction of two properties can never be more probable than either one alone. Representativeness of the profile overrides logic."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1983,
+          "title": "Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment",
+          "note": "Psychological Review, 90(4), 293–315. The paper formalizing the conjunction fallacy and the Linda Problem, establishing the limits of intuitive probability judgment."
+        },
+        "fieldMission": {
+          "title": "Stereotype Audit",
+          "description": "Think of someone in your life you formed a quick impression of. What prototype features drove your judgment – and what do you actually know about the relevant base rate?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist der Konjunktionsfehler?",
+            "questionEn": "What is the conjunction fallacy?",
+            "optionsDe": [
+              "Die Tendenz, Basisraten zu überschätzen",
+              "Die Annahme, dass zwei gemeinsam auftretende Merkmale wahrscheinlicher sind als eines allein",
+              "Die Verweigerung, Kategorien zu bilden",
+              "Die Neigung, statistische Informationen zu bevorzugen"
+            ],
+            "optionsEn": [
+              "The tendency to overestimate base rates",
+              "The assumption that two co-occurring features are more probable than one alone",
+              "The refusal to form categories",
+              "The tendency to favor statistical information"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Der Konjunktionsfehler entsteht, wenn man eine Kombination von Merkmalen für wahrscheinlicher hält als ein einzelnes Merkmal. Das ist logisch unmöglich: P(A∩B) ≤ P(A).",
+            "explanationEn": "The conjunction fallacy occurs when a combination of features is judged more probable than a single feature. This is logically impossible: P(A∩B) ≤ P(A)."
+          },
+          {
+            "questionDe": "Was wird bei der Repräsentativitätsheuristik typischerweise vernachlässigt?",
+            "questionEn": "What is typically neglected when applying the representativeness heuristic?",
+            "optionsDe": [
+              "Die emotionale Reaktion auf eine Person",
+              "Die Basisrate einer Kategorie in der Bevölkerung",
+              "Die äußere Erscheinung einer Person",
+              "Die persönliche Erfahrung des Urteilenden"
+            ],
+            "optionsEn": [
+              "The emotional reaction to a person",
+              "The base rate of a category in the population",
+              "A person's physical appearance",
+              "The personal experience of the judge"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Base Rate Neglect ist eine direkte Folge der Repräsentativitätsheuristik. Wir fokussieren uns auf die Ähnlichkeit zum Prototyp und berücksichtigen nicht, wie häufig eine Kategorie tatsächlich vorkommt.",
+            "explanationEn": "Base rate neglect is a direct consequence of the representativeness heuristic. We focus on similarity to a prototype rather than considering how frequent a category actually is."
+          },
+          {
+            "questionDe": "In welchem Berufsfeld kann Repräsentativitätsheuristik zur Übersehung seltener Diagnosen führen?",
+            "questionEn": "In which professional field can the representativeness heuristic lead to overlooking rare diagnoses?",
+            "optionsDe": [
+              "Architektur",
+              "Medizin",
+              "Buchhaltung",
+              "Logistik"
+            ],
+            "optionsEn": [
+              "Architecture",
+              "Medicine",
+              "Accounting",
+              "Logistics"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "In der Medizin führt die Repräsentativitätsheuristik dazu, dass Ärzte auf das typische Krankheitsbild fokussieren und atypische Diagnosen übersehen, die nicht dem Prototyp entsprechen.",
+            "explanationEn": "In medicine, the representativeness heuristic causes doctors to focus on the typical disease presentation and overlook atypical diagnoses that don't match the prototype."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m03-l04",
+      "titleDe": "Ankerheuristik",
+      "titleEn": "Anchoring Heuristic",
+      "durationMin": 10,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Bei Schätzungen werden wir unverhältnismäßig stark von einem anfänglichen Referenzwert beeinflusst – selbst wenn dieser Anker zufällig oder offensichtlich irrelevant ist.",
+        "body": [
+          "In einem klassischen Experiment von Tversky und Kahneman drehten Versuchspersonen zunächst ein Glücksrad, das entweder bei 10 oder bei 65 anhielt. Danach wurden sie gefragt, wie viel Prozent der afrikanischen Länder Mitglied der UN sind. Die Gruppe mit dem Anker 65 schätzte im Schnitt 45 % – die Gruppe mit Anker 10 schätzte 25 %. Das Rad war offensichtlich zufällig und irrelevant. Trotzdem beeinflusste es die Schätzung massiv.",
+          "Das Anker-Phänomen beschreibt die Tendenz, bei Schätzungen von einem ersten Wert auszugehen und sich dann nur unvollständig davon wegzubewegen. Das Gehirn behandelt den Anker als Ausgangspunkt und justiert schrittweise – aber die Justierung ist systematisch zu gering. Der initiale Wert bleibt überproportional einflussreich, egal ob er durch Kontext, Werbung, Verhandlungsführung oder Zufall gesetzt wurde.",
+          "Die wirtschaftlichen Anwendungen sind weitreichend: Preisverhandlungen werden vom ersten Angebot dominiert, Gehaltsverhandlungen von der ersten genannten Zahl, Verkaufspreise von durchgestrichenen Originalpreisen. Sogar Expertenurteile sind anfällig: Northcraft und Neale (1987) zeigten, dass Immobilienmakler, denen unterschiedliche Listenpreise gezeigt wurden, dasselbe Objekt mit erheblichen Abweichungen bewerteten.",
+          "Wenn selbst Fachleute in ihrer Kernkompetenz so stark ankern, ist der Effekt für Laien noch ausgeprägter. Das macht die Ankerheuristik zu einem der meistgenutzten Prinzipien im Verhandlungsmanagement, Pricing und Persuasion-Design – und zu einem der gefährlichsten, weil er unsichtbar wirkt."
+        ],
+        "example": {
+          "title": "Rabatt-Etiketten im Einzelhandel",
+          "text": "Ein Produkt mit dem Etikett '€199 statt €349' ankert den Verbraucher bei €349 als Referenzwert. Die eigentliche Qualitätsfrage – Ist es €199 wert? – wird nicht gestellt. Stattdessen wird der Rabatt bewertet. Die gesparte Differenz wird als Gewinn erlebt, obwohl der Originalpreis möglicherweise künstlich hoch gesetzt wurde."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157), 1124–1131. Das Glücksrad-Experiment zur Ankerheuristik ist Teil dieses Papers und eines der bekanntesten Demonstrationsbeispiele für unbewusste kognitive Beeinflussung durch Referenzwerte."
+        },
+        "fieldMission": {
+          "title": "Anker entlarven",
+          "description": "Beobachte heute beim Online-Shopping oder einer Preissituation, welcher erste Wert als Anker gesetzt wird. Frage dich: Würde ich denselben Preis als fair empfinden, wenn ich ohne diesen Anker gestartet wäre?"
+        }
+      },
+      "contentEn": {
+        "summary": "When making estimates, we are disproportionately influenced by an initial reference value – even when that anchor is random or obviously irrelevant.",
+        "body": [
+          "In a classic experiment by Tversky and Kahneman, participants first spun a wheel of fortune that stopped at either 10 or 65. They were then asked what percentage of African countries are UN members. The group with the anchor of 65 estimated 45% on average – the group with anchor 10 estimated 25%. The wheel was clearly random and irrelevant. Yet it massively influenced the estimate.",
+          "The anchoring phenomenon describes the tendency to start from an initial value when making estimates and then adjust insufficiently away from it. The brain treats the anchor as a starting point and adjusts incrementally – but the adjustment is systematically too small. The initial value remains disproportionately influential, regardless of whether it was set by context, advertising, negotiation, or chance.",
+          "The economic applications are far-reaching: price negotiations are dominated by the first offer, salary negotiations by the first number mentioned, sale prices by crossed-out original prices. Even expert judgments are susceptible: Northcraft and Neale (1987) showed that real estate agents shown different listing prices evaluated the same property with substantial deviations.",
+          "If professionals are so strongly anchored in their core domain, the effect for laypeople is even more pronounced. This makes the anchoring heuristic one of the most widely used principles in negotiation management, pricing, and persuasion design – and one of the most dangerous, because it operates invisibly."
+        ],
+        "example": {
+          "title": "Discount Labels in Retail",
+          "text": "A product labeled '€199 instead of €349' anchors the consumer at €349 as a reference point. The actual quality question – is it worth €199? – is never asked. Instead, the discount is evaluated. The saved difference is experienced as a gain, even though the original price may have been artificially inflated."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157), 1124–1131. The wheel-of-fortune experiment on anchoring is part of this paper and one of the most famous demonstrations of unconscious cognitive influence through reference values."
+        },
+        "fieldMission": {
+          "title": "Spot the Anchor",
+          "description": "While online shopping or in a pricing situation today, identify which initial value is being set as an anchor. Ask yourself: would I perceive the same price as fair if I had started without this anchor?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was zeigte das Glücksrad-Experiment von Tversky und Kahneman?",
+            "questionEn": "What did Tversky and Kahneman's wheel-of-fortune experiment show?",
+            "optionsDe": [
+              "Dass Menschen bei Glücksspielen systematisch überschätzen",
+              "Dass ein zufälliger, irrelevanter Wert nachfolgende Schätzungen beeinflusst",
+              "Dass Zahlen durch Lottospiele besser erinnert werden",
+              "Dass Zahlenreihen immer zum Mittelwert tendieren"
+            ],
+            "optionsEn": [
+              "That people systematically overestimate in gambling",
+              "That a random, irrelevant number influences subsequent estimates",
+              "That numbers are better remembered through lottery games",
+              "That number sequences always tend toward the mean"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Das Glücksrad setzte einen zufälligen Anker (10 oder 65), der die Schätzung zu einer völlig unabhängigen Frage (UN-Mitglieder) systematisch beeinflusste – obwohl alle Teilnehmenden wussten, dass das Rad irrelevant war.",
+            "explanationEn": "The wheel set a random anchor (10 or 65) that systematically influenced estimates on a completely unrelated question (UN members) – even though all participants knew the wheel was irrelevant."
+          },
+          {
+            "questionDe": "Warum ist die Justierung vom Anker weg typischerweise zu gering?",
+            "questionEn": "Why is the adjustment away from an anchor typically insufficient?",
+            "optionsDe": [
+              "Weil Menschen grundsätzlich fauler werden",
+              "Weil das Gehirn den Anker als Ausgangspunkt behandelt und nur schrittweise anpasst",
+              "Weil Anker immer korrekte Ausgangspunkte sind",
+              "Weil Zahlen im Arbeitsgedächtnis nicht gespeichert werden"
+            ],
+            "optionsEn": [
+              "Because people generally become lazier",
+              "Because the brain treats the anchor as a starting point and only adjusts incrementally",
+              "Because anchors are always correct starting points",
+              "Because numbers are not stored in working memory"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Das Gehirn startet die Schätzung beim Anker und bewegt sich schrittweise. Da dieser Prozess kognitiv aufwändig ist, wird die Anpassung zu früh gestoppt – der Anker bleibt überproportional wirksam.",
+            "explanationEn": "The brain starts estimation at the anchor and moves incrementally. Since this process is cognitively demanding, adjustment stops too early – the anchor remains disproportionately influential."
+          },
+          {
+            "questionDe": "Welche Situation nutzt die Ankerheuristik gezielt aus?",
+            "questionEn": "Which situation deliberately exploits the anchoring heuristic?",
+            "optionsDe": [
+              "Ein Arzt, der eine Diagnose stellt",
+              "Ein Verkäufer, der einen hohen Eröffnungspreis in einer Verhandlung nennt",
+              "Ein Schüler, der eine Mathematikaufgabe löst",
+              "Ein Entwickler, der einen Bug behebt"
+            ],
+            "optionsEn": [
+              "A doctor making a diagnosis",
+              "A salesperson stating a high opening price in a negotiation",
+              "A student solving a math problem",
+              "A developer fixing a bug"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Ein hohes Eröffnungsangebot in einer Verhandlung setzt den Anker und verschiebt den Verhandlungsrahmen systematisch in Richtung des Verkäufers – das ist eine bewusste Anwendung der Ankerheuristik.",
+            "explanationEn": "A high opening offer in a negotiation sets the anchor and systematically shifts the negotiation frame in the seller's favor – this is a deliberate application of the anchoring heuristic."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m03-l05",
+      "titleDe": "Affektheuristik & Urteile im Alltag",
+      "titleEn": "Affect Heuristic & Everyday Judgment",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Emotionale Erstreaktion dient als schnelle Heuristik für komplexe Urteile – wir urteilen nicht nur mit dem Kopf, sondern durch das Gefühl, das etwas auslöst.",
+        "body": [
+          "Was wäre, wenn unsere Risikoeinschätzungen weniger von rationaler Analyse abhängen als von einem einzigen Signal: Wie fühlt sich das an? Paul Slovic und Kollegen beschrieben die Affektheuristik als mentale Abkürzung, bei der positive oder negative Gefühlsreaktionen auf eine Person, ein Objekt oder eine Situation als Grundlage für komplexe Urteile dienen – über Risiken, Nutzen und Handlungsoptionen.",
+          "Besonders aufschlussreich ist die Risiko-Nutzen-Korrelation: Wenn wir eine Technologie mögen, tendieren wir dazu, ihre Risiken als gering und ihren Nutzen als hoch einzuschätzen. Wenn wir sie ablehnen, kehrt sich das um. Slovic zeigte, dass diese Einschätzungen sich kohärent verschieben, wenn die emotionale Reaktion manipuliert wird – auch ohne neue sachliche Informationen. Affekt und Urteil sind nicht getrennt, sondern verschränkt.",
+          "Die Affektheuristik ist damit nicht nur eine Ergänzung zu rationalen Urteilen – sie kann sie ersetzen. In zeitkritischen, informationsarmen oder emotional belastenden Situationen übernimmt die affektive Reaktion die Steuerung. Das ist evolutionär sinnvoll (Angst vor Schlangen war überlebensrelevant), in modernen Risikoumgebungen aber oft dysfunktional.",
+          "Für UX-Design, Marketing und Kommunikation ist dieser Effekt zentral: Ästhetik, Tonalität, Bildsprache und Markenassoziationen aktivieren Affekte, die dann auf Urteile über Qualität, Glaubwürdigkeit und Risiken übertragen werden. Das erklärt, warum ein schlecht gestaltetes Interface als weniger vertrauenswürdig gilt – unabhängig von der tatsächlichen Funktionalität."
+        ],
+        "example": {
+          "title": "Impfkommunikation und Affekt",
+          "text": "Impfkampagnen, die auf Angst setzen (z. B. Bilder von kranken Kindern), erzeugen kurzfristig hohe Impfbereitschaft – können aber bei bestimmten Zielgruppen Reaktanz auslösen, die langfristig zu Ablehnung führt. Der falsche emotionale Ton kann durch die Affektheuristik das Gegenteil des Gewünschten bewirken."
+        },
+        "reference": {
+          "author": "Slovic, P., Finucane, M. L., Peters, E. & MacGregor, D. G.",
+          "year": 2007,
+          "title": "The affect heuristic",
+          "note": "European Journal of Operational Research, 177(3), 1333–1352. Zusammenfassung der Evidenz zur Affektheuristik als zentralem Mechanismus in Risikowahrnehmung und Entscheidungsfindung."
+        },
+        "fieldMission": {
+          "title": "Affekt-Protokoll",
+          "description": "Wenn du heute eine Entscheidung triffst (Kauf, Zustimmung, Ablehnung), notiere kurz: Welches Gefühl hatte ich zuerst – und hat es mein Urteil gesteuert, bevor ich bewusst nachgedacht habe?"
+        }
+      },
+      "contentEn": {
+        "summary": "Emotional first reactions serve as a quick heuristic for complex judgments – we don't just reason with our heads, but through the feeling something triggers.",
+        "body": [
+          "What if our risk assessments depend less on rational analysis than on a single signal: how does this feel? Paul Slovic and colleagues described the affect heuristic as a mental shortcut in which positive or negative emotional reactions to a person, object, or situation serve as the basis for complex judgments – about risks, benefits, and options.",
+          "Particularly revealing is the risk-benefit correlation: if we like a technology, we tend to judge its risks as low and its benefits as high. If we oppose it, the reverse holds. Slovic showed that these judgments shift coherently when the emotional reaction is manipulated – even without any new factual information. Affect and judgment are not separate but intertwined.",
+          "The affect heuristic is therefore not merely a supplement to rational judgment – it can replace it. In time-pressured, information-poor, or emotionally taxing situations, the affective response takes over. This is evolutionarily sensible (fear of snakes was survival-relevant), but often dysfunctional in modern risk environments.",
+          "For UX design, marketing, and communication, this effect is central: aesthetics, tone, imagery, and brand associations activate affects that transfer to judgments about quality, credibility, and risk. This explains why a poorly designed interface is perceived as less trustworthy – independent of its actual functionality."
+        ],
+        "example": {
+          "title": "Vaccination Communication and Affect",
+          "text": "Vaccination campaigns using fear appeals (e.g., images of sick children) can generate high short-term vaccination intent – but may trigger reactance in certain audiences, leading to long-term rejection. Through the affect heuristic, the wrong emotional tone can produce the opposite of the intended effect."
+        },
+        "reference": {
+          "author": "Slovic, P., Finucane, M. L., Peters, E. & MacGregor, D. G.",
+          "year": 2007,
+          "title": "The affect heuristic",
+          "note": "European Journal of Operational Research, 177(3), 1333–1352. Comprehensive review of evidence for the affect heuristic as a central mechanism in risk perception and decision-making."
+        },
+        "fieldMission": {
+          "title": "Affect Log",
+          "description": "When you make a decision today (purchase, approval, rejection), briefly note: what feeling did I have first – and did it steer my judgment before I had consciously thought it through?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist die Kernaussage der Affektheuristik nach Slovic?",
+            "questionEn": "What is the core claim of the affect heuristic according to Slovic?",
+            "optionsDe": [
+              "Emotionen verzerren ausschließlich negative Urteile",
+              "Emotionale Reaktionen dienen als schnelle Grundlage für komplexe Urteile über Risiken und Nutzen",
+              "Rationale Analyse ist immer schneller als emotionale Reaktion",
+              "Affekte wirken nur bei Menschen ohne Fachkenntnisse"
+            ],
+            "optionsEn": [
+              "Emotions only distort negative judgments",
+              "Emotional reactions serve as a quick basis for complex judgments about risks and benefits",
+              "Rational analysis is always faster than emotional reaction",
+              "Affects only operate in people without domain knowledge"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Die Affektheuristik beschreibt, wie emotionale Erstreaktion als Proxy für komplexe analytische Urteile dient – und diese in vielen Situationen vollständig ersetzt, nicht nur ergänzt.",
+            "explanationEn": "The affect heuristic describes how emotional first response serves as a proxy for complex analytical judgments – and in many situations fully replaces rather than just supplements them."
+          },
+          {
+            "questionDe": "Was zeigt die Risiko-Nutzen-Korrelation in Slovics Forschung?",
+            "questionEn": "What does the risk-benefit correlation in Slovic's research show?",
+            "optionsDe": [
+              "Dass hohe Risiken immer mit hohem Nutzen verbunden sind",
+              "Dass emotionale Einstellung gegenüber einer Technologie sowohl Risiko- als auch Nutzenbewertung kohärent beeinflusst",
+              "Dass Risikowahrnehmung unabhängig von Affekten ist",
+              "Dass Nutzen immer rationaler beurteilt wird als Risiko"
+            ],
+            "optionsEn": [
+              "That high risks are always associated with high benefits",
+              "That emotional attitude toward a technology coherently influences both risk and benefit assessments",
+              "That risk perception is independent of affect",
+              "That benefits are always judged more rationally than risks"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Slovic zeigte, dass Menschen, die eine Technologie mögen, gleichzeitig ihren Nutzen hoch und ihr Risiko gering einschätzen – und umgekehrt. Diese Kohärenz wird durch den Affekt erzeugt, nicht durch sachliche Analyse.",
+            "explanationEn": "Slovic showed that people who like a technology simultaneously rate its benefit as high and its risk as low – and vice versa. This coherence is produced by affect, not factual analysis."
+          },
+          {
+            "questionDe": "Wie erklärt die Affektheuristik, warum schlecht gestaltete Interfaces als weniger vertrauenswürdig gelten?",
+            "questionEn": "How does the affect heuristic explain why poorly designed interfaces are perceived as less trustworthy?",
+            "optionsDe": [
+              "Weil schlechtes Design technische Fehler signalisiert",
+              "Weil negatives ästhetisches Empfinden auf Urteile über Qualität und Vertrauenswürdigkeit übertragen wird",
+              "Weil Nutzer bewusst Designqualität mit Funktionalität verknüpfen",
+              "Weil Farben direkte Botschaften über Sicherheit senden"
+            ],
+            "optionsEn": [
+              "Because poor design signals technical errors",
+              "Because negative aesthetic feelings transfer to judgments about quality and trustworthiness",
+              "Because users consciously link design quality with functionality",
+              "Because colors send direct messages about safety"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Die negative affektive Reaktion auf schlechtes Design wird via Affektheuristik auf Urteile über Glaubwürdigkeit, Qualität und Risiko übertragen – unabhängig von der tatsächlichen Funktionalität des Systems.",
+            "explanationEn": "The negative affective reaction to poor design is transferred via the affect heuristic to judgments about credibility, quality, and risk – independent of the system's actual functionality."
+          }
+        ]
+      }
+    }
+  ]
+}
