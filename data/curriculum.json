@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "modules": [
+    {
+      "id": "module-01",
+      "file": "data/module-01.json",
+      "titleDe": "Dual Process Theory",
+      "titleEn": "Dual Process Theory",
+      "descriptionDe": "Wie dein Gehirn Entscheidungen trifft — und warum es dabei oft irrt.",
+      "descriptionEn": "How your brain makes decisions — and why it often gets them wrong.",
+      "icon": "⚡",
+      "lessonCount": 5,
+      "estimatedHours": 0.65
+    },
+    {
+      "id": "module-02",
+      "file": "data/module-02.json",
+      "titleDe": "Kognitive Verzerrungen",
+      "titleEn": "Cognitive Biases",
+      "descriptionDe": "Die systematischen Fehler, die dein Gehirn immer wieder macht.",
+      "descriptionEn": "The systematic errors your brain makes, over and over.",
+      "icon": "🔀",
+      "lessonCount": 5,
+      "estimatedHours": 0.7,
+      "lockedUntil": { "moduleId": "module-01", "pct": 60 }
+    },
+    {
+      "id": "module-03",
+      "file": "data/module-03.json",
+      "titleDe": "Heuristiken & Urteil",
+      "titleEn": "Heuristics & Judgment",
+      "descriptionDe": "Mentale Abkürzungen — nützlich und gefährlich.",
+      "descriptionEn": "Mental shortcuts — useful and dangerous.",
+      "icon": "🎯",
+      "lessonCount": 5,
+      "estimatedHours": 0.7,
+      "lockedUntil": { "moduleId": "module-02", "pct": 60 }
+    },
+    {
+      "id": "module-04",
+      "file": "data/module-04.json",
+      "titleDe": "Prospect Theory",
+      "titleEn": "Prospect Theory",
+      "descriptionDe": "Warum Verluste doppelt so schwer wiegen wie Gewinne.",
+      "descriptionEn": "Why losses hurt twice as much as gains feel good.",
+      "icon": "📉",
+      "lessonCount": 5,
+      "estimatedHours": 0.75,
+      "lockedUntil": { "moduleId": "module-03", "pct": 60 }
+    },
+    {
+      "id": "module-05",
+      "file": "data/module-05.json",
+      "titleDe": "Sozialer Einfluss",
+      "titleEn": "Social Influence",
+      "descriptionDe": "Wie andere Menschen dein Verhalten formen — ohne dass du es merkst.",
+      "descriptionEn": "How other people shape your behavior — without you noticing.",
+      "icon": "👥",
+      "lessonCount": 5,
+      "estimatedHours": 0.7,
+      "lockedUntil": { "moduleId": "module-04", "pct": 60 }
+    },
+    {
+      "id": "module-06",
+      "file": "data/module-06.json",
+      "titleDe": "Nudging & Choice Architecture",
+      "titleEn": "Nudging & Choice Architecture",
+      "descriptionDe": "Wie Entscheidungsumgebungen Verhalten steuern.",
+      "descriptionEn": "How decision environments drive behavior.",
+      "icon": "🏗",
+      "lessonCount": 5,
+      "estimatedHours": 0.7,
+      "lockedUntil": { "moduleId": "module-05", "pct": 60 }
+    },
+    {
+      "id": "module-07",
+      "file": "data/module-07.json",
+      "titleDe": "Gewohnheiten & Wandel",
+      "titleEn": "Habits & Behavior Change",
+      "descriptionDe": "Wie Gewohnheiten entstehen und wie du sie gezielt veränderst.",
+      "descriptionEn": "How habits form and how to change them deliberately.",
+      "icon": "🔄",
+      "lessonCount": 5,
+      "estimatedHours": 0.75,
+      "lockedUntil": { "moduleId": "module-06", "pct": 60 }
+    },
+    {
+      "id": "module-08",
+      "file": "data/module-08.json",
+      "titleDe": "Angewandte Behavioral Science",
+      "titleEn": "Applied Behavioral Science",
+      "descriptionDe": "Vom Konzept zur Praxis — in Design, Marketing und Alltag.",
+      "descriptionEn": "From concept to practice — in design, marketing, and everyday life.",
+      "icon": "🛠",
+      "lessonCount": 5,
+      "estimatedHours": 0.8,
+      "lockedUntil": { "moduleId": "module-07", "pct": 60 }
+    }
+  ]
+}
