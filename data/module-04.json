@@ -1,0 +1,580 @@
+{
+  "id": "module-04",
+  "titleDe": "Prospect Theory & Verlustaversion",
+  "titleEn": "Prospect Theory & Loss Aversion",
+  "descriptionDe": "Warum Verluste doppelt so stark schmerzen wie gleich große Gewinne uns freuen – und wie das unsere Entscheidungen unter Risiko systematisch verzerrt.",
+  "descriptionEn": "Why losses hurt roughly twice as much as equivalent gains feel good – and how that systematically distorts decisions under risk.",
+  "icon": "📉",
+  "lessons": [
+    {
+      "id": "m04-l01",
+      "titleDe": "Was ist Prospect Theory?",
+      "titleEn": "What Is Prospect Theory?",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Prospect Theory ist das einflussreichste deskriptive Modell für Entscheidungen unter Risiko – und zeigt, warum Menschen systematisch anders entscheiden, als klassische Wirtschaftstheorie vorhersagt.",
+        "body": [
+          "Die klassische Erwartungsnutzentheorie (Expected Utility Theory) geht davon aus, dass Menschen bei Entscheidungen unter Risiko den gewichteten Durchschnitt aller möglichen Ergebnisse berechnen und die Option mit dem höchsten Erwartungsnutzen wählen. Das klingt rational – aber es beschreibt nicht, wie Menschen tatsächlich entscheiden. 1979 publizierten Kahneman und Tversky Prospect Theory als empirisch begründetes Gegenmodell.",
+          "Prospect Theory beruht auf drei Kernbeobachtungen: Erstens beurteilen Menschen Ergebnisse nicht in absoluten Größen, sondern als Gewinne oder Verluste relativ zu einem Referenzpunkt. Zweitens sind sie im Gewinnbereich risikoavers, im Verlustbereich dagegen risikofreudig. Drittens gewichten sie Wahrscheinlichkeiten nicht linear – kleine Wahrscheinlichkeiten werden überschätzt, mittlere und hohe unterschätzt.",
+          "Das Modell beschreibt eine S-förmige Wertefunktion: Im Gewinnbereich steigt sie konkav (jeder zusätzliche Gewinn bringt weniger Zusatzfreude), im Verlustbereich fällt sie konvex (jeder zusätzliche Verlust schmerzt weniger als der erste). Entscheidend: Die Kurve ist im Verlustbereich steiler als im Gewinnbereich – Verluste wiegen subjektiv schwerer als gleich große Gewinne.",
+          "Kahneman erhielt 2002 den Wirtschaftsnobelpreis für diese Arbeit – Tversky war 1996 bereits verstorben und kam dafür nicht in Frage. Der Einfluss der Prospect Theory reicht von Verhaltensökonomie über Public Policy bis zu UX-Design und Marketingstrategie: Wer versteht, wie Menschen Gewinne und Verluste wahrnehmen, kann Entscheidungsarchitekturen gezielt gestalten."
+        ],
+        "example": {
+          "title": "Zwei Lotterien, ein Widerspruch",
+          "text": "Sicher €900 erhalten oder 90 % Chance auf €1.000? Die meisten wählen die sichere Option (Risikoaversion im Gewinnbereich). Sicher €900 verlieren oder 90 % Chance auf €1.000 Verlust? Jetzt wählen die meisten die Lotterie (Risikofreude im Verlustbereich). Erwartungswert ist identisch – das Verhalten nicht."
+        },
+        "reference": {
+          "author": "Kahneman, D. & Tversky, A.",
+          "year": 1979,
+          "title": "Prospect Theory: An Analysis of Decision under Risk",
+          "note": "Econometrica, 47(2), 263–291. Eines der meistzitierten Papers der Wirtschaftswissenschaften. Begründete die Verhaltensökonomie als eigenständiges Forschungsfeld und lieferte das erste empirisch valide Modell für Entscheidungen unter Risiko."
+        },
+        "fieldMission": {
+          "title": "Gewinn vs. Verlust-Framing",
+          "description": "Formuliere dasselbe Angebot heute einmal als Gewinn ('Du sparst €50') und einmal als Verlust ('Du verlierst €50, wenn du nicht handelst') – und beobachte, wie unterschiedlich es sich anfühlt."
+        }
+      },
+      "contentEn": {
+        "summary": "Prospect Theory is the most influential descriptive model of decision-making under risk – showing why people systematically decide differently than classical economic theory predicts.",
+        "body": [
+          "Classical Expected Utility Theory assumes that people making decisions under risk calculate the weighted average of all possible outcomes and choose the option with the highest expected utility. That sounds rational – but it does not describe how people actually decide. In 1979, Kahneman and Tversky published Prospect Theory as an empirically grounded alternative model.",
+          "Prospect Theory rests on three core observations: first, people evaluate outcomes not in absolute terms, but as gains or losses relative to a reference point. Second, they are risk-averse in the domain of gains but risk-seeking in the domain of losses. Third, they weight probabilities nonlinearly – small probabilities are overweighted, medium and high probabilities underweighted.",
+          "The model describes an S-shaped value function: in the gain domain it rises concavely (each additional gain brings diminishing additional pleasure), in the loss domain it falls convexly (each additional loss hurts less than the first). Crucially, the curve is steeper in the loss domain than in the gain domain – losses weigh subjectively heavier than equivalent gains.",
+          "Kahneman received the 2002 Nobel Prize in Economics for this work – Tversky had passed away in 1996 and was ineligible. The influence of Prospect Theory extends from behavioral economics and public policy to UX design and marketing strategy: understanding how people perceive gains and losses enables deliberate design of decision architectures."
+        ],
+        "example": {
+          "title": "Two Lotteries, One Contradiction",
+          "text": "Receive €900 for certain, or a 90% chance of €1,000? Most choose the certain option (risk aversion in the gain domain). Lose €900 for certain, or a 90% chance of losing €1,000? Now most choose the lottery (risk seeking in the loss domain). Expected value is identical – behavior is not."
+        },
+        "reference": {
+          "author": "Kahneman, D. & Tversky, A.",
+          "year": 1979,
+          "title": "Prospect Theory: An Analysis of Decision under Risk",
+          "note": "Econometrica, 47(2), 263–291. One of the most cited papers in economics. Founded behavioral economics as a research field and provided the first empirically valid model for decisions under risk."
+        },
+        "fieldMission": {
+          "title": "Gain vs. Loss Framing",
+          "description": "Frame the same offer today first as a gain ('You save €50') and then as a loss ('You lose €50 if you don't act') – and notice how differently each version feels."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist der zentrale Unterschied zwischen Prospect Theory und klassischer Erwartungsnutzentheorie?",
+            "questionEn": "What is the key difference between Prospect Theory and classical Expected Utility Theory?",
+            "optionsDe": [
+              "Prospect Theory berücksichtigt keine Wahrscheinlichkeiten",
+              "Prospect Theory beschreibt, wie Menschen tatsächlich entscheiden, nicht wie sie es rational sollten",
+              "Klassische Theorie erklärt Verlustverhalten besser",
+              "Prospect Theory gilt nur für finanzielle Entscheidungen"
+            ],
+            "optionsEn": [
+              "Prospect Theory ignores probabilities",
+              "Prospect Theory describes how people actually decide, not how they rationally should",
+              "Classical theory explains loss behavior better",
+              "Prospect Theory only applies to financial decisions"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Prospect Theory ist ein deskriptives Modell – es beschreibt beobachtbares Verhalten. Erwartungsnutzentheorie ist normativ – sie beschreibt, wie rationale Akteure entscheiden sollten. Beide Ansätze kommen zu anderen Vorhersagen.",
+            "explanationEn": "Prospect Theory is a descriptive model – it describes observable behavior. Expected utility theory is normative – it describes how rational agents should decide. Both approaches yield different predictions."
+          },
+          {
+            "questionDe": "Wie verhält sich die Wertefunktion der Prospect Theory im Gewinnbereich?",
+            "questionEn": "How does the value function of Prospect Theory behave in the gain domain?",
+            "optionsDe": [
+              "Linear ansteigend",
+              "Konvex ansteigend",
+              "Konkav ansteigend",
+              "Gleichbleibend"
+            ],
+            "optionsEn": [
+              "Linearly increasing",
+              "Convexly increasing",
+              "Concavely increasing",
+              "Constant"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Im Gewinnbereich ist die Wertefunktion konkav – jeder zusätzliche Gewinn bringt weniger zusätzlichen Nutzen als der vorherige. Das erklärt Risikoaversion im Gewinnbereich.",
+            "explanationEn": "In the gain domain, the value function is concave – each additional gain brings less additional utility than the previous one. This explains risk aversion in the gain domain."
+          },
+          {
+            "questionDe": "Wer erhielt 2002 den Nobelpreis für die Entwicklung der Prospect Theory?",
+            "questionEn": "Who received the 2002 Nobel Prize for developing Prospect Theory?",
+            "optionsDe": [
+              "Amos Tversky",
+              "Richard Thaler",
+              "Daniel Kahneman",
+              "Cass Sunstein"
+            ],
+            "optionsEn": [
+              "Amos Tversky",
+              "Richard Thaler",
+              "Daniel Kahneman",
+              "Cass Sunstein"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Daniel Kahneman erhielt den Preis. Amos Tversky, der Mitautor der Prospect Theory, war 1996 verstorben – der Nobelpreis wird nicht posthum verliehen. Richard Thaler erhielt seinen Nobelpreis 2017 für Mental Accounting und Nudging.",
+            "explanationEn": "Daniel Kahneman received the prize. Amos Tversky, co-author of Prospect Theory, had died in 1996 – the Nobel Prize is not awarded posthumously. Richard Thaler received his prize in 2017 for mental accounting and nudging."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m04-l02",
+      "titleDe": "Verlustaversion",
+      "titleEn": "Loss Aversion",
+      "durationMin": 9,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Verluste schmerzen subjektiv etwa doppelt so stark, wie gleich große Gewinne Freude bereiten – dieser asymmetrische Effekt ist einer der robustesten Befunde der Verhaltensökonomie.",
+        "body": [
+          "Wenn du €100 verlierst, wie viel müsstest du gewinnen, damit sich das emotional ausgleicht? In Experimenten nennen die meisten Menschen Beträge zwischen €150 und €250. Der Verlust-Gewinn-Koeffizient λ liegt in der Regel bei etwa 2 – Verluste werden rund doppelt so stark gewichtet wie gleich große Gewinne. Dieses Phänomen nennt sich Verlustaversion.",
+          "Verlustaversion erklärt eine Vielzahl scheinbar irrationaler Verhaltensweisen: Anleger halten Aktien mit Verlust länger als solche mit Gewinn (Disposition Effect), Hausbesitzer verkaufen unter ihrem ursprünglichen Kaufpreis ungern (selbst wenn der Marktpreis gesunken ist), und Arbeitnehmer reagieren stärker auf Gehaltskürzungen als auf ausbleibende Gehaltserhöhungen gleichen Ausmaßes.",
+          "Ein verwandter Effekt ist der Endowment Effect: Menschen verlangen für den Verkauf eines Objekts, das sie besitzen, deutlich mehr, als sie bereit wären, dafür zu zahlen. Thaler demonstrierte dies mit Kaffeetassen – Besitzer wollten im Schnitt das Doppelte des Betrags, den Nicht-Besitzer zu zahlen bereit waren. Das Objekt hat denselben objektiven Wert, aber der potenzielle Verlust des Besitzes wiegt schwerer als der Gewinn des Erwerbs.",
+          "Für Design und Kommunikation hat Verlustaversion direkte Implikationen: Botschaften, die einen Verlust hervorheben ('Was du verpasst, wenn du nicht handelst'), sind in vielen Kontexten wirkungsvoller als solche, die einen Gewinn versprechen. Das erklärt, warum 'Letzte Chance'- und 'Nur noch 3 verfügbar'-Formulierungen so effektiv sind – sie aktivieren Verlustaversion gezielt."
+        ],
+        "example": {
+          "title": "Der Endowment Effect mit Kaffeetassen",
+          "text": "In Thalers klassischem Experiment erhielten zufällig ausgewählte Studierende eine Kaffeetasse. Die Besitzer wollten sie im Schnitt für ~€7 verkaufen. Nicht-Besitzer boten im Schnitt ~€3,50. Gleiche Tasse, gleicher Moment – aber der potenzielle Verlust des Besitzes verdoppelte den subjektiven Wert."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1991,
+          "title": "Loss Aversion in Riskless Choice: A Reference-Dependent Model",
+          "note": "Quarterly Journal of Economics, 106(4), 1039–1061. Formalisierung der Verlustaversion für risikofreie Entscheidungen und Einführung des Koeffizienten λ ≈ 2 als empirischer Schätzwert."
+        },
+        "fieldMission": {
+          "title": "Dein persönliches λ",
+          "description": "Stell dir vor, du verlierst €50. Welchen Gewinnbetrag bräuchtest du, damit sich das emotional ausgleicht? Notiere den Faktor – das ist dein persönlicher Verlust-Gewinn-Koeffizient."
+        }
+      },
+      "contentEn": {
+        "summary": "Losses hurt subjectively about twice as much as equivalent gains feel good – this asymmetric effect is one of the most robust findings in behavioral economics.",
+        "body": [
+          "If you lose €100, how much would you need to gain for it to feel emotionally balanced? In experiments, most people name amounts between €150 and €250. The loss-gain coefficient λ is typically around 2 – losses are weighted roughly twice as heavily as equivalent gains. This phenomenon is called loss aversion.",
+          "Loss aversion explains a wide range of seemingly irrational behaviors: investors hold loss-making stocks longer than profitable ones (disposition effect), homeowners are reluctant to sell below their original purchase price even when market prices have fallen, and employees react more strongly to pay cuts than to foregone raises of equal magnitude.",
+          "A related effect is the endowment effect: people demand considerably more to sell an object they own than they would be willing to pay to acquire it. Thaler demonstrated this with coffee mugs – owners wanted on average double the amount non-owners were willing to pay. The object has the same objective value, but the potential loss of ownership weighs heavier than the gain of acquisition.",
+          "For design and communication, loss aversion has direct implications: messages that highlight a loss ('what you miss out on if you don't act') are more effective in many contexts than those promising a gain. This explains why 'last chance' and 'only 3 left' formulations are so effective – they deliberately activate loss aversion."
+        ],
+        "example": {
+          "title": "The Endowment Effect with Coffee Mugs",
+          "text": "In Thaler's classic experiment, randomly selected students received a coffee mug. Owners wanted on average ~€7 to sell it. Non-owners offered on average ~€3.50. Same mug, same moment – but the potential loss of ownership doubled the subjective value."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1991,
+          "title": "Loss Aversion in Riskless Choice: A Reference-Dependent Model",
+          "note": "Quarterly Journal of Economics, 106(4), 1039–1061. Formalization of loss aversion for risk-free decisions and introduction of the coefficient λ ≈ 2 as an empirical estimate."
+        },
+        "fieldMission": {
+          "title": "Your Personal λ",
+          "description": "Imagine losing €50. What gain amount would you need for it to feel emotionally balanced? Note the factor – that is your personal loss-gain coefficient."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was beschreibt der Verlust-Gewinn-Koeffizient λ ≈ 2?",
+            "questionEn": "What does the loss-gain coefficient λ ≈ 2 describe?",
+            "optionsDe": [
+              "Dass Verluste doppelt so wahrscheinlich sind wie Gewinne",
+              "Dass Verluste subjektiv etwa doppelt so stark gewichtet werden wie gleich große Gewinne",
+              "Dass Menschen bei Verlusten doppelt so schnell reagieren",
+              "Dass Gewinne im Durchschnitt halb so groß sind wie Verluste"
+            ],
+            "optionsEn": [
+              "That losses are twice as likely as gains",
+              "That losses are subjectively weighted roughly twice as heavily as equivalent gains",
+              "That people react twice as fast to losses",
+              "That gains are on average half the size of losses"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "λ ≈ 2 bedeutet: Der subjektive Schmerz eines Verlusts von X ist ungefähr gleich groß wie die Freude über einen Gewinn von 2X. Verluste und Gewinne sind subjektiv nicht symmetrisch.",
+            "explanationEn": "λ ≈ 2 means: the subjective pain of a loss of X is approximately equal to the pleasure of a gain of 2X. Losses and gains are subjectively asymmetric."
+          },
+          {
+            "questionDe": "Was beschreibt der Endowment Effect?",
+            "questionEn": "What does the endowment effect describe?",
+            "optionsDe": [
+              "Die Tendenz, Objekte zu kaufen, die man nicht braucht",
+              "Die Bereitschaft, für den Verkauf eines eigenen Objekts mehr zu verlangen, als man zum Kauf zahlen würde",
+              "Die Neigung, günstige Angebote zu übersehen",
+              "Den Effekt, dass Besitz Glück erzeugt"
+            ],
+            "optionsEn": [
+              "The tendency to buy objects one doesn't need",
+              "The willingness to demand more to sell an owned object than one would pay to acquire it",
+              "The tendency to overlook bargains",
+              "The effect that ownership generates happiness"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Der Endowment Effect ist eine direkte Folge der Verlustaversion: Der potenzielle Verlust des Besitzes wiegt schwerer als der äquivalente Gewinn durch Erwerb – deshalb ist der Verkaufspreis systematisch höher als der Kaufpreis.",
+            "explanationEn": "The endowment effect is a direct consequence of loss aversion: the potential loss of ownership weighs heavier than the equivalent gain through acquisition – hence the selling price is systematically higher than the buying price."
+          },
+          {
+            "questionDe": "Warum reagieren Arbeitnehmer laut Verlustaversion stärker auf Gehaltskürzungen als auf ausbleibende Erhöhungen?",
+            "questionEn": "According to loss aversion, why do employees react more strongly to pay cuts than to foregone raises?",
+            "optionsDe": [
+              "Weil Kürzungen rechtlich problematischer sind",
+              "Weil eine Kürzung als Verlust gegenüber dem Referenzpunkt (aktuellem Gehalt) erlebt wird, eine ausbleibende Erhöhung aber nicht",
+              "Weil Arbeitnehmer schlechte Mathematiker sind",
+              "Weil Kürzungen nur in Rezessionen vorkommen"
+            ],
+            "optionsEn": [
+              "Because cuts are legally more problematic",
+              "Because a cut is experienced as a loss relative to the reference point (current salary), while a foregone raise is not",
+              "Because employees are poor at math",
+              "Because cuts only occur in recessions"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Der Referenzpunkt ist das aktuelle Gehalt. Eine Kürzung ist ein Verlust davon – und Verluste werden stärker gewichtet. Eine ausbleibende Erhöhung ist kein Verlust, sondern das Ausbleiben eines Gewinns – das fühlt sich schwächer an.",
+            "explanationEn": "The reference point is the current salary. A cut is a loss relative to it – and losses are weighted more heavily. A foregone raise is not a loss but the absence of a gain – that feels weaker."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m04-l03",
+      "titleDe": "Der Referenzpunkt",
+      "titleEn": "The Reference Point",
+      "durationMin": 10,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Ob etwas als Gewinn oder Verlust erlebt wird, hängt nicht vom absoluten Wert ab, sondern vom Vergleich mit einem Referenzpunkt – und dieser Referenzpunkt ist formbar.",
+        "body": [
+          "Prospect Theory postuliert, dass Menschen Ergebnisse nicht absolut bewerten, sondern relativ zu einem internen Referenzpunkt. Was als Gewinn gilt, hängt davon ab, was als Ausgangssituation erwartet wird. Derselbe objektive Zustand – zum Beispiel ein Jahresgehalt von €60.000 – kann als Gewinn erlebt werden (wenn man €50.000 erwartet hatte) oder als Verlust (wenn man €70.000 erwartet hatte).",
+          "Referenzpunkte können durch Erwartungen, frühere Erfahrungen, soziale Vergleiche, Verträge oder externe Kommunikation gesetzt werden. Besonders wirksam sind kommunizierte Standards: Wenn ein Produkt als 'normalerweise €200' beworben wird, setzt das den Referenzpunkt – und der tatsächliche Preis von €149 wird als Gewinn erlebt. Das ist dieselbe Logik wie die Ankerheuristik aus Modul 3, aber eingebettet in einen Verlust-Gewinn-Kontext.",
+          "Ein klassisches Beispiel ist das Taxifahrer-Phänomen, untersucht von Camerer und Kollegen (1997): Taxifahrer setzen ihr tägliches Einkommensziel als Referenzpunkt. An guten Tagen (viele Fahrgäste) arbeiten sie weniger lang – ihr Ziel ist erreicht, weiteres Fahren fühlt sich wie ein Bonus an, der den Aufwand nicht lohnt. An schlechten Tagen fahren sie länger – sie befinden sich noch im Verlustbereich und wollen den Gap schließen. Das Ergebnis: Sie fahren genau dann weniger, wenn Fahren am lukrativsten wäre.",
+          "Für Design und Kommunikation ist die Formbarkeit des Referenzpunkts zentral: Wer kontrolliert, was als Ausgangszustand gilt, kontrolliert, was als Verlust und was als Gewinn wahrgenommen wird. Preisstrategien (Streichpreise), Vertragsgestaltung (Opt-out statt Opt-in), Fortschrittsanzeigen (Bereits 70 % abgeschlossen) – all das setzt Referenzpunkte, die das Verhalten beeinflussen."
+        ],
+        "example": {
+          "title": "Das Taxifahrer-Paradox",
+          "text": "Taxifahrer verdienen an regnerischen Tagen mehr pro Stunde, weil mehr Menschen ein Taxi nehmen. Rational wäre es, an solchen Tagen länger zu fahren. Tatsächlich hören sie früher auf – ihr Tagesziel (Referenzpunkt) ist schneller erreicht. An schönen, langsamen Tagen fahren sie länger, obwohl die Stundenlohn-Logik dagegen spricht."
+        },
+        "reference": {
+          "author": "Camerer, C., Babcock, L., Loewenstein, G. & Thaler, R.",
+          "year": 1997,
+          "title": "Labor Supply of New York City Cabdrivers: One Day at a Time",
+          "note": "Quarterly Journal of Economics, 112(2), 407–441. Empirische Feldstudie mit echten Schichtdaten, die zeigt, wie tägliche Einkommensziele als Referenzpunkte das Arbeitsangebot verzerren."
+        },
+        "fieldMission": {
+          "title": "Referenzpunkt-Scan",
+          "description": "Identifiziere heute eine Situation, in der deine Zufriedenheit von einem Vergleichspunkt abhing (z. B. Gehaltsvergleich, Produktpreis). Welcher Referenzpunkt war gesetzt – und von wem?"
+        }
+      },
+      "contentEn": {
+        "summary": "Whether something is experienced as a gain or loss depends not on its absolute value, but on comparison with a reference point – and that reference point is malleable.",
+        "body": [
+          "Prospect Theory postulates that people evaluate outcomes not absolutely, but relative to an internal reference point. What counts as a gain depends on what is expected as a starting situation. The same objective state – for example, an annual salary of €60,000 – can be experienced as a gain (if one had expected €50,000) or as a loss (if one had expected €70,000).",
+          "Reference points can be set by expectations, past experiences, social comparisons, contracts, or external communication. Communicated standards are particularly powerful: when a product is advertised as 'normally €200', that sets the reference point – and the actual price of €149 is experienced as a gain. This is the same logic as the anchoring heuristic from Module 3, but embedded in a loss-gain context.",
+          "A classic example is the taxi driver phenomenon, studied by Camerer and colleagues (1997): taxi drivers set their daily income target as a reference point. On good days (many passengers), they work shorter hours – their goal is reached, further driving feels like a bonus not worth the effort. On bad days they drive longer – they are still in the loss domain and want to close the gap. Result: they drive less exactly when driving is most lucrative.",
+          "For design and communication, the malleability of the reference point is central: whoever controls what counts as the starting state controls what is perceived as a loss and what as a gain. Pricing strategies (crossed-out prices), contract design (opt-out vs. opt-in), progress indicators (already 70% complete) – all set reference points that influence behavior."
+        ],
+        "example": {
+          "title": "The Taxi Driver Paradox",
+          "text": "Taxi drivers earn more per hour on rainy days because more people take taxis. Rationally, they should drive longer on such days. In reality, they stop earlier – their daily target (reference point) is reached faster. On sunny, slow days they drive longer, even though the hourly logic argues against it."
+        },
+        "reference": {
+          "author": "Camerer, C., Babcock, L., Loewenstein, G. & Thaler, R.",
+          "year": 1997,
+          "title": "Labor Supply of New York City Cabdrivers: One Day at a Time",
+          "note": "Quarterly Journal of Economics, 112(2), 407–441. Empirical field study using real shift data showing how daily income targets as reference points distort labor supply."
+        },
+        "fieldMission": {
+          "title": "Reference Point Scan",
+          "description": "Identify a situation today where your satisfaction depended on a comparison point (e.g., salary comparison, product price). Which reference point was set – and by whom?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Warum kann dasselbe Gehalt von €60.000 als Gewinn oder Verlust erlebt werden?",
+            "questionEn": "Why can the same salary of €60,000 be experienced as either a gain or a loss?",
+            "optionsDe": [
+              "Weil Geld keinen objektiven Wert hat",
+              "Weil die Bewertung vom Referenzpunkt (der Erwartung) abhängt, nicht vom absoluten Betrag",
+              "Weil Steuern die Wahrnehmung verzerren",
+              "Weil das Gehalt monatlich schwankt"
+            ],
+            "optionsEn": [
+              "Because money has no objective value",
+              "Because evaluation depends on the reference point (expectation), not the absolute amount",
+              "Because taxes distort perception",
+              "Because the salary fluctuates monthly"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Prospect Theory bewertet Ergebnisse relativ zu einem Referenzpunkt. Bei einer Erwartung von €50.000 ist €60.000 ein Gewinn; bei einer Erwartung von €70.000 ist es ein Verlust – obwohl der Betrag identisch ist.",
+            "explanationEn": "Prospect Theory evaluates outcomes relative to a reference point. With an expectation of €50,000, €60,000 is a gain; with an expectation of €70,000, it is a loss – even though the amount is identical."
+          },
+          {
+            "questionDe": "Was zeigt das Taxifahrer-Paradox über Referenzpunkte?",
+            "questionEn": "What does the taxi driver paradox reveal about reference points?",
+            "optionsDe": [
+              "Dass Taxifahrer grundsätzlich irrational sind",
+              "Dass ein tägliches Einkommensziel als Referenzpunkt das Arbeitsverhalten verzerrt – entgegen der Logik des Stundenlohns",
+              "Dass Regen die Kognition beeinträchtigt",
+              "Dass Taxifahrer Prospect Theory studiert haben"
+            ],
+            "optionsEn": [
+              "That taxi drivers are fundamentally irrational",
+              "That a daily income target as reference point distorts work behavior – contrary to hourly wage logic",
+              "That rain impairs cognition",
+              "That taxi drivers have studied Prospect Theory"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Das Paradox zeigt, wie ein selbstgesetzter Referenzpunkt (Tagesziel) reales Verhalten verzerrt: Mehr arbeiten, wenn es weniger lohnt; weniger arbeiten, wenn es am meisten lohnt – weil der Referenzpunkt als Grenze zwischen Verlust und Gewinn wirkt.",
+            "explanationEn": "The paradox shows how a self-set reference point (daily target) distorts real behavior: work more when it's least profitable; work less when it's most profitable – because the reference point acts as the boundary between loss and gain."
+          },
+          {
+            "questionDe": "Wie können Preisstrategien Referenzpunkte gezielt setzen?",
+            "questionEn": "How can pricing strategies deliberately set reference points?",
+            "optionsDe": [
+              "Indem sie den echten Herstellungspreis kommunizieren",
+              "Indem sie einen höheren Streichpreis als Ausgangspunkt setzen, sodass der Aktionspreis als Gewinn erlebt wird",
+              "Indem sie Rabatte nur in kleiner Schrift anzeigen",
+              "Indem sie den Preis möglichst rund machen"
+            ],
+            "optionsEn": [
+              "By communicating the real manufacturing cost",
+              "By setting a higher crossed-out price as a starting point, so the sale price is experienced as a gain",
+              "By displaying discounts only in small print",
+              "By making the price as round as possible"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Ein kommunizierter Streichpreis setzt den Referenzpunkt. Der tatsächliche Preis darunter wird als Gewinn (Ersparnis) erlebt – unabhängig davon, ob der Streichpreis jemals real verlangt wurde.",
+            "explanationEn": "A communicated crossed-out price sets the reference point. The actual price below it is experienced as a gain (saving) – regardless of whether the crossed-out price was ever actually charged."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m04-l04",
+      "titleDe": "Wahrscheinlichkeitsgewichtung",
+      "titleEn": "Probability Weighting",
+      "durationMin": 10,
+      "difficulty": 3,
+      "contentDe": {
+        "summary": "Menschen gewichten Wahrscheinlichkeiten nicht linear: Sehr kleine Wahrscheinlichkeiten werden überschätzt, sehr große unterschätzt – was zu systematisch inkonsistenten Risikoentscheidungen führt.",
+        "body": [
+          "Stell dir vor, du hast die Wahl: (A) 1 % Chance auf €10.000 oder (B) €100 sicher. Beide haben denselben Erwartungswert. Die meisten wählen (A) – trotz der Sicherheit der Alternative. Nun: (A) 99 % Chance auf €10.000 oder (B) €9.900 sicher. Wieder gleicher Erwartungswert. Jetzt wählen die meisten (B). Diese Inkonsistenz erklärt die Wahrscheinlichkeitsgewichtungsfunktion der Prospect Theory.",
+          "Prospect Theory postuliert, dass Menschen Wahrscheinlichkeiten nicht linear in Entscheidungen einbeziehen, sondern durch eine nichtlineare Gewichtungsfunktion transformieren. Das Ergebnis: Sehr kleine Wahrscheinlichkeiten (z. B. 1 %, 2 %) werden übergewichtet – sie fühlen sich größer an als sie sind. Sehr hohe Wahrscheinlichkeiten (z. B. 95 %, 99 %) werden untergewichtet – die verbleibende Restunsicherheit wird überproportional wahrgenommen.",
+          "Dies führt zum sogenannten Vierfeld-Muster der Risikoeinstellung: Im Gewinnbereich sind Menschen bei kleinen Wahrscheinlichkeiten risikofreudig (Lotterie kaufen) und bei hohen Wahrscheinlichkeiten risikoavers (sichere Option wählen). Im Verlustbereich ist es umgekehrt: Bei kleinen Wahrscheinlichkeiten sind sie risikoavers (Versicherung kaufen) und bei hohen Wahrscheinlichkeiten risikofreudig (lieber Risiko als sicheren großen Verlust).",
+          "Die praktischen Konsequenzen sind weitreichend: Lotterien (kleine Gewinnchance, übergewichtet) und Versicherungen (kleine Verlustchance, übergewichtet) profitieren beide von dieser Verzerrung. Glücksspielanbieter und Versicherungsunternehmen sind in gewissem Sinne die institutionalisierten Nutznießer derselben kognitiven Asymmetrie – nur auf entgegengesetzten Seiten des Referenzpunkts."
+        ],
+        "example": {
+          "title": "Das Vierfeld-Muster in der Praxis",
+          "text": "Lotto (kleine Gewinnchance, Gewinnbereich): Risikofreudig – viele kaufen. Versicherung (kleine Verlustchance, Verlustbereich): Risikoavers – viele kaufen. Sicheren Bonus annehmen (hohe Gewinnchance): Risikoavers – sichere Option bevorzugt. Riskante Unternehmung statt sicherem Großverlust (hohe Verlustchance): Risikofreudig – Risiko wird eingegangen."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1992,
+          "title": "Advances in Prospect Theory: Cumulative Representation of Uncertainty",
+          "note": "Journal of Risk and Uncertainty, 5(4), 297–323. Erweiterung der ursprünglichen Prospect Theory um die kumulative Wahrscheinlichkeitsgewichtung (Cumulative Prospect Theory), die eine konsistentere mathematische Behandlung ermöglicht."
+        },
+        "fieldMission": {
+          "title": "Vierfeld-Selbsttest",
+          "description": "Überlege je ein reales Beispiel aus deinem Leben für jedes der vier Felder: kleine/große Wahrscheinlichkeit × Gewinn/Verlust. Welches Verhalten hast du jeweils gezeigt – und stimmt es mit dem Vierfeld-Muster überein?"
+        }
+      },
+      "contentEn": {
+        "summary": "People do not weight probabilities linearly: very small probabilities are overweighted, very large ones underweighted – leading to systematically inconsistent risk decisions.",
+        "body": [
+          "Imagine you have a choice: (A) 1% chance of €10,000 or (B) €100 for certain. Both have the same expected value. Most people choose (A) – despite the certainty of the alternative. Now: (A) 99% chance of €10,000 or (B) €9,900 for certain. Same expected value again. Now most choose (B). This inconsistency is explained by the probability weighting function of Prospect Theory.",
+          "Prospect Theory postulates that people do not incorporate probabilities linearly into decisions, but transform them through a nonlinear weighting function. The result: very small probabilities (e.g., 1%, 2%) are overweighted – they feel larger than they are. Very high probabilities (e.g., 95%, 99%) are underweighted – the remaining residual uncertainty is perceived disproportionately.",
+          "This leads to the so-called fourfold pattern of risk attitudes: in the gain domain, people are risk-seeking for small probabilities (buying lottery tickets) and risk-averse for high probabilities (choosing the safe option). In the loss domain it is reversed: for small probabilities they are risk-averse (buying insurance) and for high probabilities risk-seeking (preferring risk over a certain large loss).",
+          "The practical consequences are far-reaching: lotteries (small win probability, overweighted) and insurance (small loss probability, overweighted) both profit from this distortion. Gambling operators and insurance companies are in a sense the institutionalized beneficiaries of the same cognitive asymmetry – just on opposite sides of the reference point."
+        ],
+        "example": {
+          "title": "The Fourfold Pattern in Practice",
+          "text": "Lottery (small win probability, gain domain): risk-seeking – many buy. Insurance (small loss probability, loss domain): risk-averse – many buy. Accept certain bonus (high win probability): risk-averse – safe option preferred. Risky venture over certain large loss (high loss probability): risk-seeking – risk is taken."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1992,
+          "title": "Advances in Prospect Theory: Cumulative Representation of Uncertainty",
+          "note": "Journal of Risk and Uncertainty, 5(4), 297–323. Extension of the original Prospect Theory with cumulative probability weighting (Cumulative Prospect Theory), enabling more consistent mathematical treatment."
+        },
+        "fieldMission": {
+          "title": "Fourfold Self-Test",
+          "description": "Think of one real example from your life for each of the four cells: small/large probability × gain/loss. What behavior did you show in each case – and does it match the fourfold pattern?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Wie werden sehr kleine Wahrscheinlichkeiten laut Prospect Theory gewichtet?",
+            "questionEn": "How are very small probabilities weighted according to Prospect Theory?",
+            "optionsDe": [
+              "Linear entsprechend ihrem tatsächlichen Wert",
+              "Untergewichtet – kleiner als sie tatsächlich sind",
+              "Übergewichtet – größer als sie tatsächlich sind",
+              "Ignoriert – unter einer Schwelle werden sie nicht beachtet"
+            ],
+            "optionsEn": [
+              "Linearly according to their actual value",
+              "Underweighted – smaller than they actually are",
+              "Overweighted – larger than they actually are",
+              "Ignored – below a threshold they are disregarded"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Kleine Wahrscheinlichkeiten werden übergewichtet – deshalb kaufen Menschen Lottoscheine (1:14 Mio. Chance) und überversichern sich gegen seltene Katastrophen. Die gefühlte Wahrscheinlichkeit liegt über der tatsächlichen.",
+            "explanationEn": "Small probabilities are overweighted – which is why people buy lottery tickets (1:14 million chance) and over-insure against rare catastrophes. The felt probability exceeds the actual one."
+          },
+          {
+            "questionDe": "Was beschreibt das Vierfeld-Muster der Risikoeinstellung?",
+            "questionEn": "What does the fourfold pattern of risk attitudes describe?",
+            "optionsDe": [
+              "Vier Persönlichkeitstypen mit unterschiedlicher Risikobereitschaft",
+              "Vier Kombinationen aus Wahrscheinlichkeitsgröße und Gewinn-/Verlustbereich mit jeweils unterschiedlicher Risikoeinstellung",
+              "Vier Stufen der Risikowahrnehmung beim Altern",
+              "Vier Fehlertypen bei Wahrscheinlichkeitsschätzungen"
+            ],
+            "optionsEn": [
+              "Four personality types with different risk tolerance",
+              "Four combinations of probability size and gain/loss domain, each with different risk attitudes",
+              "Four stages of risk perception with aging",
+              "Four error types in probability estimation"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Das Vierfeld-Muster kombiniert zwei Achsen: klein vs. große Wahrscheinlichkeit und Gewinn- vs. Verlustbereich. Jede Kombination erzeugt eine andere Risikoeinstellung – das erklärt scheinbar widersprüchliches Verhalten wie gleichzeitiges Lotto-Spielen und Versichern.",
+            "explanationEn": "The fourfold pattern combines two axes: small vs. large probability and gain vs. loss domain. Each combination produces a different risk attitude – explaining seemingly contradictory behavior like simultaneously playing lottery and buying insurance."
+          },
+          {
+            "questionDe": "Warum profitieren Lotterien und Versicherungen beide von der Wahrscheinlichkeitsgewichtung?",
+            "questionEn": "Why do both lotteries and insurance companies profit from probability weighting?",
+            "optionsDe": [
+              "Weil beide staatlich subventioniert werden",
+              "Weil beide auf der Übergewichtung kleiner Wahrscheinlichkeiten beruhen – auf entgegengesetzten Seiten des Referenzpunkts",
+              "Weil Menschen grundsätzlich Risiken meiden",
+              "Weil Wahrscheinlichkeiten in beiden Kontexten korrekt berechnet werden"
+            ],
+            "optionsEn": [
+              "Because both are state-subsidized",
+              "Because both rely on the overweighting of small probabilities – on opposite sides of the reference point",
+              "Because people fundamentally avoid risks",
+              "Because probabilities are correctly calculated in both contexts"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Lotterien verkaufen kleine Gewinnchancen (übergewichtet im Gewinnbereich → Risikofreude). Versicherungen verkaufen Schutz vor kleinen Verlustchancen (übergewichtet im Verlustbereich → Risikoaversion). Beide nutzen dieselbe kognitive Verzerrung.",
+            "explanationEn": "Lotteries sell small win probabilities (overweighted in gain domain → risk-seeking). Insurance sells protection against small loss probabilities (overweighted in loss domain → risk-aversion). Both exploit the same cognitive bias."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m04-l05",
+      "titleDe": "Mental Accounting",
+      "titleEn": "Mental Accounting",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Menschen ordnen Geld in mentale Konten ein – und behandeln denselben Euro unterschiedlich, je nachdem, aus welchem Konto er gedanklich stammt oder für was er gedacht ist.",
+        "body": [
+          "Geld ist fungibel: Ein Euro ist ein Euro, egal ob er aus dem Lohn, einem Lottogewinn oder einem Sparstrumpf kommt. Rational betrachtet sollten alle Euros gleich behandelt werden. Tatsächlich tun Menschen das nicht. Richard Thaler beschrieb Mental Accounting als die Tendenz, Geldbeträge in separate mentale Konten einzuteilen – und unterschiedliche Regeln darauf anzuwenden.",
+          "Typische Beispiele: Ein Steuerrückzahlung wird häufig für Konsum ausgegeben, obwohl es dasselbe Geld ist, das man sonst als Ersparnisse behandelt hätte. Ein Kasino-Gewinn von €200 wird leichtfertig beim Roulette riskiert, weil er sich wie Spielgeld anfühlt – nicht wie hartverdientes Geld. Ein Budget für Lebensmittel wird nicht für Kleidung genutzt, selbst wenn das Kleidungsbudget leer ist und Geld übrig bleibt.",
+          "Mental Accounting hat eine starke Verbindung zu Verlustaversion: Innerhalb jedes mentalen Kontos werden Gewinne und Verluste separat bewertet. Thaler beschrieb vier Prinzipien der hedonischen Rahmung: Verluste sollten integriert werden (ein Gesamtverlust schmerzt weniger als zwei separate), Gewinne dagegen segregiert (mehrere kleine Gewinne fühlen sich besser an als ein großer). Das hat direkte Anwendung in Pricing und UX.",
+          "Im Design- und Produktkontext erklärt Mental Accounting, warum Subscription-Modelle erfolgreicher sind als Einzelkäufe: Der monatliche Betrag kommt aus einem anderen mentalen Konto als ein Einmalkauf, und der Schmerz des Bezahlens wird verteilt und damit abgeschwächt. In-App-Käufe mit virtueller Währung verstärken diesen Effekt weiter, indem sie das mentale Konto vollständig entkoppeln."
+        ],
+        "example": {
+          "title": "Das Kasino-Geld-Phänomen",
+          "text": "Wer im Kasino €200 gewinnt, gibt das Geld häufig risikofreudiger aus als normal verdientes Geld – weil es sich im mentalen Konto 'Kasino-Gewinne' befindet, für das andere Regeln gelten als für 'Ersparnisse'. Obwohl beide Euros identisch sind, werden sie fundamental anders behandelt."
+        },
+        "reference": {
+          "author": "Thaler, R. H.",
+          "year": 1985,
+          "title": "Mental Accounting and Consumer Choice",
+          "note": "Marketing Science, 4(3), 199–214. Grundlagenpaper von Thaler, der den Begriff Mental Accounting prägte und seine Verbindung zur Prospect Theory und Verlustaversion formalisierte. Thaler erhielt 2017 den Wirtschaftsnobelpreis."
+        },
+        "fieldMission": {
+          "title": "Konten-Inventur",
+          "description": "Überlege, welche mentalen Konten du für dein Geld führst (z. B. Urlaubsgeld, Notreserve, Taschengeld). Gibt es Geld, das du in einem Konto 'locker sitzt' und in einem anderen nicht – obwohl es objektiv identisch ist?"
+        }
+      },
+      "contentEn": {
+        "summary": "People assign money to mental accounts – and treat the same euro differently depending on which mental account it comes from or is designated for.",
+        "body": [
+          "Money is fungible: one euro is one euro, whether it comes from wages, a lottery win, or a savings jar. Rationally, all euros should be treated equally. In reality, people don't do this. Richard Thaler described mental accounting as the tendency to assign money to separate mental accounts – and apply different rules to each.",
+          "Typical examples: a tax refund is often spent on consumption, even though it is the same money one would otherwise have treated as savings. A casino win of €200 is casually risked at roulette because it feels like play money – not hard-earned money. A food budget is not used for clothing, even if the clothing budget is empty and money is left over.",
+          "Mental accounting has a strong connection to loss aversion: within each mental account, gains and losses are evaluated separately. Thaler described four principles of hedonic framing: losses should be integrated (one total loss hurts less than two separate ones), gains segregated (several small gains feel better than one large one). This has direct application in pricing and UX.",
+          "In design and product contexts, mental accounting explains why subscription models outperform one-time purchases: the monthly amount comes from a different mental account than a single payment, and the pain of paying is distributed and thus attenuated. In-app purchases with virtual currency amplify this effect further by fully decoupling the mental account."
+        ],
+        "example": {
+          "title": "The Casino Money Phenomenon",
+          "text": "Someone who wins €200 at a casino often spends that money more risk-freely than normally earned money – because it sits in the mental account 'casino winnings', to which different rules apply than to 'savings'. Although both euros are identical, they are treated in fundamentally different ways."
+        },
+        "reference": {
+          "author": "Thaler, R. H.",
+          "year": 1985,
+          "title": "Mental Accounting and Consumer Choice",
+          "note": "Marketing Science, 4(3), 199–214. Foundational paper by Thaler coining the term mental accounting and formalizing its connection to Prospect Theory and loss aversion. Thaler received the 2017 Nobel Prize in Economics."
+        },
+        "fieldMission": {
+          "title": "Account Inventory",
+          "description": "Consider which mental accounts you maintain for your money (e.g., holiday money, emergency fund, spending money). Is there money that feels 'loose' in one account but not another – even though it is objectively identical?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was beschreibt Mental Accounting nach Thaler?",
+            "questionEn": "What does mental accounting describe according to Thaler?",
+            "optionsDe": [
+              "Die Fähigkeit, Buchhaltung ohne Software zu betreiben",
+              "Die Tendenz, Geldbeträge in separate mentale Konten einzuteilen und unterschiedlich zu behandeln",
+              "Das bewusste Sparen für bestimmte Ziele",
+              "Die Unfähigkeit, größere Geldbeträge zu verwalten"
+            ],
+            "optionsEn": [
+              "The ability to do bookkeeping without software",
+              "The tendency to assign money to separate mental accounts and treat it differently",
+              "Consciously saving for specific goals",
+              "The inability to manage larger sums of money"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Mental Accounting bezeichnet das kognitive Einteilen von Geld in separate Konten mit unterschiedlichen Regeln – entgegen der ökonomischen Annahme der Fungibilität von Geld.",
+            "explanationEn": "Mental accounting refers to the cognitive assignment of money to separate accounts with different rules – contrary to the economic assumption of money's fungibility."
+          },
+          {
+            "questionDe": "Was empfiehlt Thalers Prinzip der hedonischen Rahmung bezüglich Verlusten?",
+            "questionEn": "What does Thaler's principle of hedonic framing recommend regarding losses?",
+            "optionsDe": [
+              "Verluste segregieren – als einzelne, getrennte Ereignisse darstellen",
+              "Verluste integrieren – als einen Gesamtverlust kommunizieren, der weniger schmerzt als mehrere separate",
+              "Verluste ignorieren und nur Gewinne betonen",
+              "Verluste zeitlich verteilen, um sie kleiner wirken zu lassen"
+            ],
+            "optionsEn": [
+              "Segregate losses – present them as individual, separate events",
+              "Integrate losses – communicate as one total loss, which hurts less than several separate ones",
+              "Ignore losses and only emphasize gains",
+              "Spread losses over time to make them appear smaller"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Mehrere Verluste schmerzen stärker als ein einzelner Gesamtverlust derselben Größe – wegen der konkaven Wertefunktion im Verlustbereich. Hedonische Rahmung empfiehlt daher Verluste zu integrieren und Gewinne zu segregieren.",
+            "explanationEn": "Multiple losses hurt more than a single total loss of the same magnitude – due to the convex value function in the loss domain. Hedonic framing therefore recommends integrating losses and segregating gains."
+          },
+          {
+            "questionDe": "Warum sind Subscription-Modelle aus Mental-Accounting-Perspektive oft erfolgreicher als Einmalkäufe?",
+            "questionEn": "Why are subscription models often more successful than one-time purchases from a mental accounting perspective?",
+            "optionsDe": [
+              "Weil sie günstiger sind",
+              "Weil der Zahlungsschmerz auf ein anderes mentales Konto verlagert und zeitlich verteilt wird",
+              "Weil Verbraucher Verträge bevorzugen",
+              "Weil Subscriptions einfacher zu kündigen sind"
+            ],
+            "optionsEn": [
+              "Because they are cheaper",
+              "Because the pain of payment is shifted to a different mental account and distributed over time",
+              "Because consumers prefer contracts",
+              "Because subscriptions are easier to cancel"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Ein monatlicher Betrag fühlt sich wie ein eigenes mentales Konto an (Abonnements), in dem der Zahlungsschmerz geringer ist. Ein großer Einmalkauf aktiviert dagegen stärkere Verlust­aversion – obwohl der Gesamtbetrag gleich sein kann.",
+            "explanationEn": "A monthly amount feels like its own mental account (subscriptions), in which the pain of payment is lower. A large one-time purchase, by contrast, activates stronger loss aversion – even though the total amount may be the same."
+          }
+        ]
+      }
+    }
+  ]
+}

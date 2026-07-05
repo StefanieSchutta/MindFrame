@@ -1,0 +1,580 @@
+{
+  "id": "module-06",
+  "titleDe": "Nudging & Choice Architecture",
+  "titleEn": "Nudging & Choice Architecture",
+  "descriptionDe": "Wie die Gestaltung von Entscheidungsumgebungen Verhalten lenkt – ohne Verbote oder Anreize – und warum das ethische Fragen aufwirft.",
+  "descriptionEn": "How the design of decision environments steers behavior – without bans or incentives – and why that raises ethical questions.",
+  "icon": "🏛️",
+  "lessons": [
+    {
+      "id": "m06-l01",
+      "titleDe": "Was ist Nudging?",
+      "titleEn": "What Is Nudging?",
+      "durationMin": 8,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Nudging bezeichnet das gezielte Gestalten von Entscheidungsarchitekturen, um Verhalten in eine gewünschte Richtung zu lenken – ohne Verbote, Gebote oder finanzielle Anreize.",
+        "body": [
+          "Richard Thaler und Cass Sunstein prägten 2008 mit ihrem Buch 'Nudge' den Begriff der Entscheidungsarchitektur: Jede Umgebung, in der Menschen Entscheidungen treffen, ist gestaltet – und diese Gestaltung beeinflusst Verhalten, ob wir es wollen oder nicht. Nudging ist die bewusste Nutzung dieser Erkenntnis: Entscheidungsumgebungen so zu strukturieren, dass Menschen wahrscheinlicher im eigenen oder gesellschaftlichen Interesse handeln.",
+          "Ein Nudge ist per Definition eine Intervention, die erstens die Wahlmöglichkeiten nicht einschränkt (jede Option bleibt zugänglich), zweitens keine finanziellen Anreize setzt und drittens vorhersehbar das Verhalten in eine Richtung beeinflusst, die für den Entscheidenden gut ist. Das unterscheidet Nudging von Regulierung (verbindet Gebote) und von klassischen Anreizsystemen (verändert relative Preise).",
+          "Nudging nutzt die psychologischen Mechanismen aus den vorherigen Modulen systematisch: Defaults nutzen Status-quo-Bias, Framing nutzt Verlustaversion, soziale Normen aktivieren Konformität, Salienz steuert Aufmerksamkeit. Ein Nudge ist im Kern immer ein designter Eingriff in die Verarbeitungsprozesse von System 1 – er beeinflusst, ohne zu zwingen.",
+          "Praktische Anwendungen sind weit verbreitet: Organspende-Defaults, Cafeteria-Layout für gesündere Essenswahl, automatische Renteneinzahlungen, Energieverbrauchsvergleiche mit Nachbarn, Fortschrittsbalken in Steuererklärungen. Thaler erhielt 2017 den Wirtschaftsnobelpreis u. a. für die Formalisierung dieser Anwendungen."
+        ],
+        "example": {
+          "title": "Obst auf Augenhöhe in der Schulkantine",
+          "text": "Wenn Obst in Schulkantinen auf Augenhöhe platziert wird und Desserts schwerer zugänglich sind, steigt der Obstkonsum signifikant – ohne dass etwas verboten oder vergünstigt wurde. Das Layout allein nudgt die Wahl. Die Schüler können immer noch das Dessert nehmen – aber die Entscheidungsarchitektur begünstigt die gesündere Option."
+        },
+        "reference": {
+          "author": "Thaler, R. H. & Sunstein, C. R.",
+          "year": 2008,
+          "title": "Nudge: Improving Decisions about Health, Wealth, and Happiness",
+          "note": "Yale University Press. Das Standardwerk, das den Begriff Nudge und Choice Architecture popularisierte, mit einer Vielzahl empirisch belegter Policy-Anwendungen. Grundlage für Regierungsprogramme wie das britische Behavioural Insights Team."
+        },
+        "fieldMission": {
+          "title": "Nudge-Inventur",
+          "description": "Identifiziere heute drei Nudges in deiner Umgebung (digitale Interfaces, physische Räume, Formulare). Für wen wurden sie gestaltet – und in wessen Interesse wirken sie?"
+        }
+      },
+      "contentEn": {
+        "summary": "Nudging refers to deliberately designing decision architectures to steer behavior in a desired direction – without bans, mandates, or financial incentives.",
+        "body": [
+          "Richard Thaler and Cass Sunstein popularized the concept of choice architecture with their 2008 book 'Nudge': every environment in which people make decisions is designed – and that design influences behavior whether we intend it or not. Nudging is the deliberate use of this insight: structuring decision environments so people are more likely to act in their own or society's interest.",
+          "A nudge is by definition an intervention that first does not restrict choice options (every option remains accessible), second sets no financial incentives, and third predictably influences behavior in a direction that is good for the decision-maker. This distinguishes nudging from regulation (involves mandates) and classical incentive systems (changes relative prices).",
+          "Nudging systematically uses the psychological mechanisms from previous modules: defaults exploit status quo bias, framing exploits loss aversion, social norms activate conformity, salience steers attention. A nudge is fundamentally always a designed intervention in System 1's processing – it influences without coercing.",
+          "Practical applications are widespread: organ donation defaults, cafeteria layouts for healthier food choices, automatic pension contributions, energy consumption comparisons with neighbors, progress bars in tax returns. Thaler received the 2017 Nobel Prize in Economics partly for formalizing these applications."
+        ],
+        "example": {
+          "title": "Fruit at Eye Level in School Cafeterias",
+          "text": "When fruit is placed at eye level in school cafeterias and desserts are less accessible, fruit consumption rises significantly – without anything being banned or discounted. The layout alone nudges the choice. Students can still take the dessert – but the decision architecture favors the healthier option."
+        },
+        "reference": {
+          "author": "Thaler, R. H. & Sunstein, C. R.",
+          "year": 2008,
+          "title": "Nudge: Improving Decisions about Health, Wealth, and Happiness",
+          "note": "Yale University Press. The standard work that popularized nudge and choice architecture, with numerous empirically supported policy applications. Foundation for government programs like the UK's Behavioural Insights Team."
+        },
+        "fieldMission": {
+          "title": "Nudge Inventory",
+          "description": "Identify three nudges in your environment today (digital interfaces, physical spaces, forms). For whom were they designed – and in whose interest do they operate?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was unterscheidet einen Nudge von einer Regulierung?",
+            "questionEn": "What distinguishes a nudge from regulation?",
+            "optionsDe": [
+              "Nudges sind teurer in der Umsetzung",
+              "Nudges schränken keine Wahlmöglichkeiten ein und setzen keine finanziellen Anreize – sie gestalten die Entscheidungsumgebung",
+              "Nudges wirken nur auf Kinder",
+              "Nudges sind immer digital"
+            ],
+            "optionsEn": [
+              "Nudges are more expensive to implement",
+              "Nudges don't restrict choice options and set no financial incentives – they shape the decision environment",
+              "Nudges only work on children",
+              "Nudges are always digital"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Ein Nudge lässt alle Optionen offen und setzt keine Preisanreize. Er verändert den Kontext der Entscheidung, nicht die Optionen selbst. Das unterscheidet ihn von Verboten (keine Option), Steuern (Preisveränderung) und Subventionen (Preisveränderung).",
+            "explanationEn": "A nudge leaves all options open and sets no price incentives. It changes the context of the decision, not the options themselves. This distinguishes it from bans (no option), taxes (price change), and subsidies (price change)."
+          },
+          {
+            "questionDe": "Welches psychologische Prinzip aus früheren Modulen nutzt Nudging durch Cafeteria-Layout?",
+            "questionEn": "Which psychological principle from earlier modules does nudging through cafeteria layout exploit?",
+            "optionsDe": [
+              "Verlustaversion",
+              "Aufmerksamkeitssteuerung durch Salienz und räumliche Verfügbarkeit",
+              "Reziprozitätsnorm",
+              "Anker-Heuristik"
+            ],
+            "optionsEn": [
+              "Loss aversion",
+              "Attention steering through salience and spatial availability",
+              "Reciprocity norm",
+              "Anchoring heuristic"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Salienz – die visuelle und räumliche Präsenz einer Option – steuert, was System 1 zuerst wahrnimmt und als Default-Option behandelt. Augenhöhe schafft kognitive Zugänglichkeit, ohne die Wahl zu beschränken.",
+            "explanationEn": "Salience – the visual and spatial presence of an option – steers what System 1 perceives first and treats as the default option. Eye level creates cognitive accessibility without restricting choice."
+          },
+          {
+            "questionDe": "Welche Organisation nutzte Nudge-Prinzipien als erste systematisch auf Regierungsebene?",
+            "questionEn": "Which organization first systematically applied nudge principles at government level?",
+            "optionsDe": [
+              "Die US-Notenbank (Fed)",
+              "Das britische Behavioural Insights Team",
+              "Die Weltbank",
+              "Die Europäische Zentralbank"
+            ],
+            "optionsEn": [
+              "The US Federal Reserve",
+              "The UK's Behavioural Insights Team",
+              "The World Bank",
+              "The European Central Bank"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Das 2010 gegründete britische Behavioural Insights Team ('Nudge Unit') war die erste staatliche Einheit, die Nudge-Prinzipien systematisch auf Politikgestaltung anwandte – mit dokumentierten Erfolgen in Steuergehorsamkeit, Organspende und Energiesparen.",
+            "explanationEn": "The UK's Behavioural Insights Team ('Nudge Unit'), founded in 2010, was the first government body to systematically apply nudge principles to policy design – with documented successes in tax compliance, organ donation, and energy saving."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m06-l02",
+      "titleDe": "Defaults & Status-quo-Bias",
+      "titleEn": "Defaults & Status Quo Bias",
+      "durationMin": 10,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Menschen neigen dazu, bei der voreingestellten Option zu bleiben – Defaults sind deshalb einer der wirkungsmächtigsten Nudges und können Leben retten oder kosten.",
+        "body": [
+          "Eric Johnson und Daniel Goldstein publizierten 2003 eine Analyse der Organspenderaten in Europa, die illustriert, wie stark Defaults Verhalten prägen: Länder mit Opt-in-Systemen (aktive Anmeldung zur Spende erforderlich) hatten Spendebereitschaftsraten von 4–28 %. Länder mit Opt-out-Systemen (automatisch Spender, außer man widerspricht) hatten Raten von 86–99,98 %. Der einzige Unterschied: die Default-Option.",
+          "Der Status-quo-Bias beschreibt die allgemeine Tendenz, bei dem zu bleiben, was bereits der Fall ist – unabhängig davon, ob die aktuelle Option objektiv optimal ist. Drei Mechanismen treiben ihn an: Verlustaversion (die Risiken des Wechselns werden stärker gewichtet als die Vorteile), kognitive Trägheit (Handeln erfordert mehr Aufwand als Nicht-Handeln) und implizite Empfehlung (der Default gilt als implizite Empfehlung des Systemdesigners).",
+          "Defaults können für oder gegen den Nutzer eingesetzt werden. Positive Anwendungen: automatische Rentenersparnisse (Save More Tomorrow-Programm von Thaler & Benartzi), voreingestellte gesunde Optionen in Kantinen, Energiesparoptionen als Default bei Neugeräten. Negative Anwendungen: voreingestellte Zustimmung zu Datenfreigaben, vorausgewählte teure Service-Pakete, automatische Verlängerungen ohne klare Abmeldemöglichkeit.",
+          "Entscheidend für die ethische Beurteilung ist die Frage, in wessen Interesse der Default gesetzt ist. Thaler und Sunstein argumentieren, dass Defaults immer so gesetzt werden sollten, dass sie die Entscheidung widerspiegeln, die ein informierter, rational handelnder Nutzer träfe. Dark-Pattern-Defaults – die Nutzer zu Handlungen drängen, die primär dem Anbieter nützen – sind eine Missanwendung des Prinzips."
+        ],
+        "example": {
+          "title": "Organspenderaten in Europa",
+          "text": "Österreich (Opt-out): 99,98 % Zustimmung. Deutschland (Opt-in): ~12 % Zustimmung. Die Bevölkerungsstruktur, die kulturellen Werte und die Informationslage sind vergleichbar. Der einzige entscheidende Unterschied ist die Default-Option im System. Defaults entscheiden buchstäblich über Leben und Tod."
+        },
+        "reference": {
+          "author": "Johnson, E. J. & Goldstein, D.",
+          "year": 2003,
+          "title": "Do Defaults Save Lives?",
+          "note": "Science, 302(5649), 1338–1339. Kurze, aber hoch einflussreiche Analyse der europäischen Organspenderaten, die den Effekt von Opt-in vs. Opt-out-Defaults auf kollektives Verhalten empirisch belegt."
+        },
+        "fieldMission": {
+          "title": "Default-Audit",
+          "description": "Überprüfe heute zwei digitale Dienste oder Apps, die du nutzt: Welche Datenschutz-, Benachrichtigungs- oder Zahlungsoptionen sind voreingestellt? In wessen Interesse ist der jeweilige Default gesetzt?"
+        }
+      },
+      "contentEn": {
+        "summary": "People tend to stick with the pre-set option – defaults are therefore one of the most powerful nudges and can save or cost lives.",
+        "body": [
+          "Eric Johnson and Daniel Goldstein published in 2003 an analysis of organ donation rates in Europe that illustrates how strongly defaults shape behavior: countries with opt-in systems (active registration required) had willingness-to-donate rates of 4–28%. Countries with opt-out systems (automatically a donor unless one objects) had rates of 86–99.98%. The only difference: the default option.",
+          "Status quo bias describes the general tendency to stay with whatever is currently the case – regardless of whether the current option is objectively optimal. Three mechanisms drive it: loss aversion (the risks of switching are weighted more heavily than the benefits), cognitive inertia (acting requires more effort than not acting), and implicit recommendation (the default is perceived as an implicit recommendation from the system designer).",
+          "Defaults can be deployed for or against the user. Positive applications: automatic retirement savings (Thaler & Benartzi's Save More Tomorrow program), pre-set healthy options in cafeterias, energy-saving options as default on new devices. Negative applications: pre-set consent to data sharing, pre-selected expensive service packages, automatic renewals without clear opt-out.",
+          "The crucial ethical question is whose interest the default serves. Thaler and Sunstein argue that defaults should always be set to reflect the decision an informed, rationally acting user would make. Dark pattern defaults – nudging users toward actions that primarily benefit the provider – are a misapplication of the principle."
+        ],
+        "example": {
+          "title": "Organ Donation Rates in Europe",
+          "text": "Austria (opt-out): 99.98% consent. Germany (opt-in): ~12% consent. Population structure, cultural values, and information availability are comparable. The only decisive difference is the default option in the system. Defaults literally decide over life and death."
+        },
+        "reference": {
+          "author": "Johnson, E. J. & Goldstein, D.",
+          "year": 2003,
+          "title": "Do Defaults Save Lives?",
+          "note": "Science, 302(5649), 1338–1339. Brief but highly influential analysis of European organ donation rates, empirically demonstrating the effect of opt-in vs. opt-out defaults on collective behavior."
+        },
+        "fieldMission": {
+          "title": "Default Audit",
+          "description": "Check two digital services or apps you use today: which privacy, notification, or payment options are pre-set? In whose interest is each default set?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was zeigt der Unterschied zwischen Opt-in und Opt-out bei der Organspende?",
+            "questionEn": "What does the difference between opt-in and opt-out for organ donation show?",
+            "optionsDe": [
+              "Dass Menschen in verschiedenen Ländern unterschiedliche Werte haben",
+              "Dass die Default-Option allein Zustimmungsraten von 12 % auf fast 100 % verändern kann",
+              "Dass Opt-in-Systeme ethisch problematisch sind",
+              "Dass Österreicher generöser sind als Deutsche"
+            ],
+            "optionsEn": [
+              "That people in different countries have different values",
+              "That the default option alone can change consent rates from 12% to almost 100%",
+              "That opt-in systems are ethically problematic",
+              "That Austrians are more generous than Germans"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Der dramatische Unterschied entsteht nicht durch unterschiedliche Werte oder Präferenzen, sondern allein durch die Default-Einstellung. Das belegt die immense Verhaltensrelevanz von Defaults.",
+            "explanationEn": "The dramatic difference arises not from different values or preferences, but solely from the default setting. This demonstrates the immense behavioral relevance of defaults."
+          },
+          {
+            "questionDe": "Welche drei Mechanismen treiben den Status-quo-Bias an?",
+            "questionEn": "Which three mechanisms drive status quo bias?",
+            "optionsDe": [
+              "Gewohnheit, Angst und Faulheit",
+              "Verlustaversion, kognitive Trägheit und implizite Empfehlung durch den Default",
+              "Informationsmangel, Zeitdruck und Gruppendenken",
+              "Soziale Normen, Reziprozität und Autorität"
+            ],
+            "optionsEn": [
+              "Habit, fear, and laziness",
+              "Loss aversion, cognitive inertia, and implicit recommendation by the default",
+              "Lack of information, time pressure, and groupthink",
+              "Social norms, reciprocity, and authority"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Verlustaversion (Risiken des Wechselns wirken schwerer), kognitive Trägheit (Handeln kostet mehr als Nicht-Handeln) und implizite Empfehlung (der Default gilt als empfohlen) treiben gemeinsam die Tendenz an, beim Status quo zu bleiben.",
+            "explanationEn": "Loss aversion (risks of switching feel heavier), cognitive inertia (acting costs more than not acting), and implicit recommendation (the default is perceived as recommended) jointly drive the tendency to stay with the status quo."
+          },
+          {
+            "questionDe": "Wann ist ein Default aus ethischer Sicht problematisch?",
+            "questionEn": "When is a default ethically problematic?",
+            "optionsDe": [
+              "Wenn er von Unternehmen gesetzt wird",
+              "Wenn er primär im Interesse des Anbieters statt des Nutzers gesetzt ist und so als Dark Pattern wirkt",
+              "Wenn er schwer zu ändern ist",
+              "Wenn er für alle Nutzer gleich ist"
+            ],
+            "optionsEn": [
+              "When it is set by companies",
+              "When it is set primarily in the provider's interest rather than the user's and thus functions as a dark pattern",
+              "When it is difficult to change",
+              "When it is the same for all users"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Ein Default ist ethisch vertretbar, wenn er die Entscheidung widerspiegelt, die ein informierter Nutzer träfe. Wenn er stattdessen Trägheit ausnutzt, um Nutzer zu Aktionen zu bewegen, die primär dem Anbieter nützen, ist er ein Dark Pattern.",
+            "explanationEn": "A default is ethically defensible when it reflects the decision an informed user would make. When it instead exploits inertia to push users toward actions primarily benefiting the provider, it is a dark pattern."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m06-l03",
+      "titleDe": "Framing-Effekte",
+      "titleEn": "Framing Effects",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Wie eine Information präsentiert wird, beeinflusst die Entscheidung – unabhängig vom sachlichen Inhalt. Framing ist eines der wirkungsmächtigsten Kommunikationswerkzeuge der Behavioral Science.",
+        "body": [
+          "Tversky und Kahneman demonstrierten 1981 in einem klassischen Experiment den Framing-Effekt: Dieselbe Entscheidungssituation führt zu systematisch unterschiedlichen Ergebnissen, je nachdem ob sie als Gewinn oder Verlust formuliert wird. In ihrem 'Asian Disease Problem' wählten 72 % der Versuchspersonen die sichere Option, wenn das Ergebnis als 'werden 200 Menschen gerettet' formuliert war – und nur 22 %, wenn es als '400 Menschen werden sterben' formuliert war. Sachlich identische Situation, drastisch unterschiedliches Verhalten.",
+          "Framing wirkt auf mehreren Ebenen: Sprachliches Framing (positiv vs. negativ formuliert), visuelles Framing (Bilder, die einen emotionalen Kontext setzen), statistisches Framing (relative vs. absolute Risikoreduktion) und narratives Framing (durch welche Geschichte ein Sachverhalt eingebettet wird). In jedem Fall beeinflusst das Framing, welcher Referenzpunkt und welche emotionale Bewertung aktiviert wird.",
+          "Besonders wirksam ist das Framing von Risiken in der Gesundheitskommunikation: 'Diese Behandlung hat eine 90 % Überlebensrate' klingt überzeugender als 'Diese Behandlung hat eine 10 % Sterberate' – obwohl der Inhalt identisch ist. Studien zeigen, dass selbst medizinisch ausgebildete Fachkräfte diesem Framing unterliegen. Relative Risikoreduktionen ('50 % weniger Herzinfarkte') wirken dramatischer als absolute ('1 % der Bevölkerung vs. 2 % – also 1 Prozentpunkt Unterschied').",
+          "In UX und Marketing ist Framing allgegenwärtig: 'Spare €200' vs. 'Verpasse nicht €200 Ersparnis', '95 % fettfrei' vs. '5 % Fett', 'Noch 3 Plätze verfügbar' vs. '3 von 100 Plätzen belegt'. Das Framing aktiviert unterschiedliche kognitive Bewertungsprozesse – und das Design dieser Aktivierung ist Kernkompetenz jeder Entscheidungsarchitektur."
+        ],
+        "example": {
+          "title": "Das Asian Disease Problem",
+          "text": "Option A: 200 Menschen werden gerettet (sicher) – gewählt von 72 %. Option B: ⅓ Chance, alle 600 zu retten – gewählt von 28 %. Sachlich gleichwertige Formulierung: Option A: 400 Menschen werden sterben (sicher) – gewählt von 22 %. Option B: ⅓ Chance, niemand stirbt – gewählt von 78 %. Identische Situation, entgegengesetztes Mehrheitsverhalten."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1981,
+          "title": "The Framing of Decisions and the Psychology of Choice",
+          "note": "Science, 211(4481), 453–458. Klassische Demonstration des Framing-Effekts, die zeigte, dass logisch äquivalente Formulierungen zu systematisch unterschiedlichen Präferenzen führen – ein direkter Widerspruch zur Invarianz-Annahme der klassischen Entscheidungstheorie."
+        },
+        "fieldMission": {
+          "title": "Framing umformulieren",
+          "description": "Nimm heute eine Botschaft, die dir begegnet (Nachricht, Produktbeschreibung, politische Aussage), und formuliere sie in das entgegengesetzte Frame um. Wie verändert sich deine emotionale Reaktion?"
+        }
+      },
+      "contentEn": {
+        "summary": "How information is presented influences the decision – regardless of the factual content. Framing is one of the most powerful communication tools in behavioral science.",
+        "body": [
+          "Tversky and Kahneman demonstrated the framing effect in a classic 1981 experiment: the same decision situation leads to systematically different outcomes depending on whether it is formulated as a gain or a loss. In their 'Asian Disease Problem', 72% of participants chose the safe option when the outcome was framed as '200 people will be saved' – and only 22% when it was framed as '400 people will die'. Factually identical situation, drastically different behavior.",
+          "Framing operates at multiple levels: linguistic framing (positive vs. negative formulation), visual framing (images that set an emotional context), statistical framing (relative vs. absolute risk reduction), and narrative framing (the story through which a fact is embedded). In each case, the framing influences which reference point and emotional evaluation is activated.",
+          "Framing is particularly powerful in health communication: 'This treatment has a 90% survival rate' sounds more convincing than 'This treatment has a 10% mortality rate' – even though the content is identical. Studies show that even medically trained professionals are subject to this framing. Relative risk reductions ('50% fewer heart attacks') seem more dramatic than absolute ones ('1% of the population vs. 2% – i.e., 1 percentage point difference').",
+          "In UX and marketing, framing is ubiquitous: 'Save €200' vs. 'Don't miss €200 savings', '95% fat-free' vs. '5% fat', 'Only 3 spots left' vs. '3 of 100 spots taken'. The framing activates different cognitive evaluation processes – and designing these activations is core competence of any decision architecture."
+        ],
+        "example": {
+          "title": "The Asian Disease Problem",
+          "text": "Option A: 200 people will be saved (certain) – chosen by 72%. Option B: ⅓ chance of saving all 600 – chosen by 28%. Factually equivalent formulation: Option A: 400 people will die (certain) – chosen by 22%. Option B: ⅓ chance nobody dies – chosen by 78%. Identical situation, opposite majority behavior."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1981,
+          "title": "The Framing of Decisions and the Psychology of Choice",
+          "note": "Science, 211(4481), 453–458. Classic demonstration of the framing effect, showing that logically equivalent formulations lead to systematically different preferences – a direct contradiction of the invariance assumption of classical decision theory."
+        },
+        "fieldMission": {
+          "title": "Reframe a Message",
+          "description": "Take a message you encounter today (news, product description, political statement) and reformulate it into the opposite frame. How does your emotional reaction change?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist das zentrale Ergebnis von Tversky & Kahnemans Asian Disease Problem?",
+            "questionEn": "What is the central result of Tversky & Kahneman's Asian Disease Problem?",
+            "optionsDe": [
+              "Dass Menschen bei Krankheitsentscheidungen immer risikofreudig sind",
+              "Dass logisch äquivalente Formulierungen zu systematisch unterschiedlichem Verhalten führen, je nach Gewinn- oder Verlust-Framing",
+              "Dass Ärzte bessere Entscheidungen treffen als Laien",
+              "Dass Gruppenentscheidungen rationaler sind als Einzelentscheidungen"
+            ],
+            "optionsEn": [
+              "That people are always risk-seeking in disease decisions",
+              "That logically equivalent formulations lead to systematically different behavior depending on gain or loss framing",
+              "That doctors make better decisions than laypeople",
+              "That group decisions are more rational than individual ones"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Das Experiment belegt, dass Framing die Entscheidung verändert, ohne den sachlichen Inhalt zu ändern. Es widerspricht direkt der Annahme der klassischen Theorie, dass Menschen auf die Substanz einer Entscheidung reagieren, nicht auf ihre Formulierung.",
+            "explanationEn": "The experiment demonstrates that framing changes the decision without altering factual content. It directly contradicts the classical theory assumption that people respond to the substance of a decision, not its formulation."
+          },
+          {
+            "questionDe": "Warum wirkt '90 % Überlebensrate' überzeugender als '10 % Sterberate'?",
+            "questionEn": "Why does '90% survival rate' seem more convincing than '10% mortality rate'?",
+            "optionsDe": [
+              "Weil 90 eine größere Zahl ist als 10",
+              "Weil positives Framing einen Gewinn-Referenzpunkt setzt und dadurch weniger Verlustaversion aktiviert",
+              "Weil Menschen schlechte Mathematiker sind",
+              "Weil Überlebensraten im Gegensatz zu Sterberaten offiziell anerkannt sind"
+            ],
+            "optionsEn": [
+              "Because 90 is a larger number than 10",
+              "Because positive framing sets a gain reference point and thereby activates less loss aversion",
+              "Because people are poor at math",
+              "Because survival rates are officially recognized unlike mortality rates"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Positives Framing (Überleben) aktiviert einen Gewinn-Referenzpunkt – die Risikoaversion im Gewinnbereich macht die sichere Option attraktiver. Negatives Framing (Sterben) aktiviert einen Verlust-Referenzpunkt und andere Risikoeinstellungen.",
+            "explanationEn": "Positive framing (survival) activates a gain reference point – risk aversion in the gain domain makes the safe option more attractive. Negative framing (dying) activates a loss reference point and different risk attitudes."
+          },
+          {
+            "questionDe": "Was ist der Unterschied zwischen relativer und absoluter Risikoreduktion im statistischen Framing?",
+            "questionEn": "What is the difference between relative and absolute risk reduction in statistical framing?",
+            "optionsDe": [
+              "Relative Reduktion ist immer korrekter als absolute",
+              "Relative Reduktion (z. B. 50 % weniger) klingt dramatischer als absolute (z. B. 1 Prozentpunkt), obwohl beide dieselbe Information enthalten können",
+              "Absolute Reduktion gilt nur für seltene Erkrankungen",
+              "Relative Reduktion bezieht sich auf Individuen, absolute auf Populationen"
+            ],
+            "optionsEn": [
+              "Relative reduction is always more accurate than absolute",
+              "Relative reduction (e.g., 50% fewer) sounds more dramatic than absolute (e.g., 1 percentage point), even though both can contain the same information",
+              "Absolute reduction only applies to rare diseases",
+              "Relative reduction refers to individuals, absolute to populations"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "'50 % weniger Herzinfarkte' klingt beeindruckend – könnte aber bedeuten: von 2 % auf 1 %, also 1 Prozentpunkt absolute Reduktion. Relatives Framing übertreibt den Effekt wahrnehmungsmäßig; absolutes Framing ist informativer aber weniger eindrucksvoll.",
+            "explanationEn": "'50% fewer heart attacks' sounds impressive – but could mean: from 2% to 1%, i.e., 1 percentage point absolute reduction. Relative framing perceptually exaggerates the effect; absolute framing is more informative but less impressive."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m06-l04",
+      "titleDe": "Choice Architecture im Design",
+      "titleEn": "Choice Architecture in Design",
+      "durationMin": 10,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Entscheidungsarchitektur ist keine optionale Designentscheidung – jedes Interface, jedes Formular und jede Produktstruktur ist eine Entscheidungsarchitektur, ob bewusst gestaltet oder nicht.",
+        "body": [
+          "Sheena Iyengar und Mark Lepper demonstrierten 2000, dass mehr Wahloptionen nicht immer zu besseren Entscheidungen oder mehr Zufriedenheit führen: In einem Supermarkt-Experiment kauften signifikant weniger Kunden Marmelade, wenn sie zwischen 24 Sorten wählen konnten, als wenn nur 6 Sorten angeboten wurden. Zu viele Optionen erzeugen kognitive Überlastung, Entscheidungslähmung und häufigeres Bedauern nach der Wahl. Barry Schwartz nannte das 'Paradox of Choice'.",
+          "Die Implikation für Choice Architecture ist direkt: Weniger Optionen können die Qualität von Entscheidungen verbessern. Strukturierung durch Kategorien, empfohlene Optionen (Highlighted Choice), progressive Offenlegung (erst Basisoptionen, dann Fortgeschrittenes) und geführte Entscheidungsprozesse (Wizards) reduzieren kognitive Last und verbessern Outcomes.",
+          "Im digitalen Interface-Design haben sich mehrere evidenzbasierte Prinzipien etabliert: Salienz (die gewünschte Option visuell prominenter darstellen), Sequenzierung (die Reihenfolge der Optionen beeinflusst Auswahl systematisch), Commitment Devices (Nutzende können sich vorab auf ein Verhalten festlegen, das sie später unterstützt), und Feedback-Loops (unmittelbare Rückmeldung über die Konsequenzen von Entscheidungen, z. B. Energieverbrauchsanzeigen in Echtzeit).",
+          "Ein zentrales Werkzeug ist der von Thaler beschriebene Goldstandard für Entscheidungsarchitektur: RECAP – Record, Evaluate, Compare Alternative Prices. Nutzer sollten ihre eigenen Entscheidungsdaten leicht exportieren und mit Alternativen vergleichen können. Das stärkt echte Entscheidungssouveränität statt Abhängigkeit von Anbieterframing."
+        ],
+        "example": {
+          "title": "Marmeladen-Experiment: 6 vs. 24 Sorten",
+          "text": "Bei 24 Sorten blieben 60 % der Kunden stehen und kosteten, aber nur 3 % kauften. Bei 6 Sorten blieben 40 % stehen, aber 30 % kauften. Mehr Aufmerksamkeit durch Vielfalt – weniger Konversion durch Entscheidungslähmung. Das gilt direkt für Produktseiten, Tarifsysteme und Menüs in digitalen Produkten."
+        },
+        "reference": {
+          "author": "Iyengar, S. S. & Lepper, M. R.",
+          "year": 2000,
+          "title": "When Choice is Demotivating: Can One Desire Too Much of a Good Thing?",
+          "note": "Journal of Personality and Social Psychology, 79(6), 995–1006. Das Marmeladen-Experiment und verwandte Studien, die zeigen, dass exzessive Wahlmöglichkeiten Entscheidungsqualität und Zufriedenheit reduzieren können."
+        },
+        "fieldMission": {
+          "title": "Interface-Audit",
+          "description": "Analysiere heute ein digitales Interface, das du regelmäßig nutzt: Welche Entscheidungsarchitektur-Prinzipien erkennst du (Defaults, Salienz, Optionenreduktion, Sequenzierung)? Wurden sie im Nutzer- oder Anbieterinteresse eingesetzt?"
+        }
+      },
+      "contentEn": {
+        "summary": "Choice architecture is not an optional design decision – every interface, form, and product structure is a choice architecture, whether consciously designed or not.",
+        "body": [
+          "Sheena Iyengar and Mark Lepper demonstrated in 2000 that more choice options don't always lead to better decisions or more satisfaction: in a supermarket experiment, significantly fewer customers bought jam when choosing from 24 varieties than from 6. Too many options create cognitive overload, decision paralysis, and more frequent post-choice regret. Barry Schwartz called this the 'Paradox of Choice'.",
+          "The implication for choice architecture is direct: fewer options can improve decision quality. Structuring through categories, recommended options (highlighted choice), progressive disclosure (first basic options, then advanced), and guided decision processes (wizards) reduce cognitive load and improve outcomes.",
+          "In digital interface design, several evidence-based principles have been established: salience (presenting the desired option more visually prominent), sequencing (the order of options systematically influences selection), commitment devices (users can commit in advance to behavior that supports them later), and feedback loops (immediate feedback about decision consequences, e.g., real-time energy consumption displays).",
+          "A central tool is the gold standard for decision architecture described by Thaler: RECAP – Record, Evaluate, Compare Alternative Prices. Users should be able to easily export their own decision data and compare with alternatives. This strengthens genuine decision sovereignty rather than dependence on provider framing."
+        ],
+        "example": {
+          "title": "Jam Experiment: 6 vs. 24 Varieties",
+          "text": "With 24 varieties, 60% of customers stopped and tasted, but only 3% bought. With 6 varieties, 40% stopped, but 30% bought. More attention through variety – less conversion through decision paralysis. This applies directly to product pages, pricing tiers, and menus in digital products."
+        },
+        "reference": {
+          "author": "Iyengar, S. S. & Lepper, M. R.",
+          "year": 2000,
+          "title": "When Choice is Demotivating: Can One Desire Too Much of a Good Thing?",
+          "note": "Journal of Personality and Social Psychology, 79(6), 995–1006. The jam experiment and related studies showing that excessive choice options can reduce decision quality and satisfaction."
+        },
+        "fieldMission": {
+          "title": "Interface Audit",
+          "description": "Analyze a digital interface you use regularly today: which choice architecture principles can you identify (defaults, salience, option reduction, sequencing)? Were they applied in the user's or provider's interest?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was zeigt das Marmeladen-Experiment über Wahlmöglichkeiten?",
+            "questionEn": "What does the jam experiment show about choice options?",
+            "optionsDe": [
+              "Dass mehr Vielfalt immer mehr Umsatz erzeugt",
+              "Dass exzessive Wahlmöglichkeiten Entscheidungslähmung erzeugen und die Konversionsrate senken können",
+              "Dass Kunden immer die bekannteste Marke wählen",
+              "Dass Marmelade ein ungeeignetes Testprodukt ist"
+            ],
+            "optionsEn": [
+              "That more variety always generates more revenue",
+              "That excessive choice options generate decision paralysis and can reduce conversion rate",
+              "That customers always choose the most familiar brand",
+              "That jam is an unsuitable test product"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Das Experiment belegt: Mehr Optionen erhöhen Aufmerksamkeit, aber reduzieren Entscheidungsbereitschaft. Bei 6 Sorten war die Konversionsrate 10-mal höher als bei 24. Weniger ist in Entscheidungsarchitekturen oft mehr.",
+            "explanationEn": "The experiment demonstrates: more options increase attention but reduce decision readiness. With 6 varieties, conversion rate was 10 times higher than with 24. In choice architecture, less is often more."
+          },
+          {
+            "questionDe": "Was ist ein Commitment Device in der Entscheidungsarchitektur?",
+            "questionEn": "What is a commitment device in choice architecture?",
+            "optionsDe": [
+              "Eine Software, die Entscheidungen automatisiert",
+              "Ein Mechanismus, mit dem Nutzende sich vorab auf ein zukünftiges Verhalten festlegen, das ihren Langzeitinteressen dient",
+              "Ein Vertrag zwischen Anbieter und Nutzer",
+              "Ein Erinnerungssystem für wiederkehrende Aufgaben"
+            ],
+            "optionsEn": [
+              "Software that automates decisions",
+              "A mechanism by which users commit in advance to future behavior serving their long-term interests",
+              "A contract between provider and user",
+              "A reminder system for recurring tasks"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Commitment Devices wie 'Save More Tomorrow' (automatische Rentenerhöhung bei Gehaltserhöhung) helfen Menschen, langfristige Präferenzen gegen kurzfristige Impulse durchzusetzen – indem sie eine Vorab-Entscheidung treffen, die das spätere Verhalten bindet.",
+            "explanationEn": "Commitment devices like 'Save More Tomorrow' (automatic pension increase with salary raise) help people enforce long-term preferences against short-term impulses – by making an advance decision that binds later behavior."
+          },
+          {
+            "questionDe": "Was bedeutet Thalers RECAP-Prinzip für Entscheidungsarchitektur?",
+            "questionEn": "What does Thaler's RECAP principle mean for choice architecture?",
+            "optionsDe": [
+              "Dass Entscheidungen immer rückgängig gemacht werden können",
+              "Dass Nutzende ihre Entscheidungsdaten leicht exportieren und mit Alternativen vergleichen können sollen",
+              "Dass Anbieter Entscheidungen für Nutzer zusammenfassen müssen",
+              "Dass jede Entscheidung visuell hervorgehoben werden soll"
+            ],
+            "optionsEn": [
+              "That decisions can always be reversed",
+              "That users should be able to easily export their decision data and compare with alternatives",
+              "That providers must summarize decisions for users",
+              "That every decision should be visually highlighted"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "RECAP (Record, Evaluate, Compare Alternative Prices) ist Thalers Gegenmodell zu Anbieter-Framing: Echte Entscheidungssouveränität entsteht, wenn Nutzende ihre eigenen Daten lesen, exportieren und mit Wettbewerbern vergleichen können.",
+            "explanationEn": "RECAP (Record, Evaluate, Compare Alternative Prices) is Thaler's counter-model to provider framing: genuine decision sovereignty arises when users can read, export, and compare their own data with competitors."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m06-l05",
+      "titleDe": "Kritik & Ethik des Nudging",
+      "titleEn": "Criticism & Ethics of Nudging",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Nudging ist wirkungsmächtig – und genau deshalb ethisch umstritten. Wer entscheidet, welches Verhalten 'richtig' ist? Und ist die Beeinflussung ohne explizite Zustimmung legitim?",
+        "body": [
+          "Thaler und Sunstein positionierten Nudging als 'libertären Paternalismus': Freiheit der Wahl bleibt erhalten (libertär), aber die Entscheidungsarchitektur lenkt in Richtung des mutmaßlich besten Outcomes (paternalistisch). Kritiker bezeichnen das als Widerspruch in sich: Wenn die Umgebung das Verhalten lenkt, ohne dass man es bemerkt, handelt man dann wirklich frei?",
+          "Daniel Hausman und Brynn Welch kritisieren, dass Nudging die Autonomie untergräbt: Echte Entscheidungsfreiheit setzt voraus, dass man die Bedingungen seiner Entscheidung kennt und reflektieren kann. Ein Nudge, der unter der Bewusstseinsschwelle wirkt, manipuliert, ohne dass der Betroffene widersprechen oder zustimmen kann. Das unterscheidet Nudging fundamental von transparenter Überzeugung durch Argumente.",
+          "Weitere Einwände: Wer definiert, was 'im Interesse' des Entscheidenden ist? Staatliche Nudges in Demokratien werfen die Frage auf, welche Institution berechtigt ist, Verhaltensziele zu setzen. Unternehmens-Nudges werden oft im Interesse des Anbieters eingesetzt, nicht des Nutzers (Dark Patterns). Und selbst gutgemeinte Nudges können paternalistisch diverse Präferenzen homogenisieren.",
+          "Die wissenschaftliche Debatte hat sich auf zwei Lösungsansätze konzentriert: Transparenz-Nudges (Nudges, die sich selbst erklären und so Reflexion ermöglichen) und Boosts (anstelle von Verhaltenssteuerung werden kognitive Werkzeuge und Kompetenzen gestärkt, um bessere Entscheidungen ohne Umgebungsmanipulation zu ermöglichen). Boosts respektieren Autonomie stärker, sind aber in ihrer Wirkung voraussetzungsreicher."
+        ],
+        "example": {
+          "title": "Opt-out vs. informierte Zustimmung bei der Organspende",
+          "text": "Opt-out erhöht Spenderraten dramatisch – aber Kritiker fragen: Spiegelt die hohe Rate echte Zustimmung oder kognitive Trägheit wider? Eine Person, die widersprechen könnte, aber es nicht tut, weil der Wechsel Aufwand bedeutet, hat möglicherweise gar keine reflektierte Präferenz gebildet. Die hohe Effektivität des Nudges und seine geringe demokratische Legitimation stehen in Spannung."
+        },
+        "reference": {
+          "author": "Hausman, D. M. & Welch, B.",
+          "year": 2010,
+          "title": "Debate: To Nudge or Not to Nudge",
+          "note": "Journal of Political Philosophy, 18(1), 123–136. Die prominenteste philosophische Kritik am Nudge-Konzept, die Autonomieunterminierung als zentrales Problem benennt und zwischen Nudging und legitimer Überzeugung durch Argumente differenziert."
+        },
+        "fieldMission": {
+          "title": "Nudge bewerten",
+          "description": "Nimm einen der Nudges, den du in der letzten Field Mission identifiziert hast, und analysiere ihn: Ist er transparent? Im wessen Interesse? Würde er dich anders treffen, wenn du ihn bewusst wahrnähmst? Verändert das seine Legitimität?"
+        }
+      },
+      "contentEn": {
+        "summary": "Nudging is powerful – and for that very reason ethically contested. Who decides which behavior is 'correct'? And is influence without explicit consent legitimate?",
+        "body": [
+          "Thaler and Sunstein positioned nudging as 'libertarian paternalism': freedom of choice is preserved (libertarian), but the decision architecture steers toward the presumed best outcome (paternalistic). Critics call this a contradiction in terms: if the environment steers behavior without one noticing, is one truly acting freely?",
+          "Daniel Hausman and Brynn Welch criticize nudging as undermining autonomy: genuine freedom of choice requires knowing and being able to reflect on the conditions of one's decision. A nudge operating below the threshold of awareness manipulates without the affected person being able to agree or object. This fundamentally distinguishes nudging from transparent persuasion through arguments.",
+          "Further objections: who defines what is 'in the interest' of the decision-maker? State nudges in democracies raise the question of which institution is authorized to set behavioral goals. Corporate nudges are often deployed in the provider's interest rather than the user's (dark patterns). And even well-intentioned nudges can paternalistically homogenize diverse preferences.",
+          "Scientific debate has focused on two alternative approaches: transparency nudges (nudges that explain themselves, enabling reflection) and boosts (instead of steering behavior, cognitive tools and competencies are strengthened to enable better decisions without environmental manipulation). Boosts respect autonomy more strongly but are more demanding in their prerequisites."
+        ],
+        "example": {
+          "title": "Opt-out vs. Informed Consent for Organ Donation",
+          "text": "Opt-out dramatically increases donation rates – but critics ask: does the high rate reflect genuine consent or cognitive inertia? A person who could object but doesn't because switching requires effort may not have formed any reflective preference at all. The high effectiveness of the nudge and its limited democratic legitimacy stand in tension."
+        },
+        "reference": {
+          "author": "Hausman, D. M. & Welch, B.",
+          "year": 2010,
+          "title": "Debate: To Nudge or Not to Nudge",
+          "note": "Journal of Political Philosophy, 18(1), 123–136. The most prominent philosophical critique of the nudge concept, identifying autonomy undermining as the central problem and distinguishing between nudging and legitimate persuasion through arguments."
+        },
+        "fieldMission": {
+          "title": "Evaluate a Nudge",
+          "description": "Take one of the nudges you identified in the last field mission and analyze it: is it transparent? In whose interest? Would it affect you differently if you perceived it consciously? Does that change its legitimacy?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was meinen Thaler und Sunstein mit 'libertärem Paternalismus'?",
+            "questionEn": "What do Thaler and Sunstein mean by 'libertarian paternalism'?",
+            "optionsDe": [
+              "Dass Freiheit und staatliche Kontrolle grundsätzlich unvereinbar sind",
+              "Dass Wahlfreiheit erhalten bleibt, die Entscheidungsarchitektur aber in Richtung des besten Outcomes lenkt",
+              "Dass Nudges nur in liberalen Demokratien funktionieren",
+              "Dass Paternalismus durch finanzielle Anreize ersetzt werden soll"
+            ],
+            "optionsEn": [
+              "That freedom and state control are fundamentally incompatible",
+              "That freedom of choice is preserved, but the decision architecture steers toward the best outcome",
+              "That nudges only work in liberal democracies",
+              "That paternalism should be replaced by financial incentives"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Libertärer Paternalismus ist Thalers und Sunsteins Position: Menschen behalten alle Optionen (libertär), aber die Umgebung ist so gestaltet, dass sie wahrscheinlich die beste Wahl treffen (paternalistisch). Kritiker bezweifeln, dass beides gleichzeitig möglich ist.",
+            "explanationEn": "Libertarian paternalism is Thaler's and Sunstein's position: people retain all options (libertarian), but the environment is designed so they are likely to make the best choice (paternalistic). Critics doubt both can coexist."
+          },
+          {
+            "questionDe": "Was ist der Kernkritikpunkt von Hausman & Welch an Nudging?",
+            "questionEn": "What is Hausman & Welch's core criticism of nudging?",
+            "optionsDe": [
+              "Dass Nudges zu teuer in der Implementierung sind",
+              "Dass Nudges unter der Bewusstseinsschwelle wirken und damit Autonomie untergraben, weil keine informierte Zustimmung möglich ist",
+              "Dass Nudges nur kurzfristig wirken",
+              "Dass Nudges diskriminierende Wirkung haben"
+            ],
+            "optionsEn": [
+              "That nudges are too expensive to implement",
+              "That nudges operate below the threshold of awareness and thereby undermine autonomy because informed consent is impossible",
+              "That nudges only work short-term",
+              "That nudges have discriminatory effects"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Hausman & Welch argumentieren: Ein Nudge, der unbemerkt wirkt, entzieht sich der bewussten Zustimmung oder Ablehnung. Das unterscheidet ihn von rationaler Überzeugung durch Argumente und macht ihn zu einer Form der Manipulation, auch wenn die Absicht gut ist.",
+            "explanationEn": "Hausman & Welch argue: a nudge that operates unnoticed escapes conscious agreement or rejection. This distinguishes it from rational persuasion through arguments and makes it a form of manipulation, even if the intent is good."
+          },
+          {
+            "questionDe": "Was sind 'Boosts' als Alternative zu klassischen Nudges?",
+            "questionEn": "What are 'boosts' as an alternative to classical nudges?",
+            "optionsDe": [
+              "Stärkere, effektivere Nudges mit mehr Verhaltenseinfluss",
+              "Interventionen, die kognitive Kompetenzen und Werkzeuge stärken, damit Menschen bessere Entscheidungen ohne Umgebungsmanipulation treffen können",
+              "Finanzielle Anreize als Ergänzung zu Nudges",
+              "Automatisierte Entscheidungssysteme"
+            ],
+            "optionsEn": [
+              "Stronger, more effective nudges with more behavioral influence",
+              "Interventions that strengthen cognitive competencies and tools so people can make better decisions without environmental manipulation",
+              "Financial incentives as a supplement to nudges",
+              "Automated decision systems"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Boosts stärken die Entscheidungskompetenz direkt – z. B. durch Risikoliteralität, statistische Basiswissen oder Entscheidungsheuristiken. Sie respektieren Autonomie stärker als Nudges, weil sie die Fähigkeit zur reflektierten Entscheidung aufbauen, statt Entscheidungen durch Umgebungsgestaltung zu lenken.",
+            "explanationEn": "Boosts directly strengthen decision competence – e.g., through risk literacy, basic statistical knowledge, or decision heuristics. They respect autonomy more strongly than nudges because they build the capacity for reflective decision-making rather than steering decisions through environmental design."
+          }
+        ]
+      }
+    }
+  ]
+}

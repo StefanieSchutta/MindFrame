@@ -1,0 +1,580 @@
+{
+  "id": "module-07",
+  "titleDe": "Gewohnheiten & Verhaltensänderung",
+  "titleEn": "Habits & Behavior Change",
+  "descriptionDe": "Wie Gewohnheiten neurologisch entstehen, warum Motivation allein selten reicht und welche Mechanismen nachhaltige Verhaltensänderung tatsächlich ermöglichen.",
+  "descriptionEn": "How habits form neurologically, why motivation alone rarely suffices, and which mechanisms actually enable lasting behavior change.",
+  "icon": "🔁",
+  "lessons": [
+    {
+      "id": "m07-l01",
+      "titleDe": "Die Habit Loop",
+      "titleEn": "The Habit Loop",
+      "durationMin": 9,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Gewohnheiten folgen einem festen neurologischen Muster aus Auslöser, Routine und Belohnung – sobald dieser Kreislauf etabliert ist, läuft Verhalten weitgehend automatisch ab.",
+        "body": [
+          "Warum greifst du nach dem Smartphone, sobald du dich langweilst – ohne bewusste Entscheidung? Die Antwort liegt im Basalganglien-System, einer Hirnregion, die für die Automatisierung wiederholten Verhaltens zuständig ist. Charles Duhigg fasste die zugrundeliegende Forschung 2012 in einem dreiteiligen Modell zusammen, das er Habit Loop nannte: Cue (Auslöser), Routine (Verhalten) und Reward (Belohnung).",
+          "Der Cue ist ein Umweltsignal, das das Gehirn in einen automatischen Modus versetzt – Tageszeit, Ort, emotionaler Zustand, vorausgehende Handlung oder andere Personen. Die Routine ist das eigentliche Verhalten, physisch, mental oder emotional. Der Reward ist das, was dem Gehirn signalisiert, dass sich diese Schleife zu merken lohnt – ein dopaminerges Signal, das die Verbindung zwischen Cue und Routine verstärkt.",
+          "Entscheidend ist: Mit zunehmender Wiederholung wandert die Kontrolle über das Verhalten vom präfrontalen Kortex (bewusste Entscheidung) zu den Basalganglien (automatisierte Ausführung). Das ist neurologisch hocheffizient – es spart kognitive Ressourcen –, macht etablierte Gewohnheiten aber auch resistent gegen reine Willenskraft oder rationale Einsicht.",
+          "Wendy Wood zeigte in ihrer Forschung, dass bis zu 43 % unseres täglichen Verhaltens habituell und nicht bewusst entschieden ist. Das hat eine zentrale Implikation für Verhaltensänderung: Appelle an Motivation oder Wissen wirken primär auf den präfrontalen Kortex – aber etabliertes Verhalten wird von einem anderen Hirnsystem gesteuert. Deshalb scheitert reine Aufklärung so oft an echter Verhaltensänderung."
+        ],
+        "example": {
+          "title": "Der Griff zum Smartphone",
+          "text": "Cue: Eine kurze Pause in einer Unterhaltung oder ein Gefühl der Langeweile. Routine: Smartphone aus der Tasche, Sperrbildschirm entsperren, App öffnen. Reward: Neuer Stimulus (Nachricht, Like, Information) – auch wenn er trivial ist. Nach hunderten Wiederholungen läuft die gesamte Sequenz unterhalb der bewussten Wahrnehmung ab."
+        },
+        "reference": {
+          "author": "Duhigg, C.",
+          "year": 2012,
+          "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+          "note": "Random House. Populärwissenschaftliche Synthese der Habit-Loop-Forschung mit zahlreichen Fallstudien aus Neurowissenschaft, Wirtschaft und individueller Verhaltensänderung."
+        },
+        "fieldMission": {
+          "title": "Eigene Habit Loop kartieren",
+          "description": "Identifiziere heute eine deiner automatischen Gewohnheiten und zerlege sie in Cue, Routine und Reward. Was passiert, wenn du den Cue bewusst bemerkst, bevor die Routine startet?"
+        }
+      },
+      "contentEn": {
+        "summary": "Habits follow a fixed neurological pattern of cue, routine, and reward – once this loop is established, behavior runs largely automatically.",
+        "body": [
+          "Why do you reach for your smartphone the moment you feel bored – without a conscious decision? The answer lies in the basal ganglia system, a brain region responsible for automating repeated behavior. Charles Duhigg summarized the underlying research in 2012 in a three-part model he called the habit loop: cue, routine, and reward.",
+          "The cue is an environmental signal that puts the brain into automatic mode – time of day, location, emotional state, a preceding action, or other people. The routine is the actual behavior, physical, mental, or emotional. The reward is what signals to the brain that this loop is worth remembering – a dopaminergic signal that strengthens the connection between cue and routine.",
+          "Crucially, with increasing repetition, control over the behavior shifts from the prefrontal cortex (conscious decision) to the basal ganglia (automated execution). This is neurologically highly efficient – it conserves cognitive resources – but also makes established habits resistant to sheer willpower or rational insight.",
+          "Wendy Wood showed in her research that up to 43% of our daily behavior is habitual and not consciously decided. This has a central implication for behavior change: appeals to motivation or knowledge primarily act on the prefrontal cortex – but established behavior is governed by a different brain system. This is why pure education so often fails to produce real behavior change."
+        ],
+        "example": {
+          "title": "Reaching for the Smartphone",
+          "text": "Cue: a brief pause in conversation or a feeling of boredom. Routine: phone out of pocket, unlock screen, open app. Reward: new stimulus (message, like, information) – even if trivial. After hundreds of repetitions, the entire sequence runs below conscious awareness."
+        },
+        "reference": {
+          "author": "Duhigg, C.",
+          "year": 2012,
+          "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+          "note": "Random House. Popular-science synthesis of habit loop research with numerous case studies from neuroscience, business, and individual behavior change."
+        },
+        "fieldMission": {
+          "title": "Map Your Own Habit Loop",
+          "description": "Identify one of your automatic habits today and break it down into cue, routine, and reward. What happens when you consciously notice the cue before the routine starts?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Aus welchen drei Elementen besteht die Habit Loop nach Duhigg?",
+            "questionEn": "What three elements make up the habit loop according to Duhigg?",
+            "optionsDe": [
+              "Motivation, Handlung, Reflexion",
+              "Cue, Routine, Reward",
+              "Wissen, Wille, Wiederholung",
+              "Reiz, Reaktion, Verstärkung durch externe Belohnung allein"
+            ],
+            "optionsEn": [
+              "Motivation, action, reflection",
+              "Cue, routine, reward",
+              "Knowledge, willpower, repetition",
+              "Stimulus, response, reinforcement by external reward alone"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Die Habit Loop besteht aus Cue (Auslöser), Routine (Verhalten) und Reward (Belohnung). Diese dreiteilige Struktur ist die Grundlage aller habituellen neurologischen Verhaltensmuster.",
+            "explanationEn": "The habit loop consists of cue, routine, and reward. This three-part structure is the basis of all habitual neurological behavior patterns."
+          },
+          {
+            "questionDe": "Welche Hirnregion übernimmt die Kontrolle über stark etablierte Gewohnheiten?",
+            "questionEn": "Which brain region takes over control of strongly established habits?",
+            "optionsDe": [
+              "Der präfrontale Kortex",
+              "Die Basalganglien",
+              "Das Kleinhirn",
+              "Der Hippocampus"
+            ],
+            "optionsEn": [
+              "The prefrontal cortex",
+              "The basal ganglia",
+              "The cerebellum",
+              "The hippocampus"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Mit zunehmender Wiederholung verlagert sich die Kontrolle vom präfrontalen Kortex (bewusste Entscheidung) zu den Basalganglien (automatisierte Ausführung) – das macht Gewohnheiten effizient, aber auch schwer durch reine Willenskraft veränderbar.",
+            "explanationEn": "With increasing repetition, control shifts from the prefrontal cortex (conscious decision) to the basal ganglia (automated execution) – making habits efficient but also hard to change through sheer willpower."
+          },
+          {
+            "questionDe": "Warum scheitert reine Aufklärung oft an echter Verhaltensänderung?",
+            "questionEn": "Why does pure education often fail to produce real behavior change?",
+            "optionsDe": [
+              "Weil Menschen Informationen grundsätzlich misstrauen",
+              "Weil Aufklärung primär den präfrontalen Kortex anspricht, etabliertes Verhalten aber von den Basalganglien gesteuert wird",
+              "Weil Wissen keinen Einfluss auf Verhalten hat",
+              "Weil Aufklärung zu kurz ist"
+            ],
+            "optionsEn": [
+              "Because people fundamentally distrust information",
+              "Because education primarily addresses the prefrontal cortex, while established behavior is governed by the basal ganglia",
+              "Because knowledge has no influence on behavior",
+              "Because education is too brief"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Wissen und Motivation wirken auf das bewusste Entscheidungssystem. Automatisiertes Verhalten läuft jedoch über ein anderes Hirnsystem – deshalb reicht 'es besser wissen' allein selten aus, um eine etablierte Gewohnheit zu ändern.",
+            "explanationEn": "Knowledge and motivation act on the conscious decision system. Automated behavior, however, runs through a different brain system – which is why simply 'knowing better' is rarely sufficient to change an established habit."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m07-l02",
+      "titleDe": "Reibung & Verhaltensgleichung",
+      "titleEn": "Friction & the Behavior Equation",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Verhalten entsteht nur, wenn Motivation, Fähigkeit und Auslöser gleichzeitig ausreichend vorhanden sind – fehlt eine Komponente, bleibt das Verhalten aus, unabhängig von der Stärke der anderen.",
+        "body": [
+          "BJ Fogg entwickelte am Stanford Behavior Design Lab ein einflussreiches Modell, das er als Fogg Behavior Model formalisierte: B = MAP. Verhalten (Behavior) entsteht nur, wenn Motivation (Motivation), Fähigkeit (Ability) und ein Auslöser (Prompt) im selben Moment zusammentreffen. Das Modell erklärt, warum hohe Motivation allein oft nicht ausreicht – wenn die Fähigkeit fehlt oder kein Auslöser vorhanden ist, bleibt Verhalten trotzdem aus.",
+          "Zentral ist Foggs Konzept der Reibung (Friction): Jede Hürde, die ein Verhalten schwerer ausführbar macht – zusätzliche Klicks, Wartezeit, benötigte Information, physischer Aufwand – senkt die effektive Fähigkeit und damit die Wahrscheinlichkeit des Verhaltens. Reibungsreduktion ist oft wirkungsvoller als Motivationssteigerung, weil Motivation natürlicherweise schwankt, während reduzierte Reibung dauerhaft wirkt.",
+          "Das Modell erklärt auch, warum kleine Verhaltensänderungen oft nachhaltiger sind als große: Eine Aktivität mit geringer geforderter Fähigkeit (z. B. eine Liegestütze statt eines vollständigen Workouts) benötigt weniger Motivation, um auszulösen, und ist daher leichter konsistent durchzuführen. Fogg nennt das 'Tiny Habits' – minimale Verhaltenseinheiten, die mit hoher Wahrscheinlichkeit ausgeführt werden und sich über Zeit zu größeren Routinen ausbauen.",
+          "Für Produktdesign hat das direkte Konsequenzen: Onboarding-Flows, die Reibung in jedem Schritt minimieren (Auto-Fill, weniger Pflichtfelder, klare nächste Schritte), erhöhen Completion Rates signifikant – unabhängig von der Motivationslage der Nutzenden. Reibung ist damit ein primärer Hebel der Verhaltensgestaltung, nicht nur ein UX-Detail."
+        ],
+        "example": {
+          "title": "Die Zahnseide-Methode",
+          "text": "Fogg empfahl Menschen, die regelmäßig Zahnseide nutzen wollten, mit nur einem Zahn zu beginnen – direkt nach dem Zähneputzen (Cue), unmittelbar nach dem Griff zur Zahnbürste (geringe Fähigkeitsanforderung). Die minimale Hürde erhöhte die Konsistenz drastisch. Viele steigerten die Routine später selbstständig, weil das Verhalten bereits etabliert war."
+        },
+        "reference": {
+          "author": "Fogg, B. J.",
+          "year": 2009,
+          "title": "A Behavior Model for Persuasive Design",
+          "note": "Proceedings of the 4th International Conference on Persuasive Technology. Formale Einführung des B=MAP-Modells, das seither breite Anwendung in Produktdesign, Public Health und Behavior Change Coaching findet."
+        },
+        "fieldMission": {
+          "title": "Reibung identifizieren",
+          "description": "Finde ein Verhalten, das du etablieren möchtest, aber regelmäßig aufschiebst. Welche konkrete Reibung steht im Weg – und wie könntest du die Anforderung auf eine minimale Version reduzieren?"
+        }
+      },
+      "contentEn": {
+        "summary": "Behavior only occurs when motivation, ability, and a prompt are sufficiently present at the same moment – if one component is missing, the behavior fails to occur, regardless of how strong the others are.",
+        "body": [
+          "BJ Fogg developed an influential model at the Stanford Behavior Design Lab, formalized as the Fogg Behavior Model: B = MAP. Behavior occurs only when motivation, ability, and a prompt converge at the same moment. The model explains why high motivation alone is often insufficient – if ability is lacking or no prompt is present, behavior still fails to occur.",
+          "Central to the model is Fogg's concept of friction: any hurdle that makes a behavior harder to execute – additional clicks, waiting time, required information, physical effort – lowers effective ability and thereby the probability of the behavior. Reducing friction is often more effective than increasing motivation, because motivation naturally fluctuates while reduced friction works permanently.",
+          "The model also explains why small behavior changes are often more sustainable than large ones: an activity requiring little ability (e.g., one push-up instead of a full workout) needs less motivation to trigger and is therefore easier to perform consistently. Fogg calls these 'Tiny Habits' – minimal behavioral units that are highly likely to be executed and expand into larger routines over time.",
+          "For product design this has direct consequences: onboarding flows that minimize friction at every step (auto-fill, fewer required fields, clear next steps) significantly increase completion rates – independent of users' motivation level. Friction is thus a primary lever of behavior design, not merely a UX detail."
+        ],
+        "example": {
+          "title": "The Floss-One-Tooth Method",
+          "text": "Fogg recommended that people wanting to floss regularly start with just one tooth – right after brushing (cue), immediately following the reach for the toothbrush (low ability requirement). The minimal hurdle drastically increased consistency. Many later expanded the routine on their own, because the behavior was already established."
+        },
+        "reference": {
+          "author": "Fogg, B. J.",
+          "year": 2009,
+          "title": "A Behavior Model for Persuasive Design",
+          "note": "Proceedings of the 4th International Conference on Persuasive Technology. Formal introduction of the B=MAP model, widely applied since in product design, public health, and behavior change coaching."
+        },
+        "fieldMission": {
+          "title": "Identify Friction",
+          "description": "Find a behavior you want to establish but regularly postpone. What concrete friction stands in the way – and how could you reduce the requirement to a minimal version?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was bedeutet B = MAP im Fogg Behavior Model?",
+            "questionEn": "What does B = MAP mean in the Fogg Behavior Model?",
+            "optionsDe": [
+              "Behavior = Motivation × Ability × Prompt müssen gleichzeitig ausreichend vorhanden sein",
+              "Behavior = Meinung, Aktion, Praxis",
+              "Behavior = Methode, Anreiz, Pflicht",
+              "Behavior = Mittelwert aus Aktivität und Präferenz"
+            ],
+            "optionsEn": [
+              "Behavior = Motivation × Ability × Prompt must all be sufficiently present at the same time",
+              "Behavior = Meaning, Action, Practice",
+              "Behavior = Method, Appeal, Policy",
+              "Behavior = average of activity and preference"
+            ],
+            "correctIndex": 0,
+            "explanationDe": "Foggs Modell besagt, dass Verhalten nur entsteht, wenn Motivation, Fähigkeit und Auslöser im selben Moment ausreichend vorhanden sind. Fehlt eine Komponente, bleibt das Verhalten aus, auch wenn die anderen stark ausgeprägt sind.",
+            "explanationEn": "Fogg's model states that behavior occurs only when motivation, ability, and prompt are all sufficiently present at the same moment. If one component is missing, the behavior fails to occur, even if the others are strong."
+          },
+          {
+            "questionDe": "Warum ist Reibungsreduktion oft wirkungsvoller als Motivationssteigerung?",
+            "questionEn": "Why is friction reduction often more effective than increasing motivation?",
+            "optionsDe": [
+              "Weil Reibung leichter messbar ist als Motivation",
+              "Weil Motivation natürlich schwankt, während reduzierte Reibung dauerhaft wirkt",
+              "Weil Motivation nur bei jungen Menschen wirkt",
+              "Weil Reibungsreduktion günstiger ist"
+            ],
+            "optionsEn": [
+              "Because friction is easier to measure than motivation",
+              "Because motivation naturally fluctuates while reduced friction works permanently",
+              "Because motivation only works for young people",
+              "Because friction reduction is cheaper"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Motivation ist volatil – sie hängt von Tagesform, Stimmung und Kontext ab. Eine dauerhaft reduzierte Reibung wirkt unabhängig von dieser Volatilität und ist deshalb ein robusterer Hebel für konsistentes Verhalten.",
+            "explanationEn": "Motivation is volatile – it depends on daily condition, mood, and context. Permanently reduced friction works independently of this volatility and is therefore a more robust lever for consistent behavior."
+          },
+          {
+            "questionDe": "Was ist das Prinzip hinter Foggs 'Tiny Habits'-Ansatz?",
+            "questionEn": "What is the principle behind Fogg's 'Tiny Habits' approach?",
+            "optionsDe": [
+              "Möglichst viele Gewohnheiten gleichzeitig etablieren",
+              "Verhaltensanforderungen so klein machen, dass wenig Motivation für die Ausführung nötig ist – Konsistenz vor Intensität",
+              "Gewohnheiten nur an Wochenenden üben",
+              "Belohnungen so groß wie möglich gestalten"
+            ],
+            "optionsEn": [
+              "Establish as many habits as possible simultaneously",
+              "Make behavioral requirements so small that little motivation is needed to execute them – consistency over intensity",
+              "Practice habits only on weekends",
+              "Make rewards as large as possible"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Tiny Habits senken die geforderte Fähigkeit so stark, dass selbst niedrige Motivation ausreicht, um das Verhalten auszuführen. Konsistenz baut die Gewohnheit auf – die Routine kann später organisch wachsen.",
+            "explanationEn": "Tiny Habits lower the required ability so much that even low motivation suffices to execute the behavior. Consistency builds the habit – the routine can grow organically later."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m07-l03",
+      "titleDe": "Implementation Intentions",
+      "titleEn": "Implementation Intentions",
+      "durationMin": 8,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Die konkrete Formulierung 'Wenn Situation X eintritt, dann tue ich Y' schließt die Lücke zwischen Absicht und tatsächlichem Verhalten deutlich zuverlässiger als bloße Zielsetzung.",
+        "body": [
+          "Eine der robustesten Erkenntnisse der Verhaltensänderungsforschung stammt von Peter Gollwitzer: Menschen, die ihre Ziele in Form konkreter Wenn-Dann-Pläne formulieren (Implementation Intentions), setzen diese deutlich häufiger um als Menschen mit reinen Zielabsichten (Goal Intentions). 'Ich will mehr Sport treiben' ist eine Zielabsicht. 'Wenn ich montags um 7 Uhr aufwache, dann ziehe ich sofort meine Laufschuhe an' ist eine Implementation Intention.",
+          "Der Mechanismus dahinter ist neurokognitiv gut verstanden: Implementation Intentions delegieren die Verhaltenskontrolle vom bewussten, ressourcenintensiven System an ein automatisches, situativ ausgelöstes System. Die mentale Verknüpfung von Cue (Situation) und Response (Handlung) wird vorab hergestellt – das Gehirn muss in der eigentlichen Situation keine neue Entscheidung treffen, sondern führt einen bereits etablierten Plan aus.",
+          "Eine Meta-Analyse von Gollwitzer und Sheeran (2006) über 94 Studien zeigte einen mittleren bis großen Effekt von Implementation Intentions auf Zielerreichung – über Domänen wie Gesundheitsverhalten, akademische Leistung und Gewohnheitsbildung hinweg. Besonders wirksam sind sie bei Zielen, die in Konflikt mit etablierten Gewohnheiten oder kurzfristigen Versuchungen stehen – also genau dort, wo reine Willenskraft am häufigsten scheitert.",
+          "Für Produktdesign und Coaching-Anwendungen lässt sich das Prinzip direkt operationalisieren: Statt allgemeiner Zielsetzungsfunktionen ('Setze dir ein Ziel') sollten Tools Nutzende dazu anleiten, konkrete Wenn-Dann-Formulierungen mit spezifischem Zeitpunkt, Ort und Auslöser zu erstellen. Je konkreter die Verknüpfung, desto höher die Umsetzungswahrscheinlichkeit."
+        ],
+        "example": {
+          "title": "Gesundes Essen in der Kantine",
+          "text": "Eine Studie mit Implementation Intentions zur gesunden Ernährung zeigte: Teilnehmende, die formulierten 'Wenn ich die Kantine betrete, gehe ich zuerst zur Salatbar', aßen signifikant mehr Gemüse als Teilnehmende mit der allgemeinen Absicht 'Ich möchte gesünder essen' – obwohl beide Gruppen gleich motiviert waren."
+        },
+        "reference": {
+          "author": "Gollwitzer, P. M. & Sheeran, P.",
+          "year": 2006,
+          "title": "Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes",
+          "note": "Advances in Experimental Social Psychology, 38, 69–119. Umfassende Meta-Analyse über 94 unabhängige Studien, die den robusten Effekt konkreter Wenn-Dann-Pläne auf Zielerreichung über zahlreiche Verhaltensdomänen hinweg bestätigt."
+        },
+        "fieldMission": {
+          "title": "Eigene Implementation Intention formulieren",
+          "description": "Wähle ein Ziel, das du seit Längerem verfolgst, aber unregelmäßig umsetzt. Formuliere es als konkrete Wenn-Dann-Regel mit spezifischer Situation, Zeit und Ort."
+        }
+      },
+      "contentEn": {
+        "summary": "The concrete formulation 'When situation X occurs, I do Y' closes the gap between intention and actual behavior far more reliably than mere goal-setting.",
+        "body": [
+          "One of the most robust findings in behavior change research comes from Peter Gollwitzer: people who formulate their goals as concrete if-then plans (implementation intentions) follow through on them significantly more often than people with mere goal intentions. 'I want to exercise more' is a goal intention. 'When I wake up at 7am on Monday, I immediately put on my running shoes' is an implementation intention.",
+          "The underlying mechanism is well understood neurocognitively: implementation intentions delegate behavioral control from the conscious, resource-intensive system to an automatic, situationally triggered system. The mental link between cue (situation) and response (action) is established in advance – the brain doesn't need to make a new decision in the actual moment but executes an already established plan.",
+          "A meta-analysis by Gollwitzer and Sheeran (2006) across 94 studies showed a medium to large effect of implementation intentions on goal attainment – across domains such as health behavior, academic performance, and habit formation. They are particularly effective for goals that conflict with established habits or short-term temptations – precisely where sheer willpower most often fails.",
+          "For product design and coaching applications, this principle can be directly operationalized: instead of generic goal-setting functions ('set a goal'), tools should guide users to create concrete if-then formulations with specific timing, location, and trigger. The more concrete the link, the higher the probability of follow-through."
+        ],
+        "example": {
+          "title": "Healthy Eating in the Cafeteria",
+          "text": "A study on implementation intentions for healthy eating found: participants who formulated 'When I enter the cafeteria, I go to the salad bar first' ate significantly more vegetables than participants with the general intention 'I want to eat healthier' – even though both groups were equally motivated."
+        },
+        "reference": {
+          "author": "Gollwitzer, P. M. & Sheeran, P.",
+          "year": 2006,
+          "title": "Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes",
+          "note": "Advances in Experimental Social Psychology, 38, 69–119. Comprehensive meta-analysis across 94 independent studies confirming the robust effect of concrete if-then plans on goal attainment across numerous behavioral domains."
+        },
+        "fieldMission": {
+          "title": "Write Your Own Implementation Intention",
+          "description": "Choose a goal you've been pursuing for a while but execute irregularly. Formulate it as a concrete if-then rule with a specific situation, time, and place."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was unterscheidet eine Implementation Intention von einer Goal Intention?",
+            "questionEn": "What distinguishes an implementation intention from a goal intention?",
+            "optionsDe": [
+              "Implementation Intentions sind allgemeiner formuliert",
+              "Implementation Intentions verknüpfen ein konkretes Verhalten mit einer spezifischen Situation (Wenn-Dann), Goal Intentions formulieren nur das Ziel",
+              "Goal Intentions sind effektiver bei kurzfristigen Zielen",
+              "Es gibt keinen wesentlichen Unterschied"
+            ],
+            "optionsEn": [
+              "Implementation intentions are formulated more generally",
+              "Implementation intentions link a concrete behavior to a specific situation (if-then), goal intentions only state the goal",
+              "Goal intentions are more effective for short-term goals",
+              "There is no meaningful difference"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Eine Goal Intention ('Ich will mehr Sport treiben') benennt nur das Ziel. Eine Implementation Intention ('Wenn X, dann Y') verknüpft das Verhalten mit einer konkreten Auslösesituation – das macht den entscheidenden Unterschied in der Umsetzungsrate.",
+            "explanationEn": "A goal intention ('I want to exercise more') only states the goal. An implementation intention ('When X, then Y') links the behavior to a concrete trigger situation – this makes the decisive difference in follow-through rate."
+          },
+          {
+            "questionDe": "Warum erhöhen Implementation Intentions die Umsetzungswahrscheinlichkeit?",
+            "questionEn": "Why do implementation intentions increase the probability of follow-through?",
+            "optionsDe": [
+              "Weil sie das Ziel verkleinern",
+              "Weil sie die Verhaltenskontrolle vom bewussten System an ein automatisch ausgelöstes System delegieren",
+              "Weil sie Belohnungen versprechen",
+              "Weil sie schriftlich fixiert werden müssen"
+            ],
+            "optionsEn": [
+              "Because they make the goal smaller",
+              "Because they delegate behavioral control from the conscious system to an automatically triggered system",
+              "Because they promise rewards",
+              "Because they must be written down"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Die vorab hergestellte Cue-Response-Verknüpfung erlaubt es dem Gehirn, in der Situation ohne neue bewusste Entscheidung zu handeln – ähnlich wie bei der Habit Loop wird Verhalten in ein automatisches System verlagert.",
+            "explanationEn": "The pre-established cue-response link allows the brain to act in the situation without a new conscious decision – similar to the habit loop, behavior is shifted into an automatic system."
+          },
+          {
+            "questionDe": "In welchen Situationen sind Implementation Intentions laut Forschung besonders wirksam?",
+            "questionEn": "In which situations are implementation intentions particularly effective according to research?",
+            "optionsDe": [
+              "Bei einfachen, einmaligen Aufgaben ohne Hindernisse",
+              "Bei Zielen, die mit etablierten Gewohnheiten oder kurzfristigen Versuchungen in Konflikt stehen",
+              "Nur bei beruflichen Zielen",
+              "Nur in Gruppensituationen"
+            ],
+            "optionsEn": [
+              "For simple, one-time tasks without obstacles",
+              "For goals that conflict with established habits or short-term temptations",
+              "Only for professional goals",
+              "Only in group situations"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Implementation Intentions sind besonders wirksam, wenn Versuchung oder Gewohnheit dem Ziel entgegenstehen – also genau dort, wo reine Willenskraft typischerweise versagt. Sie überbrücken die Lücke zwischen Absicht und Handlung in genau diesen Konfliktsituationen.",
+            "explanationEn": "Implementation intentions are particularly effective when temptation or habit work against the goal – exactly where sheer willpower typically fails. They bridge the gap between intention and action in precisely these conflict situations."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m07-l04",
+      "titleDe": "Identitätsbasierte Verhaltensänderung",
+      "titleEn": "Identity-Based Behavior Change",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Verhaltensänderung, die an die persönliche Identität gekoppelt ist ('Ich bin jemand, der...') ist nachhaltiger als Verhaltensänderung, die nur auf konkrete Ergebnisse zielt.",
+        "body": [
+          "James Prochaska und Kollegen beschrieben in ihrem Transtheoretischen Modell, dass Verhaltensänderung in Stufen verläuft – von Precontemplation über Contemplation, Preparation, Action bis zur Maintenance. Doch ein zusätzlicher Faktor erwies sich in der Forschung zur Habit-Persistenz als besonders prädiktiv: die Verknüpfung des Verhaltens mit dem Selbstbild der handelnden Person.",
+          "Identitätsbasierte Verhaltensänderung unterscheidet drei Ebenen von Zielen: Ergebnisziele ('Ich will 5 kg abnehmen'), Prozessziele ('Ich will dreimal pro Woche trainieren') und Identitätsziele ('Ich bin ein sportlicher Mensch'). Forschung von Christian Jordan und Kollegen zeigt: Wenn ein Verhalten als Ausdruck der eigenen Identität wahrgenommen wird, sinkt die Abhängigkeit von Motivation oder externer Belohnung – das Verhalten wird selbstkonsistent statt fremdmotiviert.",
+          "Der zugrundeliegende Mechanismus ist Kognitive Dissonanz: Wenn jemand sich selbst als 'sportlichen Menschen' definiert, erzeugt das Auslassen von Sport eine innere Inkonsistenz, die unangenehm ist und Verhalten korrigiert – unabhängig von externer Kontrolle. Jede einzelne Ausführung des Verhaltens wird so zu einem 'Vote' für die gewünschte Identität, wie James Clear es in seiner Synthese der Forschung formulierte: Jede Handlung ist ein Beweis für oder gegen das Selbstbild.",
+          "Praktisch bedeutet das: Verhaltensänderungs-Tools, die nach jeder Ausführung kommunizieren 'Du hast bewiesen, dass du jemand bist, der X tut' statt nur 'Du hast X-mal trainiert', adressieren einen tieferen psychologischen Mechanismus. Identitätssprache ist wirksamer als reine Verhaltensmetriken – aber auch fragiler, weil ein wahrgenommener Identitätsbruch (eine verpasste Einheit als 'Ich bin doch keine Sportlerin') das gesamte System destabilisieren kann."
+        ],
+        "example": {
+          "title": "Wähler vs. Nichtwähler-Identität",
+          "text": "In einer Feldstudie zur Wahlbeteiligung erhöhte die Formulierung 'Wie wichtig ist es dir, ein Wähler zu sein?' (Identitätsfrage) die tatsächliche Wahlbeteiligung signifikant stärker als die Formulierung 'Wie wichtig ist es dir, zu wählen?' (Verhaltensfrage). Die Identitätsformulierung aktivierte ein Selbstbild, dem man treu bleiben wollte."
+        },
+        "reference": {
+          "author": "Bryan, C. J., Walton, G. M., Rogers, T. & Dweck, C. S.",
+          "year": 2011,
+          "title": "Motivating voter turnout by invoking the self",
+          "note": "Proceedings of the National Academy of Sciences, 108(31), 12653–12656. Empirischer Nachweis, dass identitätsbasierte Sprachformulierung Verhalten stärker beeinflusst als verhaltensbasierte Formulierung – mit direkten Implikationen für Habit-Design."
+        },
+        "fieldMission": {
+          "title": "Identität statt Ziel formulieren",
+          "description": "Formuliere ein Verhalten, das du etablieren möchtest, neu als Identitätsaussage ('Ich bin jemand, der...') statt als Ergebnisziel. Verändert sich dein Gefühl der Verbindlichkeit?"
+        }
+      },
+      "contentEn": {
+        "summary": "Behavior change tied to personal identity ('I am someone who...') is more sustainable than behavior change aimed only at concrete outcomes.",
+        "body": [
+          "James Prochaska and colleagues described in their Transtheoretical Model that behavior change proceeds in stages – from precontemplation through contemplation, preparation, action, to maintenance. But one additional factor proved particularly predictive in research on habit persistence: linking the behavior to the actor's self-image.",
+          "Identity-based behavior change distinguishes three levels of goals: outcome goals ('I want to lose 5 kg'), process goals ('I want to train three times a week'), and identity goals ('I am an athletic person'). Research by Christian Jordan and colleagues shows: when a behavior is perceived as an expression of one's own identity, dependence on motivation or external reward decreases – the behavior becomes self-consistent rather than externally motivated.",
+          "The underlying mechanism is cognitive dissonance: if someone defines themselves as an 'athletic person', skipping exercise creates an internal inconsistency that is uncomfortable and corrects behavior – independent of external control. Each individual execution of the behavior thus becomes a 'vote' for the desired identity, as James Clear formulated it in his synthesis of the research: every action is evidence for or against the self-image.",
+          "Practically, this means: behavior change tools that communicate after each execution 'You proved that you're someone who does X' rather than just 'You trained X times' address a deeper psychological mechanism. Identity language is more effective than pure behavioral metrics – but also more fragile, because a perceived identity breach (a missed session as 'I'm not really an athlete') can destabilize the entire system."
+        ],
+        "example": {
+          "title": "Voter vs. Non-Voter Identity",
+          "text": "In a field study on voter turnout, the phrasing 'How important is it to you to be a voter?' (identity question) increased actual turnout significantly more than the phrasing 'How important is it to you to vote?' (behavior question). The identity framing activated a self-image one wanted to remain true to."
+        },
+        "reference": {
+          "author": "Bryan, C. J., Walton, G. M., Rogers, T. & Dweck, C. S.",
+          "year": 2011,
+          "title": "Motivating voter turnout by invoking the self",
+          "note": "Proceedings of the National Academy of Sciences, 108(31), 12653–12656. Empirical evidence that identity-based language influences behavior more strongly than behavior-based phrasing – with direct implications for habit design."
+        },
+        "fieldMission": {
+          "title": "Frame Identity Instead of Goal",
+          "description": "Reformulate a behavior you want to establish as an identity statement ('I am someone who...') instead of an outcome goal. Does your sense of commitment change?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was unterscheidet ein Identitätsziel von einem Ergebnisziel?",
+            "questionEn": "What distinguishes an identity goal from an outcome goal?",
+            "optionsDe": [
+              "Identitätsziele sind messbarer als Ergebnisziele",
+              "Identitätsziele definieren, wer man ist ('Ich bin ein sportlicher Mensch'), Ergebnisziele definieren ein zu erreichendes Resultat",
+              "Es gibt keinen relevanten Unterschied",
+              "Identitätsziele sind nur für berufliche Kontexte relevant"
+            ],
+            "optionsEn": [
+              "Identity goals are more measurable than outcome goals",
+              "Identity goals define who one is ('I am an athletic person'), outcome goals define a result to be achieved",
+              "There is no meaningful difference",
+              "Identity goals are only relevant in professional contexts"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Ergebnisziele beschreiben ein konkretes Resultat ('5 kg abnehmen'). Identitätsziele beschreiben ein Selbstbild ('Ich bin ein sportlicher Mensch'). Identitätsziele erzeugen Konsistenzdruck, der über reine Ergebnisorientierung hinausgeht.",
+            "explanationEn": "Outcome goals describe a concrete result ('lose 5 kg'). Identity goals describe a self-image ('I am an athletic person'). Identity goals create consistency pressure that goes beyond pure outcome orientation."
+          },
+          {
+            "questionDe": "Welcher psychologische Mechanismus erklärt die Wirkung identitätsbasierter Verhaltensänderung?",
+            "questionEn": "Which psychological mechanism explains the effect of identity-based behavior change?",
+            "optionsDe": [
+              "Verlustaversion",
+              "Kognitive Dissonanz – das Auslassen des Verhaltens erzeugt eine unangenehme Inkonsistenz mit dem Selbstbild",
+              "Die Verfügbarkeitsheuristik",
+              "Der Endowment Effect"
+            ],
+            "optionsEn": [
+              "Loss aversion",
+              "Cognitive dissonance – skipping the behavior creates uncomfortable inconsistency with the self-image",
+              "The availability heuristic",
+              "The endowment effect"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Kognitive Dissonanz entsteht, wenn Verhalten und Selbstbild nicht übereinstimmen. Diese Spannung motiviert zur Wiederherstellung der Konsistenz – meist durch Anpassung des Verhaltens an das Selbstbild.",
+            "explanationEn": "Cognitive dissonance arises when behavior and self-image don't match. This tension motivates restoring consistency – usually by adjusting behavior to fit the self-image."
+          },
+          {
+            "questionDe": "Was zeigte das Experiment zu Wähler- vs. Wahlverhalten-Formulierung?",
+            "questionEn": "What did the voter-identity vs. voting-behavior phrasing experiment show?",
+            "optionsDe": [
+              "Dass Verhaltensformulierungen immer wirksamer sind als Identitätsformulierungen",
+              "Dass die Identitätsfrage ('ein Wähler sein') die tatsächliche Wahlbeteiligung stärker erhöhte als die Verhaltensfrage ('wählen')",
+              "Dass Sprache keinen Einfluss auf Wahlverhalten hat",
+              "Dass nur junge Menschen auf Identitätsformulierungen reagieren"
+            ],
+            "optionsEn": [
+              "That behavior phrasing is always more effective than identity phrasing",
+              "That the identity question ('being a voter') increased actual turnout more than the behavior question ('voting')",
+              "That language has no influence on voting behavior",
+              "That only young people respond to identity phrasing"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Die Studie von Bryan et al. zeigte einen messbaren Unterschied in tatsächlichem Wahlverhalten zwischen Identitäts- und Verhaltensformulierung – ein direkter empirischer Beleg für die stärkere Wirkung identitätsbasierter Sprache.",
+            "explanationEn": "Bryan et al.'s study showed a measurable difference in actual voting behavior between identity and behavior phrasing – direct empirical evidence for the stronger effect of identity-based language."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m07-l05",
+      "titleDe": "Rückfälle & Verhaltenserhaltung",
+      "titleEn": "Relapse & Behavior Maintenance",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Rückfälle sind ein normaler, vorhersagbarer Teil jedes Verhaltensänderungsprozesses – wie mit ihnen umgegangen wird, entscheidet stärker über langfristigen Erfolg als ihre bloße Vermeidung.",
+        "body": [
+          "Alan Marlatt entwickelte das Modell der Relapse Prevention ursprünglich für Suchtverhalten, dessen Prinzipien sich jedoch auf jede Form der Verhaltensänderung übertragen lassen. Zentral ist die Unterscheidung zwischen einem Lapse (einzelner Ausrutscher) und einem Relapse (vollständiger Rückfall in das alte Muster). Marlatt zeigte, dass die Reaktion auf einen Lapse entscheidender ist als der Lapse selbst.",
+          "Der sogenannte Abstinence Violation Effect beschreibt eine gefährliche kognitive Falle: Nach einem ersten Ausrutscher ('Ich habe heute nicht trainiert') interpretieren viele Menschen das Ereignis als Beweis für vollständiges Scheitern ('Ich schaffe das ohnehin nicht') und geben das Vorhaben komplett auf. Dieser binäre Alles-oder-Nichts-Gedanke verwandelt einen kleinen, korrigierbaren Lapse in einen vollständigen Relapse.",
+          "Forschung zur Verhaltenserhaltung zeigt, dass die '2-Tage-Regel' ein wirksames Gegenmittel ist: Ein verpasster Tag ist statistisch irrelevant für langfristigen Erfolg, zwei verpasste Tage in Folge erhöhen das Rückfallrisiko jedoch drastisch, weil sich ein neues, gegenteiliges Muster zu etablieren beginnt. Das Prinzip 'nie zweimal hintereinander aussetzen' ist daher eine der robustesten praktischen Heuristiken zur Verhaltenserhaltung.",
+          "Für nachhaltiges Habit-Design bedeutet das: Tools sollten nicht primär auf perfekte Streaks optimieren, sondern auf schnelle Wiederaufnahme nach Unterbrechung. Self-Compassion-Forschung von Kristin Neff zeigt zudem, dass selbstkritische Reaktionen auf Rückfälle Scham und Vermeidung verstärken, während selbstmitfühlende Reaktionen die Wahrscheinlichkeit der Wiederaufnahme signifikant erhöhen."
+        ],
+        "example": {
+          "title": "Die 2-Tage-Regel beim Sport",
+          "text": "Eine Person, die montags, mittwochs und freitags trainiert, verpasst einmal den Mittwoch wegen Krankheit. Statistisch hat das kaum Einfluss auf langfristige Konsistenz. Verpasst sie aber auch noch Freitag, steigt das Risiko, dass aus der Pause eine dauerhafte Unterbrechung wird, drastisch – ein neues Muster ('ich trainiere gerade nicht') etabliert sich."
+        },
+        "reference": {
+          "author": "Marlatt, G. A. & Gordon, J. R.",
+          "year": 1985,
+          "title": "Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors",
+          "note": "Guilford Press. Begründungswerk des Relapse-Prevention-Modells, das den Abstinence Violation Effect formal beschrieb und seither weit über Suchtforschung hinaus auf allgemeine Verhaltensänderung angewendet wird."
+        },
+        "fieldMission": {
+          "title": "Rückfall-Reaktion reflektieren",
+          "description": "Erinnere dich an eine Gewohnheit, die du unterbrochen und nicht wieder aufgenommen hast. War der ursprüngliche Lapse das eigentliche Problem – oder deine Interpretation davon ('Ich schaffe das nicht')?"
+        }
+      },
+      "contentEn": {
+        "summary": "Relapses are a normal, predictable part of every behavior change process – how they are handled determines long-term success more than simply avoiding them.",
+        "body": [
+          "Alan Marlatt originally developed the Relapse Prevention model for addictive behavior, but its principles transfer to any form of behavior change. Central is the distinction between a lapse (a single slip) and a relapse (a complete reversion to the old pattern). Marlatt showed that the reaction to a lapse is more decisive than the lapse itself.",
+          "The so-called Abstinence Violation Effect describes a dangerous cognitive trap: after an initial slip ('I didn't train today'), many people interpret the event as proof of complete failure ('I can't do this anyway') and abandon the endeavor entirely. This binary all-or-nothing thinking transforms a small, correctable lapse into a complete relapse.",
+          "Research on behavior maintenance shows that the 'two-day rule' is an effective countermeasure: one missed day is statistically irrelevant to long-term success, but two consecutive missed days dramatically increase relapse risk, because a new, opposite pattern begins to establish itself. The principle 'never skip twice in a row' is thus one of the most robust practical heuristics for behavior maintenance.",
+          "For sustainable habit design, this means: tools should not primarily optimize for perfect streaks but for rapid resumption after interruption. Self-compassion research by Kristin Neff also shows that self-critical reactions to lapses amplify shame and avoidance, while self-compassionate reactions significantly increase the likelihood of resumption."
+        ],
+        "example": {
+          "title": "The Two-Day Rule in Exercise",
+          "text": "A person who trains Monday, Wednesday, and Friday misses Wednesday once due to illness. Statistically, this has little effect on long-term consistency. But if they also miss Friday, the risk that the pause becomes a permanent break rises dramatically – a new pattern ('I'm not currently training') begins to establish."
+        },
+        "reference": {
+          "author": "Marlatt, G. A. & Gordon, J. R.",
+          "year": 1985,
+          "title": "Relapse Prevention: Maintenance Strategies in the Treatment of Addictive Behaviors",
+          "note": "Guilford Press. Foundational work of the relapse prevention model, formally describing the Abstinence Violation Effect, since applied far beyond addiction research to general behavior change."
+        },
+        "fieldMission": {
+          "title": "Reflect on Relapse Reaction",
+          "description": "Recall a habit you interrupted and never resumed. Was the original lapse the actual problem – or your interpretation of it ('I can't do this')?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist der Unterschied zwischen einem Lapse und einem Relapse?",
+            "questionEn": "What is the difference between a lapse and a relapse?",
+            "optionsDe": [
+              "Es gibt keinen Unterschied, beide Begriffe sind synonym",
+              "Ein Lapse ist ein einzelner Ausrutscher, ein Relapse ein vollständiger Rückfall in das alte Muster",
+              "Ein Lapse betrifft nur Suchtverhalten, ein Relapse alle anderen Verhaltensweisen",
+              "Ein Lapse ist schwerwiegender als ein Relapse"
+            ],
+            "optionsEn": [
+              "There is no difference; both terms are synonymous",
+              "A lapse is a single slip, a relapse is a complete reversion to the old pattern",
+              "A lapse only applies to addictive behavior, a relapse to all other behaviors",
+              "A lapse is more severe than a relapse"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Ein Lapse ist ein einzelnes, isoliertes Abweichen vom gewünschten Verhalten. Ein Relapse ist die vollständige Rückkehr zum alten Muster. Marlatts zentrale Erkenntnis: Ob aus einem Lapse ein Relapse wird, hängt von der Reaktion darauf ab.",
+            "explanationEn": "A lapse is a single, isolated deviation from the desired behavior. A relapse is a complete return to the old pattern. Marlatt's key insight: whether a lapse becomes a relapse depends on the reaction to it."
+          },
+          {
+            "questionDe": "Was beschreibt der Abstinence Violation Effect?",
+            "questionEn": "What does the Abstinence Violation Effect describe?",
+            "optionsDe": [
+              "Die physiologische Reaktion des Körpers auf Entzug",
+              "Die kognitive Tendenz, einen einzelnen Ausrutscher als Beweis vollständigen Scheiterns zu interpretieren und das Vorhaben aufzugeben",
+              "Die Wirkung von sozialem Druck auf Suchtverhalten",
+              "Den Effekt, dass Abstinenz langfristig leichter wird"
+            ],
+            "optionsEn": [
+              "The physiological response of the body to withdrawal",
+              "The cognitive tendency to interpret a single slip as proof of complete failure and abandon the endeavor",
+              "The effect of social pressure on addictive behavior",
+              "The effect that abstinence becomes easier long-term"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Der Abstinence Violation Effect ist die binäre Alles-oder-Nichts-Interpretation eines Lapse: Ein kleiner Fehler wird als Gesamtversagen gedeutet, was die Wahrscheinlichkeit eines vollständigen Relapse erhöht.",
+            "explanationEn": "The Abstinence Violation Effect is the binary all-or-nothing interpretation of a lapse: a small mistake is interpreted as total failure, increasing the likelihood of a complete relapse."
+          },
+          {
+            "questionDe": "Was empfiehlt die '2-Tage-Regel' für Verhaltenserhaltung?",
+            "questionEn": "What does the 'two-day rule' recommend for behavior maintenance?",
+            "optionsDe": [
+              "Jede Gewohnheit muss an genau zwei Tagen pro Woche ausgeführt werden",
+              "Ein verpasster Tag ist unkritisch, zwei verpasste Tage in Folge sollten vermieden werden, um Rückfallrisiko zu minimieren",
+              "Nach zwei Tagen Pause sollte eine neue Gewohnheit gewählt werden",
+              "Gewohnheiten sollten alle zwei Tage variiert werden"
+            ],
+            "optionsEn": [
+              "Every habit must be performed on exactly two days per week",
+              "One missed day is uncritical; two consecutive missed days should be avoided to minimize relapse risk",
+              "After two days off, a new habit should be chosen",
+              "Habits should be varied every two days"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Die 2-Tage-Regel besagt: Ein einzelner verpasster Tag hat geringe Auswirkung auf langfristige Konsistenz. Zwei aufeinanderfolgende verpasste Tage erhöhen das Risiko eines dauerhaften Rückfalls signifikant.",
+            "explanationEn": "The two-day rule states: a single missed day has little impact on long-term consistency. Two consecutive missed days significantly increase the risk of permanent relapse."
+          }
+        ]
+      }
+    }
+  ]
+}

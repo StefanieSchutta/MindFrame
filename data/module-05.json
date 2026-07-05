@@ -1,0 +1,580 @@
+{
+  "id": "module-05",
+  "titleDe": "Sozialer Einfluss",
+  "titleEn": "Social Influence",
+  "descriptionDe": "Warum andere Menschen unser Denken, Urteilen und Handeln stärker prägen als wir glauben – von Konformität über Autorität bis zu Informationskaskaden.",
+  "descriptionEn": "Why other people shape our thinking, judgment, and behavior more than we realize – from conformity and authority to information cascades.",
+  "icon": "👥",
+  "lessons": [
+    {
+      "id": "m05-l01",
+      "titleDe": "Konformität & soziale Normen",
+      "titleEn": "Conformity & Social Norms",
+      "durationMin": 8,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Menschen passen ihr Verhalten und ihre Urteile an die wahrgenommene Mehrheit an – selbst dann, wenn die Mehrheit offensichtlich falsch liegt.",
+        "body": [
+          "Solomon Asch führte in den 1950er-Jahren eines der bekanntesten Experimente der Sozialpsychologie durch: Versuchspersonen sollten angeben, welche von drei Linien einer Referenzlinie in ihrer Länge entspricht – eine triviale Aufgabe mit eindeutiger Antwort. Allein gelöst, machten die Teilnehmenden nahezu keine Fehler. In Gruppen, in denen Mitglieder (Komplizen von Asch) einstimmig eine falsche Antwort gaben, schlossen sich die echten Versuchspersonen in etwa 37 % der Fälle der falschen Mehrheit an.",
+          "Konformität entsteht aus zwei verschiedenen Quellen: Informativer sozialer Einfluss entsteht, wenn wir unsicher sind und das Verhalten anderer als nützliche Information interpretieren – besonders in neuen oder unklaren Situationen. Normativer sozialer Einfluss entsteht, wenn wir soziale Akzeptanz sichern wollen und deshalb unabhängig von unserer eigenen Meinung konform gehen. Beide Mechanismen sind evolutionär sinnvoll, können aber in modernen Kontexten zu Fehlanpassungen führen.",
+          "Soziale Normen – explizite oder implizite Erwartungen an das Verhalten in einer Gruppe – sind eng mit Konformität verknüpft. Deskriptive Normen beschreiben, was die Mehrheit tut; injunktive Normen beschreiben, was die Mehrheit gutheißt. Cialdini und Kollegen zeigten, dass deskriptive Normen ('Die meisten Hotelgäste verwenden ihre Handtücher wieder') verhaltensändernder sind als allgemeine Appelle – weil sie soziale Vergleichsinformation liefern.",
+          "Für Design, Kommunikation und Produktentwicklung ist die Wirkung sozialer Normen direkt nutzbar: Soziale Beweise ('3 Millionen Nutzer'), Community-Features, Bewertungssysteme und Sichtbarkeit des Nutzerverhaltens aktivieren normativen Einfluss. Entscheidend ist dabei die Authentizität – wahrgenommene Manipulation erzeugt Reaktanz und kann den gegenteiligen Effekt haben."
+        ],
+        "example": {
+          "title": "Handtücher im Hotel",
+          "text": "Hotels, die ihre Handtuch-Wiederverwendungs-Bitte mit 'Die Mehrheit der Gäste in diesem Zimmer hat ihre Handtücher wiederverwendet' formulierten, erzielten signifikant höhere Raten als solche mit allgemeinen Umweltappellen. Der lokale Norm-Hinweis (dieses Zimmer) wirkte stärker als der allgemeine (dieses Hotel)."
+        },
+        "reference": {
+          "author": "Asch, S. E.",
+          "year": 1955,
+          "title": "Opinions and Social Pressure",
+          "note": "Scientific American, 193(5), 31–35. Populärwissenschaftliche Zusammenfassung des Linien-Experiments, das Konformität als robustes Phänomen auch bei eindeutigen Aufgaben belegte und die Sozialpsychologie nachhaltig prägte."
+        },
+        "fieldMission": {
+          "title": "Normen sichtbar machen",
+          "description": "Beobachte heute eine Situation, in der du oder andere konform gegangen sind – ohne inhaltliche Überzeugung. War es informativer oder normativer Einfluss? Hättest du anders gehandelt, wenn du allein gewesen wärst?"
+        }
+      },
+      "contentEn": {
+        "summary": "People adjust their behavior and judgments to match the perceived majority – even when the majority is obviously wrong.",
+        "body": [
+          "Solomon Asch conducted one of the most famous experiments in social psychology in the 1950s: participants had to identify which of three lines matched a reference line in length – a trivial task with a clear answer. Alone, participants made almost no errors. In groups where members (Asch's confederates) unanimously gave a wrong answer, real participants conformed to the incorrect majority in about 37% of cases.",
+          "Conformity arises from two distinct sources: informational social influence occurs when we are uncertain and interpret others' behavior as useful information – especially in novel or ambiguous situations. Normative social influence occurs when we seek social acceptance and conform regardless of our own opinion. Both mechanisms are evolutionarily sensible but can lead to maladaptations in modern contexts.",
+          "Social norms – explicit or implicit expectations about behavior in a group – are closely linked to conformity. Descriptive norms describe what the majority does; injunctive norms describe what the majority approves of. Cialdini and colleagues showed that descriptive norms ('Most hotel guests reuse their towels') are more behavior-changing than general appeals – because they provide social comparison information.",
+          "For design, communication, and product development, the power of social norms is directly applicable: social proof ('3 million users'), community features, rating systems, and visibility of user behavior activate normative influence. Authenticity is crucial – perceived manipulation generates reactance and can produce the opposite effect."
+        ],
+        "example": {
+          "title": "Hotel Towels",
+          "text": "Hotels framing their towel reuse request as 'The majority of guests in this room reused their towels' achieved significantly higher rates than those using general environmental appeals. The local norm cue (this room) worked more strongly than the general one (this hotel)."
+        },
+        "reference": {
+          "author": "Asch, S. E.",
+          "year": 1955,
+          "title": "Opinions and Social Pressure",
+          "note": "Scientific American, 193(5), 31–35. Popular summary of the line experiment, demonstrating conformity as a robust phenomenon even on unambiguous tasks and permanently shaping social psychology."
+        },
+        "fieldMission": {
+          "title": "Make Norms Visible",
+          "description": "Observe a situation today where you or others conformed – without genuine conviction. Was it informational or normative influence? Would you have acted differently if alone?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was zeigte Aschs Linien-Experiment über menschliche Konformität?",
+            "questionEn": "What did Asch's line experiment show about human conformity?",
+            "optionsDe": [
+              "Dass Menschen nur bei schwierigen Aufgaben konform gehen",
+              "Dass Menschen auch bei eindeutigen Aufgaben einer falschen Mehrheit folgen",
+              "Dass Konformität nur in Autoritätssituationen auftritt",
+              "Dass Gruppenurteile immer präziser sind als Einzelurteile"
+            ],
+            "optionsEn": [
+              "That people only conform on difficult tasks",
+              "That people follow an incorrect majority even on unambiguous tasks",
+              "That conformity only occurs in authority situations",
+              "That group judgments are always more accurate than individual ones"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "In Aschs Experiment war die richtige Antwort eindeutig erkennbar – trotzdem konformierten Versuchspersonen in 37 % der Fälle mit der falschen Mehrheit. Das belegt, dass Konformität kein reines Unsicherheitsphänomen ist.",
+            "explanationEn": "In Asch's experiment, the correct answer was clearly recognizable – yet participants conformed with the incorrect majority in 37% of cases. This demonstrates that conformity is not purely an uncertainty phenomenon."
+          },
+          {
+            "questionDe": "Was ist der Unterschied zwischen informativer und normativer Konformität?",
+            "questionEn": "What is the difference between informational and normative conformity?",
+            "optionsDe": [
+              "Informative Konformität basiert auf Wissen, normative auf Emotion",
+              "Informative Konformität nutzt andere als Informationsquelle, normative dient der sozialen Akzeptanz",
+              "Informative Konformität tritt nur in Gruppen auf, normative auch allein",
+              "Es gibt keinen relevanten Unterschied"
+            ],
+            "optionsEn": [
+              "Informational conformity is based on knowledge, normative on emotion",
+              "Informational conformity uses others as an information source, normative serves social acceptance",
+              "Informational conformity only occurs in groups, normative also alone",
+              "There is no relevant difference"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Informativer Einfluss: Ich folge der Gruppe, weil ich glaube, dass sie Recht hat. Normativer Einfluss: Ich folge der Gruppe, um nicht abgelehnt zu werden – auch wenn ich innerlich anderer Meinung bin.",
+            "explanationEn": "Informational influence: I follow the group because I believe it is right. Normative influence: I follow the group to avoid rejection – even if I privately disagree."
+          },
+          {
+            "questionDe": "Warum wirkt ein lokaler Norm-Hinweis ('Gäste in diesem Zimmer') stärker als ein allgemeiner?",
+            "questionEn": "Why does a local norm cue ('guests in this room') work more strongly than a general one?",
+            "optionsDe": [
+              "Weil lokale Texte kürzer und leichter lesbar sind",
+              "Weil er einen relevanteren sozialen Vergleichspunkt setzt – die Ingroup fühlt sich näher an",
+              "Weil Hotelgäste grundsätzlich gehorsamer sind",
+              "Weil Zahlen in lokalem Kontext größer wirken"
+            ],
+            "optionsEn": [
+              "Because local text is shorter and easier to read",
+              "Because it sets a more relevant social comparison point – the in-group feels closer",
+              "Because hotel guests are fundamentally more obedient",
+              "Because numbers seem larger in local context"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Soziale Normen wirken stärker, wenn die Referenzgruppe als ähnlich oder nah wahrgenommen wird. 'Gäste in diesem Zimmer' ist psychologisch näher als 'Gäste in diesem Hotel' – der Vergleich ist relevanter.",
+            "explanationEn": "Social norms are more powerful when the reference group is perceived as similar or close. 'Guests in this room' is psychologically closer than 'guests in this hotel' – the comparison is more relevant."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m05-l02",
+      "titleDe": "Sozialer Beweis",
+      "titleEn": "Social Proof",
+      "durationMin": 8,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Wenn wir unsicher sind, orientieren wir uns daran, was andere tun – Social Proof ist eines der mächtigsten Prinzipien der Beeinflussung in unsicheren Entscheidungssituationen.",
+        "body": [
+          "Robert Cialdini beschrieb Social Proof als eines von sechs grundlegenden Prinzipien der Überzeugung: In unklaren Situationen interpretieren wir das Verhalten anderer als Hinweis darauf, was korrekt, sicher oder wünschenswert ist. Je mehr Menschen etwas tun, desto richtiger erscheint es – unabhängig davon, ob die Mehrheit tatsächlich recht hat.",
+          "Social Proof wirkt besonders stark unter zwei Bedingungen: Unsicherheit (wir wissen nicht, was richtig ist, und suchen externe Orientierung) und Ähnlichkeit (die beobachteten Personen ähneln uns oder befinden sich in einer vergleichbaren Situation). Ein Restaurant, das voll ist, gilt als gut – selbst ohne Informationen über die Qualität des Essens. Bestseller-Listen verkaufen sich besser als identisch bewertete Bücher ohne Label.",
+          "Im digitalen Kontext hat Social Proof eine institutionalisierte Form angenommen: Sternebewertungen, Follower-Zahlen, Nutzerzahlen ('Bereits 2 Mio. Downloads'), Like-Counts und Kommentarvolumen sind allgegenwärtige Proxies für sozialen Beweis. Interessanterweise zeigen Studien, dass bereits eine geringe Anzahl von Bewertungen das Verhalten stark beeinflusst – der Übergang von Null zu einer einzigen Rezension ist statistisch größer als der von 10 auf 100.",
+          "Social Proof hat auch eine Schattenseite: Wenn das Signal falsch ist, verstärkt es Fehler kollektiv. Gefakte Bewertungen, gekaufte Follower und algorithmisch erzeugte Trending-Listen manipulieren soziale Beweise und erzeugen Verhalten, das nicht auf echten Präferenzen basiert. Das ist eine der zentralen Dysfunktionen sozialer Netzwerke."
+        ],
+        "example": {
+          "title": "Das leere vs. volle Restaurant",
+          "text": "Zwei identische Restaurants nebeneinander, eines voll, eines leer. Die meisten Passanten wählen das volle – obwohl sie keine Information über die Qualität haben. Die Anwesenheit anderer Gäste dient als Qualitätsproxy. Das volle Restaurant profitiert von seinem eigenen Erfolg, das leere leidet unter seiner Leere – ein selbstverstärkender Social-Proof-Effekt."
+        },
+        "reference": {
+          "author": "Cialdini, R. B.",
+          "year": 2001,
+          "title": "Influence: The Psychology of Persuasion",
+          "note": "Harper Collins (rev. ed.). Das Standardwerk zu den sechs Überzeugungsprinzipien (Reziprozität, Commitment, Social Proof, Autorität, Sympathie, Knappheit). Social Proof ist dabei empirisch eines der wirkungsmächtigsten Prinzipien in digitalen Kontexten."
+        },
+        "fieldMission": {
+          "title": "Social Proof im Alltag",
+          "description": "Finde heute drei Beispiele von Social Proof, die du unbewusst als Entscheidungshilfe genutzt hast (Bewertungen, Schlangen, Empfehlungen). War der zugrunde liegende Beweis tatsächlich valide?"
+        }
+      },
+      "contentEn": {
+        "summary": "When uncertain, we look to what others do – social proof is one of the most powerful principles of influence in ambiguous decision situations.",
+        "body": [
+          "Robert Cialdini described social proof as one of six fundamental principles of persuasion: in unclear situations, we interpret the behavior of others as a signal of what is correct, safe, or desirable. The more people do something, the more right it appears – regardless of whether the majority is actually correct.",
+          "Social proof works most strongly under two conditions: uncertainty (we don't know what is right and seek external guidance) and similarity (the observed people resemble us or are in a comparable situation). A full restaurant is considered good – even without information about food quality. Bestseller lists sell better than identically rated books without the label.",
+          "In digital contexts, social proof has taken an institutionalized form: star ratings, follower counts, user numbers ('already 2M downloads'), like counts, and comment volumes are ubiquitous proxies for social proof. Interestingly, studies show that even a small number of reviews strongly influences behavior – the transition from zero to a single review is statistically larger than from 10 to 100.",
+          "Social proof also has a dark side: when the signal is wrong, it amplifies errors collectively. Fake reviews, purchased followers, and algorithmically generated trending lists manipulate social proof and create behavior not based on genuine preferences. This is one of the central dysfunctions of social networks."
+        ],
+        "example": {
+          "title": "The Empty vs. Full Restaurant",
+          "text": "Two identical restaurants side by side, one full, one empty. Most passersby choose the full one – even though they have no quality information. The presence of other guests serves as a quality proxy. The full restaurant benefits from its own success, the empty one suffers from its emptiness – a self-reinforcing social proof effect."
+        },
+        "reference": {
+          "author": "Cialdini, R. B.",
+          "year": 2001,
+          "title": "Influence: The Psychology of Persuasion",
+          "note": "Harper Collins (rev. ed.). The standard work on six persuasion principles (reciprocity, commitment, social proof, authority, liking, scarcity). Social proof is empirically one of the most powerful principles in digital contexts."
+        },
+        "fieldMission": {
+          "title": "Social Proof in Daily Life",
+          "description": "Find three examples of social proof you used unconsciously as decision aids today (ratings, queues, recommendations). Was the underlying evidence actually valid?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Unter welchen Bedingungen wirkt Social Proof am stärksten?",
+            "questionEn": "Under which conditions does social proof work most strongly?",
+            "optionsDe": [
+              "Bei Experten mit viel Fachwissen",
+              "Bei Unsicherheit und wenn die beobachteten Personen uns ähneln",
+              "Nur bei finanziellen Entscheidungen",
+              "Bei Entscheidungen, die man täglich trifft"
+            ],
+            "optionsEn": [
+              "With experts who have extensive domain knowledge",
+              "Under uncertainty and when the observed people resemble us",
+              "Only for financial decisions",
+              "For decisions made daily"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Social Proof ist besonders wirksam, wenn wir unsicher sind (informativer Einfluss) und wenn die Referenzpersonen uns ähnlich sind (Relevanz des Vergleichs). Experten mit eigenem Wissen sind weniger beeinflussbar.",
+            "explanationEn": "Social proof is especially powerful when we are uncertain (informational influence) and when the reference persons resemble us (relevance of comparison). Experts with their own knowledge are less susceptible."
+          },
+          {
+            "questionDe": "Warum ist der Übergang von null zu einer einzigen Bewertung verhaltensrelevanter als von 10 auf 100?",
+            "questionEn": "Why is the transition from zero to a single review more behaviorally relevant than from 10 to 100?",
+            "optionsDe": [
+              "Weil erste Bewertungen immer positiver sind",
+              "Weil ein Produkt ohne Bewertung als unbekannt und riskant gilt, eine Bewertung diesen sozialen Beweis-Vakuum sofort aufhebt",
+              "Weil Algorithmen erste Bewertungen stärker gewichten",
+              "Weil Nutzer nach 10 Bewertungen aufhören zu lesen"
+            ],
+            "optionsEn": [
+              "Because first reviews are always more positive",
+              "Because a product with no reviews is perceived as unknown and risky; one review immediately breaks this social proof vacuum",
+              "Because algorithms weight first reviews more heavily",
+              "Because users stop reading after 10 reviews"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Null Bewertungen signalisieren Neuheit und Risiko – das ist ein stärkeres Hemmnis als eine geringe Anzahl. Eine einzige echte Bewertung hebt diesen Vakuum-Effekt auf und aktiviert erstmals Social Proof.",
+            "explanationEn": "Zero reviews signal novelty and risk – a stronger barrier than a low number. A single genuine review breaks this vacuum effect and activates social proof for the first time."
+          },
+          {
+            "questionDe": "Was ist eine zentrale Dysfunktion von Social Proof in sozialen Netzwerken?",
+            "questionEn": "What is a key dysfunction of social proof in social networks?",
+            "optionsDe": [
+              "Dass Nutzer zu wenig Bewertungen abgeben",
+              "Dass manipulierte oder gefälschte Signale (Fake-Bewertungen, gekaufte Follower) kollektives Verhalten verzerren",
+              "Dass Social Proof nur für jüngere Nutzer wirkt",
+              "Dass Algorithmen Social Proof absichtlich unterdrücken"
+            ],
+            "optionsEn": [
+              "That users leave too few reviews",
+              "That manipulated or fake signals (fake reviews, purchased followers) distort collective behavior",
+              "That social proof only works for younger users",
+              "That algorithms intentionally suppress social proof"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Wenn Social-Proof-Signale gefälscht sind (Fake-Rezensionen, Bot-Follower, manipulierte Trending-Listen), orientiert sich das Verhalten anderer an falschen Daten – der Mechanismus verstärkt Fehler statt korrektes Verhalten.",
+            "explanationEn": "When social proof signals are fake (fake reviews, bot followers, manipulated trending lists), others' behavior orients itself to false data – the mechanism amplifies errors rather than correct behavior."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m05-l03",
+      "titleDe": "Autorität & Gehorsam",
+      "titleEn": "Authority & Obedience",
+      "durationMin": 10,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Menschen neigen dazu, Autoritäten zu gehorchen – auch dann, wenn das im Widerspruch zu ihrer eigenen Moral steht. Milgrams Experimente zeigen das Ausmaß dieser Tendenz.",
+        "body": [
+          "Stanley Milgram führte zwischen 1961 und 1962 ein Experiment durch, das die Sozialpsychologie erschütterte: Versuchspersonen sollten auf Anweisung eines Versuchsleiters im Laborkittel einem anderen Teilnehmenden (einem Schauspieler) bei Fehlern elektrische Schocks verabreichen – in ansteigender Stärke bis zu 450 Volt, beschriftet mit 'Lebensgefährlich'. 65 % der Versuchspersonen folgten bis zur maximalen Spannung – obwohl der Schauspieler schrie, um Abbruch bat und irgendwann schwieg.",
+          "Milgram interpretierte dies nicht als Sadismus der Teilnehmenden, sondern als Unterwerfung unter Autorität: Der Kittel des Versuchsleiters, die wissenschaftliche Umgebung und explizite Anweisungen ('Das Experiment muss weitergehen') schufen einen Autoritätsrahmen, in dem viele Menschen ihre eigene Verantwortung suspendierten. Milgram nannte das den 'agentic state' – das Gefühl, nur ein Werkzeug einer höheren Instanz zu sein.",
+          "Autoritätssignale müssen nicht real sein: Auch Symbole wie Titel, Uniformen, Zertifikate und spezifisches Vokabular erzeugen Autoritätswahrnehmung. Cialdini beschrieb, wie Arztkleidung die Compliance bei Patienten erhöht, wie Titel ('Dr.', 'Prof.') die Überzeugungskraft von Argumenten steigern und wie Expertenstatus in einer Domäne auf andere Domänen übertragen wird.",
+          "Für moderne Kontexte hat das weitreichende Implikationen: Dark Patterns in Software-Interfaces nutzen Autoritätssignale (offizielle wirkende Warnungen, Behördendesign), um Nutzer zu Aktionen zu bewegen. Impersonation-Angriffe im Bereich Social Engineering setzen auf Autoritätssimulation. Im positiven Sinne kann Autoritätskommunikation legitim eingesetzt werden – aber nur dann, wenn der Expertenstatus real und für das konkrete Thema relevant ist."
+        ],
+        "example": {
+          "title": "Der weiße Kittel",
+          "text": "In Cialdinis Beschreibung eines Feldexperiments erhöhte ein Forscher im weißen Kittel die Compliance von Krankenhauspersonal bei einer fragwürdigen Anweisung – deutlich stärker als dieselbe Person in Alltagskleidung. Der Kittel signalisierte Autorität, nicht die tatsächliche Expertise. Das Symbol ersetzte die Prüfung der inhaltlichen Grundlage."
+        },
+        "reference": {
+          "author": "Milgram, S.",
+          "year": 1963,
+          "title": "Behavioral Study of Obedience",
+          "note": "Journal of Abnormal and Social Psychology, 67(4), 371–378. Das Originalexperiment, das Gehorsam gegenüber Autorität als robustes, situationsabhängiges Phänomen belegte – und bis heute eine der bekanntesten und ethisch meistdiskutierten Studien der Psychologie bleibt."
+        },
+        "fieldMission": {
+          "title": "Autoritätssignale erkennen",
+          "description": "Finde heute zwei Situationen, in denen du einer Anweisung oder Empfehlung gefolgt bist, weil eine Person Autorität signalisierte. War die Autorität inhaltlich relevant – oder nur symbolisch?"
+        }
+      },
+      "contentEn": {
+        "summary": "People tend to obey authority figures – even when doing so conflicts with their own moral convictions. Milgram's experiments reveal the extent of this tendency.",
+        "body": [
+          "Stanley Milgram conducted an experiment between 1961 and 1962 that shook social psychology: participants were instructed by a lab-coated experimenter to administer electric shocks to another participant (an actor) for errors – in increasing strength up to 450 volts, labeled 'Danger: Severe Shock'. 65% of participants followed through to the maximum voltage – even as the actor screamed, pleaded to stop, and eventually fell silent.",
+          "Milgram interpreted this not as sadism in participants, but as submission to authority: the experimenter's coat, the scientific environment, and explicit instructions ('The experiment must continue') created an authority frame in which many people suspended their own sense of responsibility. Milgram called this the 'agentic state' – the feeling of being merely a tool of a higher authority.",
+          "Authority signals need not be real: symbols such as titles, uniforms, certificates, and specific vocabulary also create perceptions of authority. Cialdini described how medical clothing increases patient compliance, how titles ('Dr.', 'Prof.') enhance the persuasiveness of arguments, and how expert status in one domain transfers to others.",
+          "For modern contexts, this has far-reaching implications: dark patterns in software interfaces use authority signals (officially-looking warnings, government-style design) to move users toward actions. Social engineering attacks rely on authority simulation. On the positive side, authority communication can be legitimately employed – but only when the expertise is real and relevant to the specific topic."
+        ],
+        "example": {
+          "title": "The White Lab Coat",
+          "text": "In Cialdini's account of a field experiment, a researcher in a white coat increased hospital staff compliance with a questionable instruction – far more than the same person in everyday clothing. The coat signaled authority, not actual expertise. The symbol replaced scrutiny of the underlying basis."
+        },
+        "reference": {
+          "author": "Milgram, S.",
+          "year": 1963,
+          "title": "Behavioral Study of Obedience",
+          "note": "Journal of Abnormal and Social Psychology, 67(4), 371–378. The original experiment demonstrating obedience to authority as a robust, situation-dependent phenomenon – and still one of the most famous and ethically discussed studies in psychology."
+        },
+        "fieldMission": {
+          "title": "Spot Authority Signals",
+          "description": "Find two situations today where you followed an instruction or recommendation because a person signaled authority. Was the authority substantively relevant – or merely symbolic?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist der zentrale Befund von Milgrams Gehorsamkeitsexperiment?",
+            "questionEn": "What is the central finding of Milgram's obedience experiment?",
+            "optionsDe": [
+              "Dass Menschen grundsätzlich sadistisch veranlagt sind",
+              "Dass 65 % der Versuchspersonen auf Autoritätsanweisung bis zur maximal möglichen Spannung gehorchten",
+              "Dass Gehorsam nur unter physischem Druck entsteht",
+              "Dass Elektroshocks keine negativen Effekte haben"
+            ],
+            "optionsEn": [
+              "That people are fundamentally sadistic",
+              "That 65% of participants obeyed authority instructions to the maximum possible voltage",
+              "That obedience only arises under physical pressure",
+              "That electric shocks have no negative effects"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Milgrams Befund war, dass eine klare Mehrheit der Versuchspersonen auf Anweisung einer Autoritätsperson handelte, obwohl dies ihren eigenen moralischen Überzeugungen widersprach. Die Situation dominierte die Persönlichkeit.",
+            "explanationEn": "Milgram's finding was that a clear majority of participants acted on authority instructions even when this contradicted their own moral convictions. The situation dominated personality."
+          },
+          {
+            "questionDe": "Was beschreibt Milgrams Begriff des 'agentic state'?",
+            "questionEn": "What does Milgram's concept of the 'agentic state' describe?",
+            "optionsDe": [
+              "Den Zustand maximaler Selbstwirksamkeit",
+              "Das Gefühl, nur ein Werkzeug einer höheren Instanz zu sein, und die damit verbundene Suspension eigener Verantwortung",
+              "Die Fähigkeit, eigenständig zu handeln",
+              "Den Widerstand gegen Autorität"
+            ],
+            "optionsEn": [
+              "The state of maximum self-efficacy",
+              "The feeling of being merely a tool of a higher authority, with associated suspension of personal responsibility",
+              "The ability to act independently",
+              "Resistance against authority"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Im agentic state erleben Menschen sich als Ausführende von Befehlen, nicht als autonome Entscheidungsträger. Das ermöglicht Handlungen, die sie als eigenverantwortliche Akteure nicht vornehmen würden.",
+            "explanationEn": "In the agentic state, people experience themselves as executors of commands, not as autonomous decision-makers. This enables actions they would not take as self-responsible agents."
+          },
+          {
+            "questionDe": "Warum genügen Autoritätssymbole (Kittel, Titel) oft, um Compliance zu erzeugen?",
+            "questionEn": "Why do authority symbols (coat, title) often suffice to generate compliance?",
+            "optionsDe": [
+              "Weil Menschen keine Zeit haben, Expertise zu prüfen",
+              "Weil Symbole als kognitive Abkürzung für Expertise und Vertrauenswürdigkeit fungieren – das Gehirn nutzt sie als Heuristik",
+              "Weil Symbole rechtlich bindend sind",
+              "Weil Uniform-Träger grundsätzlich kompetenter sind"
+            ],
+            "optionsEn": [
+              "Because people don't have time to verify expertise",
+              "Because symbols function as cognitive shortcuts for expertise and trustworthiness – the brain uses them as heuristics",
+              "Because symbols are legally binding",
+              "Because uniform-wearers are fundamentally more competent"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Das Gehirn nutzt Autoritätssymbole als Heuristik – ähnlich der Repräsentativitätsheuristik aus Modul 3. Ein weißer Kittel repräsentiert den Prototyp eines Experten, was die inhaltliche Prüfung ersetzt.",
+            "explanationEn": "The brain uses authority symbols as a heuristic – similar to the representativeness heuristic from Module 3. A white coat represents the prototype of an expert, replacing scrutiny of the actual content."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m05-l04",
+      "titleDe": "Reziprozität",
+      "titleEn": "Reciprocity",
+      "durationMin": 9,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Menschen haben eine starke Tendenz, Erhaltenes zu erwidern – die Norm der Reziprozität ist eine der universellsten sozialen Regeln und ein mächtiges Instrument der Beeinflussung.",
+        "body": [
+          "Alvin Gouldner beschrieb 1960 die Reziprozitätsnorm als universelle soziologische Grundlage des menschlichen Zusammenlebens: Wer etwas erhält, fühlt sich verpflichtet, es zu erwidern. Diese Norm ist kulturübergreifend dokumentiert und hat eine evolutionäre Basis – kooperatives Austauschverhalten war für das Überleben in sozialen Gruppen essenziell.",
+          "Cialdini demonstrierte in Feldexperimenten die Stärke dieser Norm: In einer berühmten Studie erhöhten Kellner, die gemeinsam mit der Rechnung eine Süßigkeit hinterließen, ihre Trinkgelder um 14 %. Ließen sie zwei Süßigkeiten, stiegen die Trinkgelder um 21 %. Entscheidend war nicht der Wert der Gabe, sondern die Geste des Gebens – und ihre Unerwartheit.",
+          "Reziprozität kann auch in ihrer Schattenseite wirken: Unangeforderte Geschenke, kostenlose Proben und Gefälligkeiten erzeugen ein Verpflichtungsgefühl, das Menschen zu Gegenleistungen bewegt, die den ursprünglichen Wert des Geschenks übersteigen. NGOs nutzen unbestellte Adressetiketten in Spendenbriefen; Pharmaunternehmen luden Ärztekonferenzen ein – und steigerten damit die Verschreibungsraten ihrer Produkte.",
+          "Reziprozität hat zwei Varianten: Direkte Reziprozität (ich erwidere, was du mir gegeben hast) und indirekte Reziprozität (ich verhalte mich gegenüber Dritten kooperativ, weil ich eine gute Reputation aufbauen will). In digitalen Produkten ist Reziprozität durch kostenlose Leistungen (Freemium, Trials, Onboarding-Unterstützung) strukturell eingebaut – mit dem impliziten Versprechen, dass der Nutzer zurückgibt."
+        ],
+        "example": {
+          "title": "Unbestellte Adressetiketten in Spendenbriefen",
+          "text": "NGOs legen Spendenbriefen personalisierte Adressetiketten bei – obwohl niemand darum gebeten hat. Die Spendenraten steigen signifikant, weil das unerwartete Geschenk ein Reziprozitätsgefühl erzeugt. Der Wert der Etiketten ist minimal; das soziale Verpflichtungsgefühl ist es nicht."
+        },
+        "reference": {
+          "author": "Gouldner, A. W.",
+          "year": 1960,
+          "title": "The Norm of Reciprocity: A Preliminary Statement",
+          "note": "American Sociological Review, 25(2), 161–178. Soziologische Grundlegung der Reziprozitätsnorm als universelles Organisationsprinzip sozialer Systeme – Basis für Cialdinis spätere verhaltenspsychologische Anwendungen."
+        },
+        "fieldMission": {
+          "title": "Reziprozitätsfalle identifizieren",
+          "description": "Finde heute ein Beispiel, in dem ein unerwartetes Geschenk oder eine Gefälligkeit ein Verpflichtungsgefühl bei dir ausgelöst hat. Wie hast du reagiert – und war deine Gegenleistung dem ursprünglichen Wert proportional?"
+        }
+      },
+      "contentEn": {
+        "summary": "People have a strong tendency to return what they receive – the norm of reciprocity is one of the most universal social rules and a powerful instrument of influence.",
+        "body": [
+          "Alvin Gouldner described in 1960 the reciprocity norm as a universal sociological foundation of human coexistence: whoever receives something feels obligated to return it. This norm is documented across cultures and has an evolutionary basis – cooperative exchange behavior was essential for survival in social groups.",
+          "Cialdini demonstrated the strength of this norm in field experiments: in a famous study, waiters who left a candy with the bill increased their tips by 14%. Leaving two candies raised tips by 21%. What mattered was not the value of the gift but the gesture of giving – and its unexpectedness.",
+          "Reciprocity can also work in its shadow side: unsolicited gifts, free samples, and favors create a sense of obligation that moves people toward counter-gifts exceeding the original value. NGOs use unsolicited address labels in fundraising letters; pharmaceutical companies invited doctors to conferences – and thereby increased prescription rates for their products.",
+          "Reciprocity has two variants: direct reciprocity (I return what you gave me) and indirect reciprocity (I behave cooperatively toward third parties to build a good reputation). In digital products, reciprocity is structurally embedded through free services (freemium, trials, onboarding support) – with the implicit promise that the user will reciprocate."
+        ],
+        "example": {
+          "title": "Unsolicited Address Labels in Fundraising Letters",
+          "text": "NGOs include personalized address labels in fundraising letters – even though no one requested them. Donation rates increase significantly because the unexpected gift creates a feeling of reciprocity. The value of the labels is minimal; the sense of social obligation is not."
+        },
+        "reference": {
+          "author": "Gouldner, A. W.",
+          "year": 1960,
+          "title": "The Norm of Reciprocity: A Preliminary Statement",
+          "note": "American Sociological Review, 25(2), 161–178. Sociological foundation of the reciprocity norm as a universal organizing principle of social systems – basis for Cialdini's later behavioral-psychological applications."
+        },
+        "fieldMission": {
+          "title": "Identify a Reciprocity Trap",
+          "description": "Find an example today where an unexpected gift or favor triggered a sense of obligation in you. How did you respond – and was your counter-gesture proportional to the original value?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist die evolutionäre Grundlage der Reziprozitätsnorm?",
+            "questionEn": "What is the evolutionary basis of the reciprocity norm?",
+            "optionsDe": [
+              "Dass Tauschen Spaß macht",
+              "Dass kooperatives Austauschverhalten für das Überleben in sozialen Gruppen essenziell war",
+              "Dass Reziprozität genetisch kodiert ist",
+              "Dass frühe Menschen keine andere Wahl hatten"
+            ],
+            "optionsEn": [
+              "That trading is enjoyable",
+              "That cooperative exchange behavior was essential for survival in social groups",
+              "That reciprocity is genetically encoded",
+              "That early humans had no other choice"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Reziprozität ist evolutionär adaptiv: Gruppen, in denen Mitglieder verlässlich Gegenseitigkeit praktizierten, konnten besser kooperieren und hatten Überlebensvorteile gegenüber Gruppen ohne diese Norm.",
+            "explanationEn": "Reciprocity is evolutionarily adaptive: groups in which members reliably practiced mutuality could cooperate better and had survival advantages over groups without this norm."
+          },
+          {
+            "questionDe": "Warum wirkt eine kleine, unerwartete Geste stärker als eine große erwartete?",
+            "questionEn": "Why does a small unexpected gesture work more strongly than a large expected one?",
+            "optionsDe": [
+              "Weil kleine Gaben günstiger in der Herstellung sind",
+              "Weil Unerwartetheit die Aufmerksamkeit erhöht und das Verpflichtungsgefühl stärker aktiviert",
+              "Weil große Geschenke Misstrauen erzeugen",
+              "Weil Überraschungen das Langzeitgedächtnis aktivieren"
+            ],
+            "optionsEn": [
+              "Because small gifts are cheaper to produce",
+              "Because unexpectedness increases attention and more strongly activates the sense of obligation",
+              "Because large gifts generate suspicion",
+              "Because surprises activate long-term memory"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Cialdinis Kellerinnen-Experiment zeigte: Zwei unerwartete Süßigkeiten steigerten Trinkgelder stärker als eine erwartete große Geste. Die Unerwartetheit des Gebens aktiviert die Reziprozitätsnorm intensiver.",
+            "explanationEn": "Cialdini's waiter experiment showed: two unexpected candies raised tips more than one expected large gesture. The unexpectedness of giving activates the reciprocity norm more intensely."
+          },
+          {
+            "questionDe": "Wie ist Reziprozität in digitalen Produkten strukturell eingebaut?",
+            "questionEn": "How is reciprocity structurally embedded in digital products?",
+            "optionsDe": [
+              "Durch Dankesnachrichten nach dem Kauf",
+              "Durch kostenlose Leistungen (Freemium, Trials) mit dem impliziten Versprechen einer Gegenleistung des Nutzers",
+              "Durch Gamification und Punkte",
+              "Durch personalisierte Empfehlungen"
+            ],
+            "optionsEn": [
+              "Through thank-you messages after purchase",
+              "Through free services (freemium, trials) with the implicit promise of user reciprocation",
+              "Through gamification and points",
+              "Through personalized recommendations"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Freemium-Modelle, kostenlose Trials und ausführliches Onboarding sind strukturalisierte Reziprozitätsgesten: Das Unternehmen gibt zuerst – und aktiviert damit das Verpflichtungsgefühl, das zur Conversion führen soll.",
+            "explanationEn": "Freemium models, free trials, and extensive onboarding are structured reciprocity gestures: the company gives first – thereby activating the sense of obligation intended to lead to conversion."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m05-l05",
+      "titleDe": "Informationskaskaden & kollektives Verhalten",
+      "titleEn": "Information Cascades & Collective Behavior",
+      "durationMin": 9,
+      "difficulty": 3,
+      "contentDe": {
+        "summary": "Wenn Menschen sequenziell entscheiden und dabei öffentliche Handlungen anderer beobachten, können rationale Einzelentscheidungen zu kollektiv irrationalen Ergebnissen führen.",
+        "body": [
+          "Stell dir eine Reihe von Personen vor, die nacheinander entscheiden müssen, ob ein neues Restaurant gut ist. Die erste Person hat nur ihr eigenes Signal (z. B. gemischte Reviews). Die zweite sieht die Entscheidung der ersten. Die dritte sieht die Entscheidungen von Person eins und zwei. Ab einer gewissen Kette beginnt das öffentliche Verhalten so stark zu dominieren, dass selbst Menschen mit entgegengesetztem privatem Signal der Mehrheit folgen. Eine Informationskaskade entsteht.",
+          "Bikhchandani, Hirshleifer und Welch formalisierten dieses Phänomen 1992: In einer Kaskade ignorieren Akteure ihr eigenes privates Signal, weil die akkumulierte Information aus den Handlungen anderer scheinbar stärker ist. Das Problem: Wenn frühe Entscheidungen auf schwachen oder zufälligen Signalen basieren, kann eine Kaskade auf falscher Basis entstehen und sich stabilisieren – bis ein Schock sie unterbricht.",
+          "Kaskaden erklären eine Reihe gesellschaftlicher Phänomene: Börsenblasen (alle kaufen, weil alle kaufen), Modeschwankungen (ein Trend kippt plötzlich), politische Meinungsverschiebungen in Wahlkämpfen und das Phänomen des viralen Contents in sozialen Netzwerken. Das algorithmische Amplifying von Early-Engagement-Signalen (Likes in den ersten Stunden) beschleunigt Kaskaden massiv.",
+          "Kaskaden sind prinzipiell fragil: Ein einziges starkes Gegensignal kann sie zusammenbrechen lassen, wenn es früh und sichtbar kommt. Das erklärt, warum eine einzige bekannte Persönlichkeit, die öffentlich eine Gegenmeinung äußert, Trends umkehren kann – und warum frühe Adopter in vielen Kontexten einen enormen Einfluss auf kollektive Ergebnisse haben."
+        ],
+        "example": {
+          "title": "Börsenblasen als Informationskaskade",
+          "text": "Während der Dotcom-Blase kauften Investoren Aktien ohne profitable Grundlage – weil andere Investoren kauften. Jeder Kauf signalisierte vermeintliche Insiderinformation. Die Kaskade funktionierte, bis das private Signal (fehlende Profite) die öffentliche Handlung (Kaufen) nicht mehr überwältigen konnte. Dann kollabierte sie schnell."
+        },
+        "reference": {
+          "author": "Bikhchandani, S., Hirshleifer, D. & Welch, I.",
+          "year": 1992,
+          "title": "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades",
+          "note": "Journal of Political Economy, 100(5), 992–1026. Formales Modell, das erklärt, wann und warum rationale Individuen ihre eigenen privaten Signale ignorieren und der öffentlichen Handlungsspur folgen – mit Anwendungen von Mode bis Börsenblasen."
+        },
+        "fieldMission": {
+          "title": "Kaskade erkennen",
+          "description": "Denke an einen aktuellen Trend (viral gegangener Content, eine Mode, eine Meinung), der sich schnell verbreitet hat. Gibt es Hinweise, dass er auf einer Kaskade beruht – also auf Imitation statt echter Präferenz? Was würde ihn stoppen?"
+        }
+      },
+      "contentEn": {
+        "summary": "When people make sequential decisions while observing others' public actions, rational individual decisions can lead to collectively irrational outcomes.",
+        "body": [
+          "Imagine a series of people who must decide one by one whether a new restaurant is good. The first person has only their own signal (e.g., mixed reviews). The second sees the first person's decision. The third sees the decisions of persons one and two. After a certain chain, public behavior begins to dominate so strongly that even people with a contrary private signal follow the majority. An information cascade has formed.",
+          "Bikhchandani, Hirshleifer, and Welch formalized this phenomenon in 1992: in a cascade, actors ignore their own private signal because the accumulated information from others' actions seems stronger. The problem: if early decisions are based on weak or random signals, a cascade can form and stabilize on a false basis – until a shock interrupts it.",
+          "Cascades explain a range of social phenomena: stock market bubbles (everyone buys because everyone buys), fashion shifts (a trend suddenly reverses), political opinion shifts in election campaigns, and the phenomenon of viral content on social networks. Algorithmic amplification of early engagement signals (likes in the first hours) massively accelerates cascades.",
+          "Cascades are fundamentally fragile: a single strong counter-signal can collapse them if it arrives early and visibly. This explains why a single prominent figure publicly expressing a contrary opinion can reverse trends – and why early adopters in many contexts have an enormous influence on collective outcomes."
+        ],
+        "example": {
+          "title": "Stock Market Bubbles as Information Cascades",
+          "text": "During the dotcom bubble, investors bought stocks without profitable fundamentals – because other investors were buying. Each purchase signaled apparent insider information. The cascade worked until the private signal (missing profits) could no longer be overwhelmed by the public action (buying). Then it collapsed rapidly."
+        },
+        "reference": {
+          "author": "Bikhchandani, S., Hirshleifer, D. & Welch, I.",
+          "year": 1992,
+          "title": "A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades",
+          "note": "Journal of Political Economy, 100(5), 992–1026. Formal model explaining when and why rational individuals ignore their own private signals and follow the public action trail – with applications from fashion to stock market bubbles."
+        },
+        "fieldMission": {
+          "title": "Spot a Cascade",
+          "description": "Think of a current trend (viral content, a fashion, an opinion) that spread rapidly. Are there signs it rests on a cascade – imitation rather than genuine preference? What would stop it?"
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was ist eine Informationskaskade?",
+            "questionEn": "What is an information cascade?",
+            "optionsDe": [
+              "Ein Kommunikationsnetzwerk mit vielen Knoten",
+              "Ein Phänomen, bei dem rationale Akteure ihr privates Signal ignorieren und stattdessen der öffentlichen Handlungsspur anderer folgen",
+              "Ein Informationssystem, das Daten schnell weiterleitet",
+              "Eine Theorie über die Ausbreitung von Gerüchten"
+            ],
+            "optionsEn": [
+              "A communication network with many nodes",
+              "A phenomenon where rational actors ignore their private signal and instead follow others' public action trail",
+              "An information system that rapidly forwards data",
+              "A theory about the spread of rumors"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "In einer Informationskaskade werden beobachtbare Handlungen anderer als stärkeres Signal behandelt als die eigene private Information – auch wenn diese privaten Signale in der Summe korrekt wären.",
+            "explanationEn": "In an information cascade, others' observable actions are treated as a stronger signal than one's own private information – even when these private signals would be collectively correct."
+          },
+          {
+            "questionDe": "Warum sind Informationskaskaden potenziell gefährlich für kollektive Entscheidungen?",
+            "questionEn": "Why are information cascades potentially dangerous for collective decision-making?",
+            "optionsDe": [
+              "Weil sie zu viel Zeit in Anspruch nehmen",
+              "Weil sie auf frühen – möglicherweise zufälligen oder falschen – Signalen basieren können und sich trotzdem stabil halten",
+              "Weil sie nur in Finanzmärkten auftreten",
+              "Weil sie Einzelpersonen bevorzugen"
+            ],
+            "optionsEn": [
+              "Because they take too much time",
+              "Because they can be based on early – possibly random or incorrect – signals and yet remain stable",
+              "Because they only occur in financial markets",
+              "Because they favor individuals"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Wenn frühe Entscheidungen auf schwachen Signalen basieren, kann eine Kaskade kollektiv in die falsche Richtung stabilisieren. Alle handeln 'rational' im Kontext der verfügbaren Information – das Gesamtergebnis ist trotzdem irrational.",
+            "explanationEn": "When early decisions are based on weak signals, a cascade can collectively stabilize in the wrong direction. Everyone acts 'rationally' given available information – yet the overall outcome is irrational."
+          },
+          {
+            "questionDe": "Wie beschleunigen Algorithmen in sozialen Netzwerken Informationskaskaden?",
+            "questionEn": "How do algorithms in social networks accelerate information cascades?",
+            "optionsDe": [
+              "Indem sie Inhalte zufällig verteilen",
+              "Indem sie frühe Engagement-Signale (Likes in den ersten Stunden) algorithmisch verstärken und so Kaskadeneffekte beschleunigen",
+              "Indem sie negative Inhalte bevorzugen",
+              "Indem sie nur Inhalte von bekannten Quellen zeigen"
+            ],
+            "optionsEn": [
+              "By distributing content randomly",
+              "By algorithmically amplifying early engagement signals (likes in the first hours), accelerating cascade effects",
+              "By favoring negative content",
+              "By only showing content from known sources"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Algorithmen, die frühen Engagement als Qualitätssignal nutzen, verstärken Kaskaden: Content mit frühen Likes bekommt mehr Reichweite, was mehr Likes erzeugt – unabhängig vom eigentlichen Inhaltswert.",
+            "explanationEn": "Algorithms using early engagement as a quality signal amplify cascades: content with early likes gets more reach, generating more likes – independent of actual content value."
+          }
+        ]
+      }
+    }
+  ]
+}
