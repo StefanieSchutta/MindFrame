@@ -1,0 +1,2024 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#F5F4F0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="MindFrame">
+<title>MindFrame</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23111111' rx='20'/%3E%3Ctext y='68' x='50' font-size='52' text-anchor='middle' font-family='Georgia,serif' fill='%23F5F4F0'%3E⚡%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' fill='%23111111'/%3E%3Ctext y='122' x='90' font-size='94' text-anchor='middle' font-family='Georgia,serif' fill='%23F5F4F0'%3E⚡%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* === RESET === */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+
+/* === TOKENS === */
+:root{
+  --bg:#F5F4F0;
+  --surface:#FFFFFF;
+  --surface-2:#EDECEA;
+  --ink:#111111;
+  --ink-muted:#6B6B6B;
+  --ink-faint:#B0ADA8;
+  --accent:#3B00F0;
+  --accent-dim:rgba(59,0,240,.08);
+  --accent-text:#2800A8;
+  --correct:#006644;
+  --correct-bg:#E6F7F0;
+  --wrong:#B91C1C;
+  --wrong-bg:#FEE2E2;
+  --mission:#6D28D9;
+  --mission-bg:rgba(109,40,217,.07);
+  --border:#DDD9D0;
+  --border-light:#EDECEA;
+  --shadow:0 1px 3px rgba(0,0,0,.07),0 4px 16px rgba(0,0,0,.04);
+  --shadow-sm:0 1px 2px rgba(0,0,0,.06);
+  --r:10px;
+  --r-sm:6px;
+  --r-lg:16px;
+  --fd:'Fraunces',Georgia,serif;
+  --fu:'Inter',-apple-system,system-ui,sans-serif;
+  --sidebar:240px;
+  --max-w:680px;
+  --bn-h:64px;
+  --t:.18s ease;
+  /* Kontrastfarben auf farbigen Flächen */
+  --on-ink:#FFFFFF;       /* Text auf var(--ink)-Flächen */
+  --on-accent:#FFFFFF;    /* Text auf var(--accent)-Flächen */
+  --ink-hover:#2A2A2A;    /* Hover für btn-primary */
+  --done-border:#B3E0D0;
+  --case-bg:#111111;      /* Fallstudien-Karte: immer dunkel, themenunabhängig */
+  --case-ink:#F5F4F0;
+  color-scheme:light;
+}
+
+/* === DARK THEME === */
+[data-theme="dark"]{
+  --bg:#141413;
+  --surface:#1D1D1B;
+  --surface-2:#282826;
+  --ink:#F2F1ED;
+  --ink-muted:#A6A49E;   /* ≥5:1 auf --surface — WCAG AA */
+  --ink-faint:#71706B;
+  --accent:#8B76FF;
+  --accent-dim:rgba(139,118,255,.14);
+  --accent-text:#B3A3FF;
+  --correct:#4CC896;
+  --correct-bg:rgba(0,102,68,.24);
+  --wrong:#F58A8A;
+  --wrong-bg:rgba(185,28,28,.24);
+  --mission:#B49AFA;
+  --mission-bg:rgba(139,92,246,.13);
+  --border:#3A3A37;
+  --border-light:#2E2E2C;
+  --shadow:0 1px 3px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+  --shadow-sm:0 1px 2px rgba(0,0,0,.35);
+  --on-ink:#141413;
+  --on-accent:#141413;
+  --ink-hover:#DEDCD6;
+  --done-border:rgba(76,200,150,.35);
+  color-scheme:dark;
+}
+
+/* === BASE === */
+html{font-size:16px;scroll-behavior:smooth}
+body{font-family:var(--fu);background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;min-height:100dvh}
+button{cursor:pointer;border:none;background:none;font-family:var(--fu);color:inherit}
+a{color:var(--accent-text)}
+img{max-width:100%;display:block}
+
+/* Focus — WCAG AA */
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:var(--r-sm)}
+
+/* Reduced motion */
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+/* === LAYOUT === */
+#app{display:flex;min-height:100dvh}
+
+/* Sidebar */
+.sidebar{display:none;width:var(--sidebar);background:var(--surface);border-right:1px solid var(--border);flex-direction:column;padding:24px 16px;position:fixed;top:0;left:0;height:100vh;z-index:100;overflow-y:auto}
+@media(min-width:768px){.sidebar{display:flex}}
+
+.sidebar-logo{font-family:var(--fd);font-size:20px;font-weight:600;color:var(--ink);padding:8px 12px 28px;letter-spacing:-.02em}
+
+.sidebar-nav{display:flex;flex-direction:column;gap:2px;flex:1}
+
+.nav-btn{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:var(--r-sm);font-size:14px;font-weight:500;color:var(--ink-muted);transition:background var(--t),color var(--t);text-align:left;width:100%;min-height:44px}
+.nav-btn:hover{background:var(--surface-2);color:var(--ink)}
+.nav-btn.active{background:var(--accent-dim);color:var(--accent-text);font-weight:600}
+.nav-icon{font-size:17px;width:22px;text-align:center;flex-shrink:0}
+
+.sidebar-footer{border-top:1px solid var(--border);padding-top:16px;margin-top:8px}
+
+.lang-row{display:flex;gap:6px}
+.lang-btn{flex:1;padding:7px 8px;border-radius:var(--r-sm);font-size:13px;font-weight:500;color:var(--ink-muted);border:1.5px solid var(--border);transition:all var(--t);min-height:36px}
+.lang-btn.active{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+
+/* Main */
+.main-wrap{flex:1;padding-bottom:var(--bn-h);min-width:0}
+@media(min-width:768px){.main-wrap{margin-left:var(--sidebar);padding-bottom:40px}}
+
+/* Reading progress bar */
+.reading-bar{position:fixed;top:0;left:0;right:0;height:3px;background:var(--accent);transform-origin:left;transform:scaleX(0);transition:transform .1s linear;z-index:200;display:none}
+@media(min-width:768px){.reading-bar{left:var(--sidebar)}}
+
+/* Views */
+.view{display:none;max-width:var(--max-w);margin:0 auto;padding:24px 16px;min-height:calc(100dvh - var(--bn-h))}
+@media(min-width:768px){.view{padding:40px 32px;min-height:100vh}}
+.view.active{display:block}
+
+/* Bottom nav */
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;height:var(--bn-h);background:var(--surface);border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-around;padding:0 8px;padding-bottom:env(safe-area-inset-bottom);z-index:100}
+@media(min-width:768px){.bottom-nav{display:none}}
+
+.bn-btn{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 8px;border-radius:var(--r-sm);color:var(--ink-muted);font-size:11px;font-weight:500;transition:color var(--t);min-width:52px;min-height:44px;justify-content:center}
+.bn-btn.active{color:var(--accent)}
+.bn-icon{font-size:20px;line-height:1}
+
+/* === SHARED COMPONENTS === */
+
+/* Heading */
+.view-h{font-family:var(--fd);font-size:28px;font-weight:400;color:var(--ink);margin-bottom:24px;letter-spacing:-.02em;line-height:1.2}
+
+/* Section label */
+.sec-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.09em;color:var(--ink-faint);margin-bottom:14px}
+
+/* Back button */
+.back-btn{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:500;color:var(--ink-muted);padding:8px 0;min-height:44px;transition:color var(--t)}
+.back-btn:hover{color:var(--ink)}
+
+/* Buttons */
+.btn-primary{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--on-ink);border-radius:var(--r);padding:13px 22px;font-size:14px;font-weight:600;transition:background var(--t),transform var(--t);min-height:48px;line-height:1}
+.btn-primary:hover{background:var(--ink-hover);transform:translateY(-1px)}
+.btn-secondary{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--ink);border:1.5px solid var(--border);border-radius:var(--r);padding:13px 22px;font-size:14px;font-weight:500;transition:border-color var(--t),background var(--t);min-height:48px;line-height:1}
+.btn-secondary:hover{border-color:var(--ink);background:var(--surface)}
+.btn-danger{border-color:var(--wrong);color:var(--wrong)}
+.btn-danger:hover{background:var(--wrong-bg)}
+
+/* Difficulty dots */
+.diff-dots{display:inline-flex;gap:3px;align-items:center;vertical-align:middle}
+.diff-dot{width:6px;height:6px;border-radius:50%;background:var(--border)}
+.diff-dot.on{background:var(--ink-muted)}
+
+/* Progress bar */
+.prog-bar{width:100%;height:3px;background:var(--border);border-radius:2px;overflow:hidden}
+.prog-fill{height:100%;background:var(--accent);border-radius:2px;transition:width .4s ease}
+
+/* Card base */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r)}
+
+/* Toast */
+.toast{position:fixed;bottom:calc(var(--bn-h) + 16px);left:50%;transform:translateX(-50%) translateY(12px);background:var(--ink);color:var(--on-ink);padding:9px 20px;border-radius:999px;font-size:13px;font-weight:500;opacity:0;transition:opacity .2s,transform .2s;pointer-events:none;z-index:999;white-space:nowrap;max-width:90vw}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+@media(min-width:768px){.toast{bottom:24px}}
+
+/* Loading */
+.loading{display:flex;align-items:center;justify-content:center;padding:60px;color:var(--ink-muted);font-size:14px;gap:10px}
+.spinner{width:22px;height:22px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite;flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+/* Empty state */
+.empty{text-align:center;padding:60px 20px;color:var(--ink-muted)}
+.empty-icon{font-size:48px;margin-bottom:16px;line-height:1}
+.empty-title{font-size:17px;font-weight:600;color:var(--ink);margin-bottom:8px}
+.empty-desc{font-size:14px;line-height:1.55}
+
+/* Input */
+.input{width:100%;padding:11px 14px;border:1.5px solid var(--border);border-radius:var(--r-sm);font-size:14px;font-family:var(--fu);color:var(--ink);background:var(--bg);transition:border-color var(--t);min-height:44px}
+.input:focus{outline:none;border-color:var(--accent)}
+.input:focus-visible{outline:3px solid var(--accent);outline-offset:1px}
+
+/* === HOME VIEW === */
+.home-header{margin-bottom:28px}
+.home-greeting{font-family:var(--fd);font-size:27px;font-weight:400;line-height:1.25;margin-bottom:4px}
+.home-sub{font-size:14px;color:var(--ink-muted);margin-bottom:14px}
+
+.streak-chip{display:inline-flex;align-items:center;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:5px 13px;font-size:13px;font-weight:500;color:var(--ink-muted)}
+
+/* Continue card */
+.continue-card{display:flex;align-items:center;justify-content:space-between;gap:16px;background:var(--ink);color:var(--on-ink);border-radius:var(--r-lg);padding:20px;margin-bottom:28px;cursor:pointer;transition:transform var(--t),box-shadow var(--t);text-align:left;width:100%}
+.continue-card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.continue-card:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.cc-label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;opacity:.55;margin-bottom:5px}
+.cc-title{font-family:var(--fd);font-size:18px;font-weight:400;line-height:1.3;margin-bottom:8px}
+.cc-meta{font-size:13px;opacity:.65;display:flex;gap:8px;flex-wrap:wrap}
+.cc-arrow{font-size:22px;flex-shrink:0;opacity:.75}
+
+/* Module grid */
+.mod-grid{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:8px}
+@media(min-width:480px){.mod-grid{grid-template-columns:1fr 1fr}}
+
+.mod-card{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--r);padding:16px;cursor:pointer;transition:border-color var(--t),box-shadow var(--t);text-align:left;display:flex;flex-direction:column;gap:8px;min-height:44px}
+.mod-card:hover{border-color:var(--accent);box-shadow:var(--shadow-sm)}
+.mod-card.locked{opacity:.42;cursor:not-allowed;pointer-events:none}
+.mod-icon{font-size:26px;line-height:1}
+.mod-title{font-size:14px;font-weight:600;color:var(--ink);line-height:1.3}
+.mod-meta{font-size:12px;color:var(--ink-muted)}
+
+/* === MODULE VIEW === */
+.mod-header{margin-bottom:28px}
+.mod-icon-lg{font-size:40px;line-height:1;margin-bottom:12px}
+.mod-title-lg{font-family:var(--fd);font-size:30px;font-weight:400;color:var(--ink);margin-bottom:8px;letter-spacing:-.02em;line-height:1.2}
+.mod-desc{font-size:15px;color:var(--ink-muted);line-height:1.55}
+
+.lesson-list{display:flex;flex-direction:column;gap:8px}
+
+.lesson-item{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--r);padding:14px 16px;cursor:pointer;display:flex;align-items:center;gap:12px;transition:border-color var(--t);text-align:left;width:100%;min-height:64px}
+.lesson-item:hover{border-color:var(--accent)}
+.lesson-item.done{background:var(--correct-bg);border-color:var(--done-border)}
+
+.l-num{width:28px;height:28px;border-radius:50%;background:var(--surface-2);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:600;color:var(--ink-muted);flex-shrink:0}
+.lesson-item.done .l-num{background:var(--correct);color:var(--on-accent)}
+
+.l-info{flex:1;min-width:0}
+.l-title{font-size:14px;font-weight:600;color:var(--ink);margin-bottom:3px}
+.l-meta{font-size:12px;color:var(--ink-muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+
+.badge{display:inline-flex;align-items:center;gap:3px;font-size:11px;font-weight:600;padding:2px 7px;border-radius:999px;background:var(--accent-dim);color:var(--accent-text)}
+.badge.green{background:var(--correct-bg);color:var(--correct)}
+.badge.purple{background:var(--mission-bg);color:var(--mission)}
+
+/* === LESSON VIEW === */
+.lesson-nav{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.lesson-breadcrumb{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--accent-text)}
+.lesson-counter{font-size:12px;color:var(--ink-muted)}
+
+.lesson-title{font-family:var(--fd);font-size:30px;font-weight:400;color:var(--ink);line-height:1.2;letter-spacing:-.02em;margin-bottom:12px}
+@media(min-width:520px){.lesson-title{font-size:36px}}
+
+.lesson-summary{font-family:var(--fd);font-size:17px;font-weight:300;color:var(--ink-muted);line-height:1.65;margin-bottom:22px;font-style:italic}
+
+.lesson-meta-bar{display:flex;gap:16px;align-items:center;padding:12px 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border);margin-bottom:32px;flex-wrap:wrap}
+.l-meta-item{display:flex;align-items:center;gap:5px;font-size:13px;color:var(--ink-muted)}
+
+.lesson-body{font-family:var(--fd);font-size:17px;font-weight:300;line-height:1.8;color:var(--ink)}
+.lesson-body p{margin-bottom:20px}
+.lesson-body p:last-child{margin-bottom:0}
+
+/* Lesson section divider */
+.l-section{margin-top:36px;padding-top:36px;border-top:1px solid var(--border)}
+
+/* Example */
+.example-card{background:var(--surface-2);border-radius:var(--r);padding:20px;border-left:3px solid var(--ink)}
+.example-title{font-weight:600;font-size:14px;margin-bottom:10px;color:var(--ink)}
+.example-body{font-size:14px;line-height:1.65;color:var(--ink-muted)}
+
+/* Reference */
+.ref-block{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px;font-size:13px;line-height:1.5}
+.ref-author{font-weight:600;color:var(--ink);margin-bottom:2px}
+.ref-title{font-style:italic;color:var(--ink-muted);margin-bottom:4px}
+.ref-note{font-size:12px;color:var(--ink-faint)}
+
+/* Field Mission */
+.mission-card{background:var(--mission-bg);border:1.5px solid rgba(109,40,217,.18);border-radius:var(--r);padding:20px}
+.mission-top{display:flex;align-items:flex-start;gap:12px;margin-bottom:10px}
+.mission-check{width:22px;height:22px;border-radius:6px;border:2px solid var(--mission);display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0;margin-top:1px;transition:background var(--t),border-color var(--t);background:var(--surface)}
+.mission-check:focus-visible{outline:3px solid var(--mission);outline-offset:2px}
+.mission-check.done{background:var(--mission);border-color:var(--mission)}
+.mission-check.done::after{content:'✓';color:var(--on-accent);font-size:13px;font-weight:700}
+.mission-check-title{font-weight:600;font-size:15px;color:var(--mission);line-height:1.3}
+.mission-desc{font-size:14px;line-height:1.65;color:var(--ink-muted);padding-left:34px}
+
+/* Lesson CTA */
+.lesson-cta{margin-top:40px;padding-top:32px;border-top:1px solid var(--border);display:flex;gap:12px;flex-wrap:wrap}
+
+/* === QUIZ VIEW === */
+.quiz-back{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px}
+.quiz-prog-bar{width:100%;height:4px;background:var(--border);border-radius:2px;margin-bottom:10px;overflow:hidden}
+.quiz-prog-fill{height:100%;background:var(--accent);border-radius:2px;transition:width .3s ease}
+.quiz-counter{font-size:12px;color:var(--ink-muted);font-weight:500}
+
+.quiz-q{font-family:var(--fd);font-size:22px;font-weight:400;line-height:1.4;color:var(--ink);margin-bottom:24px;letter-spacing:-.01em}
+
+.quiz-options{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.quiz-opt{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--r);padding:14px 16px;font-size:14px;font-weight:500;color:var(--ink);text-align:left;cursor:pointer;transition:border-color var(--t),background var(--t);line-height:1.45;min-height:52px;width:100%}
+.quiz-opt:hover:not(:disabled){border-color:var(--accent);background:var(--accent-dim)}
+.quiz-opt.correct{border-color:var(--correct);background:var(--correct-bg);color:var(--correct)}
+.quiz-opt.wrong{border-color:var(--wrong);background:var(--wrong-bg);color:var(--wrong)}
+.quiz-opt:disabled{cursor:not-allowed}
+
+.quiz-feedback{background:var(--surface-2);border-radius:var(--r);padding:16px;font-size:14px;line-height:1.6;color:var(--ink-muted);display:none;margin-bottom:20px}
+.quiz-feedback.show{display:block}
+.feedback-label{font-weight:600;color:var(--ink);display:block;margin-bottom:4px}
+
+/* Quiz results */
+.quiz-results{text-align:center;padding:40px 0}
+.results-score{font-family:var(--fd);font-size:72px;font-weight:600;color:var(--ink);line-height:1;margin-bottom:8px}
+.results-label{font-size:17px;color:var(--ink-muted);margin-bottom:8px}
+.results-sub{font-size:14px;color:var(--ink-faint);margin-bottom:36px;line-height:1.5}
+.results-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+
+/* === PROGRESS VIEW === */
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:32px}
+.stat-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px 10px;text-align:center}
+.stat-val{font-family:var(--fd);font-size:34px;font-weight:400;color:var(--ink);line-height:1;margin-bottom:4px}
+.stat-lbl{font-size:11px;font-weight:500;color:var(--ink-muted);text-transform:uppercase;letter-spacing:.06em}
+
+.prog-mod{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px;margin-bottom:8px}
+.prog-mod-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.prog-mod-name{font-size:14px;font-weight:600}
+.prog-mod-pct{font-size:12px;color:var(--ink-muted)}
+
+/* === SETTINGS VIEW === */
+.settings-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:20px;margin-bottom:14px}
+.settings-title{font-size:14px;font-weight:600;margin-bottom:4px}
+.settings-desc{font-size:13px;color:var(--ink-muted);margin-bottom:16px;line-height:1.55}
+
+/* Install banner */
+.install-banner{background:var(--accent-dim);border:1.5px solid rgba(59,0,240,.2);border-radius:var(--r);padding:16px;margin-bottom:20px;display:none;align-items:center;gap:14px}
+.install-banner.show{display:flex}
+.install-banner p{font-size:13px;color:var(--accent-text);line-height:1.5;flex:1}
+
+/* === REVIEW / SRS === */
+.nav-badge{margin-left:auto;background:var(--accent);color:var(--on-accent);font-size:11px;font-weight:600;min-width:20px;height:20px;border-radius:10px;display:none;align-items:center;justify-content:center;padding:0 6px}
+.nav-badge.show{display:inline-flex}
+.bn-wrap{position:relative;display:inline-block}
+.bn-badge{position:absolute;top:-5px;right:-12px;background:var(--accent);color:var(--on-accent);font-size:10px;font-weight:600;min-width:16px;height:16px;border-radius:8px;display:none;align-items:center;justify-content:center;padding:0 4px}
+.bn-badge.show{display:inline-flex}
+
+.review-hero{padding:8px 0 28px}
+.review-hero-kicker{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);margin-bottom:10px}
+.review-hero-title{font-family:var(--fd);font-size:clamp(26px,6vw,38px);font-weight:600;line-height:1.15;letter-spacing:-.02em;max-width:520px}
+.review-hero-sub{font-size:14px;color:var(--ink-muted);margin-top:12px;line-height:1.6;max-width:460px}
+
+.memory-stairs{display:flex;align-items:flex-end;gap:8px;height:120px;margin:28px 0 6px}
+.stair{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;height:100%}
+.stair-bar{width:100%;background:var(--surface-2);border:1px solid var(--border);border-radius:var(--r-sm) var(--r-sm) 0 0;position:relative;display:flex;align-items:flex-start;justify-content:center;padding-top:6px;font-size:12px;font-weight:600;color:var(--ink-muted);transition:background var(--t)}
+.stair-bar.filled{background:var(--accent-dim);border-color:rgba(59,0,240,.25);color:var(--accent-text)}
+.stair-lbl{font-size:10px;color:var(--ink-faint);letter-spacing:.04em;text-transform:uppercase}
+.stairs-caption{display:flex;justify-content:space-between;font-size:11px;color:var(--ink-faint);margin-bottom:24px}
+
+.review-cta-card{background:var(--ink);color:var(--on-ink);border-radius:var(--r-lg);padding:22px;display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;text-align:left;transition:transform var(--t)}
+.review-cta-card:hover{transform:translateY(-2px)}
+.review-cta-title{font-family:var(--fd);font-size:18px;font-weight:600;margin-bottom:4px}
+.review-cta-meta{font-size:13px;opacity:.72}
+.review-cta-arrow{font-size:22px;flex-shrink:0}
+
+.review-src-chip{display:inline-flex;align-items:center;gap:6px;background:var(--surface-2);border:1px solid var(--border);border-radius:99px;padding:5px 12px;font-size:12px;font-weight:500;color:var(--ink-muted);margin-bottom:16px}
+
+.warmup-card{background:var(--mission-bg);border:1.5px solid rgba(109,40,217,.25);border-radius:var(--r-lg);padding:20px;margin-bottom:24px}
+.warmup-kicker{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mission);margin-bottom:6px}
+.warmup-title{font-family:var(--fd);font-size:19px;font-weight:600;margin-bottom:4px}
+.warmup-sub{font-size:13px;color:var(--ink-muted);line-height:1.55}
+.warmup-skip{font-size:13px;font-weight:500;color:var(--ink-muted);text-decoration:underline;text-underline-offset:3px;padding:8px 4px;min-height:44px}
+.warmup-skip:hover{color:var(--ink)}
+
+.home-review-card{background:var(--accent-dim);border:1.5px solid rgba(59,0,240,.2);border-radius:var(--r-lg);padding:18px 20px;margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;gap:14px;width:100%;text-align:left;transition:transform var(--t)}
+.home-review-card:hover{transform:translateY(-2px)}
+.hrc-title{font-family:var(--fd);font-size:17px;font-weight:600;color:var(--accent-text);margin-bottom:3px}
+.hrc-sub{font-size:13px;color:var(--ink-muted)}
+
+/* === FALLSTUDIE: Mara & Fernweh === */
+.case-card{position:relative;background:var(--case-bg);color:var(--case-ink);border-radius:var(--r-lg);padding:26px 22px 22px;overflow:hidden}
+.case-card::before{content:'„';position:absolute;top:-28px;right:8px;font-family:var(--fd);font-size:140px;line-height:1;color:rgba(245,244,240,.08);pointer-events:none}
+.case-kicker{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:14px}
+.case-brand{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,244,240,.55)}
+.case-episode{font-size:11px;font-weight:600;color:rgba(245,244,240,.4);white-space:nowrap}
+.case-scene{font-family:var(--fd);font-size:17px;line-height:1.65;font-weight:300;letter-spacing:.005em}
+.case-behind{margin-top:20px;border-left:3px solid var(--accent);background:rgba(245,244,240,.06);border-radius:0 var(--r-sm) var(--r-sm) 0;padding:14px 16px}
+.case-behind-lbl{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#B7A6FF;margin-bottom:6px}
+.case-behind-text{font-size:14px;line-height:1.6;color:rgba(245,244,240,.88)}
+
+/* === REVIEW: Vergessenskurve === */
+.curve-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r-lg);padding:20px 20px 14px;margin:24px 0 28px;box-shadow:var(--shadow-sm)}
+.curve-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:4px;flex-wrap:wrap}
+.curve-title{font-size:13px;font-weight:600;color:var(--ink)}
+.curve-legend{display:flex;gap:14px;font-size:11px;color:var(--ink-muted);flex-wrap:wrap}
+.curve-legend span{display:inline-flex;align-items:center;gap:5px}
+.leg-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.curve-svg{width:100%;height:auto;display:block}
+.curve-caption{font-size:11px;color:var(--ink-faint);margin-top:8px;line-height:1.5}
+
+/* Gedächtnis-Stufen (Redesign) */
+.memory-stairs{display:flex;align-items:flex-end;gap:10px;height:132px;margin:24px 0 6px}
+.stair-bar{width:100%;background:var(--surface-2);border:none;border-radius:8px 8px 3px 3px;position:relative;display:flex;align-items:flex-start;justify-content:center;padding-top:7px;font-size:12px;font-weight:600;color:var(--ink-faint);transition:height .5s cubic-bezier(.2,.7,.3,1),background var(--t)}
+.stair-bar.filled{background:linear-gradient(180deg,var(--accent) 0%,color-mix(in srgb,var(--accent) 55%,var(--bg)) 100%);color:var(--on-accent)}
+.stair-lbl{font-size:10px;color:var(--ink-faint);letter-spacing:.05em;text-transform:uppercase;font-weight:600}
+
+/* === BIBLIOTHEK === */
+.lib-intro{font-size:14px;color:var(--ink-muted);line-height:1.6;margin:-12px 0 28px;max-width:480px}
+.lib-tabs{display:flex;gap:6px;margin-bottom:24px}
+.lib-tab{padding:9px 16px;border-radius:999px;font-size:13px;font-weight:600;color:var(--ink-muted);border:1.5px solid var(--border);background:var(--surface);transition:all var(--t);min-height:40px}
+.lib-tab.active{background:var(--ink);color:var(--on-ink);border-color:var(--ink)}
+.gloss-mod{margin-bottom:26px}
+.gloss-mod-h{display:flex;align-items:center;gap:8px;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-faint);margin-bottom:10px}
+.gloss-item{display:flex;align-items:baseline;gap:12px;width:100%;text-align:left;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:13px 16px;margin-bottom:6px;transition:border-color var(--t);min-height:44px}
+.gloss-item:hover{border-color:var(--accent)}
+.gloss-term{font-family:var(--fd);font-size:16px;font-weight:600;color:var(--ink);white-space:nowrap;flex-shrink:0}
+.gloss-def{font-size:13px;color:var(--ink-muted);line-height:1.5}
+@media(max-width:520px){.gloss-item{flex-direction:column;gap:4px}.gloss-term{white-space:normal}}
+.lib-ref{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:15px 16px;margin-bottom:8px;font-size:13px;line-height:1.55}
+.lib-ref-author{font-weight:600;color:var(--ink)}
+.lib-ref-title{font-style:italic;color:var(--ink-muted);margin:2px 0 6px}
+.lib-ref-chips{display:flex;gap:6px;flex-wrap:wrap}
+.lib-ref-chip{font-size:11px;font-weight:600;background:var(--accent-dim);color:var(--accent-text);border-radius:999px;padding:3px 9px;border:none;cursor:pointer;min-height:24px}
+.lib-ref-chip:hover{text-decoration:underline}
+
+/* === FINALE / WHAT'S NEXT === */
+.finale-hero{background:var(--case-bg);color:var(--case-ink);border-radius:var(--r-lg);padding:32px 26px;margin-bottom:32px;position:relative;overflow:hidden}
+.finale-hero::after{content:'🎓';position:absolute;right:-6px;bottom:-18px;font-size:110px;opacity:.12;pointer-events:none}
+.finale-kicker{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,244,240,.55);margin-bottom:10px}
+.finale-title{font-family:var(--fd);font-size:clamp(26px,6vw,36px);font-weight:600;line-height:1.15;letter-spacing:-.02em;margin-bottom:12px}
+.finale-sub{font-size:14px;line-height:1.6;color:rgba(245,244,240,.8);max-width:440px}
+.next-card{display:flex;gap:14px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:18px;margin-bottom:10px}
+.next-num{font-family:var(--fd);font-size:22px;font-weight:600;color:var(--accent-text);flex-shrink:0;line-height:1.2;min-width:28px}
+.next-title{font-size:14px;font-weight:600;color:var(--ink);margin-bottom:4px}
+.next-desc{font-size:13px;color:var(--ink-muted);line-height:1.55}
+.book-item{border-left:3px solid var(--accent);padding:2px 0 2px 14px;margin-bottom:14px}
+.book-title{font-family:var(--fd);font-size:15px;font-weight:600;color:var(--ink)}
+.book-why{font-size:13px;color:var(--ink-muted);line-height:1.5;margin-top:2px}
+.home-finale-card{background:var(--case-bg);color:var(--case-ink);border-radius:var(--r-lg);padding:20px;margin-bottom:28px;display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;text-align:left;transition:transform var(--t)}
+.home-finale-card:hover{transform:translateY(-2px)}
+
+/* Theme-Toggle (Settings) */
+.theme-row{display:flex;gap:6px}
+.theme-btn{flex:1;padding:9px 8px;border-radius:var(--r-sm);font-size:13px;font-weight:500;color:var(--ink-muted);border:1.5px solid var(--border);transition:all var(--t);min-height:40px}
+.theme-btn.active{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+</style>
+</head>
+<body>
+<div id="app">
+
+<!-- Sidebar (desktop) -->
+<nav class="sidebar" role="navigation" aria-label="Hauptnavigation">
+  <div class="sidebar-logo">MindFrame</div>
+  <div class="sidebar-nav">
+    <button class="nav-btn active" data-nav="home">
+      <span class="nav-icon" aria-hidden="true">⌂</span><span class="nav-lbl">Übersicht</span>
+    </button>
+    <button class="nav-btn" data-nav="review" id="nav-review-s">
+      <span class="nav-icon" aria-hidden="true">↻</span><span class="nav-lbl">Review</span>
+      <span class="nav-badge" id="rev-badge-s" aria-hidden="true">0</span>
+    </button>
+    <button class="nav-btn" data-nav="library">
+      <span class="nav-icon" aria-hidden="true">▤</span><span class="nav-lbl">Bibliothek</span>
+    </button>
+    <button class="nav-btn" data-nav="progress">
+      <span class="nav-icon" aria-hidden="true">◎</span><span class="nav-lbl">Fortschritt</span>
+    </button>
+    <button class="nav-btn" data-nav="settings">
+      <span class="nav-icon" aria-hidden="true">⚙</span><span class="nav-lbl">Einstellungen</span>
+    </button>
+  </div>
+  <div class="sidebar-footer">
+    <div class="sec-label" style="margin-bottom:8px">Sprache</div>
+    <div class="lang-row">
+      <button class="lang-btn active" id="s-lang-de" onclick="APP.setLang('de')" aria-pressed="true">DE</button>
+      <button class="lang-btn" id="s-lang-en" onclick="APP.setLang('en')" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Main -->
+<main class="main-wrap" id="main">
+  <div class="reading-bar" id="reading-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Lesefortschritt"></div>
+
+  <!-- Home -->
+  <section id="view-home" class="view active" aria-label="Übersicht">
+    <div class="home-header">
+      <h1 class="home-greeting" id="home-greeting">Willkommen zurück.</h1>
+      <p class="home-sub" id="home-sub">Dein Kurs in Behavioral Science.</p>
+      <div class="streak-chip">
+        <span aria-hidden="true">🔥</span>
+        <span id="streak-num">0</span>
+        <span id="streak-lbl"> Tage Streak</span>
+      </div>
+    </div>
+    <div id="review-home"></div>
+    <div id="continue-section"></div>
+    <p class="sec-label" id="mod-label">Module</p>
+    <div class="mod-grid" id="mod-grid">
+      <div class="loading"><div class="spinner" aria-hidden="true"></div>Lädt…</div>
+    </div>
+  </section>
+
+  <!-- Module -->
+  <section id="view-module" class="view" aria-label="Modul">
+    <button class="back-btn" id="mod-back" onclick="APP.nav('home')">
+      ← <span id="mod-back-lbl">Zurück</span>
+    </button>
+    <div id="mod-content"></div>
+  </section>
+
+  <!-- Lesson -->
+  <section id="view-lesson" class="view" aria-label="Lektion">
+    <div id="lesson-content"></div>
+  </section>
+
+  <!-- Quiz -->
+  <section id="view-quiz" class="view" aria-label="Quiz">
+    <div id="quiz-content"></div>
+  </section>
+
+  <!-- Review -->
+  <section id="view-review" class="view" aria-label="Review">
+    <div id="review-content"></div>
+  </section>
+
+  <!-- Progress -->
+  <section id="view-progress" class="view" aria-labelledby="prog-h">
+    <h1 class="view-h" id="prog-h">Fortschritt</h1>
+    <div id="progress-content"></div>
+  </section>
+
+  <!-- Bibliothek -->
+  <section id="view-library" class="view" aria-labelledby="lib-h">
+    <h1 class="view-h" id="lib-h">Bibliothek</h1>
+    <div id="library-content"></div>
+  </section>
+
+  <!-- Finale / What's next -->
+  <section id="view-finale" class="view" aria-label="Kursabschluss">
+    <div id="finale-content"></div>
+  </section>
+
+  <!-- Settings -->
+  <section id="view-settings" class="view" aria-labelledby="settings-h">
+    <h1 class="view-h" id="settings-h">Einstellungen</h1>
+    <div id="settings-content"></div>
+  </section>
+</main>
+
+<!-- Bottom nav (mobile) -->
+<nav class="bottom-nav" role="navigation" aria-label="Navigation">
+  <button class="bn-btn active" data-nav="home" aria-label="Übersicht">
+    <span class="bn-icon" aria-hidden="true">⌂</span>
+    <span id="bn-home">Home</span>
+  </button>
+  <button class="bn-btn" data-nav="review" id="nav-review-b" aria-label="Review">
+    <span class="bn-wrap"><span class="bn-icon" aria-hidden="true">↻</span><span class="bn-badge" id="rev-badge-b" aria-hidden="true">0</span></span>
+    <span id="bn-rev">Review</span>
+  </button>
+  <button class="bn-btn" data-nav="library" aria-label="Bibliothek">
+    <span class="bn-icon" aria-hidden="true">▤</span>
+    <span id="bn-lib">Bibliothek</span>
+  </button>
+  <button class="bn-btn" data-nav="progress" aria-label="Fortschritt">
+    <span class="bn-icon" aria-hidden="true">◎</span>
+    <span id="bn-prog">Fortschritt</span>
+  </button>
+  <button class="bn-btn" data-nav="settings" aria-label="Einstellungen">
+    <span class="bn-icon" aria-hidden="true">⚙</span>
+    <span id="bn-set">Settings</span>
+  </button>
+</nav>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+<script>
+// ============================================================
+// CONFIG
+// ============================================================
+const CFG = {
+  curriculumUrl: 'data/curriculum.json',
+  unlockThreshold: 0.6, // 60% of prev module to unlock next
+};
+
+// ============================================================
+// STATE
+// ============================================================
+const S = {
+  lang: localStorage.getItem('mf_lang') || 'de',
+  view: 'home',
+  curriculum: null,
+  currentModule: null,   // full module data object
+  currentLesson: null,   // lesson object
+  progress: JSON.parse(localStorage.getItem('mf_progress') || '{}'),
+  streak: parseInt(localStorage.getItem('mf_streak') || '0'),
+  lastActivity: localStorage.getItem('mf_last_activity') || null,
+  quizIndex: 0,
+  quizAnswers: [],
+  deferredInstall: null,
+};
+
+// ============================================================
+// STORAGE
+// ============================================================
+function saveProgress() {
+  localStorage.setItem('mf_progress', JSON.stringify(S.progress));
+}
+
+function getLP(lessonId) {
+  return S.progress[lessonId] || { completed: false, quizScore: null, missionDone: false };
+}
+
+function setLP(lessonId, patch) {
+  S.progress[lessonId] = { ...getLP(lessonId), ...patch };
+  saveProgress();
+}
+
+// ============================================================
+// SRS — Spaced Repetition (Leitner, 5 Stufen)
+// Frage-ID: "<lessonId>::<questionIndex>"
+// Eintrag: { b: Box 1-5, d: Fälligkeitsdatum "YYYY-MM-DD" }
+// ============================================================
+const SRS = {
+  BOX_DAYS: [1, 3, 7, 16, 35], // Intervall nach Erreichen von Box 1..5
+  data: JSON.parse(localStorage.getItem('mf_srs') || '{}'),
+
+  save() { localStorage.setItem('mf_srs', JSON.stringify(SRS.data)); },
+
+  today() { return new Date().toISOString().split('T')[0]; },
+
+  addDays(days) {
+    const d = new Date();
+    d.setDate(d.getDate() + days);
+    return d.toISOString().split('T')[0];
+  },
+
+  moduleIdOf(lessonId) { return 'module-' + lessonId.slice(1, 3); },
+
+  // Nach Lektions-Quiz: Frage ins System aufnehmen / aktualisieren
+  seed(lessonId, qIndex, correct) {
+    const qid = `${lessonId}::${qIndex}`;
+    const cur = SRS.data[qid];
+    if (cur) { SRS.grade(qid, correct); return; }
+    const box = correct ? 2 : 1;
+    SRS.data[qid] = { b: box, d: SRS.addDays(SRS.BOX_DAYS[box - 1]) };
+    SRS.save();
+  },
+
+  // Nach Review-Antwort: Box verschieben
+  grade(qid, correct) {
+    const cur = SRS.data[qid] || { b: 1 };
+    const box = correct ? Math.min(cur.b + 1, 5) : 1;
+    SRS.data[qid] = { b: box, d: SRS.addDays(SRS.BOX_DAYS[box - 1]) };
+    SRS.save();
+  },
+
+  due() {
+    const today = SRS.today();
+    return Object.keys(SRS.data).filter(qid => SRS.data[qid].d <= today);
+  },
+
+  boxCounts() {
+    const c = [0, 0, 0, 0, 0];
+    Object.values(SRS.data).forEach(e => { c[e.b - 1]++; });
+    return c;
+  },
+
+  // Einmalige Migration: bereits absolvierte Quizze ins SRS holen
+  migrate() {
+    if (Object.keys(SRS.data).length > 0) return;
+    let seeded = false;
+    Object.entries(S.progress).forEach(([lessonId, p]) => {
+      if (p.quizScore === null || p.quizScore === undefined) return;
+      for (let i = 0; i < 3; i++) {
+        SRS.data[`${lessonId}::${i}`] = { b: 1, d: SRS.today() };
+        seeded = true;
+      }
+    });
+    if (seeded) SRS.save();
+  },
+
+  // qid → { question, lesson, module } — Moduldaten müssen geladen sein
+  resolve(qid) {
+    const [lessonId, qIdxStr] = qid.split('::');
+    const modId = SRS.moduleIdOf(lessonId);
+    const mod = S.curriculum?.modules.find(m => m.id === modId);
+    if (!mod?._data) return null;
+    const lesson = mod._data.lessons.find(l => l.id === lessonId);
+    const q = lesson?.quiz?.questions[parseInt(qIdxStr, 10)];
+    if (!q) return null;
+    return { q, lesson, mod };
+  },
+
+  // Moduldaten für eine qid-Liste nachladen
+  async ensureModules(qids) {
+    const modIds = [...new Set(qids.map(qid => SRS.moduleIdOf(qid.split('::')[0])))];
+    await Promise.all(modIds.map(async id => {
+      const mod = S.curriculum?.modules.find(m => m.id === id);
+      if (!mod || mod._data) return;
+      try {
+        const res = await fetch(mod.file);
+        mod._data = await res.json();
+      } catch { /* Frage wird übersprungen */ }
+    }));
+  },
+};
+
+// Modul-Fortschritt aus S.progress ableiten — funktioniert auch ohne geladene Moduldaten.
+// (Fix: Übersicht zeigte 0%, bis das Modul einmal geöffnet wurde.)
+function moduleDoneCount(mod) {
+  if (mod._data) return mod._data.lessons.filter(l => getLP(l.id).completed).length;
+  const prefix = mod.id.replace('module-', 'm') + '-l'; // "module-03" -> "m03-l"
+  return Object.keys(S.progress).filter(id => id.startsWith(prefix) && S.progress[id].completed).length;
+}
+
+function courseStats() {
+  if (!S.curriculum) return { done: 0, total: 0 };
+  let done = 0, total = 0;
+  S.curriculum.modules.forEach(m => { done += moduleDoneCount(m); total += m.lessonCount; });
+  return { done, total };
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function updateReviewBadges() {
+  const n = SRS.due().length;
+  ['rev-badge-s', 'rev-badge-b'].forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = n > 99 ? '99+' : n;
+    el.classList.toggle('show', n > 0);
+  });
+  const lbl = n > 0 ? `Review, ${n} ${t('fällig', 'due')}` : 'Review';
+  document.getElementById('nav-review-s')?.setAttribute('aria-label', lbl);
+  document.getElementById('nav-review-b')?.setAttribute('aria-label', lbl);
+}
+
+// ============================================================
+// STREAK
+// ============================================================
+function updateStreak() {
+  const today = new Date().toISOString().split('T')[0];
+  const last = S.lastActivity;
+  if (!last) return;
+  const diff = (new Date(today) - new Date(last)) / 86400000;
+  if (diff > 1) { S.streak = 0; localStorage.setItem('mf_streak', 0); }
+}
+
+function markActivity() {
+  const today = new Date().toISOString().split('T')[0];
+  if (S.lastActivity === today) return;
+  const last = S.lastActivity;
+  if (last) {
+    const diff = (new Date(today) - new Date(last)) / 86400000;
+    S.streak = diff === 1 ? S.streak + 1 : 1;
+  } else {
+    S.streak = 1;
+  }
+  S.lastActivity = today;
+  localStorage.setItem('mf_streak', S.streak);
+  localStorage.setItem('mf_last_activity', today);
+  document.getElementById('streak-num').textContent = S.streak;
+}
+
+// ============================================================
+// THEME (light / dark / system)
+// ============================================================
+const THEME = {
+  pref: localStorage.getItem('mf_theme') || 'system',
+  mq: window.matchMedia('(prefers-color-scheme: dark)'),
+
+  resolved() {
+    return THEME.pref === 'system' ? (THEME.mq.matches ? 'dark' : 'light') : THEME.pref;
+  },
+
+  apply() {
+    const mode = THEME.resolved();
+    document.documentElement.setAttribute('data-theme', mode);
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', mode === 'dark' ? '#141413' : '#F5F4F0');
+  },
+
+  set(pref) {
+    THEME.pref = pref;
+    localStorage.setItem('mf_theme', pref);
+    THEME.apply();
+    if (S.view === 'settings') renderSettings();
+  },
+};
+THEME.mq.addEventListener?.('change', () => { if (THEME.pref === 'system') THEME.apply(); });
+
+// ============================================================
+// LANGUAGE
+// ============================================================
+function t(de, en) { return S.lang === 'de' ? de : en; }
+
+function applyLang(lang) {
+  S.lang = lang;
+  localStorage.setItem('mf_lang', lang);
+  document.documentElement.lang = lang;
+
+  // Sidebar lang buttons
+  document.getElementById('s-lang-de')?.classList.toggle('active', lang === 'de');
+  document.getElementById('s-lang-en')?.classList.toggle('active', lang === 'en');
+  document.getElementById('s-lang-de')?.setAttribute('aria-pressed', lang === 'de');
+  document.getElementById('s-lang-en')?.setAttribute('aria-pressed', lang === 'en');
+
+  // Static text that doesn't re-render
+  document.getElementById('home-greeting').textContent = t('Willkommen zurück.', 'Welcome back.');
+  document.getElementById('home-sub').textContent = t('Dein Kurs in Behavioral Science.', 'Your Behavioral Science course.');
+  document.getElementById('streak-lbl').textContent = t(' Tage Streak', ' day streak');
+  document.getElementById('mod-label').textContent = t('Module', 'Modules');
+  document.getElementById('mod-back-lbl').textContent = t('Zurück', 'Back');
+  document.getElementById('prog-h').textContent = t('Fortschritt', 'Progress');
+  document.getElementById('settings-h').textContent = t('Einstellungen', 'Settings');
+  document.getElementById('lib-h').textContent = t('Bibliothek', 'Library');
+
+  // Sidebar nav labels
+  const navLabels = [
+    t('Übersicht', 'Overview'),
+    'Review',
+    t('Bibliothek', 'Library'),
+    t('Fortschritt', 'Progress'),
+    t('Einstellungen', 'Settings'),
+  ];
+  document.querySelectorAll('.nav-btn .nav-lbl').forEach((el, i) => {
+    if (navLabels[i]) el.textContent = navLabels[i];
+  });
+
+  // Bottom nav labels
+  document.getElementById('bn-home').textContent = t('Home', 'Home');
+  document.getElementById('bn-rev').textContent = 'Review';
+  document.getElementById('bn-lib').textContent = t('Bibliothek', 'Library');
+  document.getElementById('bn-prog').textContent = t('Fortschritt', 'Progress');
+  document.getElementById('bn-set').textContent = t('Settings', 'Settings');
+}
+
+// ============================================================
+// NAVIGATION
+// ============================================================
+const APP = {
+
+  setLang(lang) {
+    applyLang(lang);
+    // Re-render current view
+    const view = S.view;
+    if (view === 'home') renderHome();
+    else if (view === 'module' && S.currentModule) renderModule(S.currentModule);
+    else if (view === 'lesson' && S.currentLesson) renderLesson(S.currentLesson);
+    else if (view === 'review') renderReviewLanding();
+    else if (view === 'library') APP.openLibrary();
+    else if (view === 'finale') renderFinale();
+    else if (view === 'progress') renderProgress();
+    else if (view === 'settings') renderSettings();
+  },
+
+  nav(view) {
+    S.view = view;
+    document.querySelectorAll('.view').forEach(el => el.classList.remove('active'));
+    const el = document.getElementById(`view-${view}`);
+    if (el) { el.classList.add('active'); }
+
+    // Update nav active states
+    document.querySelectorAll('[data-nav]').forEach(btn => {
+      const active = btn.dataset.nav === view;
+      btn.classList.toggle('active', active);
+      if (active) btn.setAttribute('aria-current', 'page');
+      else btn.removeAttribute('aria-current');
+    });
+
+    // Reading bar
+    const bar = document.getElementById('reading-bar');
+    bar.style.display = view === 'lesson' ? 'block' : 'none';
+    if (view !== 'lesson') bar.style.transform = 'scaleX(0)';
+
+    window.scrollTo({ top: 0, behavior: 'instant' });
+
+    // Render
+    if (view === 'home') renderHome();
+    if (view === 'review') renderReviewLanding();
+    if (view === 'library') APP.openLibrary();
+    if (view === 'finale') renderFinale();
+    if (view === 'progress') renderProgress();
+    if (view === 'settings') renderSettings();
+  },
+
+  async openModule(moduleId) {
+    document.getElementById('mod-content').innerHTML = loadingHTML();
+    APP.nav('module');
+    const modMeta = S.curriculum?.modules.find(m => m.id === moduleId);
+    if (!modMeta) return;
+    // Load if not cached
+    if (!modMeta._data) {
+      try {
+        const res = await fetch(modMeta.file);
+        modMeta._data = await res.json();
+      } catch {
+        document.getElementById('mod-content').innerHTML = errorHTML();
+        return;
+      }
+    }
+    S.currentModule = modMeta._data;
+    renderModule(S.currentModule);
+  },
+
+  async openLesson(lessonId) {
+    if (!S.currentModule) return;
+    const lesson = S.currentModule.lessons.find(l => l.id === lessonId);
+    if (!lesson) return;
+    S.currentLesson = lesson;
+    APP.nav('lesson');
+    if (shouldWarmup(lesson)) {
+      document.getElementById('lesson-content').innerHTML = loadingHTML();
+      await startWarmup(lesson);
+    } else {
+      renderLesson(lesson);
+    }
+  },
+
+  startQuiz() {
+    if (!S.currentLesson) return;
+    S.quizIndex = 0;
+    S.quizAnswers = [];
+    APP.nav('quiz');
+    renderQuizQ();
+  },
+
+  async startReview() {
+    const due = SRS.due();
+    if (due.length === 0) { renderReviewLanding(); return; }
+    document.getElementById('review-content').innerHTML = loadingHTML();
+    if (S.view !== 'review') APP.nav('review');
+    REV.queue = shuffle(due).slice(0, 12); // Shuffle = Interleaving über Module
+    REV.idx = 0;
+    REV.results = [];
+    await SRS.ensureModules(REV.queue);
+    REV.queue = REV.queue.filter(qid => SRS.resolve(qid));
+    if (REV.queue.length === 0) { renderReviewLanding(); return; }
+    renderReviewQ();
+  },
+
+  answerReview(optIndex) {
+    const r = SRS.resolve(REV.queue[REV.idx]);
+    if (!r) return;
+    const correct = r.q.correctIndex;
+    const isCorrect = optIndex === correct;
+    REV.results.push(isCorrect);
+    SRS.grade(REV.queue[REV.idx], isCorrect);
+
+    document.querySelectorAll('#review-content .quiz-opt').forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === correct) btn.classList.add('correct');
+      if (i === optIndex && !isCorrect) btn.classList.add('wrong');
+    });
+
+    const fb = document.getElementById('rev-fb');
+    const exp = S.lang === 'de' ? r.q.explanationDe : r.q.explanationEn;
+    const box = SRS.data[REV.queue[REV.idx]].b;
+    const nextIn = SRS.BOX_DAYS[box - 1];
+    fb.innerHTML = `<span class="feedback-label">${isCorrect ? t('Richtig! ✓', 'Correct! ✓') : t('Nicht ganz.', 'Not quite.')}</span>${exp}<br><small style="color:var(--ink-muted)">${t('Nächste Wiederholung in', 'Next review in')} ${nextIn} ${nextIn === 1 ? t('Tag', 'day') : t('Tagen', 'days')} (${t('Stufe', 'level')} ${box}/5)</small>`;
+    fb.classList.add('show');
+
+    const nb = document.getElementById('rev-next-btn');
+    if (nb) nb.style.display = 'inline-flex';
+  },
+
+  nextReviewQ() {
+    REV.idx++;
+    renderReviewQ();
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  },
+
+  answerWarmup(optIndex) {
+    const qid = WU.queue[WU.idx];
+    const r = SRS.resolve(qid);
+    if (!r) return;
+    const correct = r.q.correctIndex;
+    const isCorrect = optIndex === correct;
+    SRS.grade(qid, isCorrect);
+    updateReviewBadges();
+
+    document.querySelectorAll('#lesson-content .quiz-opt').forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === correct) btn.classList.add('correct');
+      if (i === optIndex && !isCorrect) btn.classList.add('wrong');
+    });
+
+    const fb = document.getElementById('wu-fb');
+    const exp = S.lang === 'de' ? r.q.explanationDe : r.q.explanationEn;
+    fb.innerHTML = `<span class="feedback-label">${isCorrect ? t('Richtig! ✓', 'Correct! ✓') : t('Nicht ganz.', 'Not quite.')}</span>${exp}`;
+    fb.classList.add('show');
+
+    const nb = document.getElementById('wu-next-btn');
+    if (nb) nb.style.display = 'inline-flex';
+  },
+
+  nextWarmupQ() {
+    WU.idx++;
+    renderWarmupQ();
+  },
+
+  toggleMission(lessonId) {
+    const cur = getLP(lessonId);
+    const done = !cur.missionDone;
+    setLP(lessonId, { missionDone: done });
+    const cb = document.getElementById('mission-cb');
+    if (cb) {
+      cb.classList.toggle('done', done);
+      cb.setAttribute('aria-pressed', done);
+    }
+    if (done) showToast(t('Mission erledigt 🏁', 'Mission done 🏁'));
+  },
+
+  markComplete(lessonId) {
+    setLP(lessonId, { completed: true });
+    markActivity();
+    showToast(t('Lektion abgeschlossen ✓', 'Lesson complete ✓'));
+    APP.nav('module');
+    if (S.currentModule) renderModule(S.currentModule);
+  },
+
+  answerQuiz(optIndex) {
+    const quiz = S.currentLesson?.quiz;
+    if (!quiz) return;
+    const q = quiz.questions[S.quizIndex];
+    const correct = q.correctIndex;
+    const isCorrect = optIndex === correct;
+    S.quizAnswers.push(isCorrect);
+
+    // Disable & highlight options
+    document.querySelectorAll('.quiz-opt').forEach((btn, i) => {
+      btn.disabled = true;
+      if (i === correct) btn.classList.add('correct');
+      if (i === optIndex && !isCorrect) btn.classList.add('wrong');
+    });
+
+    // Show feedback
+    const fb = document.getElementById('quiz-fb');
+    const exp = S.lang === 'de' ? q.explanationDe : q.explanationEn;
+    fb.innerHTML = `<span class="feedback-label">${isCorrect ? t('Richtig! ✓', 'Correct! ✓') : t('Nicht ganz.', 'Not quite.')}</span>${exp}`;
+    fb.classList.add('show');
+
+    // Show next button
+    const nb = document.getElementById('next-btn');
+    if (nb) nb.style.display = 'inline-flex';
+  },
+
+  nextQ() {
+    S.quizIndex++;
+    const quiz = S.currentLesson?.quiz;
+    if (!quiz || S.quizIndex >= quiz.questions.length) {
+      renderQuizResults();
+    } else {
+      renderQuizQ();
+    }
+  },
+
+  resetProgress() {
+    if (!confirm(t('Wirklich? Alle Fortschritte werden gelöscht.', 'Really? All progress will be deleted.'))) return;
+    S.progress = {};
+    S.streak = 0;
+    S.lastActivity = null;
+    localStorage.removeItem('mf_progress');
+    localStorage.removeItem('mf_streak');
+    localStorage.removeItem('mf_last_activity');
+    localStorage.removeItem('mf_srs');
+    localStorage.removeItem('mf_wu');
+    SRS.data = {};
+    updateReviewBadges();
+    document.getElementById('streak-num').textContent = '0';
+    renderSettings();
+    showToast(t('Fortschritt gelöscht.', 'Progress deleted.'));
+  },
+
+  installPWA() {
+    if (S.deferredInstall) {
+      S.deferredInstall.prompt();
+      S.deferredInstall.userChoice.then(() => {
+        S.deferredInstall = null;
+        document.getElementById('install-banner')?.classList.remove('show');
+      });
+    }
+  },
+};
+
+// ============================================================
+// DATA LOADING
+// ============================================================
+async function loadCurriculum() {
+  try {
+    const res = await fetch(CFG.curriculumUrl);
+    S.curriculum = await res.json();
+    // Preload module 01 for continue card
+    const first = S.curriculum.modules[0];
+    if (first && !first._data) {
+      try {
+        const r = await fetch(first.file);
+        first._data = await r.json();
+        if (!S.currentModule) S.currentModule = first._data;
+      } catch { /* silent */ }
+    }
+    renderHome();
+  } catch {
+    document.getElementById('mod-grid').innerHTML = errorHTML();
+  }
+}
+
+// ============================================================
+// RENDER: HOME
+// ============================================================
+function renderHome() {
+  document.getElementById('streak-num').textContent = S.streak;
+
+  // Review card (nur wenn Fragen fällig)
+  const revEl = document.getElementById('review-home');
+  const dueN = SRS.due().length;
+  revEl.innerHTML = dueN > 0 ? `
+    <button class="home-review-card" onclick="APP.startReview()" aria-label="${dueN} ${t('Fragen fällig — Review starten', 'questions due — start review')}">
+      <div>
+        <div class="hrc-title">↻ ${dueN} ${dueN === 1 ? t('Frage', 'question') : t('Fragen', 'questions')} ${t('fällig', 'due')}</div>
+        <div class="hrc-sub">${t('Kurz wiederholen, bevor das Vergessen gewinnt.', 'A quick review before forgetting wins.')}</div>
+      </div>
+      <span class="cc-arrow" aria-hidden="true">→</span>
+    </button>` : '';
+
+  // Continue card
+  const continueEl = document.getElementById('continue-section');
+  const next = findNextLesson();
+  if (next) {
+    continueEl.innerHTML = `
+      <button class="continue-card" onclick="APP.openModule('${next.moduleId}').then(()=>APP.openLesson('${next.lesson.id}'))" aria-label="${t('Weiter lernen', 'Continue learning')}: ${t(next.lesson.titleDe, next.lesson.titleEn)}">
+        <div>
+          <div class="cc-label">${t('Weiter lernen', 'Continue learning')}</div>
+          <div class="cc-title">${t(next.lesson.titleDe, next.lesson.titleEn)}</div>
+          <div class="cc-meta">
+            <span>${t(next.modTitleDe, next.modTitleEn)}</span>
+            <span>·</span>
+            <span>${next.lesson.durationMin} Min.</span>
+          </div>
+        </div>
+        <span class="cc-arrow" aria-hidden="true">→</span>
+      </button>`;
+  } else {
+    const cs = courseStats();
+    if (cs.total > 0 && cs.done >= cs.total) {
+      continueEl.innerHTML = `
+        <button class="home-finale-card" onclick="APP.nav('finale')" aria-label="${t('Kurs abgeschlossen — wie geht es weiter?', 'Course complete — what comes next?')}">
+          <div>
+            <div class="cc-label">${t('Kurs abgeschlossen', 'Course complete')} 🎓</div>
+            <div class="cc-title">${t('Alle 8 Module geschafft. Wie geht\'s weiter?', 'All 8 modules done. What\'s next?')}</div>
+          </div>
+          <span class="cc-arrow" aria-hidden="true">→</span>
+        </button>`;
+    } else {
+      continueEl.innerHTML = `
+        <div class="continue-card" style="cursor:default">
+          <div>
+            <div class="cc-label">${t('Alles erledigt', 'All done')}</div>
+            <div class="cc-title">${t('Alle verfügbaren Lektionen abgeschlossen.', 'All available lessons completed.')}</div>
+          </div>
+          <span class="cc-arrow">✓</span>
+        </div>`;
+    }
+  }
+
+  // Module grid
+  if (!S.curriculum) return;
+  const grid = document.getElementById('mod-grid');
+  grid.innerHTML = S.curriculum.modules.map((mod, i) => {
+    const locked = isModuleLocked(mod, i);
+    const pct = Math.round((moduleDoneCount(mod) / mod.lessonCount) * 100);
+    return `
+      <button class="mod-card ${locked ? 'locked' : ''}" ${locked ? 'aria-disabled="true"' : `onclick="APP.openModule('${mod.id}')"`}>
+        <span class="mod-icon" aria-hidden="true">${mod.icon}</span>
+        <div class="mod-title">${t(mod.titleDe, mod.titleEn)}</div>
+        <div class="mod-meta">${mod.lessonCount} ${t('Lektionen', 'lessons')} · ${Math.round(mod.estimatedHours * 60)} Min.</div>
+        <div class="prog-bar"><div class="prog-fill" style="width:${pct}%"></div></div>
+      </button>`;
+  }).join('');
+}
+
+function findNextLesson() {
+  if (!S.curriculum) return null;
+  for (const mod of S.curriculum.modules) {
+    if (!mod._data) continue;
+    for (const lesson of mod._data.lessons) {
+      if (!getLP(lesson.id).completed) {
+        return { lesson, moduleId: mod.id, modTitleDe: mod.titleDe, modTitleEn: mod.titleEn };
+      }
+    }
+  }
+  return null;
+}
+
+function isModuleLocked(mod, index) {
+  if (index === 0) return false;
+  if (!mod.lockedUntil || !S.curriculum) return false;
+  const prevMod = S.curriculum.modules.find(m => m.id === mod.lockedUntil.moduleId);
+  if (!prevMod) return true;
+  return (moduleDoneCount(prevMod) / prevMod.lessonCount) < mod.lockedUntil.pct / 100;
+}
+
+// ============================================================
+// RENDER: MODULE
+// ============================================================
+function renderModule(modData) {
+  const el = document.getElementById('mod-content');
+  if (!el) return;
+  const title = t(modData.titleDe, modData.titleEn);
+  const desc = t(modData.descriptionDe, modData.descriptionEn);
+
+  el.innerHTML = `
+    <div class="mod-header">
+      <div class="mod-icon-lg" aria-hidden="true">${modData.icon}</div>
+      <h1 class="mod-title-lg">${title}</h1>
+      <p class="mod-desc">${desc}</p>
+    </div>
+    <p class="sec-label">${t('Lektionen', 'Lessons')}</p>
+    <div class="lesson-list">
+      ${modData.lessons.map((l, i) => {
+        const lp = getLP(l.id);
+        const ltitle = t(l.titleDe, l.titleEn);
+        return `
+          <button class="lesson-item ${lp.completed ? 'done' : ''}" onclick="APP.openLesson('${l.id}')" aria-label="${ltitle}${lp.completed ? ' — ' + t('Abgeschlossen', 'Completed') : ''}">
+            <div class="l-num" aria-hidden="true">${lp.completed ? '✓' : i + 1}</div>
+            <div class="l-info">
+              <div class="l-title">${ltitle}</div>
+              <div class="l-meta">
+                <span>⏱ ${l.durationMin} Min.</span>
+                ${diffDots(l.difficulty || 1)}
+                ${lp.missionDone ? `<span class="badge purple">🏁 ${t('Mission', 'Mission')}</span>` : ''}
+                ${lp.quizScore !== null ? `<span class="badge green">🧠 ${lp.quizScore}/3</span>` : ''}
+              </div>
+            </div>
+            <span aria-hidden="true" style="color:var(--ink-faint);font-size:16px">›</span>
+          </button>`;
+      }).join('')}
+    </div>`;
+}
+
+// ============================================================
+// RENDER: LESSON
+// ============================================================
+function renderLesson(lesson) {
+  const el = document.getElementById('lesson-content');
+  if (!el || !S.currentModule) return;
+  const lang = S.lang;
+  const content = lang === 'de' ? lesson.contentDe : lesson.contentEn;
+  const title = lang === 'de' ? lesson.titleDe : lesson.titleEn;
+  const lp = getLP(lesson.id);
+  const idx = S.currentModule.lessons.findIndex(l => l.id === lesson.id);
+  const total = S.currentModule.lessons.length;
+  const modTitle = t(S.currentModule.titleDe, S.currentModule.titleEn);
+  const diffLabel = ['', t('Einfach', 'Easy'), t('Mittel', 'Medium'), t('Anspruchsvoll', 'Advanced')][lesson.difficulty || 1];
+
+  el.innerHTML = `
+    <div class="lesson-nav">
+      <button class="back-btn" onclick="APP.nav('module');renderModule(S.currentModule)">
+        ← ${t('Zurück', 'Back')}
+      </button>
+      <span class="lesson-counter">${idx + 1} / ${total}</span>
+    </div>
+
+    <div class="lesson-breadcrumb">${modTitle}</div>
+    <h1 class="lesson-title">${title}</h1>
+    <p class="lesson-summary">${content.summary}</p>
+
+    <div class="lesson-meta-bar">
+      <div class="l-meta-item"><span aria-hidden="true">⏱</span>${lesson.durationMin} ${t('Min. Lesezeit', 'min read')}</div>
+      <div class="l-meta-item">${diffDots(lesson.difficulty || 1)} ${diffLabel}</div>
+    </div>
+
+    <div class="lesson-body">
+      ${content.body.map(p => `<p>${p}</p>`).join('')}
+    </div>
+
+    <!-- Example -->
+    <div class="l-section">
+      <p class="sec-label">${t('Beispiel', 'Example')}</p>
+      <div class="example-card">
+        <div class="example-title">${content.example.title}</div>
+        <div class="example-body">${content.example.text}</div>
+      </div>
+    </div>
+
+    <!-- Case Study: Mara & Fernweh -->
+    ${content.caseStudy ? `
+    <div class="l-section">
+      <p class="sec-label">${t('Fallstudie', 'Case Study')}</p>
+      <div class="case-card">
+        <div class="case-kicker">
+          <span class="case-brand">Mara &amp; Fernweh</span>
+          <span class="case-episode">${t('Folge', 'Episode')} ${episodeNum(lesson.id)}/40</span>
+        </div>
+        <div class="case-scene">${content.caseStudy.scene}</div>
+        <div class="case-behind">
+          <div class="case-behind-lbl">${t('Der Blick dahinter', 'Behind the scenes')}</div>
+          <div class="case-behind-text">${content.caseStudy.behind}</div>
+        </div>
+      </div>
+    </div>` : ''}
+
+    <!-- Reference -->
+    <div class="l-section">
+      <p class="sec-label">${t('Akademische Quelle', 'Academic Reference')}</p>
+      <div class="ref-block">
+        <div class="ref-author">${content.reference.author} (${content.reference.year})</div>
+        <div class="ref-title">${content.reference.title}</div>
+        <div class="ref-note">${content.reference.note}</div>
+      </div>
+    </div>
+
+    <!-- Field Mission -->
+    <div class="l-section">
+      <p class="sec-label">${t('Field Mission', 'Field Mission')}</p>
+      <div class="mission-card">
+        <div class="mission-top">
+          <button class="mission-check ${lp.missionDone ? 'done' : ''}"
+            id="mission-cb"
+            onclick="APP.toggleMission('${lesson.id}')"
+            aria-label="${t('Mission abhaken', 'Mark mission done')}"
+            aria-pressed="${lp.missionDone}">
+          </button>
+          <div class="mission-check-title">${content.fieldMission.title}</div>
+        </div>
+        <div class="mission-desc">${content.fieldMission.description}</div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="lesson-cta">
+      ${lesson.quiz?.questions?.length ? `
+        <button class="btn-primary" onclick="APP.startQuiz()">
+          ${t('Quiz starten', 'Start Quiz')} →
+        </button>` : ''}
+      ${!lp.completed ? `
+        <button class="btn-secondary" onclick="APP.markComplete('${lesson.id}')">
+          ${t('Abschließen', 'Mark complete')}
+        </button>` : `
+        <span style="font-size:14px;color:var(--correct);display:flex;align-items:center;gap:6px;font-weight:600">✓ ${t('Abgeschlossen', 'Completed')}</span>`}
+    </div>`;
+
+  // Setup reading progress bar
+  markActivity();
+}
+
+// ============================================================
+// RENDER: QUIZ
+// ============================================================
+function renderQuizQ() {
+  const el = document.getElementById('quiz-content');
+  if (!el || !S.currentLesson?.quiz) return;
+  const quiz = S.currentLesson.quiz;
+  const i = S.quizIndex;
+  if (i >= quiz.questions.length) { renderQuizResults(); return; }
+  const q = quiz.questions[i];
+  const qText = S.lang === 'de' ? q.questionDe : q.questionEn;
+  const opts = S.lang === 'de' ? q.optionsDe : q.optionsEn;
+  const pct = Math.round((i / quiz.questions.length) * 100);
+
+  el.innerHTML = `
+    <div class="quiz-back">
+      <button class="back-btn" onclick="APP.nav('lesson');renderLesson(S.currentLesson)">
+        ← ${t('Zur Lektion', 'Back to lesson')}
+      </button>
+    </div>
+    <div class="quiz-prog-bar"><div class="quiz-prog-fill" style="width:${pct}%"></div></div>
+    <div class="quiz-counter">${t('Frage', 'Question')} ${i + 1} ${t('von', 'of')} ${quiz.questions.length}</div>
+
+    <p class="quiz-q" style="margin-top:20px">${qText}</p>
+
+    <div class="quiz-options" role="group" aria-label="${t('Antwortmöglichkeiten', 'Answer options')}">
+      ${opts.map((o, oi) => `
+        <button class="quiz-opt" onclick="APP.answerQuiz(${oi})">
+          ${String.fromCharCode(65 + oi)}. ${o}
+        </button>`).join('')}
+    </div>
+
+    <div class="quiz-feedback" id="quiz-fb" role="alert"></div>
+
+    <button class="btn-primary" id="next-btn" style="display:none" onclick="APP.nextQ()">
+      ${i + 1 < quiz.questions.length ? t('Nächste Frage →', 'Next question →') : t('Ergebnis →', 'See result →')}
+    </button>`;
+}
+
+function renderQuizResults() {
+  const el = document.getElementById('quiz-content');
+  if (!el) return;
+  const correct = S.quizAnswers.filter(Boolean).length;
+  const total = S.quizAnswers.length;
+  const pct = Math.round((correct / total) * 100);
+  const scoreLabel = pct >= 80 ? t('Ausgezeichnet!', 'Excellent!') : pct >= 60 ? t('Gut gemacht!', 'Good job!') : t('Weiter üben!', 'Keep practicing!');
+  const scoreSub = pct >= 80
+    ? t('Du hast diese Lektion gemeistert.', 'You\'ve mastered this lesson.')
+    : t('Lies die Lektion nochmal und versuche es erneut.', 'Review the lesson and try again.');
+
+  if (S.currentLesson) {
+    setLP(S.currentLesson.id, { completed: true, quizScore: correct });
+    S.quizAnswers.forEach((ok, i) => SRS.seed(S.currentLesson.id, i, ok));
+    updateReviewBadges();
+    markActivity();
+  }
+
+  el.innerHTML = `
+    <div class="quiz-results">
+      <div class="results-score" aria-label="${correct} ${t('von', 'of')} ${total} ${t('Richtig', 'correct')}">${correct}/${total}</div>
+      <div class="results-label">${scoreLabel}</div>
+      <div class="results-sub">${scoreSub}</div>
+      <div class="results-actions">
+        <button class="btn-primary" onclick="APP.nav('module');renderModule(S.currentModule)">
+          ${t('Weiter', 'Continue')} →
+        </button>
+        ${pct < 100 ? `<button class="btn-secondary" onclick="S.quizIndex=0;S.quizAnswers=[];renderQuizQ()">${t('Nochmal', 'Retry')}</button>` : ''}
+      </div>
+    </div>`;
+
+  showToast(`${t('Quiz abgeschlossen', 'Quiz done')} · ${correct}/${total}`);
+}
+
+// ============================================================
+// RENDER: REVIEW (SRS-Sessions, modulübergreifend interleaved)
+// ============================================================
+const REV = { queue: [], idx: 0, results: [] };
+
+function renderReviewLanding() {
+  const el = document.getElementById('review-content');
+  if (!el) return;
+  const dueN = SRS.due().length;
+  const totalN = Object.keys(SRS.data).length;
+  const boxes = SRS.boxCounts();
+  const maxBox = Math.max(...boxes, 1);
+  const stairLabels = [t('neu', 'new'), '', t('lernt', 'learning'), '', t('fest', 'solid')];
+
+  const heroTitle = totalN === 0
+    ? t('Noch nichts zu wiederholen.', 'Nothing to review yet.')
+    : dueN > 0
+      ? t(`Dein Gedächtnis lässt gerade ${dueN} ${dueN === 1 ? 'Sache' : 'Dinge'} los.`, `Your memory is letting go of ${dueN} ${dueN === 1 ? 'thing' : 'things'} right now.`)
+      : t('Nichts fällig. Dein Gedächtnis hält.', 'Nothing due. Your memory is holding.');
+  const heroSub = totalN === 0
+    ? t('Schließe ein Lektions-Quiz ab — die Fragen wandern dann automatisch in dein Wiederholungssystem.', 'Complete a lesson quiz — its questions automatically enter your review system.')
+    : dueN > 0
+      ? t('Abruf kurz vor dem Vergessen ist der stärkste Lerneffekt, den es gibt. Genau dafür ist dieser Moment.', 'Retrieval right before forgetting is the strongest learning effect there is. This moment is exactly that.')
+      : t('Komm wieder, wenn Fragen fällig sind — die Intervalle wachsen mit jeder richtigen Antwort.', 'Come back when questions are due — intervals grow with every correct answer.');
+
+  el.innerHTML = `
+    <div class="review-hero">
+      <div class="review-hero-kicker">${t('Wiederholung · Ebbinghaus lässt grüßen', 'Review · Ebbinghaus says hi')}</div>
+      <h1 class="review-hero-title">${heroTitle}</h1>
+      <p class="review-hero-sub">${heroSub}</p>
+    </div>
+
+    <div class="curve-card">
+      <div class="curve-head">
+        <span class="curve-title">${t('Die Vergessenskurve — und was Wiederholung mit ihr macht', 'The forgetting curve — and what review does to it')}</span>
+        <span class="curve-legend">
+          <span><span class="leg-dot" style="background:var(--ink-faint)"></span>${t('ohne Review', 'without review')}</span>
+          <span><span class="leg-dot" style="background:var(--accent)"></span>${t('mit Review', 'with review')}</span>
+        </span>
+      </div>
+      <svg class="curve-svg" viewBox="0 0 560 190" role="img" aria-label="${t('Diagramm: Ohne Wiederholung fällt die Erinnerung steil ab. Jede Wiederholung hebt sie an und lässt sie langsamer abfallen.', 'Chart: Without review, memory drops steeply. Each review lifts it and makes it decay more slowly.')}">
+        <!-- Gitter -->
+        <line x1="36" y1="20" x2="36" y2="150" stroke="var(--border)" stroke-width="1"/>
+        <line x1="36" y1="150" x2="540" y2="150" stroke="var(--border)" stroke-width="1"/>
+        <text x="30" y="26" text-anchor="end" font-size="10" fill="var(--ink-faint)" font-family="Inter,sans-serif">100%</text>
+        <text x="30" y="152" text-anchor="end" font-size="10" fill="var(--ink-faint)" font-family="Inter,sans-serif">0%</text>
+        <!-- Ohne Review: steiler Abfall -->
+        <path d="M 36 22 C 90 95, 150 125, 250 138 C 350 147, 460 149, 540 149"
+              fill="none" stroke="var(--ink-faint)" stroke-width="2" stroke-dasharray="5 5"/>
+        <!-- Mit Review: Sägezahn mit flacher werdendem Abfall -->
+        <path d="M 36 22 C 70 60, 95 82, 120 96 L 120 24
+                 C 165 62, 205 82, 240 92 L 240 26
+                 C 300 56, 350 70, 390 76 L 390 28
+                 C 450 46, 505 52, 540 55"
+              fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linejoin="round"/>
+        <!-- Review-Punkte -->
+        <circle cx="120" cy="96" r="4.5" fill="var(--accent)"/>
+        <circle cx="240" cy="92" r="4.5" fill="var(--accent)"/>
+        <circle cx="390" cy="76" r="4.5" fill="var(--accent)"/>
+        <!-- Intervall-Beschriftung -->
+        <text x="120" y="172" text-anchor="middle" font-size="10" fill="var(--ink-muted)" font-family="Inter,sans-serif">${t('Tag 1', 'day 1')}</text>
+        <text x="240" y="172" text-anchor="middle" font-size="10" fill="var(--ink-muted)" font-family="Inter,sans-serif">${t('Tag 3', 'day 3')}</text>
+        <text x="390" y="172" text-anchor="middle" font-size="10" fill="var(--ink-muted)" font-family="Inter,sans-serif">${t('Tag 7', 'day 7')}</text>
+        <text x="540" y="172" text-anchor="end" font-size="10" fill="var(--ink-faint)" font-family="Inter,sans-serif">${t('Zeit →', 'time →')}</text>
+      </svg>
+      <p class="curve-caption">${t('Jeder Abruf kurz vor dem Vergessen hebt die Kurve an und verlangsamt den nächsten Abfall — deshalb wachsen deine Intervalle von 1 auf 35 Tage.', 'Each retrieval just before forgetting lifts the curve and slows the next decay — which is why your intervals grow from 1 to 35 days.')}</p>
+    </div>
+
+    ${totalN > 0 ? `
+      <p class="sec-label">${t('Gedächtnis-Stufen', 'Memory levels')} · ${totalN} ${t('Fragen im System', 'questions in the system')}</p>
+      <div class="memory-stairs" role="img" aria-label="${t('Verteilung der Fragen auf 5 Gedächtnis-Stufen', 'Distribution of questions across 5 memory levels')}: ${boxes.map((c, i) => `${t('Stufe', 'Level')} ${i + 1}: ${c}`).join(', ')}">
+        ${boxes.map((c, i) => `
+          <div class="stair">
+            <div class="stair-bar ${c > 0 ? 'filled' : ''}" style="height:${Math.max((c / maxBox) * 100, 18)}%">${c || ''}</div>
+            <div class="stair-lbl">${stairLabels[i]}</div>
+          </div>`).join('')}
+      </div>
+      <div class="stairs-caption">
+        <span>${t('Intervall: 1 Tag', 'interval: 1 day')}</span>
+        <span>${t('35 Tage', '35 days')}</span>
+      </div>` : ''}
+
+    ${dueN > 0 ? `
+      <button class="review-cta-card" onclick="APP.startReview()">
+        <div>
+          <div class="review-cta-title">${t('Review starten', 'Start review')}</div>
+          <div class="review-cta-meta">${Math.min(dueN, 12)} ${t('Fragen · quer durch alle Module gemischt', 'questions · shuffled across all modules')}</div>
+        </div>
+        <span class="review-cta-arrow" aria-hidden="true">→</span>
+      </button>` : ''}`;
+}
+
+function renderReviewQ() {
+  const el = document.getElementById('review-content');
+  if (!el) return;
+  if (REV.idx >= REV.queue.length) { renderReviewResults(); return; }
+  const qid = REV.queue[REV.idx];
+  const r = SRS.resolve(qid);
+  if (!r) { REV.idx++; renderReviewQ(); return; }
+  const { q, lesson, mod } = r;
+  const qText = S.lang === 'de' ? q.questionDe : q.questionEn;
+  const opts = S.lang === 'de' ? q.optionsDe : q.optionsEn;
+  const pct = Math.round((REV.idx / REV.queue.length) * 100);
+
+  el.innerHTML = `
+    <div class="quiz-prog-bar"><div class="quiz-prog-fill" style="width:${pct}%"></div></div>
+    <div class="quiz-counter">${t('Frage', 'Question')} ${REV.idx + 1} ${t('von', 'of')} ${REV.queue.length}</div>
+
+    <div style="margin-top:20px">
+      <span class="review-src-chip"><span aria-hidden="true">${mod._data?.icon || mod.icon || ''}</span> ${t(mod.titleDe, mod.titleEn)} · ${t(lesson.titleDe, lesson.titleEn)}</span>
+    </div>
+    <p class="quiz-q">${qText}</p>
+
+    <div class="quiz-options" role="group" aria-label="${t('Antwortmöglichkeiten', 'Answer options')}">
+      ${opts.map((o, oi) => `
+        <button class="quiz-opt" onclick="APP.answerReview(${oi})">
+          ${String.fromCharCode(65 + oi)}. ${o}
+        </button>`).join('')}
+    </div>
+
+    <div class="quiz-feedback" id="rev-fb" role="alert"></div>
+
+    <button class="btn-primary" id="rev-next-btn" style="display:none" onclick="APP.nextReviewQ()">
+      ${REV.idx + 1 < REV.queue.length ? t('Nächste Frage →', 'Next question →') : t('Ergebnis →', 'See result →')}
+    </button>`;
+}
+
+function renderReviewResults() {
+  const el = document.getElementById('review-content');
+  if (!el) return;
+  const correct = REV.results.filter(Boolean).length;
+  const total = REV.results.length;
+  const stillDue = SRS.due().length;
+  updateReviewBadges();
+  markActivity();
+
+  el.innerHTML = `
+    <div class="quiz-results">
+      <div class="results-score" aria-label="${correct} ${t('von', 'of')} ${total} ${t('richtig', 'correct')}">${correct}/${total}</div>
+      <div class="results-label">${correct === total ? t('Alles gehalten.', 'All retained.') : t('Vergessen ist Teil des Systems.', 'Forgetting is part of the system.')}</div>
+      <div class="results-sub">${
+        correct === total
+          ? t('Jede richtige Antwort verlängert das Intervall — diese Fragen siehst du erst in einigen Tagen wieder.', 'Every correct answer extends the interval — you\'ll see these questions again in a few days.')
+          : t('Falsch beantwortete Fragen sind morgen wieder fällig. Genau so festigt sich Wissen.', 'Missed questions are due again tomorrow. That\'s exactly how knowledge consolidates.')
+      }</div>
+      <div class="results-actions">
+        ${stillDue > 0
+          ? `<button class="btn-primary" onclick="APP.startReview()">${t('Weiter', 'Continue')} · ${Math.min(stillDue, 12)} ${t('fällig', 'due')} →</button>`
+          : ''}
+        <button class="btn-secondary" onclick="renderReviewLanding()">${t('Zur Übersicht', 'Back to overview')}</button>
+      </div>
+    </div>`;
+
+  showToast(`${t('Review abgeschlossen', 'Review done')} · ${correct}/${total}`);
+}
+
+// ============================================================
+// WARM-UP — Interleaved Recall vor neuen Lektionen
+// ============================================================
+const WU = { queue: [], idx: 0, lesson: null };
+
+function warmupCandidates(excludeLessonId) {
+  const today = SRS.today();
+  return Object.keys(SRS.data)
+    .filter(qid => !qid.startsWith(excludeLessonId + '::'))
+    .sort((a, b) => SRS.data[a].d.localeCompare(SRS.data[b].d))
+    .filter((qid, i, arr) => SRS.data[qid].d <= today || i < 2); // fällige zuerst, sonst die ältesten
+}
+
+function shouldWarmup(lesson) {
+  if (getLP(lesson.id).completed) return false;
+  const shown = JSON.parse(localStorage.getItem('mf_wu') || '{}');
+  if (shown[lesson.id] === SRS.today()) return false;
+  return warmupCandidates(lesson.id).length >= 2;
+}
+
+function markWarmupShown(lessonId) {
+  const shown = JSON.parse(localStorage.getItem('mf_wu') || '{}');
+  shown[lessonId] = SRS.today();
+  localStorage.setItem('mf_wu', JSON.stringify(shown));
+}
+
+async function startWarmup(lesson) {
+  WU.lesson = lesson;
+  WU.idx = 0;
+  const cands = warmupCandidates(lesson.id);
+  const due = cands.filter(qid => SRS.data[qid].d <= SRS.today());
+  WU.queue = shuffle(due.length >= 2 ? due : cands).slice(0, 2);
+  await SRS.ensureModules(WU.queue);
+  WU.queue = WU.queue.filter(qid => SRS.resolve(qid));
+  markWarmupShown(lesson.id);
+  if (WU.queue.length === 0) { renderLesson(lesson); return; }
+  renderWarmupQ();
+}
+
+function renderWarmupQ() {
+  const el = document.getElementById('lesson-content');
+  if (!el) return;
+  if (WU.idx >= WU.queue.length) { renderLesson(WU.lesson); return; }
+  const r = SRS.resolve(WU.queue[WU.idx]);
+  if (!r) { WU.idx++; renderWarmupQ(); return; }
+  const { q, lesson, mod } = r;
+  const qText = S.lang === 'de' ? q.questionDe : q.questionEn;
+  const opts = S.lang === 'de' ? q.optionsDe : q.optionsEn;
+
+  el.innerHTML = `
+    <div class="warmup-card">
+      <div class="warmup-kicker">${t('Warm-up', 'Warm-up')} · ${WU.idx + 1}/${WU.queue.length}</div>
+      <div class="warmup-title">${t('Bevor es weitergeht: Was weißt du noch?', 'Before we continue: what do you still know?')}</div>
+      <div class="warmup-sub">${t('Kurzer Abruf aus', 'Quick recall from')} „${t(lesson.titleDe, lesson.titleEn)}" (${t(mod.titleDe, mod.titleEn)}) — ${t('das verankert Gelerntes, bevor Neues dazukommt.', 'this anchors prior learning before new material arrives.')}</div>
+    </div>
+
+    <p class="quiz-q">${qText}</p>
+
+    <div class="quiz-options" role="group" aria-label="${t('Antwortmöglichkeiten', 'Answer options')}">
+      ${opts.map((o, oi) => `
+        <button class="quiz-opt" onclick="APP.answerWarmup(${oi})">
+          ${String.fromCharCode(65 + oi)}. ${o}
+        </button>`).join('')}
+    </div>
+
+    <div class="quiz-feedback" id="wu-fb" role="alert"></div>
+
+    <div style="display:flex;align-items:center;gap:16px;margin-top:8px">
+      <button class="btn-primary" id="wu-next-btn" style="display:none" onclick="APP.nextWarmupQ()">
+        ${WU.idx + 1 < WU.queue.length ? t('Nächste Frage →', 'Next question →') : t('Zur Lektion →', 'To the lesson →')}
+      </button>
+      <button class="warmup-skip" onclick="renderLesson(WU.lesson)">${t('Überspringen', 'Skip')}</button>
+    </div>`;
+
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+// ============================================================
+// RENDER: PROGRESS
+// ============================================================
+function renderProgress() {
+  const el = document.getElementById('progress-content');
+  if (!el) return;
+  let totalLessons = 0, doneCount = 0, missions = 0;
+  Object.values(S.progress).forEach(p => {
+    if (p.completed) doneCount++;
+    if (p.missionDone) missions++;
+  });
+  if (S.curriculum) S.curriculum.modules.forEach(m => { totalLessons += m.lessonCount; });
+
+  const srsTotal = Object.keys(SRS.data).length;
+  const srsSolid = SRS.boxCounts()[4];
+
+  el.innerHTML = `
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-val">${doneCount}</div>
+        <div class="stat-lbl">${t('Lektionen', 'Lessons')}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">${S.streak}</div>
+        <div class="stat-lbl">${t('Streak', 'Streak')}</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val">${missions}</div>
+        <div class="stat-lbl">${t('Missions', 'Missions')}</div>
+      </div>
+    </div>
+
+    ${srsTotal > 0 ? `
+      <div class="stats-grid" style="margin-top:-6px">
+        <div class="stat-card">
+          <div class="stat-val">${srsTotal}</div>
+          <div class="stat-lbl">${t('Im Gedächtnis-System', 'In memory system')}</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">${SRS.due().length}</div>
+          <div class="stat-lbl">${t('Fällig', 'Due')}</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">${srsSolid}</div>
+          <div class="stat-lbl">${t('Fest verankert', 'Solidly anchored')}</div>
+        </div>
+      </div>` : ''}
+
+    ${S.curriculum ? `
+      <p class="sec-label" style="margin-bottom:12px">${t('Module', 'Modules')}</p>
+      ${S.curriculum.modules.map(mod => {
+        const modDone = moduleDoneCount(mod);
+        const modTotal = mod.lessonCount;
+        const modPct = Math.round((modDone / modTotal) * 100);
+        return `
+          <div class="prog-mod">
+            <div class="prog-mod-head">
+              <div class="prog-mod-name">${mod.icon} ${t(mod.titleDe, mod.titleEn)}</div>
+              <div class="prog-mod-pct">${modDone}/${modTotal}</div>
+            </div>
+            <div class="prog-bar"><div class="prog-fill" style="width:${modPct}%"></div></div>
+          </div>`;
+      }).join('')}
+    ` : ''}
+
+    ${doneCount === 0 ? `
+      <div class="empty" style="padding-top:16px">
+        <div class="empty-icon">🌱</div>
+        <div class="empty-title">${t('Noch keine Fortschritte', 'No progress yet')}</div>
+        <div class="empty-desc">${t('Starte deine erste Lektion, um hier Fortschritte zu sehen.', 'Complete your first lesson to see progress here.')}</div>
+      </div>` : ''}`;
+}
+
+// ============================================================
+// RENDER: SETTINGS
+// ============================================================
+function renderSettings() {
+  const el = document.getElementById('settings-content');
+  if (!el) return;
+  el.innerHTML = `
+    <div class="settings-card">
+      <div class="settings-title">${t('Sprache', 'Language')}</div>
+      <div class="settings-desc">${t('Inhaltssprache für alle Lektionen und die App.', 'Content language for all lessons and the app.')}</div>
+      <div class="lang-row">
+        <button class="lang-btn ${S.lang === 'de' ? 'active' : ''}" onclick="APP.setLang('de')" aria-pressed="${S.lang === 'de'}">Deutsch</button>
+        <button class="lang-btn ${S.lang === 'en' ? 'active' : ''}" onclick="APP.setLang('en')" aria-pressed="${S.lang === 'en'}">English</button>
+      </div>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-title">${t('Erscheinungsbild', 'Appearance')}</div>
+      <div class="settings-desc">${t('Hell, dunkel oder automatisch nach Systemeinstellung.', 'Light, dark, or automatic based on your system setting.')}</div>
+      <div class="theme-row" role="group" aria-label="${t('Farbschema', 'Color scheme')}">
+        <button class="theme-btn ${THEME.pref === 'light' ? 'active' : ''}" onclick="THEME.set('light')" aria-pressed="${THEME.pref === 'light'}">☀ ${t('Hell', 'Light')}</button>
+        <button class="theme-btn ${THEME.pref === 'dark' ? 'active' : ''}" onclick="THEME.set('dark')" aria-pressed="${THEME.pref === 'dark'}">☾ ${t('Dunkel', 'Dark')}</button>
+        <button class="theme-btn ${THEME.pref === 'system' ? 'active' : ''}" onclick="THEME.set('system')" aria-pressed="${THEME.pref === 'system'}">${t('System', 'System')}</button>
+      </div>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-title">${t('Fortschritt sichern', 'Back up progress')}</div>
+      <div class="settings-desc">${t('Lernfortschritt, Streak und Wiederholungsdaten als JSON-Datei herunterladen.', 'Download learning progress, streak, and review data as a JSON file.')}</div>
+      <button class="btn-secondary" onclick="APP.exportProgress()">${t('Exportieren', 'Export')}</button>
+    </div>
+
+    <div class="settings-card">
+      <div class="settings-title">${t('Fortschritt zurücksetzen', 'Reset progress')}</div>
+      <div class="settings-desc">${t('Lernfortschritt, Streak und Missions-Daten löschen. Kann nicht rückgängig gemacht werden.', 'Delete learning progress, streak, and mission data. Cannot be undone.')}</div>
+      <button class="btn-secondary btn-danger" onclick="APP.resetProgress()">
+        ${t('Alles löschen', 'Delete all')}
+      </button>
+    </div>
+
+    <div class="settings-card" style="opacity:.65">
+      <div class="settings-title">MindFrame v1.0</div>
+      <div class="settings-desc" style="margin-bottom:0">${t('Behavioral Science Lernapp · Populärwissenschaftlich mit akademischen Referenzen.', 'Behavioral Science learning app · Popular science with academic references.')}</div>
+    </div>`;
+}
+
+// ============================================================
+// HELPERS
+// ============================================================
+function diffDots(level) {
+  let html = '<span class="diff-dots" aria-hidden="true">';
+  for (let i = 1; i <= 3; i++) html += `<span class="diff-dot ${i <= level ? 'on' : ''}"></span>`;
+  return html + '</span>';
+}
+
+// Fortlaufende Folgen-Nummer aus Lesson-ID (m03-l02 -> 12)
+function episodeNum(lessonId) {
+  const mod = parseInt(lessonId.slice(1, 3), 10);
+  const les = parseInt(lessonId.slice(5, 7), 10);
+  return (mod - 1) * 5 + les;
+}
+
+function loadingHTML() {
+  return `<div class="loading"><div class="spinner" aria-hidden="true"></div>${t('Lädt…', 'Loading…')}</div>`;
+}
+
+function errorHTML() {
+  return `<div class="empty"><div class="empty-icon">⚠</div><div class="empty-title">${t('Laden fehlgeschlagen', 'Load failed')}</div><div class="empty-desc">${t('Bitte Seite neu laden.', 'Please reload the page.')}</div></div>`;
+}
+
+let toastTimer;
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2800);
+}
+
+// ============================================================
+// SCROLL → READING PROGRESS BAR
+// ============================================================
+window.addEventListener('scroll', () => {
+  if (S.view !== 'lesson') return;
+  const bar = document.getElementById('reading-bar');
+  const h = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = h > 0 ? Math.min(window.scrollY / h, 1) : 0;
+  bar.style.transform = `scaleX(${pct})`;
+  bar.setAttribute('aria-valuenow', Math.round(pct * 100));
+}, { passive: true });
+
+// ============================================================
+// NAV CLICK BINDING
+// ============================================================
+document.querySelectorAll('[data-nav]').forEach(btn => {
+  btn.addEventListener('click', () => APP.nav(btn.dataset.nav));
+});
+
+// ============================================================
+// PWA INSTALL
+// ============================================================
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  S.deferredInstall = e;
+  document.getElementById('install-banner')?.classList.add('show');
+});
+
+// ============================================================
+// SERVICE WORKER
+// ============================================================
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js').catch(() => {});
+}
+
+// ============================================================
+// BIBLIOTHEK — Glossar & Quellenverzeichnis
+// ============================================================
+S.libTab = 'glossary';
+
+async function ensureAllModules() {
+  if (!S.curriculum) return;
+  await Promise.all(S.curriculum.modules.map(async mod => {
+    if (mod._data) return;
+    try {
+      const res = await fetch(mod.file);
+      mod._data = await res.json();
+    } catch { /* Modul fehlt im Glossar */ }
+  }));
+}
+
+APP.openLibrary = async function () {
+  const el = document.getElementById('library-content');
+  if (!el) return;
+  el.innerHTML = loadingHTML();
+  await ensureAllModules();
+  renderLibrary();
+};
+
+APP.setLibTab = function (tab) {
+  S.libTab = tab;
+  renderLibrary();
+};
+
+function renderLibrary() {
+  const el = document.getElementById('library-content');
+  if (!el || !S.curriculum) return;
+  const mods = S.curriculum.modules.filter(m => m._data);
+
+  const tabs = `
+    <p class="lib-intro">${t('Alle Konzepte und akademischen Quellen des Kurses zum Nachschlagen — unabhängig vom Freischalt-Status.', 'All concepts and academic sources of the course for reference — independent of unlock status.')}</p>
+    <div class="lib-tabs" role="tablist" aria-label="${t('Bibliothek-Ansicht', 'Library view')}">
+      <button class="lib-tab ${S.libTab === 'glossary' ? 'active' : ''}" role="tab" aria-selected="${S.libTab === 'glossary'}" onclick="APP.setLibTab('glossary')">${t('Glossar', 'Glossary')}</button>
+      <button class="lib-tab ${S.libTab === 'sources' ? 'active' : ''}" role="tab" aria-selected="${S.libTab === 'sources'}" onclick="APP.setLibTab('sources')">${t('Quellen', 'Sources')}</button>
+    </div>`;
+
+  if (S.libTab === 'glossary') {
+    el.innerHTML = tabs + mods.map(mod => `
+      <div class="gloss-mod">
+        <div class="gloss-mod-h"><span aria-hidden="true">${mod.icon}</span> ${t(mod.titleDe, mod.titleEn)}</div>
+        ${mod._data.lessons.map(l => {
+          const c = S.lang === 'de' ? l.contentDe : l.contentEn;
+          const firstSentence = (c.summary.match(/^[^.!?]*[.!?]/) || [c.summary])[0];
+          return `
+            <button class="gloss-item" onclick="APP.openModule('${mod.id}').then(()=>APP.openLesson('${l.id}'))" aria-label="${t(l.titleDe, l.titleEn)} — ${t('Lektion öffnen', 'open lesson')}">
+              <span class="gloss-term">${t(l.titleDe, l.titleEn)}</span>
+              <span class="gloss-def">${firstSentence}</span>
+            </button>`;
+        }).join('')}
+      </div>`).join('');
+  } else {
+    // Quellen deduplizieren (Autor + Jahr + Titel), alphabetisch, mit Verweis auf Lektionen
+    const map = new Map();
+    mods.forEach(mod => mod._data.lessons.forEach(l => {
+      const r = (S.lang === 'de' ? l.contentDe : l.contentEn).reference;
+      const key = `${r.author}|${r.year}|${r.title}`;
+      if (!map.has(key)) map.set(key, { ...r, uses: [] });
+      map.get(key).uses.push({ modId: mod.id, lessonId: l.id, label: t(l.titleDe, l.titleEn) });
+    }));
+    const refs = [...map.values()].sort((a, b) => a.author.localeCompare(b.author) || a.year - b.year);
+    el.innerHTML = tabs + `
+      <p class="sec-label">${refs.length} ${t('Quellen', 'sources')}</p>
+      ${refs.map(r => `
+        <div class="lib-ref">
+          <div class="lib-ref-author">${r.author} (${r.year})</div>
+          <div class="lib-ref-title">${r.title}</div>
+          <div class="ref-note" style="margin-bottom:8px">${r.note}</div>
+          <div class="lib-ref-chips">
+            ${r.uses.map(u => `<button class="lib-ref-chip" onclick="APP.openModule('${u.modId}').then(()=>APP.openLesson('${u.lessonId}'))">${u.label}</button>`).join('')}
+          </div>
+        </div>`).join('')}`;
+  }
+}
+
+// ============================================================
+// FINALE — What's next nach Kursabschluss
+// ============================================================
+function renderFinale() {
+  const el = document.getElementById('finale-content');
+  if (!el) return;
+  const cs = courseStats();
+  const done = cs.total > 0 && cs.done >= cs.total;
+  const solid = SRS.boxCounts()[4];
+  const inSystem = Object.keys(SRS.data).length;
+
+  const books = [
+    { t: 'Daniel Kahneman — Thinking, Fast and Slow (2011)', w: t('Das Fundament hinter Modul 1–4, in voller Tiefe und mit allen Originalstudien.', 'The foundation behind modules 1–4, in full depth and with all the original studies.') },
+    { t: 'Richard Thaler & Cass Sunstein — Nudge (2008, Final Edition 2021)', w: t('Choice Architecture aus erster Hand — inklusive der Antworten auf die Kritik aus Modul 6.', 'Choice architecture first-hand — including responses to the criticism covered in module 6.') },
+    { t: 'Robert Cialdini — Influence (Neuauflage 2021)', w: t('Die sieben Prinzipien sozialen Einflusses, das Praxisbuch zu Modul 5.', 'The seven principles of social influence, the applied companion to module 5.') },
+    { t: 'James Clear — Atomic Habits (2018)', w: t('Identitätsbasierte Verhaltensänderung aus Modul 7, umgesetzt als System für den Alltag.', 'Identity-based behavior change from module 7, turned into an everyday system.') },
+    { t: 'Richard Thaler — Misbehaving (2015)', w: t('Die Geschichte der Behavioral Economics als Wissenschaft — der kritische Blick hinter Modul 8.', 'The history of behavioral economics as a science — the critical lens behind module 8.') },
+  ];
+
+  el.innerHTML = `
+    <div class="finale-hero">
+      <div class="finale-kicker">MindFrame · ${t('Abschluss', 'Completion')}</div>
+      <h1 class="finale-title">${done ? t('Alle 40 Lektionen. Geschafft.', 'All 40 lessons. Done.') : t('Der Blick nach vorn.', 'Looking ahead.')}</h1>
+      <p class="finale-sub">${done
+        ? t('Du kennst jetzt die Landkarte. Ab hier zählt nicht mehr, was du gelesen hast — sondern was du davon im Alltag wiedererkennst.', 'You now know the map. From here on, what counts is not what you\'ve read — but what you recognize of it in everyday life.')
+        : t('Diese Seite wird freigeschaltet, sobald alle 40 Lektionen abgeschlossen sind. Ein Vorgeschmack darauf, wie es danach weitergeht:', 'This page unlocks once all 40 lessons are complete. A preview of what comes after:')}</p>
+    </div>
+
+    <p class="sec-label">${t('Wie es weitergeht', 'What comes next')}</p>
+    <div class="next-card">
+      <div class="next-num">01</div>
+      <div>
+        <div class="next-title">${t('Review weiterlaufen lassen', 'Keep the reviews running')}</div>
+        <div class="next-desc">${inSystem > 0
+          ? `${inSystem} ${t('Fragen sind in deinem Wiederholungssystem,', 'questions are in your review system,')} ${solid} ${t('davon fest verankert. Die Intervalle wachsen bis 35 Tage — ein paar Minuten pro Woche halten alles stabil.', 'of them solidly anchored. Intervals grow up to 35 days — a few minutes per week keep everything stable.')}`
+          : t('Nach jedem Lektions-Quiz wandern die Fragen automatisch in dein Wiederholungssystem.', 'After each lesson quiz, questions automatically enter your review system.')}</div>
+      </div>
+    </div>
+    <div class="next-card">
+      <div class="next-num">02</div>
+      <div>
+        <div class="next-title">${t('Field Missions wiederholen', 'Repeat the field missions')}</div>
+        <div class="next-desc">${t('Die 40 Missionen funktionieren beliebig oft — Verzerrungen im eigenen Verhalten zu erwischen ist ein Training, kein Meilenstein.', 'The 40 missions work any number of times — catching biases in your own behavior is a practice, not a milestone.')}</div>
+      </div>
+    </div>
+    <div class="next-card">
+      <div class="next-num">03</div>
+      <div>
+        <div class="next-title">${t('Ein Konzept pro Woche anwenden', 'Apply one concept per week')}</div>
+        <div class="next-desc">${t('Nimm ein Glossar-Konzept aus der Bibliothek und suche es eine Woche lang aktiv in Interfaces, Meetings und eigenen Entscheidungen. Erkennen unter Realbedingungen schlägt jedes Quiz.', 'Pick one glossary concept from the library and actively hunt for it in interfaces, meetings, and your own decisions for a week. Recognition under real conditions beats any quiz.')}</div>
+      </div>
+    </div>
+
+    <div class="l-section">
+      <p class="sec-label">${t('Weiterführende Bücher', 'Further reading')}</p>
+      ${books.map(b => `
+        <div class="book-item">
+          <div class="book-title">${b.t}</div>
+          <div class="book-why">${b.w}</div>
+        </div>`).join('')}
+    </div>
+
+    <div class="l-section" style="display:flex;gap:12px;flex-wrap:wrap">
+      <button class="btn-secondary" onclick="APP.nav('library')">${t('Zur Bibliothek', 'To the library')} →</button>
+      <button class="btn-secondary" onclick="APP.exportProgress()">${t('Fortschritt exportieren (JSON)', 'Export progress (JSON)')}</button>
+    </div>`;
+}
+
+// Fortschritts-Export als JSON-Download (Backup)
+APP.exportProgress = function () {
+  const data = {
+    exportedAt: new Date().toISOString(),
+    app: 'MindFrame',
+    progress: S.progress,
+    srs: SRS.data,
+    streak: S.streak,
+    lastActivity: S.lastActivity,
+  };
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `mindframe-progress-${SRS.today()}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+  showToast(t('Export erstellt ✓', 'Export created ✓'));
+};
+
+// ============================================================
+// INIT
+// ============================================================
+THEME.apply();
+updateStreak();
+SRS.migrate();
+applyLang(S.lang);
+updateReviewBadges();
+loadCurriculum();
+</script>
+</body>
+</html>
