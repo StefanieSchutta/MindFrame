@@ -1,0 +1,620 @@
+{
+  "id": "module-02",
+  "titleDe": "Kognitive Verzerrungen",
+  "titleEn": "Cognitive Biases",
+  "descriptionDe": "Die systematischen Fehler, die dein Gehirn immer wieder macht — vorhersehbar, universell, und meist unsichtbar.",
+  "descriptionEn": "The systematic errors your brain makes, over and over — predictable, universal, and mostly invisible.",
+  "icon": "🔀",
+  "lessons": [
+    {
+      "id": "m02-l01",
+      "titleDe": "Was sind kognitive Verzerrungen?",
+      "titleEn": "What Are Cognitive Biases?",
+      "durationMin": 7,
+      "difficulty": 1,
+      "contentDe": {
+        "summary": "Kognitive Verzerrungen sind keine Zufallsfehler — sie sind systematische, vorhersehbare Muster, in denen unser Denken von Rationalität abweicht. Das macht sie gefährlich und gleichzeitig studierbar.",
+        "body": [
+          "Seit den 1970ern katalogisieren Psychologen kognitive Verzerrungen — heute sind über 200 dokumentiert. Sie entstehen nicht durch Dummheit oder mangelnde Information, sondern sind inhärente Eigenschaften des menschlichen Denkens. Bildung und Intelligenz schützen nur bedingt vor ihnen.",
+          "Der entscheidende Unterschied zu zufälligen Fehlern: Kognitive Verzerrungen sind systematisch und vorhersehbar. Sie treten bei fast allen Menschen in ähnlichen Situationen auf, und sie gehen fast immer in dieselbe Richtung. Wenn du weißt, welche Verzerrung in einer Situation aktiv ist, kannst du ihr Ergebnis vorhersagen — bevor die Person entschieden hat.",
+          "Die meisten Verzerrungen entstehen aus derselben Quelle: System 1 nutzt Heuristiken — mentale Abkürzungen — die in der Evolution nützlich waren, in der komplexen modernen Welt aber zu systematischen Fehlern führen. Unser Gehirn ist nicht für statistische Korrektheit optimiert, sondern für schnelle, energiesparende Urteile.",
+          "Das Tückischste: Wir sind uns unserer Verzerrungen kaum bewusst. Wir erleben sie nicht als Fehler, sondern als klares, logisches Denken. Ein korrektes Urteil und ein verzerrtes fühlen sich identisch an. Das macht das Wissen über Biases so wertvoll — und ihre Überwindung so schwierig."
+        ],
+        "example": {
+          "title": "Der Blind Spot Bias",
+          "text": "Die meisten Menschen erkennen kognitive Verzerrungen leichter bei anderen als bei sich selbst — eine Verzerrung über Verzerrungen. In Studien schätzen Probanden im Schnitt, dass sie deutlich weniger voreingenommen sind als andere Menschen. Dieser 'Blind Spot Bias' bedeutet: Selbst wer über Biases Bescheid weiß, ist nicht immun. Das Bewusstsein allein reicht nicht — es braucht aktive Gegenmaßnahmen."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157) — Grundlagenarbeit zur systematischen Erforschung kognitiver Verzerrungen"
+        },
+        "fieldMission": {
+          "title": "Verzerrung in freier Wildbahn",
+          "description": "Beobachte heute eine Überzeugung, die du stark vertrittst. Frage dich: Welche Informationen würden diese Überzeugung widerlegen — und wann hast du zuletzt aktiv nach solchen gesucht? Notiere deine Antwort ehrlich."
+        },
+        "caseStudy": {
+          "scene": "Beim Telefonat fragt Jule: „Warum eigentlich Lissabon?“ Mara setzt zu einer Antwort an — Preis, Wetter, Kultur — und merkt mitten im Satz, dass sie die Gründe rückwärts baut. Die Entscheidung war zuerst da, die Argumente kamen nach. Dabei hatte sich alles so objektiv angefühlt: Sie hatte doch verglichen, gelesen, abgewogen.",
+          "behind": "Verzerrungen fühlen sich von innen wie Klarheit an — das macht sie so wirksam. Und weil sie systematisch statt zufällig auftreten, sind sie vorhersehbar. Genau deshalb beobachten Produktteams, was Menschen tun, statt zu fragen, warum sie es tun."
+        }
+      },
+      "contentEn": {
+        "summary": "Cognitive biases aren't random errors — they're systematic, predictable patterns where our thinking deviates from rationality. That makes them dangerous and, at the same time, studyable.",
+        "body": [
+          "Since the 1970s, psychologists have been cataloguing cognitive biases — today over 200 are documented. They don't arise from stupidity or lack of information, but are inherent properties of human thinking. Education and intelligence only partially protect against them.",
+          "The key difference from random errors: cognitive biases are systematic and predictable. They occur in almost all people in similar situations, and they almost always go in the same direction. If you know which bias is active in a situation, you can predict its outcome — before the person has decided.",
+          "Most biases arise from the same source: System 1 uses heuristics — mental shortcuts — that were useful in evolution but lead to systematic errors in the complex modern world. Our brain isn't optimized for statistical accuracy, but for fast, energy-saving judgments.",
+          "The trickiest part: we're barely aware of our biases. We don't experience them as errors, but as clear, logical thinking. A correct judgment and a biased one feel identical. That makes knowledge about biases so valuable — and overcoming them so difficult."
+        ],
+        "example": {
+          "title": "The Blind Spot Bias",
+          "text": "Most people recognize cognitive biases more easily in others than in themselves — a bias about biases. In studies, participants estimate on average that they are significantly less biased than other people. This 'Blind Spot Bias' means: even those who know about biases are not immune. Awareness alone isn't enough — it takes active countermeasures."
+        },
+        "reference": {
+          "author": "Tversky, A. & Kahneman, D.",
+          "year": 1974,
+          "title": "Judgment under Uncertainty: Heuristics and Biases",
+          "note": "Science, 185(4157) — Foundational paper on the systematic study of cognitive biases"
+        },
+        "fieldMission": {
+          "title": "Bias in the Wild",
+          "description": "Today, observe a belief you hold strongly. Ask yourself: what information would disprove this belief — and when did you last actively seek such information? Write down your honest answer."
+        },
+        "caseStudy": {
+          "scene": "On the phone, Jule asks: “Why Lisbon, actually?” Mara starts to answer — price, weather, culture — and realizes mid-sentence that she is building the reasons backwards. The decision came first; the arguments followed. Yet it had all felt so objective: she had compared, read, weighed things up.",
+          "behind": "Biases feel like clarity from the inside — that’s what makes them so powerful. And because they occur systematically rather than randomly, they are predictable. Which is exactly why product teams observe what people do instead of asking why they do it."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was unterscheidet kognitive Verzerrungen von zufälligen Denkfehlern?",
+            "questionEn": "What distinguishes cognitive biases from random thinking errors?",
+            "optionsDe": [
+              "Sie treten nur bei unintelligenten Menschen auf",
+              "Sie sind systematisch, vorhersehbar und gehen meist in dieselbe Richtung",
+              "Sie entstehen durch zu wenig Information",
+              "Sie sind leicht zu erkennen und zu korrigieren"
+            ],
+            "optionsEn": [
+              "They only occur in unintelligent people",
+              "They are systematic, predictable, and usually go in the same direction",
+              "They arise from too little information",
+              "They are easy to recognize and correct"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Kognitive Verzerrungen sind systematisch und vorhersehbar — nicht zufällig. Sie treten bei fast allen Menschen auf und gehen konsistent in dieselbe Richtung, was sie studierbar und theoretisch vorhersagbar macht.",
+            "explanationEn": "Cognitive biases are systematic and predictable — not random. They occur in almost all people and consistently go in the same direction, making them studyable and theoretically predictable."
+          },
+          {
+            "questionDe": "Warum sind kognitive Verzerrungen so schwer zu korrigieren?",
+            "questionEn": "Why are cognitive biases so hard to correct?",
+            "optionsDe": [
+              "Weil sie nur unbewusst auftreten und nie bewusst werden können",
+              "Weil verzerrte und korrekte Urteile sich identisch anfühlen",
+              "Weil das Gehirn keine Fehler erkennen kann",
+              "Weil Bildung keinen Einfluss auf das Denken hat"
+            ],
+            "optionsEn": [
+              "Because they only occur unconsciously and can never become conscious",
+              "Because biased and correct judgments feel identical",
+              "Because the brain can't recognize errors",
+              "Because education has no influence on thinking"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Verzerrte Urteile fühlen sich genauso richtig an wie korrekte — das macht Biases so persistent. Wir haben kein eingebautes 'Fehler-Signal', das anspringt, wenn eine Verzerrung aktiv ist.",
+            "explanationEn": "Biased judgments feel just as correct as accurate ones — that's what makes biases so persistent. We have no built-in 'error signal' that fires when a bias is active."
+          },
+          {
+            "questionDe": "Was bedeutet der 'Blind Spot Bias'?",
+            "questionEn": "What does the 'Blind Spot Bias' mean?",
+            "optionsDe": [
+              "Die Unfähigkeit, Fehler bei anderen zu erkennen",
+              "Die Tendenz, bei sich selbst weniger Verzerrungen wahrzunehmen als bei anderen",
+              "Ein Fehler beim räumlichen Sehen",
+              "Die Überschätzung der eigenen Lernfähigkeit"
+            ],
+            "optionsEn": [
+              "The inability to recognize errors in others",
+              "The tendency to perceive fewer biases in oneself than in others",
+              "An error in spatial vision",
+              "The overestimation of one's own learning ability"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Der Blind Spot Bias beschreibt, dass wir Verzerrungen bei anderen leichter erkennen als bei uns selbst — und uns im Schnitt für weniger voreingenommen halten als andere. Wissen über Biases schützt nicht automatisch vor ihnen.",
+            "explanationEn": "The Blind Spot Bias describes that we recognize biases in others more easily than in ourselves — and consider ourselves on average less biased than others. Knowledge about biases doesn't automatically protect against them."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m02-l02",
+      "titleDe": "Bestätigungsfehler",
+      "titleEn": "Confirmation Bias",
+      "durationMin": 8,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Wir suchen, interpretieren und erinnern Informationen bevorzugt so, dass sie unsere bestehenden Überzeugungen bestätigen. Das macht uns mit der Zeit überzeugter — und oft falscher.",
+        "body": [
+          "Der Bestätigungsfehler ist wahrscheinlich die am stärksten untersuchte kognitive Verzerrung. Er beschreibt die Tendenz, bevorzugt Informationen zu suchen, wahrzunehmen und zu erinnern, die die eigene Überzeugung stützen — und gegenteilige Belege zu ignorieren oder kleinzureden.",
+          "Das zeigt sich auf drei Ebenen: Beim Suchverhalten — wir lesen Medien, die unsere Meinung teilen. Bei der Interpretation — zwei Menschen mit entgegengesetzten Ansichten lesen denselben Artikel und fühlen sich beide bestätigt. Und beim Gedächtnis — wir erinnern Argumente für unsere Seite besser als dagegen.",
+          "Psychologe Peter Wason zeigte das 1960 mit einem eleganten Experiment: Probanden bekamen die Zahlenreihe 2-4-6 und sollten die zugrundeliegende Regel herausfinden. Fast alle probierten ausschließlich Reihen, die ihre erste Hypothese bestätigten — obwohl Gegenbeispiele die Regel schneller eingegrenzt hätten. Die Regel war übrigens simpel: aufsteigende Zahlen.",
+          "In der digitalen Welt wird Confirmation Bias algorithmisch verstärkt: Soziale Medien zeigen dir Inhalte, mit denen du interagierst — und du interagierst am stärksten mit Inhalten, die deine Meinung bestätigen. Das Ergebnis sind Filterblasen, die die wahrgenommene Realität zunehmend von der tatsächlichen entkoppeln."
+        ],
+        "example": {
+          "title": "Politische Polarisierung",
+          "text": "In einem klassischen Experiment lasen konservative und liberale Probanden dieselben Studien über die Abschreckungswirkung der Todesstrafe. Beide Gruppen fanden ihre eigene Überzeugung bestätigt — und waren danach stärker polarisiert als zuvor. Nicht weil die Studie mehrdeutig war, sondern weil beide Seiten die Methoden der Studie dann als mangelhaft beurteilten, wenn die Ergebnisse ihrer Sichtweise widersprachen."
+        },
+        "reference": {
+          "author": "Wason, P. C.",
+          "year": 1960,
+          "title": "On the failure to eliminate hypotheses in a conceptual task",
+          "note": "Quarterly Journal of Experimental Psychology — Ursprünglicher Nachweis des Confirmation Bias durch das 2-4-6-Experiment"
+        },
+        "fieldMission": {
+          "title": "Das stärkste Gegenargument",
+          "description": "Lies heute einen Artikel oder ein Argument für eine Position, die du nicht teilst — ohne das Ziel, deine Meinung zu ändern. Finde das stärkste Argument der anderen Seite. Schreib es in einem Satz auf."
+        },
+        "caseStudy": {
+          "scene": "Mara liest Bewertungen zum Casa Azul. Die Fünf-Sterne-Stimmen klingen glaubwürdig, fast wie Freundinnen. Bei der Zwei-Sterne-Rezension („dünne Wände, unfreundlicher Empfang“) denkt sie sofort: Der ist bestimmt grundsätzlich schwer zufriedenzustellen. Sie scrollt weiter zu den guten. Nach zwanzig Minuten „Recherche“ ist sie sicherer als vorher — und hat nichts Neues erfahren.",
+          "behind": "Auch die Sortierung liest mit: „Relevanteste zuerst“ zeigt oft, was zur bereits erkennbaren Kaufabsicht passt. Wer bestätigt werden will, wird bestätigt — und ein Interface, das genau das liefert, fühlt sich hilfreich an. Das ist das Heimtückische."
+        }
+      },
+      "contentEn": {
+        "summary": "We preferentially seek, interpret, and remember information that confirms our existing beliefs. Over time this makes us more confident — and often more wrong.",
+        "body": [
+          "Confirmation bias is probably the most extensively studied cognitive bias. It describes the tendency to preferentially seek, perceive, and remember information that supports one's own belief — and to ignore or downplay contradicting evidence.",
+          "This manifests at three levels: in search behavior — we read media that share our views. In interpretation — two people with opposing views read the same article and both feel confirmed. And in memory — we recall arguments for our side better than against it.",
+          "Psychologist Peter Wason demonstrated this in 1960 with an elegant experiment: participants were given the number sequence 2-4-6 and asked to discover the underlying rule. Almost all tried only sequences that confirmed their first hypothesis — even though counterexamples would have narrowed the rule faster. The rule, by the way, was simple: ascending numbers.",
+          "In the digital world, confirmation bias is algorithmically amplified: social media shows you content you interact with — and you interact most strongly with content that confirms your view. The result is filter bubbles that increasingly decouple perceived reality from actual reality."
+        ],
+        "example": {
+          "title": "Political Polarization",
+          "text": "In a classic experiment, conservative and liberal participants read the same studies on the deterrent effect of the death penalty. Both groups found their own view confirmed — and were more polarized afterwards than before. Not because the study was ambiguous, but because both sides judged the study's methods as flawed when its results contradicted their worldview."
+        },
+        "reference": {
+          "author": "Wason, P. C.",
+          "year": 1960,
+          "title": "On the failure to eliminate hypotheses in a conceptual task",
+          "note": "Quarterly Journal of Experimental Psychology — Original demonstration of confirmation bias via the 2-4-6 experiment"
+        },
+        "fieldMission": {
+          "title": "The Strongest Counterargument",
+          "description": "Today, read an article or argument for a position you don't hold — without the goal of changing your mind. Find the strongest argument on the other side. Write it down in one sentence."
+        },
+        "caseStudy": {
+          "scene": "Mara reads reviews for Casa Azul. The five-star voices sound credible, almost like friends. At the two-star review (“thin walls, unfriendly reception”) she immediately thinks: he’s probably just impossible to please. She scrolls on to the good ones. After twenty minutes of “research” she is more certain than before — and has learned nothing new.",
+          "behind": "The sort order reads along too: “Most relevant first” often shows what matches the purchase intent already visible. Those who want confirmation get confirmed — and an interface that delivers exactly that feels helpful. That’s the insidious part."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Auf welchen drei Ebenen zeigt sich der Bestätigungsfehler?",
+            "questionEn": "On which three levels does confirmation bias manifest?",
+            "optionsDe": [
+              "Lernen, Erinnern, Vergessen",
+              "Informationssuche, Interpretation und Gedächtnis",
+              "Wahrnehmung, Emotion und Verhalten",
+              "Lesen, Schreiben und Sprechen"
+            ],
+            "optionsEn": [
+              "Learning, remembering, forgetting",
+              "Information search, interpretation, and memory",
+              "Perception, emotion, and behavior",
+              "Reading, writing, and speaking"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Confirmation Bias wirkt auf drei Ebenen: Wir suchen Informationen, die unsere Meinung stützen (Suchverhalten), interpretieren mehrdeutige Informationen zu unseren Gunsten (Interpretation) und erinnern bestätigende Argumente besser (Gedächtnis).",
+            "explanationEn": "Confirmation Bias works on three levels: we seek information that supports our view (search behavior), interpret ambiguous information in our favor (interpretation), and remember confirming arguments better (memory)."
+          },
+          {
+            "questionDe": "Was zeigte Wasons 2-4-6-Experiment?",
+            "questionEn": "What did Wason's 2-4-6 experiment show?",
+            "optionsDe": [
+              "Menschen sind gut darin, Hypothesen zu widerlegen",
+              "Probanden suchten fast ausschließlich bestätigende, keine widerlegenden Beispiele",
+              "Zahlenreihen werden systematisch falsch erkannt",
+              "Kognitive Verzerrungen treten nur in Zahlenaufgaben auf"
+            ],
+            "optionsEn": [
+              "People are good at falsifying hypotheses",
+              "Participants sought almost exclusively confirming, not disconfirming examples",
+              "Number sequences are systematically misrecognized",
+              "Cognitive biases only occur in number tasks"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Im 2-4-6-Experiment probierten fast alle Probanden nur Reihen aus, die ihre erste Hypothese bestätigten — obwohl Gegenbeispiele effizienter gewesen wären. Das zeigt, dass wir aktiv Bestätigung suchen statt Widerlegung.",
+            "explanationEn": "In the 2-4-6 experiment, almost all participants tried only sequences that confirmed their first hypothesis — even though counterexamples would have been more efficient. This shows we actively seek confirmation rather than falsification."
+          },
+          {
+            "questionDe": "Wie verstärken Algorithmen sozialer Medien den Bestätigungsfehler?",
+            "questionEn": "How do social media algorithms amplify confirmation bias?",
+            "optionsDe": [
+              "Indem sie zu viele gegensätzliche Meinungen zeigen",
+              "Indem sie Inhalte priorisieren, mit denen du interagierst — also mehrheitlich meinungsbestätigende",
+              "Durch zu schnelle Informationsverbreitung",
+              "Indem sie keine Quellen angeben"
+            ],
+            "optionsEn": [
+              "By showing too many opposing opinions",
+              "By prioritizing content you interact with — mostly opinion-confirming content",
+              "Through too-fast information spread",
+              "By not citing sources"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Algorithmen maximieren Engagement — und wir interagieren am stärksten mit Inhalten, die unsere Überzeugungen bestätigen. Das führt zu Filterblasen, die Confirmation Bias algorithmisch und automatisch verstärken.",
+            "explanationEn": "Algorithms maximize engagement — and we engage most strongly with content that confirms our beliefs. This creates filter bubbles that amplify confirmation bias algorithmically and automatically."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m02-l03",
+      "titleDe": "Halo-Effekt",
+      "titleEn": "Halo Effect",
+      "durationMin": 7,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Ein einziges positives Merkmal färbt unser Gesamturteil — schöne Fotos machen ein Hotel gefühlt auch sauber, ruhig und freundlich. Dabei wissen wir über all das: nichts.",
+        "body": [
+          "Der Halo-Effekt beschreibt die Tendenz, von einem einzelnen auffälligen Merkmal auf viele weitere, logisch unabhängige Eigenschaften zu schließen. Wer attraktiv ist, gilt automatisch als kompetenter und vertrauenswürdiger. Ein Produkt mit elegantem Design wirkt auch technisch hochwertiger. Das Gehirn baut aus einem Datenpunkt ein komplettes, kohärentes Bild — und merkt nicht, dass es den Rest erfunden hat.",
+          "Der Begriff geht auf Edward Thorndike zurück, der 1920 beobachtete, dass Offiziere ihre Soldaten in völlig unabhängigen Dimensionen — Intelligenz, Physis, Führungsqualität, Charakter — erstaunlich einheitlich bewerteten. Wer in einer Kategorie glänzte, glänzte in allen. Statistisch ist das extrem unwahrscheinlich; psychologisch ist es der Normalfall. Ein Gesamteindruck überstrahlt die Einzelurteile wie ein Heiligenschein — daher der Name.",
+          "Das Beunruhigende: Der Effekt arbeitet unterhalb der Bewusstseinsschwelle. In den Experimenten von Nisbett und Wilson bestritten die Teilnehmenden vehement, dass die Sympathie eines Dozenten ihre Bewertung seiner Aussprache oder seines Akzents beeinflusst hatte — obwohl genau das messbar geschehen war. Wir haben keinen introspektiven Zugriff auf den Moment, in dem der erste Eindruck die restlichen Urteile umschreibt. Es fühlt sich an wie unabhängige Wahrnehmung.",
+          "Im Alltag begegnet dir der Halo-Effekt überall dort, wo einzelne Signale leicht zu inszenieren sind: professionelle Produktfotos, ein hochwertiges Website-Design, ein selbstbewusster Auftritt im Bewerbungsgespräch, eine bekannte Marke. Die Gegenstrategie ist unbequem, aber wirksam: Eigenschaften einzeln prüfen und explizit trennen. Was weiß ich wirklich über die Sauberkeit, die Lage, den Service — unabhängig davon, wie die Fotos aussehen?"
+        ],
+        "example": {
+          "title": "Das Vorstellungsgespräch",
+          "text": "Zwei fachlich identische Bewerberinnen: Eine wirkt in den ersten 90 Sekunden sympathisch und eloquent, die andere nervös. Studien zeigen, dass Interviewer der sympathischen Kandidatin anschließend auch bessere Fachkenntnisse, mehr Teamfähigkeit und höheres Führungspotenzial attestieren — bei identischen Antworten. Strukturierte Interviews mit getrennten Bewertungsdimensionen existieren genau deshalb: Sie zwingen den Halo auseinander."
+        },
+        "reference": {
+          "author": "Nisbett, R. E. & Wilson, T. D.",
+          "year": 1977,
+          "title": "The halo effect: Evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology, 35(4), 250–256.",
+          "note": "Das klassische Experiment zum unbewussten Charakter des Effekts: Teilnehmende leugneten den Einfluss des Gesamteindrucks, während er ihre Einzelurteile messbar veränderte. Begriffsprägung bereits bei Thorndike (1920)."
+        },
+        "fieldMission": {
+          "title": "Halo sezieren",
+          "description": "Nimm eine Kaufentscheidung dieser Woche und bewerte drei Eigenschaften des Produkts einzeln auf einer Skala von 1–10 — bevor du auf Fotos oder Marke schaust. Vergleiche dann: Wo hast du Wissen, wo nur Eindruck?"
+        },
+        "caseStudy": {
+          "scene": "Die Fotos vom Casa Azul: Azulejos im Treppenhaus, Morgenlicht auf weißem Leinen, eine Dachterrasse mit Blick über Alfama. Mara scrollt und spürt, wie ihre Checkliste schmilzt. Frühstück? Wird großartig sein. Lage laut? Bestimmt nicht. Das Personal? Sicher herzlich. Jule fragt am Telefon: „Steht davon irgendwas in der Beschreibung?“ Mara scrollt zurück. Über Frühstück, Lärm und Personal: kein einziges Wort.",
+          "behind": "Professionelle Fotografie ist das billigste Halo-Werkzeug im Buchungsgeschäft. Ein einziger inszenierter Sinneseindruck — Licht, Textur, Aussicht — beantwortet gefühlt Fragen, die er faktisch nie gestellt bekommen hat. Gute Interfaces trennen Bewertungsdimensionen; verkaufsoptimierte verschmelzen sie."
+        }
+      },
+      "contentEn": {
+        "summary": "A single positive trait colors the entire judgment — beautiful photos make a hotel feel clean, quiet, and friendly too. Yet about all of that, we actually know: nothing.",
+        "body": [
+          "The halo effect is the tendency to infer many logically independent qualities from one salient trait. Attractive people are automatically judged more competent and trustworthy. A product with elegant design also seems technically superior. The brain builds a complete, coherent picture from a single data point — and never notices that it invented the rest.",
+          "The term goes back to Edward Thorndike, who observed in 1920 that military officers rated their soldiers with astonishing uniformity across entirely independent dimensions — intelligence, physique, leadership, character. Whoever shone in one category shone in all. Statistically, that's wildly improbable; psychologically, it's the default. One global impression radiates across the individual judgments like a halo — hence the name.",
+          "The unsettling part: the effect operates below the threshold of awareness. In Nisbett and Wilson's experiments, participants flatly denied that a lecturer's likability had influenced their ratings of his pronunciation or accent — even though exactly that had measurably happened. We have no introspective access to the moment when a first impression rewrites our remaining judgments. It simply feels like independent perception.",
+          "In everyday life, the halo effect thrives wherever single signals are easy to stage: professional product photos, a polished website, a confident appearance in a job interview, a famous brand. The countermeasure is uncomfortable but effective: evaluate attributes one by one and separate them explicitly. What do I actually know about the cleanliness, the location, the service — independent of how the photos look?"
+        ],
+        "example": {
+          "title": "The Job Interview",
+          "text": "Two equally qualified candidates: one comes across as likable and articulate in the first 90 seconds, the other as nervous. Studies show interviewers subsequently credit the likable candidate with better technical knowledge, more teamwork, and higher leadership potential — for identical answers. Structured interviews with separately scored dimensions exist precisely for this reason: they force the halo apart."
+        },
+        "reference": {
+          "author": "Nisbett, R. E. & Wilson, T. D.",
+          "year": 1977,
+          "title": "The halo effect: Evidence for unconscious alteration of judgments. Journal of Personality and Social Psychology, 35(4), 250–256.",
+          "note": "The classic experiment on the effect's unconscious nature: participants denied any influence of global impressions while those impressions measurably altered their individual ratings. The term itself was coined by Thorndike (1920)."
+        },
+        "fieldMission": {
+          "title": "Dissect a Halo",
+          "description": "Take one purchase decision this week and rate three attributes of the product individually on a 1–10 scale — before looking at photos or brand. Then compare: where do you have knowledge, and where only impression?"
+        },
+        "caseStudy": {
+          "scene": "The Casa Azul photos: azulejos in the stairwell, morning light on white linen, a rooftop terrace overlooking Alfama. Mara scrolls and feels her checklist melting away. Breakfast? Will be great. Street noise? Surely not. The staff? Bound to be warm. On the phone, Jule asks: \"Does the description actually say any of that?\" Mara scrolls back. About breakfast, noise, and staff: not one single word.",
+          "behind": "Professional photography is the cheapest halo tool in the booking business. One staged sensory impression — light, texture, view — seems to answer questions it was never actually asked. Good interfaces separate rating dimensions; conversion-optimized ones fuse them."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was beschreibt der Halo-Effekt im Kern?",
+            "questionEn": "What does the halo effect describe at its core?",
+            "optionsDe": [
+              "Wir bewerten Dinge besser, je öfter wir sie sehen",
+              "Ein einzelnes auffälliges Merkmal färbt Urteile über unabhängige Eigenschaften",
+              "Wir überschätzen unsere eigenen Fähigkeiten systematisch",
+              "Erste Informationen dienen als Anker für spätere Schätzungen"
+            ],
+            "optionsEn": [
+              "We rate things better the more often we see them",
+              "One salient trait colors judgments about independent attributes",
+              "We systematically overestimate our own abilities",
+              "Initial information serves as an anchor for later estimates"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Der Halo-Effekt überträgt einen Eindruck (z. B. Attraktivität, schöne Fotos) auf logisch unabhängige Eigenschaften (Kompetenz, Sauberkeit, Service) — ohne dass dafür Belege vorliegen.",
+            "explanationEn": "The halo effect transfers one impression (e.g., attractiveness, beautiful photos) onto logically independent attributes (competence, cleanliness, service) — without any actual evidence."
+          },
+          {
+            "questionDe": "Was zeigten Nisbett und Wilson (1977) über die Natur des Halo-Effekts?",
+            "questionEn": "What did Nisbett and Wilson (1977) show about the nature of the halo effect?",
+            "optionsDe": [
+              "Er tritt nur bei oberflächlichen Menschen auf",
+              "Er lässt sich durch Aufklärung vollständig abstellen",
+              "Er wirkt unbewusst — Teilnehmende leugneten einen Einfluss, der messbar da war",
+              "Er betrifft nur Urteile über Personen, nicht über Produkte"
+            ],
+            "optionsEn": [
+              "It only occurs in superficial people",
+              "It can be fully switched off through awareness",
+              "It operates unconsciously — participants denied an influence that was measurably there",
+              "It only affects judgments about people, not products"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Der zentrale Befund: kein introspektiver Zugriff. Die Teilnehmenden waren überzeugt, unabhängig zu urteilen, während der Gesamteindruck ihre Einzelbewertungen nachweislich verschob.",
+            "explanationEn": "The key finding: no introspective access. Participants were convinced they judged independently while the global impression demonstrably shifted their individual ratings."
+          },
+          {
+            "questionDe": "Welche Gegenstrategie entschärft den Halo-Effekt am wirksamsten?",
+            "questionEn": "Which countermeasure defuses the halo effect most effectively?",
+            "optionsDe": [
+              "Dem ersten Bauchgefühl vertrauen — es integriert alle Informationen",
+              "Eigenschaften explizit trennen und einzeln anhand von Belegen bewerten",
+              "Mehr Fotos ansehen, um den Eindruck zu vertiefen",
+              "Nur auf bekannte Marken setzen"
+            ],
+            "optionsEn": [
+              "Trust the first gut feeling — it integrates all information",
+              "Explicitly separate attributes and rate each against actual evidence",
+              "Look at more photos to deepen the impression",
+              "Stick to well-known brands only"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Strukturierte, getrennte Bewertung (wie in strukturierten Interviews) zwingt das Urteil zurück auf Belege pro Dimension — genau das, was der Halo verschmilzt.",
+            "explanationEn": "Structured, separated evaluation (as in structured interviews) forces judgment back onto evidence per dimension — exactly what the halo fuses together."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m02-l04",
+      "titleDe": "Rückschaufehler",
+      "titleEn": "Hindsight Bias",
+      "durationMin": 7,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Kaum ist etwas passiert, waren wir sicher, es kommen gesehen zu haben. Der Rückschaufehler schreibt unsere Erinnerung um — und macht uns immun gegen die eigene Fehlbarkeit.",
+        "body": [
+          "„Ich hab's doch gleich gewusst“ — kaum ein Satz fällt so leicht und stimmt so selten. Der Rückschaufehler (Hindsight Bias) beschreibt die Tendenz, nach Eintritt eines Ereignisses zu glauben, man habe es vorher für wahrscheinlicher gehalten, als man es tatsächlich tat. Das Ergebnis wirkt im Nachhinein zwangsläufig, fast offensichtlich — dabei war es vorher nur eine von mehreren offenen Möglichkeiten.",
+          "Baruch Fischhoff zeigte 1975 den Mechanismus experimentell: Teilnehmende schätzten die Wahrscheinlichkeit verschiedener Ausgänge historischer Ereignisse. Erfuhr eine Gruppe vorab den tatsächlichen Ausgang, hielt sie ihn rückblickend für deutlich vorhersehbarer — und konnte ihre eigene frühere Unsicherheit nicht mehr rekonstruieren, selbst wenn sie explizit darum gebeten wurde. Fischhoff nannte das „creeping determinism“: Das Wissen um den Ausgang sickert unbemerkt in die Erinnerung ein.",
+          "Der Fehler ist mehr als eine harmlose Eitelkeit. Er sabotiert Lernen: Wer glaubt, das Ergebnis sei absehbar gewesen, analysiert nicht, warum die eigene Prognose falsch war — es gab ja gefühlt keine falsche Prognose. In Unternehmen führt er zu ungerechten Schuldzuweisungen („das hätte man wissen müssen“), in der Medizin und Rechtsprechung zu verzerrten Urteilen über Entscheidungen, die unter Unsicherheit getroffen wurden, aber mit dem Wissen von heute bewertet werden.",
+          "Die wirksamste Gegenmaßnahme ist banal und deshalb selten: Prognosen vor dem Ereignis schriftlich festhalten — mit Wahrscheinlichkeit und Begründung. Ein Entscheidungstagebuch macht die eigene frühere Unsicherheit unlöschbar. Erst der Vergleich zwischen dokumentierter Vorhersage und tatsächlichem Ausgang zeigt, wie gut man wirklich kalibriert ist. Ohne diese Dokumentation gewinnt immer die umgeschriebene Erinnerung."
+        ],
+        "example": {
+          "title": "Nach dem Projektende",
+          "text": "Ein Produkt-Launch scheitert. Im Retro-Meeting sind sich plötzlich alle einig, die Anzeichen seien „von Anfang an klar“ gewesen. Ein Blick ins Planungsdokument von vor sechs Monaten zeigt: Das Team schätzte die Erfolgschance damals auf 80 %, und keines der jetzt „offensichtlichen“ Warnsignale wurde protokolliert. Ohne das Dokument hätte die umgeschriebene Erinnerung die Analyse ersetzt — und dieselben Fehler wären beim nächsten Launch wieder unsichtbar."
+        },
+        "reference": {
+          "author": "Fischhoff, B.",
+          "year": 1975,
+          "title": "Hindsight ≠ foresight: The effect of outcome knowledge on judgment under uncertainty. Journal of Experimental Psychology: Human Perception and Performance, 1(3), 288–299.",
+          "note": "Die Originalstudie zum „creeping determinism“: Ergebniswissen verändert rückwirkend die erinnerte Einschätzung — und lässt sich auch auf Aufforderung nicht ausblenden."
+        },
+        "fieldMission": {
+          "title": "Prognose einfrieren",
+          "description": "Schreibe heute eine konkrete Vorhersage auf, deren Ausgang du innerhalb einer Woche erfährst — mit Prozentzahl. Vergleiche danach ehrlich: Hättest du dich ohne Notiz richtig erinnert?"
+        },
+        "caseStudy": {
+          "scene": "Beim Aussortieren alter Fotos stolpert Mara über Kopenhagen: das Apartment mit der Baustelle direkt vorm Fenster. „Das war mir von Anfang an suspekt“, sagt sie zu Jule, „zu billig für die Lage, das konnte nicht stimmen.“ Jule scrollt wortlos im Chatverlauf von damals nach oben und liest vor: „Absoluter Traumfund!!! Perfekte Lage und SO günstig 😍“. Mara starrt auf ihre eigene Nachricht wie auf die einer Fremden.",
+          "behind": "Der Rückschaufehler ist der Grund, warum Buchungsplattformen ohne Entscheidungshistorie so bequem sind: Niemand kann nachlesen, wie überzeugt er beim Buchen war. Maras Chatverlauf ist unfreiwillig das, was gute Tools absichtlich bauen sollten — ein unlöschbares Prognose-Protokoll."
+        }
+      },
+      "contentEn": {
+        "summary": "The moment something happens, we're certain we saw it coming. Hindsight bias rewrites our memory — and makes us immune to our own fallibility.",
+        "body": [
+          "\"I knew it all along\" — few sentences come this easily and are true this rarely. Hindsight bias is the tendency, once an event has occurred, to believe we had considered it more likely beforehand than we actually did. In retrospect, the outcome feels inevitable, almost obvious — when beforehand it was merely one of several open possibilities.",
+          "Baruch Fischhoff demonstrated the mechanism experimentally in 1975: participants estimated the probability of different outcomes of historical events. When one group was told the actual outcome in advance, they retrospectively judged it far more predictable — and could no longer reconstruct their own prior uncertainty, even when explicitly asked to. Fischhoff called this \"creeping determinism\": knowledge of the outcome seeps unnoticed into memory.",
+          "The bias is more than harmless vanity. It sabotages learning: whoever believes the outcome was foreseeable never analyzes why their forecast failed — because, in felt memory, there was no failed forecast. In organizations it fuels unfair blame (\"anyone should have seen this\"); in medicine and law it distorts judgments of decisions that were made under uncertainty but are evaluated with today's knowledge.",
+          "The most effective countermeasure is banal and therefore rare: write forecasts down before the event — with a probability and a rationale. A decision journal makes your earlier uncertainty indelible. Only the comparison between documented prediction and actual outcome reveals how well calibrated you really are. Without that documentation, the rewritten memory always wins."
+        ],
+        "example": {
+          "title": "After the Project Ends",
+          "text": "A product launch fails. In the retro meeting, everyone suddenly agrees the warning signs were \"clear from the start.\" A look at the planning document from six months earlier shows: the team then estimated an 80% chance of success, and none of the now-\"obvious\" warning signs were logged. Without that document, rewritten memory would have replaced the analysis — and the same mistakes would be invisible again at the next launch."
+        },
+        "reference": {
+          "author": "Fischhoff, B.",
+          "year": 1975,
+          "title": "Hindsight ≠ foresight: The effect of outcome knowledge on judgment under uncertainty. Journal of Experimental Psychology: Human Perception and Performance, 1(3), 288–299.",
+          "note": "The original study on \"creeping determinism\": outcome knowledge retroactively alters remembered estimates — and cannot be suppressed even on explicit request."
+        },
+        "fieldMission": {
+          "title": "Freeze a Forecast",
+          "description": "Today, write down one concrete prediction whose outcome you'll learn within a week — including a percentage. Afterwards, compare honestly: without the note, would you have remembered your estimate correctly?"
+        },
+        "caseStudy": {
+          "scene": "Sorting through old photos, Mara stumbles onto Copenhagen: the apartment with the construction site right outside the window. \"I was suspicious of that place from the start,\" she tells Jule, \"too cheap for that location, it couldn't be right.\" Jule silently scrolls up in their old chat and reads aloud: \"Absolute dream find!!! Perfect location and SO cheap 😍\". Mara stares at her own message as if it were written by a stranger.",
+          "behind": "Hindsight bias is why booking platforms without a decision history feel so comfortable: nobody can look up how convinced they were when they booked. Mara's chat log is, involuntarily, what good tools should build on purpose — an indelible forecast record."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was passiert beim Rückschaufehler mit der Erinnerung an die eigene frühere Einschätzung?",
+            "questionEn": "In hindsight bias, what happens to the memory of one's own earlier estimate?",
+            "optionsDe": [
+              "Sie bleibt unverändert, nur die Bewertung des Ergebnisses ändert sich",
+              "Sie wird durch das Ergebniswissen unbemerkt in Richtung „war absehbar“ umgeschrieben",
+              "Sie wird vollständig gelöscht",
+              "Sie wird pessimistischer erinnert, als sie war"
+            ],
+            "optionsEn": [
+              "It stays unchanged; only the evaluation of the outcome changes",
+              "Outcome knowledge silently rewrites it toward \"it was foreseeable\"",
+              "It is deleted entirely",
+              "It is remembered as more pessimistic than it was"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Fischhoffs „creeping determinism“: Das Wissen um den Ausgang sickert in die Erinnerung ein. Die frühere Unsicherheit lässt sich danach nicht mehr rekonstruieren — auch nicht auf Aufforderung.",
+            "explanationEn": "Fischhoff's \"creeping determinism\": outcome knowledge seeps into memory. The earlier uncertainty can no longer be reconstructed afterwards — not even on request."
+          },
+          {
+            "questionDe": "Warum sabotiert der Rückschaufehler das Lernen aus Fehlern?",
+            "questionEn": "Why does hindsight bias sabotage learning from mistakes?",
+            "optionsDe": [
+              "Weil er Menschen zu selbstkritisch macht",
+              "Weil er nur bei unwichtigen Entscheidungen auftritt",
+              "Weil gefühlt keine falsche Prognose existierte, die man analysieren könnte",
+              "Weil er das Kurzzeitgedächtnis überlastet"
+            ],
+            "optionsEn": [
+              "Because it makes people overly self-critical",
+              "Because it only occurs in unimportant decisions",
+              "Because, in felt memory, no failed forecast exists that could be analyzed",
+              "Because it overloads short-term memory"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Wer glaubt, das Ergebnis kommen gesehen zu haben, hat subjektiv nichts falsch vorhergesagt — und damit keinen Anlass, die eigene Urteilsbildung zu überprüfen.",
+            "explanationEn": "Whoever believes they saw the outcome coming has, subjectively, predicted nothing wrong — and therefore no reason to examine their own judgment process."
+          },
+          {
+            "questionDe": "Welches Werkzeug schützt am zuverlässigsten vor dem Rückschaufehler?",
+            "questionEn": "Which tool protects most reliably against hindsight bias?",
+            "optionsDe": [
+              "Ein Entscheidungstagebuch mit dokumentierten Prognosen samt Wahrscheinlichkeiten",
+              "Sich nach dem Ereignis intensiv an die eigene Einschätzung erinnern",
+              "Andere fragen, wie sicher man damals wirkte",
+              "Nur noch Entscheidungen mit sicherem Ausgang treffen"
+            ],
+            "optionsEn": [
+              "A decision journal with documented forecasts including probabilities",
+              "Trying hard to recall one's estimate after the event",
+              "Asking others how confident one seemed at the time",
+              "Only making decisions with certain outcomes"
+            ],
+            "correctIndex": 0,
+            "explanationDe": "Nur eine schriftliche Prognose vor dem Ereignis ist gegen das Umschreiben der Erinnerung immun. Nachträgliches Erinnern — egal wie intensiv — unterliegt genau dem Bias, den es prüfen soll.",
+            "explanationEn": "Only a written forecast made before the event is immune to memory rewriting. Recalling afterwards — however hard — is subject to exactly the bias it's meant to check."
+          }
+        ]
+      }
+    },
+    {
+      "id": "m02-l05",
+      "titleDe": "Überkonfidenz",
+      "titleEn": "Overconfidence Bias",
+      "durationMin": 8,
+      "difficulty": 2,
+      "contentDe": {
+        "summary": "Wir überschätzen systematisch unsere Kenntnisse, Fähigkeiten und die Genauigkeit unserer Vorhersagen. Das ist einer der am robustesten belegten Befunde der Verhaltenspsychologie — und einer der teuersten.",
+        "body": [
+          "Der Überkonfidenz-Bias beschreibt die Tendenz, das eigene Wissen, die eigene Kompetenz und die Genauigkeit der eigenen Vorhersagen systematisch zu überschätzen. Er gilt als einer der stärksten und robustesten Befunde der kognitiven Psychologie — und als einer der teuersten in der Praxis.",
+          "Drei Formen sind zu unterscheiden: Overplacement — wir glauben, besser als der Durchschnitt zu sein (über 80% der Autofahrer halten sich für überdurchschnittlich sicher). Overprecision — wir sind uns zu sicher, dass unsere Schätzungen korrekt sind. Und Overestimation — wir überschätzen unsere tatsächliche Leistungsfähigkeit bei konkreten Aufgaben.",
+          "Die Planning Fallacy ist eine direkte Konsequenz: Wir unterschätzen systematisch, wie lange Projekte dauern und wie teuer sie werden. Der Berliner Flughafen BER wurde 2006 für 2011 geplant, eröffnete 2020 — mit mehr als dreifachen Kosten. Das ist kein Einzelfall: Studien zeigen, dass Bauprojekte im Schnitt 45% länger dauern als geplant.",
+          "Gegenmaßnahmen gibt es: Die Pre-Mortem-Methode von Gary Klein hilft. Vor einem Projekt stellt man sich vor, es ist gescheitert — und fragt warum. Das zwingt System 2 zur Arbeit und aktiviert die Outside View: Statt zu fragen 'Was kann bei meinem Projekt schiefgehen?' fragt man 'Was passiert typischerweise bei solchen Projekten?' Das ist ein statistisch besserer Ausgangspunkt."
+        ],
+        "example": {
+          "title": "Philip Tetlocks Expertenstudie",
+          "text": "Philip Tetlock untersuchte über 20 Jahre die Vorhersagen von politischen und wirtschaftlichen Experten. Sein Ergebnis: Die meisten Experten waren schlechter als zufällige Schätzungen — und dabei äußerst zuversichtlich in ihre Prognosen. Besonders schlecht schnitten Experten ab, die eine einzige, kohärente Weltsicht hatten ('Igel'). Besser: jene, die mehrere konkurrierende Hypothesen offen hielten ('Füchse')."
+        },
+        "reference": {
+          "author": "Tetlock, P. E.",
+          "year": 2005,
+          "title": "Expert Political Judgment: How Good Is It? How Can We Know?",
+          "note": "Princeton University Press — Grundlegende Studie zur Qualität von Expertenprognosen über 20 Jahre"
+        },
+        "fieldMission": {
+          "title": "Kalibrierungstest",
+          "description": "Schätze heute etwas Konkretes, dessen Ergebnis du noch heute prüfen kannst: die Dauer einer Aufgabe, die Kosten eines Einkaufs, die Anzahl eingehender E-Mails. Gib ein Intervall an (min–max), in dem du das Ergebnis mit 90% Sicherheit erwartest. Dann überprüfe: Lagst du richtig?"
+        },
+        "caseStudy": {
+          "scene": "Mara rechnet ihr Reisebudget: 1.400 Euro, „großzügig kalkuliert“, sagt sie am Telefon. Jule lacht: „Das hast du vor Kopenhagen auch gesagt.“ Mara öffnet widerwillig ihre Banking-App und sucht den alten Monat. Kopenhagen, geplant: 1.200. Kopenhagen, tatsächlich: 1.870. Sie schweigt kurz. Dann trägt sie für Lissabon 1.900 ein.",
+          "behind": "Die eigene Schätzung fühlt sich immer realistisch an — die Daten der letzten Male sind es tatsächlich. Kluge Tools fragen deshalb nicht „Was planst du?“, sondern „Was hat es beim letzten Mal gekostet?“. Die Außensicht schlägt die Innensicht fast immer."
+        }
+      },
+      "contentEn": {
+        "summary": "We systematically overestimate our knowledge, abilities, and the accuracy of our predictions. This is one of the most robustly documented findings in behavioral psychology — and one of the most costly.",
+        "body": [
+          "The overconfidence bias describes the tendency to systematically overestimate one's own knowledge, competence, and the accuracy of one's predictions. It is considered one of the strongest and most robust findings in cognitive psychology — and one of the most costly in practice.",
+          "Three forms are distinguished: Overplacement — we believe we're better than average (over 80% of drivers consider themselves above-average safe). Overprecision — we're too confident that our estimates are correct. And Overestimation — we overestimate our actual performance on concrete tasks.",
+          "The Planning Fallacy is a direct consequence: we systematically underestimate how long projects take and how expensive they become. Berlin Airport BER was planned in 2006 for 2011, opened in 2020 — with more than triple the costs. This is no exception: studies show construction projects take on average 45% longer than planned.",
+          "Countermeasures exist: Gary Klein's Pre-Mortem method helps. Before a project, you imagine it has failed — and ask why. This forces System 2 to work and activates the Outside View: instead of asking 'What can go wrong with my project?' you ask 'What typically happens with projects like this?' That's a statistically better starting point."
+        ],
+        "example": {
+          "title": "Philip Tetlock's Expert Study",
+          "text": "Philip Tetlock studied the predictions of political and economic experts over 20 years. His finding: most experts performed worse than random guessing — and were extremely confident in their forecasts. Particularly poor were experts who had a single, coherent worldview ('Hedgehogs'). Better: those who kept multiple competing hypotheses open ('Foxes')."
+        },
+        "reference": {
+          "author": "Tetlock, P. E.",
+          "year": 2005,
+          "title": "Expert Political Judgment: How Good Is It? How Can We Know?",
+          "note": "Princeton University Press — Foundational 20-year study on the quality of expert forecasts"
+        },
+        "fieldMission": {
+          "title": "Calibration Test",
+          "description": "Today, estimate something concrete whose outcome you can check the same day: the duration of a task, the cost of a purchase, the number of incoming emails. Give an interval (min–max) in which you expect the result with 90% confidence. Then check: were you right?"
+        },
+        "caseStudy": {
+          "scene": "Mara calculates her travel budget: €1,400, “generously estimated,” she says on the phone. Jule laughs: “You said that before Copenhagen too.” Reluctantly, Mara opens her banking app and finds the old month. Copenhagen, planned: 1,200. Copenhagen, actual: 1,870. She is silent for a moment. Then she writes down 1,900 for Lisbon.",
+          "behind": "Your own estimate always feels realistic — the data from last time actually is. Smart tools therefore don’t ask “What are you planning?” but “What did it cost last time?”. The outside view beats the inside view almost every time."
+        }
+      },
+      "quiz": {
+        "questions": [
+          {
+            "questionDe": "Was beschreibt 'Overplacement' als Form der Überkonfidenz?",
+            "questionEn": "What does 'Overplacement' describe as a form of overconfidence?",
+            "optionsDe": [
+              "Die Überschätzung der eigenen absoluten Leistungsfähigkeit",
+              "Die Überzeugung, besser als der Durchschnitt zu sein",
+              "Die zu hohe Sicherheit in eigene Schätzintervalle",
+              "Die Unterschätzung von Projektdauern"
+            ],
+            "optionsEn": [
+              "The overestimation of one's absolute performance",
+              "The belief of being better than average",
+              "Excessive confidence in one's own estimate intervals",
+              "The underestimation of project durations"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Overplacement bedeutet: Wir schätzen uns relativ besser ein als wir tatsächlich im Vergleich zu anderen sind. Da dies nicht alle gleichzeitig können, ist es eine systematische Verzerrung — über 80% der Autofahrer können nicht alle überdurchschnittlich sicher sein.",
+            "explanationEn": "Overplacement means: we rate ourselves as relatively better than we actually are compared to others. Since not everyone can simultaneously be above average, this is a systematic bias — over 80% of drivers can't all be above-average safe."
+          },
+          {
+            "questionDe": "Was ist die 'Planning Fallacy'?",
+            "questionEn": "What is the 'Planning Fallacy'?",
+            "optionsDe": [
+              "Die Tendenz, zu oft Pläne zu ändern",
+              "Die systematische Unterschätzung von Zeit- und Kostenbedarf bei Projekten",
+              "Die Überschätzung anderer bei der Planung",
+              "Ein Fehler beim Erstellen von Computerplänen"
+            ],
+            "optionsEn": [
+              "The tendency to change plans too often",
+              "The systematic underestimation of time and cost requirements for projects",
+              "The overestimation of others in planning",
+              "An error in creating computer-generated plans"
+            ],
+            "correctIndex": 1,
+            "explanationDe": "Die Planning Fallacy beschreibt, dass wir Projekte systematisch zu optimistisch planen: zu kurze Zeitrahmen, zu niedrige Kosten. Sie ist eine direkte Folge von Überkonfidenz und Inside View — wir fokussieren auf unser spezifisches Projekt statt auf Basisraten vergleichbarer Projekte.",
+            "explanationEn": "The Planning Fallacy describes that we plan projects too optimistically: too short timeframes, too low costs. It's a direct consequence of overconfidence and inside view — we focus on our specific project rather than base rates of comparable projects."
+          },
+          {
+            "questionDe": "Was zeigte Tetlocks Studie über Expertenvorhersagen?",
+            "questionEn": "What did Tetlock's study show about expert predictions?",
+            "optionsDe": [
+              "Experten mit klarer Weltanschauung sind die besten Prognostiker",
+              "Expertenwissen ist der wichtigste Faktor für Vorhersagequalität",
+              "Die meisten Experten lagen trotz hoher Zuversicht schlechter als Zufallsschätzungen",
+              "Politische Experten sind zuverlässiger als wirtschaftliche"
+            ],
+            "optionsEn": [
+              "Experts with a clear worldview are the best forecasters",
+              "Expert knowledge is the most important factor for prediction quality",
+              "Most experts performed worse than random guessing despite high confidence",
+              "Political experts are more reliable than economic ones"
+            ],
+            "correctIndex": 2,
+            "explanationDe": "Tetlock fand, dass die meisten Experten über 20 Jahre schlechter abschnitten als einfache statistische Modelle — und dennoch äußerst zuversichtlich in ihre Prognosen waren. Das ist Überkonfidenz in Reinform: hohe Sicherheit, niedrige Genauigkeit.",
+            "explanationEn": "Tetlock found that most experts performed worse over 20 years than simple statistical models — and yet were extremely confident in their predictions. That's overconfidence in its purest form: high certainty, low accuracy."
+          }
+        ]
+      }
+    }
+  ]
+}
